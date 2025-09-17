@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkntu_cacib_vue"]=self["webpackChunkntu_cacib_vue"]||[]).push([[616],{616:(e,c,n)=>{n.r(c),n.d(c,{default:()=>d});var u=n(641);const a={class:"page-container"};function t(e,c){return(0,u.uX)(),(0,u.CE)("div",a,[...c[0]||(c[0]=[(0,u.Lk)("h1",null,"研究領域",-1),(0,u.Lk)("p",null,"這裡是研究領域頁面的內容。您可以在這裡新增關於研究領域的詳細介紹。",-1)])])}var s=n(262);const r={},l=(0,s.A)(r,[["render",t],["__scopeId","data-v-4edacf4e"]]),d=l}}]);
+//# sourceMappingURL=616.a5064406.js.map
