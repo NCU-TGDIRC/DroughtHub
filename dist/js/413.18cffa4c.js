@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkntu_cacib_vue"]=self["webpackChunkntu_cacib_vue"]||[]).push([[413],{413:(e,c,n)=>{n.r(c),n.d(c,{default:()=>l});var t=n(768);const u={class:"page-container"};function a(e,c,n,a,s,i){return(0,t.uX)(),(0,t.CE)("div",u,[...c[0]||(c[0]=[(0,t.Lk)("h1",null,"活動",-1),(0,t.Lk)("p",null,"這裡是活動頁面的內容。",-1)])])}const s={name:"ActivitiesView"};var i=n(241);const r=(0,i.A)(s,[["render",a],["__scopeId","data-v-3671dc0f"]]),l=r}}]);
+//# sourceMappingURL=413.18cffa4c.js.map

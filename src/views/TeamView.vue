@@ -1,3 +1,4 @@
+```html
 <template>
   <div>
     <PageBanner title="團隊成員" />
@@ -7,32 +8,37 @@
         <div class="members-grid">
           <template v-for="member in members" :key="member.name">
             <div class="member-card">
-              <div class="card-image-wrapper">
-                <img :src="getImageUrl(member.image)" :alt="member.name + ' profile picture'">
+              <div class="card-header">
+                <div class="card-image-wrapper">
+                  <img :src="getImageUrl(member.image)" :alt="member.name + ' profile picture'">
+                </div>
               </div>
 
-              <div class="member-info">
-                <p class="title">{{ member.title }}</p>
-                <div class="name-block">
-                  <span class="name-chinese">{{ member.name.split(' ')[0] }}</span>
-                  <span class="name-english">{{ member.name.substring(member.name.indexOf(' ') + 1) }}</span>
+              <div class="card-body">
+                <!-- MODIFICATION START: Added a wrapper for consistent height -->
+                <div class="info-wrapper">
+                  <div class="name-block">
+                    <span class="name-chinese">{{ member.name.split(' ')[0] }}</span>
+                    <span class="name-english">{{ member.name.substring(member.name.indexOf(' ') + 1) }}</span>
+                  </div>
+                  <div class="title-department-block">
+                    <span class="title">{{ member.title }}</span>
+                    <span class="separator">|</span>
+                    <span class="department">{{ member.department }}</span>
+                  </div>
                 </div>
-                <p class="department">{{ member.department }}</p>
+                <!-- MODIFICATION END -->
 
-                <!-- [新增] 專長資訊區塊 -->
                 <div v-if="member.expertise && member.expertise.length" class="expertise-block">
                   <div class="expertise-title">
-                    <i class="fas fa-thumbs-up"></i>
-                    <span>專長</span>
+                    <i class="fas fa-star"></i> <!-- 改用星星圖示 -->
+                    <span>專業領域</span>
                   </div>
-                  <div class="expertise-content">
-                    {{ member.expertise.join('、') }}
-                  </div>
+                  <div class="expertise-content" v-html="member.expertise.join('')"></div>
                 </div>
-
               </div>
 
-              <div class="member-links">
+              <div class="card-footer">
                 <a :href="member.detailUrl" class="read-more-btn">READ MORE</a>
               </div>
             </div>
@@ -44,8 +50,6 @@
 </template>
 
 <script>
-// 請確認已安裝 font-awesome
-// npm install --save @fortawesome/fontawesome-free
 import '@fortawesome/fontawesome-free/css/all.css';
 import PageBanner from '@/components/PageBanner.vue';
 
@@ -58,40 +62,35 @@ export default {
     return {
       members: [
         {
-          image: 'hsu_wen_chin.jpg', 
-          name: '許文錦 Hsu, Wen-Chin',
+          image: 'Yuei-An Liou.jpg',
+          name: '劉說安 Yuei-An Liou',
+          title: '教授',
+          department: '太空科學與工程學系',
+          expertise: ['<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象'],
+          detailUrl: 'https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4'
+        },
+        {
+          image: 'Hsiao-Ting Tseng.jpg',
+          name: '曾筱珽 Hsiao-Ting Tseng',
+          title: '副教授',
+          department: '資訊管理學系',
+          expertise: ['社群媒體與社群網路、電子商務、健康資訊系統、人機互動、服務科學、人工智慧應用與資料科學'],
+          detailUrl: 'https://im.mgt.ncu.tw/teacher'
+        },
+        {
+          image: 'hsu_wen_chin.jpg',
+          name: '許文錦 Wen-Chin Hsu',
           title: '教授',
           department: '資訊管理學系',
-          expertise: ['醫療資訊管理', '電子商務', '人機互動', '消費者行為', '智慧型服務'],
-        //   detailUrl: 'https://cis.ncu.edu.tw/iTeacher/home/0x1b3ff38f73a45ebc184051fad8fdb17c'
+          expertise: ['醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務'],
           detailUrl: 'https://im.mgt.ncu.edu.tw/teacher'
-        },
-        {
-          image: 'professor.jpg',
-          name: '侯詠德 YUNG-TE HOU',
-          title: '教授',
-          department: '生物機電工程學系',
-          // [新增] 補上專長資料
-          expertise: ['生物感測器', '微流體晶片', '奈米技術', '生物材料'],
-          detailUrl: '#'
-        },
-        {
-          image: 'professor.jpg',
-          name: '陳沛隆 PEI-LUNG CHEN',
-          title: '教授兼所長',
-          department: '台大醫學院 基因體暨蛋白體醫學研究所',
-          // [新增] 補上專長資料
-          expertise: ['基因體醫學', '癌症基因組學', '生物資訊', '次世代定序'],
-          detailUrl: '#'
         },
       ],
     };
   },
   methods: {
     getImageUrl(imageName) {
-      if (!imageName) {
-        return 'https://via.placeholder.com/200';
-      }
+      if (!imageName) return 'https://via.placeholder.com/200';
       try {
         return require(`@/assets/${imageName}`);
       } catch (e) {
@@ -103,145 +102,146 @@ export default {
 </script>
 
 <style scoped>
+/* === 全局與容器設定 === */
 .team-page-wrapper {
-  background-color: #ffffff;
-  padding: 60px 0;
-  color: #333;
+  background-color: #f8f9fa; /* 改用淺灰色背景，增加質感 */
+  padding: 80px 0;
+  color: #343a40; /* 主要文字顏色加深 */
 }
 .team-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem; /* 稍微加大間距 */
 }
+
+/* === 卡片主體設計 === */
 .member-card {
   background: #ffffff;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dee2e6;
+  border-radius: 8px; /* 增加圓角 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  overflow: hidden; /* 確保內容不會超出圓角範圍 */
 }
 .member-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* === 卡片頂部 (圖片) === */
+.card-header {
+  padding: 2rem 2rem 1.5rem;
+  text-align: center;
 }
 .card-image-wrapper {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 1.5rem auto;
-  position: relative;
+  width: 160px; /* 放大頭像 */
+  height: 160px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #fff; /* 增加白色邊框 */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 替頭像增加立體感 */
 }
 .card-image-wrapper img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #f0f0f0;
 }
-.member-info {
-  flex-grow: 1;
+
+/* === 卡片主體內容 (姓名、職稱、專長) === */
+.card-body {
+  padding: 0 2rem 1.5rem;
+  text-align: center;
+  flex-grow: 1; /* 讓此區塊填滿剩餘空間，將 footer 推至底部 */
   display: flex;
   flex-direction: column;
-  text-align: center;
-}
-.member-info .title {
-  font-size: 1.1rem; /* 從 0.9rem 放大 */
-  color: #666;
-  margin-bottom: 1.5rem;
-  position: relative;
-  display: inline-block;
-  padding-left: 14px; /* 稍微增加內距以容納更大的點 */
-}
-.member-info .title::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888;
 }
 .name-block {
-  margin-bottom: 1rem;
-  position: relative;
-  padding-left: 15px;
-  text-align: left;
-}
-.name-block::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 5px;
-  bottom: 5px;
-  width: 4px;
-  background-color: #333;
+  margin-bottom: 0.5rem;
 }
 .name-chinese {
-  display: block;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: 2rem; /* 放大中文姓名 */
+  font-weight: 700;
+  margin-right: 0.5rem;
 }
 .name-english {
-  display: block;
-  font-size: 0.9rem;
-  color: #777;
-  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #6c757d;
+  letter-spacing: 0.5px;
 }
-.department {
-  font-size: 1rem; /* 從 0.9rem 放大 */
-  color: #555;
-  margin-bottom: 1.5rem;
+.title-department-block {
+  color: #495057;
+  font-size: 1.1rem;
 }
+.title-department-block .separator {
+  margin: 0 0.5rem;
+  color: #ced4da;
+}
+
+/* === MODIFICATION START: CSS for the new wrapper === */
+.info-wrapper {
+  /* Set a min-height to accommodate the tallest content */
+  /* You can fine-tune this value if needed */
+  min-height: 110px; 
+  /* Moved margin-bottom here to maintain spacing */
+  margin-bottom: 1.5rem; 
+}
+/* === MODIFICATION END === */
+
+
+/* === 專長區塊 === */
 .expertise-block {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #e9ecef;
   padding-top: 1.5rem;
-  margin-top: auto;
   text-align: left;
 }
 .expertise-title {
   display: flex;
   align-items: center;
-  font-weight: 500;
-  color: #495057;
-  margin-bottom: 0.75rem;
+  font-weight: 600; 
+  color: #0056b3; 
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
-.expertise-title .fa-thumbs-up {
-  color: #868e96;
+.expertise-title .fa-star {
   margin-right: 10px;
 }
 .expertise-content {
-  font-size: 1rem; /* 從 0.95rem 放大 */
-  color: #212529;
-  line-height: 1.6;
+  font-size: 1rem;
+  color: #343a40;
+  line-height: 1.8; /* 增加行高，提升閱讀性 */
+  white-space: normal; /* 讓 v-html 的 <br> 生效 */
 }
 
-/* --- [修改处] --- */
-.member-links {
-  margin-top: auto;
-  padding-top: 1.5rem;
-  text-align: center; /* 新增这一行即可 */
+/* === 卡片底部 (按鈕) === */
+.card-footer {
+  padding: 0 2rem 2rem;
+  margin-top: auto; /* Ensure footer is pushed to the bottom */
+  text-align: center;
 }
-
 .read-more-btn {
   display: inline-block;
-  background-color: #5a6268;
+  background-color: #0056b3; /* 主題藍色 */
   color: white;
   border: none;
-  padding: 12px 30px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 30px;
+  padding: 14px 35px;
+  font-size: 1rem; /* 放大字體 */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.2s;
 }
 .read-more-btn:hover {
-  background-color: #343a40;
+  background-color: #0056b3; /* hover 時顏色加深 */
+  transform: scale(1.05); /* 輕微放大效果 */
 }
 </style>
+```

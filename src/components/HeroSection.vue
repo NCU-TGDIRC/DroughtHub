@@ -2,9 +2,9 @@
   <section class="hero">
     <div class="hero-content">
       <!-- [修改處] 更新標題內容 -->
-      <h2>NCU CTGDR</h2>
-      <h3>國立中央大學台灣與全球乾旱調查研究中心</h3>
-      <p>NCU Center for Taiwan and Global Drought Research</p>
+      <h2>NCU TGDIRC</h2>
+      <h3>國立中央大學台灣暨全球乾旱調查與研究中心</h3>
+      <p>Taiwan and Global Drought Investigation and Research Center(TGDIRC / DroughtHub)</p>
     </div>
   </section>
 </template>

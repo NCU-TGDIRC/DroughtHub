@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/icqab',
     name: 'icqab',
-    component: () => import('../views/IcqabView.vue')
+    component: () => import('../views/ConferenceView.vue')
   },
   // --- [新增這一段] ---
   {

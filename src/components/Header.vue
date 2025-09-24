@@ -13,8 +13,7 @@
           <li><router-link to="/team">團隊成員</router-link></li>
           <li><router-link to="/reports">成果報導</router-link></li>
           <li><router-link to="/activities">活動</router-link></li>
-          <li><router-link to="/icqab">2025ICQAB</router-link></li>
-          <!-- [修改] 將 a 標籤改為 router-link，並移除 span.arrow-down -->
+          <li><router-link to="/icqab">2025CESR</router-link></li>
           <li><router-link to="/english">ENGLISH</router-link></li>
         </ul>
       </nav>

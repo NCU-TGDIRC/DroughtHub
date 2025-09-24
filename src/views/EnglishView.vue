@@ -3,9 +3,9 @@
     <!-- 頁首橫幅 -->
     <header class="page-header">
       <div class="container">
-        <p class="conference-date">April 7-9, 2025 | Taoyuan, Taiwan</p>
-        <h1>2025 International Conference on Drought, Climate Change and Water Sustainability (ICDCWS)</h1>
-        <!-- 移除了中文副標題 -->
+        <p class="conference-date">November 24-26, 2025 | National Central University, Taoyuan, Taiwan</p>
+        <h1>2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World</h1>
+        <h2> (CESR 2025)</h2>
       </div>
     </header>
 
@@ -39,21 +39,7 @@
             </div>
           </section>
 
-          <!-- 區塊二：學生海報投稿 -->
-          <section class="info-section">
-            <div class="info-text">
-              <h4>Student Poster Submission</h4>
-              <ol class="poster-steps">
-                <li v-for="(step, index) in info.poster.steps" :key="index">
-                  <span v-html="step.text"></span>
-                  <a v-if="step.url" :href="getAssetUrl(step.url)" download> (Download here)</a>
-                </li>
-              </ol>
-            </div>
-            <div class="info-media">
-              <img :src="getImageUrl(info.poster.qrCode)" alt="Poster Submission QR Code" class="qr-code">
-            </div>
-          </section>
+         
 
           <!-- 區塊三：地點與主辦資訊 -->
           <section class="info-section">
@@ -82,7 +68,7 @@
 import professorImage from '@/assets/professor.jpg';
 
 export default {
-  name: 'IcqabView',
+  name: 'ConferenceView',
   data() {
     return {
       activeIndex: 0, 
