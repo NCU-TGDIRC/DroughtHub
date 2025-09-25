@@ -174,115 +174,118 @@ export default {
         },
         {
           title: '會議資訊 (Conference Information)',
-          content: `<p>
-                  2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World <br>
-                  第一屆氣候極端與社會韌性國際論壇：乾旱、熱害與暖化世界中的人類宜居性 <br><br>
+          content: `<div>
+            <p>
+              2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World <br>
+              第一屆氣候極端與社會韌性國際論壇：乾旱、熱害與暖化世界中的人類宜居性
+            </p>
 
-                  <ul>
-                  <li><b>會議時間</b><br>
-                  中華民國 2025 年 11 月 24 日(一)至 11 月 26 日(三) <br><br>
+            <ul class="styled-list">
+              <li><b>會議時間</b><br>
+              中華民國 2025 年 11 月 24 日(一)至 11 月 26 日(三)</li>
 
-                  <li><b>會議地點</b><br>
-                  國立中央大學教學研究綜合大樓 <br><br>
+              <li><b>會議地點</b><br>
+              國立中央大學教學研究綜合大樓</li>
 
-                  <li><b>主、協辦單位</b><br>
-                  台灣暨全球乾旱調查與研究中心 <br>
-                  國立中央大學 <br><br>
+              <li><b>主、協辦單位</b><br>
+              台灣暨全球乾旱調查與研究中心 <br>
+              國立中央大學</li>
 
-                  <li><b>大會主席</b><br>
-                  劉說安 教授 <br> 
-                  曾筱珽 副教授 <br>
-                  </ul>
-            <p>`
+              <li><b>大會主席</b><br>
+              劉說安 教授 <br> 
+              曾筱珽 副教授</li>
+            </ul>
+          </div>`
         },
         {
           title: '講者名單 (Keynote Speakers)',
-          content: `
+          content: `<div>
                 <h3>Keynote Speakers</h3>
 
                 <h3>Invited Speakers</h3> 
-                <ul>
+                <ul class="styled-list">
                   <li>
-                    Dara Entekhabi, Professor, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (MIT)<br>
-                    <a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">https://cee.mit.edu/people_individual/dara-entekhabi/</a>
+                    <a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">Dara Entekhabi</a>
+                    , Professor, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (MIT)<br>
                   </li>
 
                   <li>
-                    Yann H. Kerr, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)<br>
-                    <a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">https://www.cesbio.cnrs.fr/author/yann-kerr/</a>
+                    <a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">Yann H. Kerr</a>
+                    , Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)<br>
                   </li>
 
                   <li>
-                    Michael Roy, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University<br>
-                    <a href="https://www.gcu.ac.uk/yunus/aboutus/meettheteam/professormichaelroy" target="_blank">https://www.gcu.ac.uk/yunus/aboutus/meettheteam/professormichaelroy</a>
+                    <a href="https://www.stir.ac.uk/people/1967536" target="_blank">Michael Roy</a>
+                    , Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University<br>
                   </li>
 
                   <li>
-                    Piotr Wężyk, Professor, Faculty of Forestry, University of Agriculture in Krakow<br>
-                    <a href="https://badap.ur.krakow.pl/fakty_o_jednostce.phtml?id_jednostki=10000077&id_pracownika=1001550&lang=en" target="_blank">https://badap.ur.krakow.pl/fakty_o_jednostce.phtml?id_jednostki=10000077&id_pracownika=1001550&lang=en</a>
+                    <a href="https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2599%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=" target="_blank">Piotr Wężyk</a>
+                    , Professor, Faculty of Forestry, University of Agriculture in Krakow<br>    
                   </li>
 
                   <li>
-                    Nguyen Kim Anh, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology<br>
-                    <a href="http://www.vast.ac.vn/en/staff/dr-nguyen-thi-kim-anh" target="_blank">http://www.vast.ac.vn/en/staff/dr-nguyen-thi-kim-anh</a>
+                    <a href="https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en" target="_blank">Nguyen Kim Anh</a>
+                    , Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology<br>
                   </li>
 
                   <li>
-                    Takashi Oguchi, Professor, Center for Spatial Information Science, The University of Tokyo<br>
-                    <a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">ttps://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/</a>
+                    <a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">Takashi Oguchi/</a>
+                    , Professor, Center for Spatial Information Science, The University of Tokyo<br>
                   </li>
 
                   <li>
-                    Carolyn Cordery, Professor, School of Accounting and Commercial Law, Victoria University of Wellington<br>
-                    <a href="https://people.wgtn.ac.nz/carolyn.cordery" target="_blank">https://people.wgtn.ac.nz/carolyn.cordery</a>
+                    <a href="https://aasb.gov.au/board-members/prof-carolyn-cordery/" target="_blank">Carolyn Cordery</a>
+                    , Professor, School of Accounting and Commercial Law, Victoria University of Wellington<br>
                   </li>
 
                   <li>
-                    Charles H. Cho, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University<br>
-                    <a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">https://schulich.yorku.ca/faculty/charles-cho/</a>
+                    <a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">Charles H. Cho</a>
+                    , Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University<br>
                   </li>
 
                   <li>
-                    Trần Minh Tiến, Director General, Soils and Fertilizers Research Institute (SFRI)<br>
-                    <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">https://www.researchgate.net/profile/Tien-Minh-2</a>
+                    <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">Trần Minh Tiến</a>
+                    , Director General, Soils and Fertilizers Research Institute (SFRI)<br>
                   </li>
 
                   <li>
-                    Venkataraman (Venkat) Lakshmi, John L. Newcomb Professor of Engineering, Department of Engineering Systems and Environment, University of Virginia<br>
-                    <a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">https://engineering.virginia.edu/faculty/venkataraman-lakshmi</a>
+                    <a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">Venkataraman (Venkat) Lakshmi</a>
+                    , John L. Newcomb Professor of Engineering, Department of Engineering Systems and Environment, University of Virginia<br>
                   </li>
 
                   <li>
-                    Paolo Tarolli, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua<br>
-                    <a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">https://www.tesaf.unipd.it/en/paolo-tarolli</a>
+                    <a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">Paolo Tarolli</a>
+                    , Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua<br>
                   </li>
 
                   <li>
-                    Jón Atli Benediktsson, Professor, Faculty of Electrical and Computer Engineering, University of Iceland<br>
-                    <a href="https://english.hi.is/staff/jonatli" target="_blank">https://english.hi.is/staff/jonatli</a>
+                    <a href="https://english.hi.is/staff/benedikt?utm_source=chatgpt.com" target="_blank">Jón Atli Benediktsson</a>
+                    , Professor, Faculty of Electrical and Computer Engineering, University of Iceland<br>
                   </li>
 
                   <li>
-                    Barbara Ryan, Executive Director, World Geospatial Industry Council (WGIC)<br>
-                    <a href="https://wgicouncil.org/team/barbara-ryan/" target="_blank">https://wgicouncil.org/team/barbara-ryan/</a>
+                    <a href="https://eratosthenes.org.cy/team/barbara-ryan/" target="_blank">Barbara Ryan</a>
+                    , Executive Director, World Geospatial Industry Council (WGIC)<br>
                   </li>
 
                   <li>
-                    Ben Jarihani, Associate Professor, College of Science and Engineering, James Cook University<br>
-                    <a href="https://www.jcu.edu.au/college-of-science-and-engineering/staff/dr-ben-jarihani" target="_blank">https://www.jcu.edu.au/college-of-science-and-engineering/staff/dr-ben-jarihani</a>
+                    <a href="https://portfolio.jcu.edu.au/researchers/ben.jarihani/" target="_blank">Ben Jarihani</a>
+                    , Associate Professor, College of Science and Engineering, James Cook University<br>
                   </li>
 
                   <li>
-                    Xiaogang He, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore<br>
-                    <a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">https://cde.nus.edu.sg/cee/staff/he-xiaogang/</a>
+                    <a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">Xiaogang He</a>
+                    , Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore<br>
                   </li>
                 </ul>
+                </div>
               `
         },
         {
           title: '議程 (Agenda)',
           content: `<div class="agenda-container">
-                      <p>CESR 2025 議程大綱如下，主題演講(Keynote Speaker)將邀請5位國內外學者擔任主題演講者。</p>
+                      <p>CESR 2025 議程大綱如下</p>
                       
                       <h4 class="agenda-day-title">第一天 - Nov 24 (Mon.) | 開幕與主題演講</h4>
                       <table class="agenda-table">
@@ -463,7 +466,7 @@ export default {
           mainVenue: '教學研究綜合大樓 羅家倫講堂 1F',
           subVenue: '教學研究綜合大樓 2F 會議廳周遭 (共3個場地)',
           hosts: [
-            '國立中央大學台灣與全球乾旱調查研究中心 (NCU CTGDR)'
+            '台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)'
           ]
         }
       }
@@ -495,7 +498,7 @@ export default {
 
 /* --- 背景和頁首橫幅樣式 --- */
 .icqab-page { background: #f4f6fc; color: #333; }
-.container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+.container { max-width: 1540px; margin: 0 auto; padding: 0 20px; }
 .page-header { padding: 120px 0 60px 0; text-align: center; color: #ffffff; background-image: url('../assets/icqab-bg.jpg'); background-size: cover; background-position: center; position: relative; }
 .page-header::before { content: ''; position: absolute; top:0; left:0; width: 100%; height: 100%; background-color: rgba(10, 25, 47, 0.7); }
 .page-header .container { position: relative; z-index: 1; }
@@ -515,12 +518,12 @@ export default {
 .accordion-item:last-child { border-bottom: none; }
 .accordion-header { display: flex; justify-content: space-between; align-items: center; padding: 20px 25px; cursor: pointer; background-color: #f8f9fa; transition: background-color 0.3s; }
 .accordion-header:hover { background-color: #f1f3f5; }
-.accordion-header h3 { margin: 0; font-size: 1.5rem; color: #003366; font-weight:700; }
+.accordion-header h3 { margin: 0; font-size: 1.7rem; color: #003366; font-weight:700; }
 .accordion-icon { width: 12px; height: 12px; border-right: 3px solid #0056b3; border-bottom: 3px solid #0056b3; transform: rotate(45deg); transition: transform 0.4s ease; }
 .accordion-icon.is-open { transform: rotate(-135deg); }
 .accordion-content { display: grid;  grid-template-rows: 0fr;   transition: grid-template-rows 0.5s ease-in-out; }
 .accordion-content.is-open { grid-template-rows: 1fr; }
-.accordion-content-inner { overflow: hidden; padding:0 25px;transition: padding 0.5s ease-in-out;  font-size: 1.1rem; line-height: 1.8; }
+.accordion-content-inner { overflow: hidden; padding:0 25px;transition: padding 0.5s ease-in-out;  font-size: 1.25rem; font-weight: 300; line-height: 1.8; }
 .accordion-content.is-open .accordion-content-inner { padding: 25px; }
 :deep(.accordion-content-inner ul) { list-style-type: none; padding-left: 0; }
 :deep(.accordion-content-inner ul li) { margin-bottom: 1rem; }
@@ -529,8 +532,12 @@ export default {
 :deep(.speakers-grid-in-accordion) { display: flex; gap: 30px; text-align: center; }
 :deep(.speaker-card-in-accordion img) { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
 :deep(.speaker-card-in-accordion h4) { font-size: 1.2rem; margin-bottom: 5px; }
-:deep(.accordion-content-inner ul a) {  color: #555;   text-decoration: underline;   transition: color 0.3s; }
+:deep(.accordion-content-inner ul a) {  font-weight: bold;  color: #007ACC;   text-decoration: underline;   transition: color 0.3s; }
 :deep(.accordion-content-inner ul a:hover) {  color: #007bff; }
+:deep(.accordion-content-inner .styled-list) {
+  list-style-type: revert; /* 恢復成原本的樣式 (數字或圓點) */
+  padding-left: 25px;      /* 恢復內距，給項目符號空間 */
+}
 
 /* --- 議程表格樣式 --- */
 :deep(.agenda-container p) {
@@ -595,8 +602,8 @@ export default {
 .info-section:last-child { border-bottom: none; }
 .info-section:nth-child(even) { flex-direction: row-reverse; }
 .info-text, .info-media { flex: 1; min-width: 0; }
-.info-text h4 { font-size: 1.8rem; font-weight: 600; color: #000; margin-top: 0; margin-bottom: 20px; }
-.info-text h4 .en-text { font-size: 1.2rem; color: #555; margin-left: 10px; }
+.info-text h4  { font-size: 2rem;  color: #003366;  margin-bottom: 2rem;  padding-bottom: 1rem; }
+.info-text h4 .en-text { font-size: 1.6rem;  color: #003366; margin-left: 10px; }
 .info-text .link { font-size: 1.1rem; color: #007bff; word-break: break-all; }
 .qr-code { width: 180px; height: 180px; background: white; padding: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); display: block; margin: 0 auto; }
 .poster-steps { padding-left: 0; list-style: none; font-size: 1.1rem; line-height: 2; }
@@ -658,6 +665,8 @@ export default {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-top: 2.5rem; /* Space from host-list */
+  margin: 2.5rem auto 0 auto; /* 修改 margin 實現置中 */
+  max-width: 90%; 
 }
 .map-item {
   border: 1px solid #dee2e6;
@@ -681,6 +690,7 @@ export default {
 }
 
 .google-map-container {
+  max-width: 90%; 
   width: 100%;
   height: 450px;
   border-radius: 8px;
@@ -688,5 +698,6 @@ export default {
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   border: 1px solid #dee2e6;
   margin-top: 2.5rem; /* Space from maps-gallery */
+  margin: 2.5rem auto 0 auto;
 }
 </style>
