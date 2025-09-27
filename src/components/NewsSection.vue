@@ -1,31 +1,41 @@
 <template>
-  <!-- [修改] 讓 section 本身是滿版的深色背景 -->
-  <section class="news-section">
-    <!-- [新增] 內層加上 container 來限制內容寬度並置中 -->
-    <div class="container">
-      <h2>最新消息</h2>
-      <div class="news-grid">
-        <div class="news-item" v-for="item in news" :key="item.id">
-          <div class="news-date">{{ item.date }}</div>
-          <h3 class="news-title">{{ item.title }}</h3>
-          <p class="news-excerpt">{{ item.excerpt }}</p>
-          <a href="#" class="read-more">閱讀更多 &rarr;</a>
-        </div>
-      </div>
-    </div>
+  <section class="news-section py-5">
+    <b-container>
+      <h2 class="text-center display-5 fw-bold mb-5 text-white">最新消息</h2>
+      <b-row>
+        <b-col v-for="item in news" :key="item.id" md="6" lg="4" class="mb-4 d-flex align-items-stretch">
+          <b-card no-body class="h-100 shadow-sm overflow-hidden card-hover-effect">
+            <b-card-body class="d-flex flex-column p-4">
+              <p class="small text-muted mb-2">{{ item.date }}</p>
+              <b-card-title class="mb-3 card-title-custom">{{ item.title }}</b-card-title>
+              <b-card-text class="flex-grow-1 mb-4">
+                {{ item.excerpt }}
+              </b-card-text>
+              <div class="mt-auto">
+                <router-link v-if="item.url && !item.url.startsWith('http')" :to="item.url" class="read-more-link">
+                  閱讀更多 &rarr;
+                </router-link>
+                <a v-else-if="item.url" :href="item.url" target="_blank" rel="noopener noreferrer" class="read-more-link">
+                  閱讀更多 &rarr;
+                </a>
+              </div>
+            </b-card-body>
+          </b-card>
+        </b-col>
+      </b-row>
+    </b-container>
   </section>
 </template>
 
 <script>
-// <script> 內容維持不變
 export default {
   name: 'NewsSection',
   data() {
     return {
       news: [
-        { id: 1, date: '2025-09-15', title: '本中心成功開發新型益生菌，顯著提升豬隻免疫力', excerpt: '經過三年的努力，本中心研究團隊成功分離並培養出一株具備優異免疫調節功能的新型益生菌...' },
-        { id: 2, date: '2025-08-22', title: '國際研討會「精準營養的未來」圓滿落幕', excerpt: '由本中心主辦的年度國際研討會，邀請了來自全球十多個國家的頂尖學者，共同探討動物精準營養的最新發展...' },
-        { id: 3, date: '2025-07-30', title: '與頂尖飼料企業簽訂產學合作備忘錄', excerpt: '為加速研究成果的產業應用，本中心與國內龍頭飼料企業正式簽署合作備忘錄，共同開發次世代功能性飼料添加劑...' },
+        { id: 1, date: '2025-09-27', title: 'CESR 2025 開放報名與投稿', excerpt: '首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-26 日於國立中央大學舉行，聚焦於乾旱、熱害、水資源...', url: '/icqab' },
+        { id: 2, date: '2025-09-28', title: '本中心劉說安教授主編國際專刊徵稿', excerpt: '本研究中心劉說安講座教授現正主編國際期刊 Earth’s Future 與 GeoHealth 專刊：「極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略」。專刊徵稿至 2026 年 6 月 30 日截止，誠摯邀請相關領域研究者踴躍投稿...', url: 'https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141' },
+        { id: 3, date: '2025-09-30', title: '本中心發表 RSETI 新指標', excerpt: '由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment...', url: 'https://spec.ntu.edu.tw/research/research-detail271' },
       ]
     }
   }
@@ -33,48 +43,33 @@ export default {
 </script>
 
 <style scoped>
-/* [修改] 調整 section 樣式 */
 .news-section {
-  background-color: #1a2a3a; /* 深藍色背景 */
-  padding: 60px 0;
+  background-color: #1a2a3a; /* Preserving the original dark blue background */
 }
 
-/* [新增] container 的通用樣式 */
-.container {
-  max-width: 1200px; /* 內容最大寬度 */
-  margin: 0 auto; /* 水平置中 */
-  padding: 0 20px; /* 左右內距，避免貼邊 */
+.card-title-custom {
+  color: #003366;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #ffffff; /* 標題改為白色以適應深色背景 */
-    margin-bottom: 40px;
-    font-weight: 600;
+.card-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
 }
 
-.news-item {
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
-  transition: transform 0.3s, box-shadow 0.3s;
+.read-more-link {
+  color: #d4a373;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.news-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+.read-more-link:hover {
+  color: #c8925a; /* A slightly darker shade for hover */
 }
-
-.news-date { font-size: 0.9rem; color: #888; margin-bottom: 10px; }
-.news-title { font-size: 1.3rem; margin-bottom: 15px; color: #003366; }
-.news-excerpt { font-size: 1rem; line-height: 1.6; color: #555; }
-.read-more { display: inline-block; margin-top: 15px; color: #d4a373; text-decoration: none; font-weight: bold; }
 </style>

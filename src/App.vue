@@ -23,13 +23,20 @@ export default {
 </script>
 
 <style>
-/* 全域樣式 (維持不變) */
-body {
-  font-family: 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+* {
+  box-sizing: border-box;
+}
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
   color: #333;
-  /* 根據您最新的設計，背景可能是深色的 */
-  background-color: #0f1c2d;
+  background-color: #0f1c2d; /* 您網站的深色背景 */
+  -webkit-font-smoothing: antialiased; /* 讓字體在 Chrome/Safari 上更平滑 */
+  -moz-osx-font-smoothing: grayscale; /* 讓字體在 Firefox 上更平滑 */
 }
 
 #app {
@@ -40,5 +47,9 @@ body {
 
 main {
   flex: 1;
+}
+a {
+  color: inherit; /* 繼承父元素的顏色 */
+  text-decoration: none; /* 移除底線 */
 }
 </style>

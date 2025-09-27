@@ -1,8 +1,8 @@
 <template>
-  <div class="page-banner">
-    <div class="banner-content">
-      <h1>{{ title }}</h1>
-    </div>
+  <div class="page-banner d-flex justify-content-center align-items-center text-center text-white">
+    <b-container class="banner-content">
+      <h1 class="display-4 fw-bold">{{ title }}</h1>
+    </b-container>
   </div>
 </template>
 
@@ -21,22 +21,15 @@ export default {
 
 <style scoped>
 .page-banner {
-  /* 使用您先前下載的 banner.jpg 作為背景 */
   background-image: url('../assets/banner.jpeg');
-  height: 50vh; /* Banner 高度佔螢幕的一半 */
+  height: 50vh;
   min-height: 300px;
   max-height: 400px;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
   position: relative;
 }
 
-/* 加上斜向的漸層遮罩，讓視覺效果更好 */
 .page-banner::before {
     content: '';
     position: absolute;
@@ -50,13 +43,9 @@ export default {
 .banner-content {
     position: relative;
     z-index: 1;
-    padding: 20px;
 }
 
-h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  letter-spacing: 3px;
+.banner-content h1 {
   text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 </style>

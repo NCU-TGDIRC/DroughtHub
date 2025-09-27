@@ -23,16 +23,10 @@ const routes = [
     component: () => import('../views/ReportsView.vue')
   },
   {
-    path: '/activities',
-    name: 'activities',
-    component: () => import('../views/ActivitiesView.vue')
-  },
-  {
     path: '/icqab',
     name: 'icqab',
     component: () => import('../views/ConferenceView.vue')
   },
-  // --- [新增這一段] ---
   {
     path: '/english',
     name: 'english',
@@ -43,7 +37,11 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    // 始終滾動到頂部
+    return { top: 0 }
+  },
 })
 
 export default router
