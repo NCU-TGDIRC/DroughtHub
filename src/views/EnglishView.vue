@@ -134,10 +134,8 @@ export default {
           title: 'Important Dates',
           content: `<div><ul class="styled-list">
             <li><b>Abstract submission deadline:</b> October 22, 2025</li>
-            <li><b>Notification of abstract acceptance:</b> November 10, 2025</li>
-            <li><b>Registration Deadline:</b> October 29, 2025</li>
-            <li><b>Full text to be received:</b> TBD</li>
-            <li><b>Full text revised:</b> TBD</li>
+            <li><b>Notification of abstract acceptance:</b> October 29, 2025</li>
+            <li><b>Registration Deadline:</b> November 10, 2025</li>
             <li><b>Conference date:</b> November 24, 2025</li>
             </ul></div>`
         },
