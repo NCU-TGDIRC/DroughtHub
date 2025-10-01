@@ -224,8 +224,8 @@ export default {
       ],
       info: {
         registration: {
-          url: 'https://forms.gle/VeZVkFrMfF1heW7P6',
-          inquiryUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfDJ6RwJbj0kQ6NzxBLNIAsJFo_M1UF-Cx0QtacosAKqg48dQ/viewform?usp=sharing&ouid=108138815254155510678',
+          url: 'https://forms.gle/LfjM1nqKa47ufQvG6',
+          inquiryUrl: 'https://forms.gle/VtF3gfEKZMBKY6pr8',
           qrCode: 'qr-registration.png'
         },
         poster: {
