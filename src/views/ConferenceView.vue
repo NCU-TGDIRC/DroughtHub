@@ -27,15 +27,42 @@
 
         <!-- Info Sections (保持不變) -->
         <div class="info-sections mt-5">
-          <b-row class="align-items-center py-5 border-bottom">
-            <b-col md="8" class="mb-4 mb-md-0">
-              <h4 class="accordion-title-custom mb-4 fs-2">研討會報名 (Registration)</h4>
-              <a :href="info.registration.url" target="_blank" rel="noopener noreferrer" class="link-primary">{{ info.registration.url }}</a>
-            </b-col>
-            <b-col md="4" class="text-center text-md-end">
-              <img :src="getImageUrl(info.registration.qrCode)" alt="Registration QR Code" class="qr-code img-fluid shadow-sm rounded">
-            </b-col>
-          </b-row>
+          
+          <!-- New Registration Section -->
+          <div class="registration-section my-5 py-5">
+            <b-card no-body class="shadow-lg border-0 overflow-hidden">
+              <b-row no-gutters>
+                <b-col md="7" class="p-5 d-flex flex-column justify-content-center">
+                  <h3 class=" mb-4 fs-2 fw-bold" style="color: #003366;">研討會報名 & 聯絡資訊</h3>
+                  <p class="text-muted mb-4 fs-5">
+                    歡迎線上報名參加 CESR 2025。點擊下方按鈕或掃描右側 QR code 即可前往報名頁面。若有任何疑問，請隨時與我們聯繫。
+                  </p>
+                  <div class="mb-4 d-flex align-items-center flex-wrap">
+                    <b-button :href="info.registration.url" target="_blank" variant="primary" size="lg" class="me-3 mb-2">
+                      <i class="fas fa-edit me-2"></i> 線上報名
+                    </b-button>
+                    <b-button :href="info.registration.inquiryUrl" target="_blank" size="lg" class="mb-2 btn-contact">
+                      <i class="fas fa-question-circle me-2"></i> 報名相關聯絡表單
+                    </b-button>
+                  </div>
+                  <hr class="my-4">
+                  <div>
+                    <h5 class="h5 text-uppercase text-muted mb-3">聯絡窗口</h5>
+                    <a href="mailto:tgdirc.ncu@gmail.com" class="link-dark text-decoration-none contact-link">
+                      <i class="fas fa-envelope me-2 text-primary"></i> <span class="fs-5">tgdirc.ncu@gmail.com</span>
+
+                    </a>
+                  </div>
+                </b-col>
+                <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
+                  <div class="text-center">
+                    <img :src="getImageUrl('qr-registration.jpg')" alt="Registration QR Code" class="qr-code-large img-fluid rounded">
+                    <p class="text-muted small mt-3">掃描 QR Code 報名</p>
+                  </div>
+                </b-col>
+              </b-row>
+            </b-card>
+          </div>
           
           <b-row class="py-5">
             <b-col>
@@ -105,6 +132,17 @@ export default {
     return {
       // activeIndex is no longer needed for b-accordion
       sections: [
+        {
+          title: '重要日程 (Inportant Dates)',
+          content:`<div><ul class="styled-list">
+            <li><b>Abstract submission deadline:</b>October 22, 2025</li>
+            <li><b>Notification of abstract acceptation:</b>November 10, 2025</li>
+            <li><b>Registration Deadline:</b>October 29, 2025</li>
+            <li><b>Full text to be received:</b>???</li>
+            <li><b>Full text revised:</b>???</li>
+            <li><b>Conference date:</b>November 24, 2025</li>
+            </ul></div>`
+        },
         {
           title: '緣起 (Introduction)',
           content: `<p>台灣暨全球乾旱調查與研究中心（TGDIRC / DroughtHub）成立於2024年，由國立中央大學太空及遙測研究中心主導設立，致力於整合全球乾旱監測、預警及適應策略之研究發展。中心成立的核心使命在於因應日益嚴峻的全球氣候變遷挑戰，特別是乾旱與熱害等極端氣候事件對人類社會造成的深遠衝擊。</p><p>聯合國政府間氣候變化專門委員會（Intergovernmental Panel on Climate Change, IPCC）第六次評估報告明確指出，全球暖化將導致乾旱事件更加頻繁且嚴重，預計到2050年，全球將有超過50億人面臨水資源短缺問題。台灣作為氣候變遷高風險區域，近年來已深刻體驗到這一趨勢：2021年的百年大旱造成全台供水危機，經濟損失超過千億元；2023年連續破紀錄的極端高溫事件，不僅衝擊能源系統，更直接威脅民眾健康與生活品質。</p><p>面對這些前所未有的挑戰，單一國家或機構的努力已無法有效因應。國際科學界普遍認知，唯有透過跨國界、跨領域的合作研究與知識共享，才能發展出有效的解決方案。TGDIRC正是在此背景下應運而生，致力於建立一個整合型的國際研究平台。</p><p>自成立以來，TGDIRC積極與美國國家乾旱減緩中心（National Drought Mitigation Center, NDMC）、澳洲聯邦科學與工業研究組織(Commonwealth Scientific and Industrial Research Organisation, CSIRO）、歐盟氣候調適中心...等國際頂尖機構建立合作關係，並參與聯合國減災辦公室（The United Nations Office for Disaster Risk Reduction, UNDRR）及世界氣象組織（World Meteorological Organization, WMO）相關倡議。同時，中心也與亞太地區面臨相似挑戰的國家建立研究夥伴關係，包括日本、韓國、澳洲、印度、越南...等。</p><p>為建立一個常設性的國際學術交流與政策對話平台，匯聚全球在氣候極端事件、社會韌性及人類宜居性領域的頂尖專家智慧，TGDIRC特別規劃舉辦首屆「氣候極端與社會韌性國際論壇」。本論壇旨在成為亞太地區乃至全球氣候科學領域的重要年度盛會，為推動國際合作、促進知識創新、強化政策制定科學基礎建立長期機制。</p><p>透過此論壇的舉辦，我們期望不僅能展現台灣在氣候科學研究領域的實力與國際貢獻，更能為全球社會面對氣候變遷挑戰提供創新的解決途徑，共同為維護人類在暖化世界中的宜居環境而努力。</p>`
@@ -188,7 +226,8 @@ export default {
       ],
       info: {
         registration: {
-          url: 'https://forms.gle/U2MU6NiGJbaqCfhu6',
+          url: 'https://forms.gle/VeZVkFrMfF1heW7P6',
+          inquiryUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfDJ6RwJbj0kQ6NzxBLNIAsJFo_M1UF-Cx0QtacosAKqg48dQ/viewform?usp=sharing&ouid=108138815254155510678',
           qrCode: 'qr-registration.png'
         },
         poster: {
@@ -307,4 +346,46 @@ export default {
 :deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; font-weight: bold; }
 :deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; font-weight: bold; }
 
+/* --- Registration Section Styles --- */
+.qr-code-large {
+  max-width: 220px;
+  border: 6px solid white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contact-link {
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+.registration-section .btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  transition: all 0.3s ease;
+}
+
+.registration-section .btn-primary:hover {
+  background-color: #002244;
+  border-color: #002244;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn-contact {
+  background-color: #c18951;
+  border-color: #d4a373;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #c8925a;
+  border-color: #c8925a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 </style>

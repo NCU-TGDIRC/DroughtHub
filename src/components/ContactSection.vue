@@ -16,7 +16,7 @@
               <strong class="me-2">傳真：</strong>(03) 4255535
             </p>
             <p class="contact-item">
-              <strong class="me-2">電子郵件：</strong>contact@tgdirc.ncu.edu.tw
+              <strong class="me-2">電子郵件：</strong>tgdirc.ncu@gmail.com
             </p>
           </div>
         </b-col>

@@ -50,13 +50,14 @@ export default {
           detailUrl: 'https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4'
         },
         {
-          image: 'hsu_wen_chin.jpg',
-          name: '許文錦 Wen-Chin Hsu',
+          image: 'Chien-wen Shen.png',
+          name: '沈建文 Chien-wen Shen',
           title: '教授',
-          department: '資訊管理學系',
-          expertise: ['醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務'],
-          detailUrl: 'https://im.mgt.ncu.edu.tw/teacher'
+          department: '企業管理學系',
+          expertise: ['資訊創新技術應用、供應鏈管理、決策科學'],
+          detailUrl: 'https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054'
         },
+        
         {
           image: 'Cheng-Ling Kou.png',
           name: '郭政靈 Cheng-Ling Kou',
@@ -66,12 +67,12 @@ export default {
           detailUrl: 'https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou'
         },
         {
-          image: 'Chien-wen Shen.png',
-          name: '沈建文 Chien-wen Shen',
+          image: 'hsu_wen_chin.jpg',
+          name: '許文錦 Wen-Chin Hsu',
           title: '教授',
-          department: '企業管理學系',
-          expertise: ['資訊創新技術應用、供應鏈管理、決策科學'],
-          detailUrl: 'https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054'
+          department: '資訊管理學系',
+          expertise: ['醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務'],
+          detailUrl: 'https://im.mgt.ncu.edu.tw/teacher'
         },
         {
           image: 'Hsiao-Ting Tseng.jpg',
