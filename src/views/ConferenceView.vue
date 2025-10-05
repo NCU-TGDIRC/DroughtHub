@@ -4,7 +4,7 @@
     <div class="page-header position-relative text-center text-white">
       <div class="bg-overlay"></div>
       <b-container class="position-relative py-5">
-        <p class="h4 fw-normal conference-date">2025年11月24-26日 | 國立中央大學，桃園，台灣</p>
+        <p class="h4 fw-normal conference-date">2025年11月23-25日 | 國立中央大學，桃園，台灣</p>
         <h1 class="display-4 fw-bold">第一屆氣候極端與社會韌性國際論壇：<br>乾旱、熱害與暖化世界中的人類宜居性</h1>
         <h2 class="h1 fw-normal mt-3">(CESR 2025)</h2>
       </b-container>
@@ -138,7 +138,7 @@ export default {
            <li><b>Abstract submission deadline:</b> October 22, 2025</li>
             <li><b>Notification of abstract acceptance:</b> October 29, 2025</li>
             <li><b>Registration Deadline:</b> November 10, 2025</li>
-            <li><b>Conference date:</b> November 24, 2025</li>
+            <li><b>Conference date:</b> November 23, 2025</li>
             </ul></div>`
         },
         {
@@ -210,9 +210,37 @@ export default {
             </ul>`
         },
         {
-          title: '會議資訊 (Conference Information)',
-          content: `<div><p>2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World <br>第一屆氣候極端與社會韌性國際論壇：乾旱、熱害與暖化世界中的人類宜居性</p><ul class="styled-list"><li><b>會議時間</b><br>中華民國 2025 年 11 月 24 日(一)至 11 月 26 日(三)</li><li><b>會議地點</b><br>國立中央大學教學研究綜合大樓</li><li><b>主、協辦單位</b><br>台灣暨全球乾旱調查與研究中心 <br>國立中央大學</li><li><b>大會主席</b><br>劉說安 教授 <br> 曾筱珽 副教授</li></ul></div>`
+        title: '會議資訊 (Conference Information)',
+        content: `
+            <div>
+            <p>
+                2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World <br>
+                第一屆氣候極端與社會韌性國際論壇：乾旱、熱害與暖化世界中的人類宜居性
+            </p>
+            <ul class="styled-list">
+                <li>
+                <b>會議時間</b><br>
+                中華民國 2025 年 11 月 23 日(日)至 11 月 25 日(二)
+                </li>
+                <li>
+                <b>會議地點</b><br>
+                國立中央大學教學研究綜合大樓
+                </li>
+                <li>
+                <b>主、協辦單位</b><br>
+                台灣暨全球乾旱調查與研究中心 <br>
+                國立中央大學
+                </li>
+                <li>
+                <b>大會主席</b><br>
+                劉說安 教授 <br>
+                曾筱珽 副教授
+                </li>
+            </ul>
+            </div>
+        `
         },
+
         {
           title: '講者名單 (Keynote Speakers)',
           content: `<h3>Keynote Speakers</h3> <ul class="styled-list"><li><a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">Dara Entekhabi</a>, Professor, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (MIT)<br></li><li><a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)<br></li><li><a href="https://www.stir.ac.uk/people/1967536" target="_blank">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University<br></li><li><a href="https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2599%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=" target="_blank">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow<br></li><li><a href="https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en" target="_blank">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology<br></li><li><a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">Takashi Oguchi/</a>, Professor, Center for Spatial Information Science, The University of Tokyo<br></li><li><a href="https://aasb.gov.au/board-members/prof-carolyn-cordery/" target="_blank">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington<br></li><li><a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University<br></li><li><a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">Trần Minh Tiến</a>, Director General, Soils and Fertilizers Research Institute (SFRI)<br></li><li><a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">Venkataraman (Venkat) Lakshmi</a>, John L. Newcomb Professor of Engineering, Department of Engineering Systems and Environment, University of Virginia<br></li><li><a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua<br></li><li><a href="https://english.hi.is/staff/benedikt?utm_source=chatgpt.com" target="_blank">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland<br></li><li><a href="https://eratosthenes.org.cy/team/barbara-ryan/" target="_blank">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)<br></li><li><a href="https://portfolio.jcu.edu.au/researchers/ben.jarihani/" target="_blank">Ben Jarihani</a>, Associate Professor, College of Science and Engineering, James Cook University<br></li><li><a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore<br></li></ul></div>`
@@ -224,7 +252,7 @@ export default {
             <p>CESR 2025 議程表</p>
 
             <!-- 第一天 -->
-            <h4 class="agenda-day-title">第一天 - Nov 24 (Mon.) | 開幕與主題演講</h4>
+            <h4 class="agenda-day-title">第一天 - Nov 23 (Sun.) | 開幕與主題演講</h4>
             <table class="agenda-table">
                 <thead>
                 <tr>
@@ -277,7 +305,7 @@ export default {
             </table>
 
             <!-- 第二天 -->
-            <h4 class="agenda-day-title">第二天 - Nov 25 (Tue.) | 專題會議與討論</h4>
+            <h4 class="agenda-day-title">第二天 - Nov 24 (Mon.) | 專題會議與討論</h4>
             <table class="agenda-table">
                 <thead>
                 <tr>
@@ -337,7 +365,7 @@ export default {
             </table>
 
             <!-- 第三天 -->
-            <h4 class="agenda-day-title">第三天 - Nov 26 (Wed.) | 綜合討論與閉幕</h4>
+            <h4 class="agenda-day-title">第三天 - Nov 25 (Tue.) | 綜合討論與閉幕</h4>
             <table class="agenda-table">
                 <thead>
                 <tr>
