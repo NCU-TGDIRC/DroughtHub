@@ -216,8 +216,166 @@ export default {
           content: `<h3>Keynote Speakers</h3> <ul class="styled-list"><li><a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">Dara Entekhabi</a>, Professor, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (MIT)<br></li><li><a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)<br></li><li><a href="https://www.stir.ac.uk/people/1967536" target="_blank">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University<br></li><li><a href="https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2599%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=" target="_blank">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow<br></li><li><a href="https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en" target="_blank">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology<br></li><li><a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">Takashi Oguchi</a>, Professor, Center for Spatial Information Science, The University of Tokyo<br></li><li><a href="https://aasb.gov.au/board-members/prof-carolyn-cordery/" target="_blank">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington<br></li><li><a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University<br></li><li><a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">Trần Minh Tiến</a>, Director General, Soils and Fertilizers Research Institute (SFRI)<br></li><li><a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">Venkataraman (Venkat) Lakshmi</a>, John L. Newcomb Professor of Engineering, Department of Engineering Systems and Environment, University of Virginia<br></li><li><a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua<br></li><li><a href="https://english.hi.is/staff/benedikt?utm_source=chatgpt.com" target="_blank">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland<br></li><li><a href="https://eratosthenes.org.cy/team/barbara-ryan/" target="_blank">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)<br></li><li><a href="https://portfolio.jcu.edu.au/researchers/ben.jarihani/" target="_blank">Ben Jarihani</a>, Associate Professor, College of Science and Engineering, James Cook University<br></li><li><a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore<br></li></ul></div>`
         },
         {
-          title: 'Agenda',
-          content: `<div class="agenda-container"><p>The outline of the CESR 2025 agenda is as follows:</p><h4 class="agenda-day-title">Day 1 - Nov 24 (Mon.) | Opening & Keynote Speeches</h4><table class="agenda-table"><thead><tr><th>Time</th><th colspan="2">Event</th></tr></thead><tbody><tr><td>13:20-13:50</td><td colspan="2">Registration</td></tr><tr><td>13:50-14:00</td><td colspan="2">Opening Ceremony</td></tr><tr><td>14:00-14:30</td><td colspan="2">Keynote Speaker 1</td></tr><tr><td>14:30-15:00</td><td colspan="2">Keynote Speaker 2</td></tr><tr><td>15:30-16:00</td><td colspan="2">Keynote Speaker 3</td></tr><tr class="break-row"><td>16:00-16:20</td><td colspan="2">Tea Break / Poster Exhibition</td></tr><tr><td rowspan="2">16:30-18:00</td><td><b>Session A-1</b></td><td><b>Session B-1</b></td></tr><tr><td>Chair:<br>Speakers:</td><td>Chair:<br>Speakers:</td></tr><tr class="meal-row"><td>18:00-20:00</td><td colspan="2">Conference Dinner</td></tr></tbody></table><h4 class="agenda-day-title">Day 2 - Nov 25 (Tue.) | Thematic Sessions & Discussions</h4><table class="agenda-table"><thead><tr><th>Time</th><th colspan="3">Event</th></tr></thead><tbody><tr><td>08:00-09:00</td><td colspan="3">Registration</td></tr><tr><td>10:00-16:00</td><td colspan="3">Poster Exhibition</td></tr><tr><td rowspan="2">09:00-10:30</td><td><b>Session A-2</b></td><td><b>Session B-2</b></td><td><b>Session C-2</b></td></tr><tr><td>Chair:<br>Speakers:</td><td>Chair:<br>Speakers:</td><td>Chair:<br>Speakers:</td></tr><tr class="break-row"><td>10:30-10:50</td><td colspan="3">Tea Break</td></tr><tr><td rowspan="2">10:50-12:20</td><td><b>Session A-3</b></td><td><b>Session B-3</b></td><td><b>Session C-3</b></td></tr><tr><td>Chair:<br>Speakers:</td><td>Chair:<br>Speakers:</td><td>Chair:<br>Speakers:</td></tr><tr class="meal-row"><td>12:20-13:30</td><td colspan="3">Lunch</td></tr><tr><td rowspan="2">13:30-15:00</td><td><b>Session A-4</b></td><td colspan="2"><b>Session B-4</b></td></tr><tr><td>Chair:<br>Speakers:</td><td colspan="2">Chair:<br>Speakers:</td></tr><tr><td>15:00-16:00</td><td colspan="3">Closing Ceremony</td></tr></tbody></table><h4 class="agenda-day-title">Day 3 - Nov 26 (Wed.) | General Discussion & Closing</h4><table class="agenda-table"><thead><tr><th>Time</th><th>Event</th></tr></thead><tbody><tr><td>09:00-10:30</td><td>Summary Reports from Thematic Sessions</td></tr><tr class="break-row"><td>10:30-11:00</td><td>Tea Break</td></tr><tr><td>11:00-12:00</td><td>Drafting and Discussion of Forum Declaration</td></tr><tr><td>12:00-12:30</td><td>Closing Ceremony</td></tr><tr class="meal-row"><td>12:30-14:00</td><td>Lunch</td></tr><tr><td>14:00-17:00</td><td>Field Trip</td></tr><tr class="meal-row"><td>18:30-20:30</td><td>See You Again Banquet</td></tr></tbody></table></div>`
+        title: 'Agenda',
+        content: `
+            <div class="agenda-container">
+            <p>The outline of the CESR 2025 agenda is as follows:</p>
+
+            <!-- 第一天 -->
+            <h4 class="agenda-day-title">Day 1 - Nov 24 (Mon.) | Opening & Keynote Speeche</h4>
+            <table class="agenda-table">
+                <thead>
+                <tr>
+                    <th>Time</th>
+                    <th colspan="3">Event</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>13:20-13:50</td>
+                    <td colspan="3">Registration</td>
+                </tr>
+                <tr>
+                    <td>13:50-14:00</td>
+                    <td colspan="3">Opening Ceremony</td>
+                </tr>
+                <tr>
+                    <td>14:00-14:30</td>
+                    <td colspan="3">Keynote Speaker 1</td>
+                </tr>
+                <tr>
+                    <td>14:30-15:00</td>
+                    <td colspan="3">Keynote Speaker 2</td>
+                </tr>
+                <tr>
+                    <td>15:30-16:00</td>
+                    <td colspan="3">Keynote Speaker 3</td>
+                </tr>
+                <tr class="break-row">
+                    <td>16:00-16:20</td>
+                    <td colspan="3">Tea Break / Poster Exhibition</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">16:30-18:00</td>
+                    <td><b>Session A-2</b></td>
+                    <td><b>Session B-2</b></td>
+                    <td><b>Session C-1</b></td>
+                </tr>
+                <tr>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+
+                </tr>
+                <tr class="meal-row">
+                    <td>18:00-20:00</td>
+                    <td colspan="3">Conference Dinner</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- 第二天 -->
+            <h4 class="agenda-day-title">Day 2 - Nov 25 (Tue.) | Thematic Sessions & Discussions</h4>
+            <table class="agenda-table">
+                <thead>
+                <tr>
+                    <th>Time</th>
+                    <th colspan="3">Event</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>08:00-09:00</td>
+                    <td colspan="3">Registration</td>
+                </tr>
+                <tr>
+                    <td>10:00-16:00</td>
+                    <td colspan="3">Poster Exhibition</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">09:00-10:30</td>
+                    <td><b>Session A-2</b></td>
+                    <td><b>Session B-2</b></td>
+                    <td><b>Session C-2</b></td>
+                </tr>
+                <tr>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+                </tr>
+                <tr class="break-row">
+                    <td>10:30-10:50</td>
+                    <td colspan="3">Tea Break</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10:50-12:20</td>
+                    <td><b>Session A-3</b></td>
+                    <td><b>Session B-3</b></td>
+                    <td><b>Session C-3</b></td>
+                </tr>
+                <tr>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+                    <td>Chair:<br>Speakers:</td>
+                </tr>
+                <tr class="meal-row">
+                    <td>12:20-13:30</td>
+                    <td colspan="3">Lunch</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:30-15:00</td>
+                    <td><b>Session A-4</b></td>
+                    <td colspan="2"><b>Session B-4</b></td>
+                </tr>
+                <tr>
+                    <td>Chair:<br>Speakers:</td>
+                    <td colspan="2">Chair:<br>Speakers:</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- 第三天 -->
+            <h4 class="agenda-day-title">Day 3 - Nov 26 (Wed.) | General Discussion & Closing</h4>
+            <table class="agenda-table">
+                <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>09:00-10:30</td>
+                    <td>Summary reports of each session</td>
+                </tr>
+                <tr class="break-row">
+                    <td>10:30-11:00</td>
+                    <td>Tea time</td>
+                </tr>
+                <tr>
+                    <td>11:00-12:00</td>
+                    <td>Drafting and discussion of the forum declaration</td>
+                </tr>
+                <tr>
+                    <td>12:00-12:30</td>
+                    <td>Closing Ceremony</td>
+                </tr>
+                <tr class="meal-row">
+                    <td>12:30-14:00</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                    <td>14:00-17:00</td>
+                    <td>Field Trip</td>
+                </tr>
+                <tr class="meal-row">
+                    <td>18:30-20:30</td>
+                    <td>See you again Banquet</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        `
         }
       ],
       info: {
@@ -337,7 +495,7 @@ export default {
 
 :deep(.accordion-content-inner .agenda-table) { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.9rem; }
 :deep(.accordion-content-inner .agenda-table th),
-:deep(.accordion-content-inner .agenda-table td) { border: 1px solid #dee2e6; padding: 8px 12px; text-align: left; vertical-align: middle; }
+:deep(.accordion-content-inner .agenda-table td) { border: 1px solid #dee2e6; padding: 8px 12px; text-align: center; vertical-align: middle; }
 :deep(.accordion-content-inner .agenda-table thead th) { background-color: #003366; color: white; font-weight: 600; }
 :deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; font-weight: bold; }
 :deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; font-weight: bold; }
