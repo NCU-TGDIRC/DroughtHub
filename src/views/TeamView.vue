@@ -44,10 +44,10 @@ export default {
         {
           image: 'Yuei-An Liou.jpg',
           name: '劉說安 Yuei-An Liou',
-          title: '教授',
-          department: '太空科學與工程學系',
+          title: '太遙講座教授',
+          department: '太空及遙測研究中心',
           expertise: ['<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象'],
-          detailUrl: 'https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4'
+          detailUrl: 'https://sites.google.com/view/hrsl-ncu'
         },
         {
           image: 'Chien-wen Shen.png',
@@ -62,9 +62,9 @@ export default {
           image: 'Cheng-Ling Kou.png',
           name: '郭政靈 Cheng-Ling Kou',
           title: '教授',
-          department: '太空科學與工程學系',
-          expertise: ['太空光學、行星遙測以及大氣電學'],
-          detailUrl: 'https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou'
+          department: '太空科學與科技研究中心',
+          expertise: ['太空光學、行星遙測、大氣電學、電漿物理、電離層物理以及平行計算'],
+          detailUrl: 'https://sites.google.com/g.ncu.edu.tw/ncu-sol/'
         },
         {
           image: 'hsu_wen_chin.jpg',
