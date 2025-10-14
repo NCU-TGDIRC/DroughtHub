@@ -52,7 +52,7 @@ export default {
         {
           image: 'Chien-wen Shen.png',
           name: '沈建文 Chien-wen Shen',
-          title: '教授',
+          title: '教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任',
           department: '企業管理學系',
           expertise: ['資訊創新技術應用、供應鏈管理、決策科學'],
           detailUrl: 'https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054'
@@ -63,7 +63,7 @@ export default {
           name: '郭政靈 Cheng-Ling Kou',
           title: '教授',
           department: '太空科學與科技研究中心',
-          expertise: ['太空光學、行星遙測、大氣電學、電漿物理、電離層物理以及平行計算'],
+          expertise: ['<b>遙測</b>：高光譜以及多光譜儀資料融合、地物分類以及高溫分析<br><b>科學</b>：大氣電學和電漿物理<br><b>工程</b>：立方衛星以及太空光學儀器酬載'],
           detailUrl: 'https://sites.google.com/g.ncu.edu.tw/ncu-sol/'
         },
         {
@@ -97,6 +97,14 @@ export default {
           department: '認知神經科學研究所',
           expertise: ['神經語言學、計算語言學、語音學、構詞學、語言習得、EEG/MEG訊號分析'],
           detailUrl: 'https://icn.ncu.edu.tw/2-1-detail.php?id=9'
+        },
+        {
+          image: 'Shou-Hao Chiang.jpg',
+          name: '姜壽浩 Shou-Hao Chiang',
+          title: '副教授',
+          department: '太空及遙測研究中心',
+          expertise: ['空間模式、空間資訊分析、水文及崩塌模式、自然地理'],
+          detailUrl: 'https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15'
         },
       ],
     };
