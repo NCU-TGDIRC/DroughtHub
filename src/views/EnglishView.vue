@@ -287,6 +287,21 @@ export default {
                         <em>(Lecture title to be provided soon)</em>
                       </p>
                     </li>
+
+                    <li>
+                      <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">
+                        <b>Trần Minh Tiến</b>
+                      </a><br>
+                      <p>
+                        <b>Professor / Vice President</b><br>
+                        Vice President, Vietnam Academy of Agricultural Sciences (VAAS)<br>
+                        This forum is part of the “DroughtHub Research Program for Drought Resilience.”<br>
+                        Professor Tiến will lead a delegation to participate in bilateral meetings and academic exchanges, 
+                        focusing on collaborative research in drought adaptation and agricultural innovation.<br>
+                        <em>(Lecture title to be announced soon)</em>
+                      </p>
+                    </li>
+
                   </ul>
 
                   
@@ -334,12 +349,7 @@ export default {
                       Erivan K. Haub Chair in Business & Sustainability, 
                       Schulich School of Business, York University
                     </li>
-                    <li>
-                      <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">
-                        Trần Minh Tiến
-                      </a>,
-                      Director General, Soils and Fertilizers Research Institute (SFRI)
-                    </li>
+                    
                     <li>
                       <a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">
                         Paolo Tarolli

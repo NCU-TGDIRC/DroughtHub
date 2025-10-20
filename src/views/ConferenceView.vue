@@ -289,8 +289,21 @@ export default {
                         日本東京大學教授<br>
                         現任 <b>國際地貌學會（IAG）副會長</b>、<b>日本地球科學聯合會（JpGU）副會長</b>、<b>日本地理學會會長</b><br>
                         曾任日本地貌學會與日本地理資訊系統學會會長<br>
-                        在地貌學與空間資訊領域具深厚造詣與國際影響力<br>
+                        在地貌學與空間資訊領域具深厚造詣與國際影響力 <br>
                         <em>（演講題目將於近期提供）</em>
+                      </p>
+                    </li>
+
+                    <li>
+                      <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">
+                        <b>Trần Minh Tiến </b>
+                      </a><br>
+                      <p>
+                          <b>教授／副院長</b><br>
+                          越南農業科學院（VAAS）副院長<br>
+                          本論壇為「DroughtHub乾旱韌性研究計畫」之一環<br>
+                          Tiến 教授將率領代表團參與雙邊會議與學術交流，聚焦於乾旱調適與農業創新之合作研究 <br>
+                          <em>（演講題目將於近期提供）</em>
                       </p>
                     </li>
                   </ul>
@@ -340,12 +353,7 @@ export default {
                       Erivan K. Haub Chair in Business & Sustainability, 
                       Schulich School of Business, York University
                     </li>
-                    <li>
-                      <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">
-                        Trần Minh Tiến
-                      </a>,
-                      Director General, Soils and Fertilizers Research Institute (SFRI)
-                    </li>
+                  
                     <li>
                       <a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">
                         Paolo Tarolli
