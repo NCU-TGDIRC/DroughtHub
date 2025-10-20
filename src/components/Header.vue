@@ -10,11 +10,11 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- 加上 'ms-auto' class 將導航項目推到右邊 -->
          <!-- Logo 品牌 -->
-      <b-navbar-brand to="/">
+      <b-navbar-brand to="/home">
         <img src="@/assets/logo.png" alt="網站 Logo" class="logo-img">
       </b-navbar-brand>
         <b-navbar-nav class="ms-auto mb-2 mb-lg-0 align-items-center">
-          <b-nav-item to="/" :active="$route.path === '/'">首頁</b-nav-item>
+          <b-nav-item to="/home" :active="$route.path === '/home'">首頁</b-nav-item>
           <b-nav-item to="/research">研究領域</b-nav-item>
           <b-nav-item to="/team">團隊成員</b-nav-item>
           <b-nav-item to="/reports">成果報導</b-nav-item>
