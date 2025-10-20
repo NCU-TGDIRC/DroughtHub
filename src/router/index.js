@@ -9,7 +9,8 @@ const routes = [
   },
   {
     path: '/',
-    redirect: '/icqab'
+    name: 'english',
+    component: () => import('../views/EnglishView.vue')
   },
   {
     path: '/research',
@@ -33,8 +34,7 @@ const routes = [
   },
   {
     path: '/english',
-    name: 'english',
-    component: () => import('../views/EnglishView.vue')
+    redirect: '/'
   }
   // --------------------
 ]

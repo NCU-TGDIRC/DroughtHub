@@ -157,7 +157,7 @@ export default {
           title: '研討會主題 (Conference Themes)',
           content: `<p>本次論壇並規劃5個專題會議，專題會議主題涵蓋：
             </p><ul class="themes-list">
-                <li><h4>專題一：乾旱監測與預警技術</h4><p><br>
+                <li class="accent-box"><h4>專題一：乾旱監測與預警技術</h4><p><br>
                     乾旱是全球最具破壞性的自然災害之一，其影響因橫跨農業生產、水資源管理、能源供應，而可能對生態系統穩定性與社會經濟發展成巨大衝擊。隨著極端的氣候變遷對環境產生的劇烈變化，乾旱事件的發生頻率與強度正在逐漸增強，建立系統且科學化的乾旱監測與預警技術已成為國際迫切的研究與政策需求。本主題將聚焦於多來源的數據整合與應用，包含衛星監測、地面觀測網路、氣候變遷模擬等前沿尖端技術應用，提升對乾旱發展過程的即時監控與預測能力。<br>
                     主體內容將涵蓋但不限於：<br>
                     1.	監測技術的創新應用<br>
@@ -167,7 +167,7 @@ export default {
                     5.	農業與生態系統層面的乾旱影響評估方法<br>
                     6.	氣候模式模擬與乾旱事件預測<br>
                     </p></li>
-                <li><h4>專題二：熱島效應與都市氣候調適</h4><p><br>
+                <li class="accent-box"><h4>專題二：熱島效應與都市氣候調適</h4><p><br>
                     都市化快速發展與全球暖化加劇，熱島效應因加劇能源需求與基礎設施負擔，影響居民健康與社會安全性，已成為高密度人口聚集區所面臨的重大挑戰。本主題聚焦於熱島效應的成因、監測技術與多層次調適策略，期望建立兼顧科學基礎、工程技術與社會治理的完整對策。<br>
                     主題內容將涵蓋但不限於：<br>
                     1.	熱島效應機制與驅動因素<br>
@@ -177,7 +177,7 @@ export default {
                     5.	都市更新與土地利用規劃在緩解熱島效應上的成效評估<br>
                     6.	數位科技結合綠色建築的永續發展<br>
                     </p></li>
-                <li><h4>專題三：氣候政策、水資源管理與社會韌性</h4><p><br>
+                <li class="accent-box"><h4>專題三：氣候政策、水資源管理與社會韌性</h4><p><br>
                     氣候變遷為水循環系統的穩定性帶來劇烈的影響，乾旱、洪水與其他環境汙染導致水資源問題日益嚴峻。如何透過前瞻性的氣候政策與有效的水資源管理，來提升社會的韌性與適應能力，已成為各國共同面對的重要課題。本主題將聚焦於跨領域治理與多方利益相關者的協作，關注政策、管理、社會創新三種視角，建立兼具公平性與永續性的水資源治理策略框架。<br>
                     主題內容將涵蓋但不限於：<br>
                     1.	氣候變遷下的水資源治理政策與制度設計水文科學、公共政策、經濟學與社會學整合的跨領域韌性<br>
@@ -187,7 +187,7 @@ export default {
                     5.	水資源風險管理與社會公平<br>
                     6.	面對極端乾旱與洪災的水資源韌性評估與決策支持方法<br>
                     </p></li>
-                <li><h4>專題四：氣候變遷健康衝擊</h4><p><br>
+                <li class="accent-box"><h4>專題四：氣候變遷健康衝擊</h4><p><br>
                     氣候變遷已成為21世紀最嚴峻的公共衛生挑戰之一。極端高溫、乾旱、水資源短缺及極端氣候事件，正直接或間接威脅人類健康與社會發展。氣候衝擊帶來中暑、心血管疾病、傳染病擴散、糧食與營養安全惡化等問題，加劇健康不平等，使弱勢族群承受更高風險，對社會穩定性造成潛在的波動與衝擊。本主題聚焦於科學研究、健康風險評估與政策實踐，徵求跨領域研究成果與案例分享，推動建構健康導向的氣候調適策略。<br>
                     主題內容將涵蓋但不限於：<br>
                     1.	高溫與熱浪對心血管、呼吸系統疾病的影響評估<br>
@@ -197,7 +197,7 @@ export default {
                     5.	氣候變遷與公共衛生管理風險的關聯性<br>
                     6.	健康脆弱族群的保護措施應用<br>
                     </p></li>
-                <li><h4>專題五：極端氣候的經濟影響評估</h4><p><br>
+                <li class="accent-box"><h4>專題五：極端氣候的經濟影響評估</h4><p><br>
                     乾旱、洪水、熱浪與颶風等極端氣候事件不僅造成基礎設施與生產系統的直接損害，更透過供應鏈中斷、能源價格波動、勞動力損失與保險成本上升，對整體經濟造成深遠影響。如何量化並評估這些衝擊，並進一步提出具體的財務、政策與市場應對方案，是提升社會韌性的重要基礎。本主題會議聚焦於極端氣候下的多元產業的生產供應鏈以及市場環境的經濟風險評估與調適策略。<br>
                     主題內容將包含但不限於：<br>
                     1.	災害風險模型、保險精算與再保險機制設計<br>
@@ -240,12 +240,150 @@ export default {
             </div>
         `
         },
+        {
+          title: '講者名單 (Speakers)',
+          content: `
+                  <h3 class="speakers-subtitle">Plenary Session Speakers</h3>
+                  <ul class="styled-list">
+                    <li>
+                      <a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">
+                        <b>Dara Entekhabi</b>
+                      </a><br>
+                      <p>
+                        <b>講座教授／院士</b><br>
+                        美國麻省理工學院（<b>MIT</b>） Bacardi 與 Stockholm Water Foundations 講座教授<br>
+                        美國國家工程院院士（NAE）<br>
+                        <b>NASA 土壤濕度衛星任務（SMAP）首席科學家</b><br>
+                        在水文氣候領域具全球影響力
+                      </p>
+                      
+                      <div class="accent-box">
+                        <h4>演講題目 1.1：地球系統中水、能源與碳循環的連結</h4>
+                        <p><em>Linkages Between the Water, Energy, and Carbon Cycles in the Earth System</em></p>
+                      </div>
+                      <div class="accent-box">
+                        <h4>演講題目 1.2：乾旱連鎖效應與熱浪導致的乾旱加劇</h4>
+                        <p><em>The Drought Cascade and Drought Amplification Due to Heat Waves</em></p>
+                      </div>
+                    </li>
 
-        {
-          title: '講者名單 (Keynote Speakers)',
-          content: `<h3>Keynote Speakers</h3> <ul class="styled-list"><li><a href="https://cee.mit.edu/people_individual/dara-entekhabi/" target="_blank">Dara Entekhabi</a>, Professor, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology (MIT)<br></li><li><a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)<br></li><li><a href="https://www.stir.ac.uk/people/1967536" target="_blank">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University<br></li><li><a href="https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2599%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=" target="_blank">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow<br></li><li><a href="https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en" target="_blank">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology<br></li><li><a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">Takashi Oguchi/</a>, Professor, Center for Spatial Information Science, The University of Tokyo<br></li><li><a href="https://aasb.gov.au/board-members/prof-carolyn-cordery/" target="_blank">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington<br></li><li><a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University<br></li><li><a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">Trần Minh Tiến</a>, Director General, Soils and Fertilizers Research Institute (SFRI)<br></li><li><a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">Venkataraman (Venkat) Lakshmi</a>, John L. Newcomb Professor of Engineering, Department of Engineering Systems and Environment, University of Virginia<br></li><li><a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua<br></li><li><a href="https://english.hi.is/staff/benedikt?utm_source=chatgpt.com" target="_blank">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland<br></li><li><a href="https://eratosthenes.org.cy/team/barbara-ryan/" target="_blank">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)<br></li><li><a href="https://portfolio.jcu.edu.au/researchers/ben.jarihani/" target="_blank">Ben Jarihani</a>, Associate Professor, College of Science and Engineering, James Cook University<br></li><li><a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore<br></li></ul></div>`
-        },
-        {
+                    <li>
+                      <a href="https://engineering.virginia.edu/faculty/venkataraman-lakshmi" target="_blank">
+                        <b>Venkataraman (Venkat) Lakshmi</b>
+                      </a><br>
+                      <p>
+                        <b>講座教授／會長</b><br>
+                        美國維吉尼亞大學 <b>John L. Newcomb 講座教授</b><br>
+                        美國地球物理聯盟（AGU）水文學會會長<br>
+                        專長涵蓋 <b>水文遙測</b> 與 <b>氣候變遷衝擊評估</b><br>
+                        <em>（演講題目將於近期提供）</em>
+                      </p>
+                    </li>
+
+                    <li>
+                      <a href="https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/" target="_blank">
+                        <b>Takashi Oguchi</b>
+                      </a><br>
+                      <p>
+                        <b>教授／會長</b><br>
+                        日本東京大學教授<br>
+                        現任 <b>國際地貌學會（IAG）副會長</b>、<b>日本地球科學聯合會（JpGU）副會長</b>、<b>日本地理學會會長</b><br>
+                        曾任日本地貌學會與日本地理資訊系統學會會長<br>
+                        在地貌學與空間資訊領域具深厚造詣與國際影響力<br>
+                        <em>（演講題目將於近期提供）</em>
+                      </p>
+                    </li>
+                  </ul>
+
+                  
+                  <h3 class="speakers-subtitle">Invited speakers</h3>
+                  <ul class="styled-list">
+                    <li>
+                      <a href="https://www.cesbio.cnrs.fr/author/yann-kerr/" target="_blank">
+                        Yann H. Kerr
+                      </a>,
+                      Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)
+                    </li>
+                    <li>
+                      <a href="https://www.stir.ac.uk/people/1967536" target="_blank">
+                        Michael Roy
+                      </a>,
+                      Professor of Economic Sociology and Social Policy, 
+                      Yunus Centre for Social Business and Health, 
+                      Glasgow Caledonian University
+                    </li>
+                    <li>
+                      <a href="https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2599%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=" target="_blank">
+                        Piotr Wężyk
+                      </a>,
+                      Professor, Faculty of Forestry, University of Agriculture in Krakow
+                    </li>
+                    <li>
+                      <a href="https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en" target="_blank">
+                        Nguyen Kim Anh
+                      </a>,
+                      Senior Researcher, Institute of Earth Sciences, 
+                      Vietnam Academy of Science and Technology
+                    </li>
+                    <li>
+                      <a href="https://aasb.gov.au/board-members/prof-carolyn-cordery/" target="_blank">
+                        Carolyn Cordery
+                      </a>,
+                      Professor, School of Accounting and Commercial Law, 
+                      Victoria University of Wellington
+                    </li>
+                    <li>
+                      <a href="https://schulich.yorku.ca/faculty/charles-cho/" target="_blank">
+                        Charles H. Cho
+                      </a>,
+                      Professor of Sustainability Accounting, 
+                      Erivan K. Haub Chair in Business & Sustainability, 
+                      Schulich School of Business, York University
+                    </li>
+                    <li>
+                      <a href="https://www.researchgate.net/profile/Tien-Minh-2" target="_blank">
+                        Trần Minh Tiến
+                      </a>,
+                      Director General, Soils and Fertilizers Research Institute (SFRI)
+                    </li>
+                    <li>
+                      <a href="https://www.tesaf.unipd.it/en/paolo-tarolli" target="_blank">
+                        Paolo Tarolli
+                      </a>,
+                      Professor, Department of Land, Environment, Agriculture and Forestry, 
+                      University of Padua
+                    </li>
+                    <li>
+                      <a href="https://english.hi.is/staff/benedikt?utm_source=chatgpt.com" target="_blank">
+                        Jón Atli Benediktsson
+                      </a>,
+                      Professor, Faculty of Electrical and Computer Engineering, 
+                      University of Iceland
+                    </li>
+                    <li>
+                      <a href="https://eratosthenes.org.cy/team/barbara-ryan/" target="_blank">
+                        Barbara Ryan
+                      </a>,
+                      Executive Director, World Geospatial Industry Council (WGIC)
+                    </li>
+                    <li>
+                      <a href="https://portfolio.jcu.edu.au/researchers/ben.jarihani/" target="_blank">
+                        Ben Jarihani
+                      </a>,
+                      Associate Professor, College of Science and Engineering, 
+                      James Cook University
+                    </li>
+                    <li>
+                      <a href="https://cde.nus.edu.sg/cee/staff/he-xiaogang/" target="_blank">
+                        Xiaogang He
+                      </a>,
+                      Assistant Professor, Department of Civil and Environmental Engineering, 
+                      National University of Singapore
+                    </li>
+                  </ul>
+                `
+      },
+      {
         title: '議程 (Agenda)',
         content: `
             <div class="agenda-container">
@@ -407,7 +545,6 @@ export default {
             </div>
         `
         }
-
       ],
       info: {
         registration: {
@@ -451,6 +588,7 @@ export default {
   }
 }
 </script>
+
 
 <style scoped>
 /* --- Font Awesome Icons (if not globally imported) --- */
@@ -516,9 +654,51 @@ export default {
 :deep(.accordion-content-inner ul a) { font-weight: bold; color: #007ACC; text-decoration: underline; transition: color 0.3s; }
 :deep(.accordion-content-inner ul a:hover) { color: #007bff; }
 
+/* 新增：講者副標題樣式 */
+:deep(.speakers-subtitle) {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #003366;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #003366;
+}
+
+
+/* 建立一個可共用的樣式 .accent-box */
+:deep(.accent-box) {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-left: 4px solid #007bff; /* 使用具體的藍色值 */
+  background-color: #f8f9fa;
+  border-radius: 0 8px 8px 0;
+}
+:deep(.accent-box h4) {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #003366;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+:deep(.accent-box p) {
+  margin-bottom: 0;
+  line-height: 1.7;
+  font-size: 1.1rem; /* 稍微調整內文大小以匹配 */
+  font-weight: 500; /* 稍微調整內文粗細以匹配 */
+}
+
+
 /* 沿用您原有的樣式，並確保它們在 .accordion-content-inner 內生效 */
 :deep(.accordion-content-inner .themes-list) { list-style-type: none; padding-left: 0; margin-top: 2rem; }
-:deep(.accordion-content-inner .themes-list li) { margin-bottom: 2rem; padding: 1.5rem; border-left: 4px solid var(--bs-primary); background-color: #f8f9fa; border-radius: 0 8px 8px 0; }
+/* 讓 themes-list li 直接使用 .accent-box 的樣式 */
+:deep(.accordion-content-inner .themes-list li.accent-box) {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-left: 4px solid #007bff; /* 使用具體的藍色值 */
+  background-color: #f8f9fa;
+  border-radius: 0 8px 8px 0;
+}
 :deep(.accordion-content-inner .themes-list h4) { font-size: 1.25rem; font-weight: 600; color: #003366; margin-top: 0; margin-bottom: 0.75rem; }
 :deep(.accordion-content-inner .themes-list p) { margin-bottom: 0; line-height: 1.7; font-size: 1.2rem; font-weight: 600; }
 
@@ -537,35 +717,29 @@ export default {
   border: 6px solid white;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-
 .contact-link {
   transition: color 0.3s ease;
 }
-
 .contact-link:hover {
   color: var(--bs-primary) !important;
 }
-
 .registration-section .btn-primary {
   background-color: #003366;
   border-color: #003366;
   transition: all 0.3s ease;
 }
-
 .registration-section .btn-primary:hover {
   background-color: #002244;
   border-color: #002244;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
-
 .btn-contact {
   background-color: #c18951;
   border-color: #d4a373;
   color: white;
   transition: all 0.3s ease;
 }
-
 .btn-contact:hover {
   background-color: #c8925a;
   border-color: #c8925a;
