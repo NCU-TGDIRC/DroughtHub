@@ -1,9 +1,9 @@
 <template>
   <div class="hero d-flex justify-content-center align-items-center text-center text-white">
     <b-container class="hero-content">
-      <h1 class="display-2 fw-bold">NCU TGDIRC</h1>
-      <h2 class="display-5 fw-bold">國立中央大學台灣暨全球乾旱調查與研究中心</h2>
-      <p class="lead fs-4">Taiwan and Global Drought Investigation and Research Center</p>
+      <h1 class="display-2 fw-bold">{{ $t('hero.title') }}</h1>
+      <h2 class="display-5 fw-bold">{{ $t('hero.subtitle') }}</h2>
+      <p class="lead fs-4" v-if="$t('hero.description')">{{ $t('hero.description') }}</p>
     </b-container>
   </div>
 </template>

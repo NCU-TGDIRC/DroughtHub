@@ -1,7 +1,7 @@
 <template>
   <section class="news-section py-5">
     <b-container>
-      <h2 class="text-center display-5 fw-bold mb-5 text-white">最新消息</h2>
+      <h2 class="text-center display-5 fw-bold mb-5 text-white">{{ $t('news.title') }}</h2>
       
       <carousel :settings="settings" :breakpoints="breakpoints" :wrap-around="news.length > 3">
         <slide v-for="item in news" :key="item.id">
@@ -14,11 +14,9 @@
                   {{ item.excerpt }}
                 </b-card-text>
                 <div class="mt-auto">
-                  <router-link v-if="item.url && !item.url.startsWith('http')" :to="item.url" class="read-more-link">
-                    閱讀更多 &rarr;
+                  <router-link v-if="item.url && !item.url.startsWith('http')" :to="item.url" class="read-more-link" v-html="$t('news.readMore')">
                   </router-link>
-                  <a v-else-if="item.url" :href="item.url" target="_blank" rel="noopener noreferrer" class="read-more-link">
-                    閱讀更多 &rarr;
+                  <a v-else-if="item.url" :href="item.url" target="_blank" rel="noopener noreferrer" class="read-more-link" v-html="$t('news.readMore')">
                   </a>
                 </div>
               </b-card-body>
@@ -50,16 +48,13 @@ export default {
     Pagination,
     Navigation,
   },
+  computed: {
+    news() {
+      return this.$tm('news.items');
+    }
+  },
   data() {
     return {
-      news: [
-        { id: 1, date: '2025-09-27', title: 'CESR 2025 開放報名與投稿', excerpt: '首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-26 日於國立中央大學舉行，聚焦於乾旱、熱害、水資源...', url: '/icqab' },
-        { id: 2, date: '2025-09-28', title: '本中心劉說安教授主編國際專刊徵稿', excerpt: '本研究中心劉說安講座教授現正主編國際期刊 Earth’s Future 與 GeoHealth 專刊：「極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略」。專刊徵稿至 2026 年 6 月 30 日截止，誠摯邀請相關領域研究者踴躍投稿...', url: 'https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141' },
-        { id: 3, date: '2025-09-30', title: '本中心發表 RSETI 新指標', excerpt: '由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment...', url: 'https://spec.ntu.edu.tw/research/research-detail271' },
-        { id: 4, date: '2025-10-01', title: '第四則新聞標題', excerpt: '這是第四則新聞的摘要', url: '#' },
-        { id: 5, date: '2025-10-02', title: '第五則新聞標題', excerpt: '這是第五則新聞的摘要', url: '#' },
-        { id: 6, date: '2025-10-03', title: '第六則新聞標題', excerpt: '這是第六則新聞的摘要', url: '#' },
-      ],
       // 3. 輪播的基本設定
       settings: {
         itemsToShow: 1,

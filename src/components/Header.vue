@@ -1,25 +1,23 @@
 <template>
-  <b-navbar toggleable="lg" class="site-header">
-    <b-container fluid>
-      
+  <b-navbar toggleable="lg" :class="['site-header', { 'scrolled': isScrolled }]">
+    <b-container fluid class="d-flex flex-nowrap align-items-center">
+      <!-- Logo 品牌 -->
+      <b-navbar-brand to="/">
+        <img src="@/assets/logo.png" :alt="$t('header.logoAlt')" class="logo-img">
+      </b-navbar-brand>
 
       <!-- 手機版的漢堡選單按鈕 -->
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <!-- 導航項目，會被漢堡選單包裹 -->
       <b-collapse id="nav-collapse" is-nav>
-        <!-- 加上 'ms-auto' class 將導航項目推到右邊 -->
-         <!-- Logo 品牌 -->
-      <b-navbar-brand to="/">
-        <img src="@/assets/logo.png" alt="網站 Logo" class="logo-img">
-      </b-navbar-brand>
         <b-navbar-nav class="ms-auto mb-2 mb-lg-0 align-items-center">
-          <b-nav-item to="/" :active="$route.path === '/'">首頁</b-nav-item>
-          <b-nav-item to="/research">研究領域</b-nav-item>
-          <b-nav-item to="/team">團隊成員</b-nav-item>
-          <b-nav-item to="/reports">成果報導</b-nav-item>
-          <b-nav-item to="/icqab">2025CESR</b-nav-item>
-          <b-nav-item to="/english">ENGLISH</b-nav-item>
+          <b-nav-item to="/home" :active="$route.path === '/home'">{{ $t('header.nav.home') }}</b-nav-item>
+          <b-nav-item to="/research">{{ $t('header.nav.research') }}</b-nav-item>
+          <b-nav-item to="/team">{{ $t('header.nav.team') }}</b-nav-item>
+          <b-nav-item to="/reports">{{ $t('header.nav.reports') }}</b-nav-item>
+          <b-nav-item to="/icqab">{{ $t('header.nav.icqab') }}</b-nav-item>
+          <b-nav-item @click="switchLanguage" class="lang-switcher">{{ $t('header.nav.language') }}</b-nav-item>
           <b-nav-item class="search-icon-item ms-lg-3">
             <div class="search-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -33,23 +31,51 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  data() {
+    return {
+      isScrolled: false
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    switchLanguage() {
+      const newLocale = this.$i18n.locale === 'zh-TW' ? 'en' : 'zh-TW';
+      localStorage.setItem('locale', newLocale);
+      window.location.reload();
+    },
+    handleScroll() {
+      this.isScrolled = window.scrollY > 10;
+    }
+  }
 }
 </script>
 
 <style scoped>
 .site-header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1030; /* Bootstrap's default z-index for navbars */
   padding-top: 0;
   padding-bottom: 0.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.site-header.scrolled {
+  background-color: #0f1c2d;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
 .logo-img {
-  height: 80px; /* Slightly smaller for better navbar integration */
+  height: 65px; /* Slightly smaller for better navbar integration */
 }
 
 /* Customizing navbar link colors for the transparent theme */
@@ -67,6 +93,10 @@ export default {
 :deep(.nav-link.active) {
   color: #ffffff !important;
   font-weight: 700;
+}
+
+.lang-switcher {
+  cursor: pointer;
 }
 
 .search-icon {

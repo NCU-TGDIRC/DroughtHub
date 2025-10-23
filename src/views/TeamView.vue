@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageBanner title="團隊成員" />
+    <PageBanner title="team.bannerTitle" />
     <main class="py-5 bg-light">
       <b-container>
         <b-row class="g-4 align-items-stretch">
@@ -11,15 +11,15 @@
                   <b-img :src="getImageUrl(member.image)" rounded="circle" :alt="member.name" class="member-img"></b-img>
                 </div>
                 <div class="flex-grow-1">
-                  <h4 class="card-title-custom">{{ member.name.split(' ')[0] }} <small class="text-muted fw-normal">{{ member.name.substring(member.name.indexOf(' ') + 1) }}</small></h4>
+                  <h4 class="card-title-custom">{{ member.name }}</h4>
                   <p class="text-muted mb-3">{{ member.title }} | {{ member.department }}</p>
                   <div v-if="member.expertise && member.expertise.length" class="expertise-block mt-3 pt-3 border-top">
-                    <h6 class="fw-bold text-primary-emphasis">專業領域</h6>
+                    <h6 class="fw-bold text-primary-emphasis">{{ $t('team.expertiseTitle') }}</h6>
                     <div class="expertise-content d-inline-block" v-html="member.expertise.join('')"></div>
                   </div>
                 </div>
                 <div class="mt-4">
-                  <b-button :href="member.detailUrl" target="_blank" size="sm" class="btn-read-more">READ MORE</b-button>
+                  <b-button :href="member.detailUrl" target="_blank" size="sm" class="btn-read-more">{{ $t('team.readMore') }}</b-button>
                 </div>
               </b-card-body>
             </b-card>
@@ -38,68 +38,10 @@ export default {
   components: {
     PageBanner
   },
-  data() {
-    return {
-      members: [
-        {
-          image: 'Yuei-An Liou.jpg',
-          name: '劉說安 Yuei-An Liou',
-          title: '教授',
-          department: '太空科學與工程學系',
-          expertise: ['<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象'],
-          detailUrl: 'https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4'
-        },
-        {
-          image: 'Chien-wen Shen.png',
-          name: '沈建文 Chien-wen Shen',
-          title: '教授',
-          department: '企業管理學系',
-          expertise: ['資訊創新技術應用、供應鏈管理、決策科學'],
-          detailUrl: 'https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054'
-        },
-        
-        {
-          image: 'Cheng-Ling Kou.png',
-          name: '郭政靈 Cheng-Ling Kou',
-          title: '教授',
-          department: '太空科學與工程學系',
-          expertise: ['太空光學、行星遙測以及大氣電學'],
-          detailUrl: 'https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou'
-        },
-        {
-          image: 'hsu_wen_chin.jpg',
-          name: '許文錦 Wen-Chin Hsu',
-          title: '教授',
-          department: '資訊管理學系',
-          expertise: ['醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務'],
-          detailUrl: 'https://im.mgt.ncu.edu.tw/teacher'
-        },
-        {
-          image: 'Hsiao-Ting Tseng.jpg',
-          name: '曾筱珽 Hsiao-Ting Tseng',
-          title: '副教授',
-          department: '資訊管理學系',
-          expertise: ['社群媒體與社群網路、電子商務、健康資訊系統、人機互動、服務科學、人工智慧應用與資料科學'],
-          detailUrl: 'https://im.mgt.ncu.tw/teacher'
-        },
-        {
-          image: 'Yueh-Hsia Luo.jpg',
-          name: '羅月霞 Yueh-Hsia Luo',
-          title: '副教授',
-          department: '生命科學系',
-          expertise: ['感染與免疫、奈米粒子免疫毒理分析、腸道微生物與免疫系統'],
-          detailUrl: 'https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html'
-        },
-        {
-          image: 'Chun-Hsien Hsu.jpg',
-          name: '徐峻賢 Chun-Hsien Hsu',
-          title: '副教授',
-          department: '認知神經科學研究所',
-          expertise: ['神經語言學、計算語言學、語音學、構詞學、語言習得、EEG/MEG訊號分析'],
-          detailUrl: 'https://icn.ncu.edu.tw/2-1-detail.php?id=9'
-        },
-      ],
-    };
+  computed: {
+    members() {
+      return this.$tm('team.members');
+    }
   },
   methods: {
     getImageUrl(imageName) {

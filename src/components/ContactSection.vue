@@ -1,22 +1,22 @@
 <template>
   <section class="bg-white py-5">
     <b-container>
-      <h2 class="text-center display-5 fw-bold mb-5" style="color: #003366;">聯絡我們</h2>
+      <h2 class="text-center display-5 fw-bold mb-5" style="color: #003366;">{{ $t('contact.title') }}</h2>
       <b-row class="align-items-center">
         <b-col md="6" class="mb-4 mb-md-0">
           <div class="contact-info">
-            <h3 class="h4 fw-bold mb-4" style="color: #003366;">國立中央大學台灣暨全球乾旱調查與研究中心</h3>
+            <h3 class="h4 fw-bold mb-4" style="color: #003366;">{{ $t('contact.centerName') }}</h3>
             <p class="contact-item">
-              <strong class="me-2">地址：</strong>320桃園市中壢區中大路300號
+              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong>320桃園市中壢區中大路300號
             </p>
             <p class="contact-item">
-              <strong class="me-2">電話：</strong>(03) 4227151 分機：57697/57689
+              <strong class="me-2">{{ $t('contact.phoneLabel') }}</strong>(03) 4227151 分機：57697/57689
             </p>
             <p class="contact-item">
-              <strong class="me-2">傳真：</strong>(03) 4255535
+              <strong class="me-2">{{ $t('contact.faxLabel') }}</strong>(03) 4255535
             </p>
             <p class="contact-item">
-              <strong class="me-2">電子郵件：</strong>tgdirc.ncu@gmail.com
+              <strong class="me-2">{{ $t('contact.emailLabel') }}</strong>tgdirc.ncu@gmail.com
             </p>
           </div>
         </b-col>

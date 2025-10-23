@@ -4,6 +4,10 @@ import HomeView from '../views/HomeView.vue'
 const routes = [
   {
     path: '/',
+    redirect: '/icqab'
+  },
+  {
+    path: '/home',
     name: 'home',
     component: HomeView
   },
@@ -26,11 +30,6 @@ const routes = [
     path: '/icqab',
     name: 'icqab',
     component: () => import('../views/ConferenceView.vue')
-  },
-  {
-    path: '/english',
-    name: 'english',
-    component: () => import('../views/EnglishView.vue')
   }
   // --------------------
 ]

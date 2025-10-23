@@ -1,7 +1,7 @@
 <template>
   <div class="page-banner d-flex justify-content-center align-items-center text-center text-white">
     <b-container class="banner-content">
-      <h1 class="display-4 fw-bold">{{ title }}</h1>
+      <h1 class="display-4 fw-bold">{{ $t(title) }}</h1>
     </b-container>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
     title: {
       type: String,
       required: true,
-      default: '頁面標題'
+      default: 'pageBanner.defaultTitle'
     }
   }
 }
