@@ -20,7 +20,23 @@
               <h3 class="accordion-title-custom">{{ item.title }}</h3>
             </template>
             <div class="accordion-content-inner fs-5 fw-bolder">
-              <div v-html="item.content"></div>
+              <div v-if="!item.isStructured" v-html="item.content"></div>
+              <div v-else>
+                <p v-html="item.content.intro"></p>
+                <ul class="styled-list">
+                  <li v-for="(detail, detailIndex) in item.content.details" :key="detailIndex">
+                    <b>{{ detail.label }}</b><br>
+                    <div v-if="detail.value" v-html="detail.value"></div>
+                    <div v-if="detail.isOrganizer">
+                      <div v-for="(org, orgIndex) in detail.items" :key="orgIndex" class="mb-2">
+                        <img :src="getImageUrl(org.logo)" :alt="org.alt" :style="org.style">
+                        <a v-if="org.url" :href="org.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ org.name }}</a>
+                        <span v-else class="ms-2">{{ org.name }}</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </b-accordion-item>
         </b-accordion>
