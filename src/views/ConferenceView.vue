@@ -103,7 +103,20 @@
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.host_by') }}</h5>
                   <ul class="list-unstyled">
-                    <li v-for="host in info.host.hosts" :key="host">{{ host }}</li>
+                    <li v-for="host in info.host.hosts" :key="host.name" class="mb-2">
+                      <img :src="getImageUrl(host.logo)" :alt="host.alt" :style="host.style">
+                      <a v-if="host.url" :href="host.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ host.name }}</a>
+                      <span v-else class="ms-2">{{ host.name }}</span>
+                    </li>
+                  </ul>
+
+                  <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.co_hosted_by') }}</h5>
+                  <ul class="list-unstyled" v-if="info.host.coHosts">
+                    <li v-for="coHost in info.host.coHosts" :key="coHost.name" class="mb-2">
+                      <img :src="getImageUrl(coHost.logo)" :alt="coHost.alt" :style="coHost.style">
+                      <a v-if="coHost.url" :href="coHost.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ coHost.name }}</a>
+                      <span v-else class="ms-2">{{ coHost.name }}</span>
+                    </li>
                   </ul>
                 </b-col>
                 <b-col lg="6">
