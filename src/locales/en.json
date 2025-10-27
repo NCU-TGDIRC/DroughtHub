@@ -119,6 +119,7 @@
       "sessions_title": "Breakout Sessions & Poster Exhibition",
       "host_by": "Hosted by:",
       "co_hosted_by": "Co-hosted by:",
+      "advised_by": "Guidance unit:",
       "surroundings_map": "Surroundings Map",
       "campus_map": "Campus Map"
     },
@@ -138,7 +139,7 @@
                         "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)"
                     ],
                     "coHosts": [
-                      "Taoyuan Environmental Protection Bureau",
+                      "Department of environmental protection, Taoyuan City Government",
                       "Taiwan Group on Earth Observations (TGEO)",
                       "The Institution of Engineering and Technology (IET) – Taipei Local Network"
                     ]
@@ -184,18 +185,49 @@
                     "label": "Co-organizers",
                     "isOrganizer": true,
                     "items": [
-                        { "name": "Taoyuan Environmental Protection Bureau", "logo": "桃園市環保局.png", "alt": "Taoyuan EPB Logo", "url": "https://tydep.tycg.gov.tw/", "style": "height: 35px; vertical-align: middle; margin-right: 5px;" },
-                        { "name": "Taiwan Group on Earth Observations (TGEO)", "logo": "tgeo_logo.png", "alt": "TGEO Logo", "url": "https://tgeo.org.tw/", "style": "height: 25px; vertical-align: middle; margin-right: 5px;" },
-                        { "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network", "logo": "IET_Logo.png", "alt": "IET Logo", "url": "https://www.iettaiwan.org.tw/", "style": "height: 20px; vertical-align: middle; margin-right: 5px;" }
+                        { "name": "Department of environmental protection, Taoyuan City Government", "logo": "桃園市環保局.png", "alt": "Taoyuan EPB Logo",  "style": "height: 35px; vertical-align: middle; margin-right: 5px;" },
+                        { "name": "Taiwan Group on Earth Observations (TGEO)", "logo": "tgeo_logo.png", "alt": "TGEO Logo", "style": "height: 25px; vertical-align: middle; margin-right: 5px;" },
+                        { "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network", "logo": "IET_Logo.png", "alt": "IET Logo", "style": "height: 20px; vertical-align: middle; margin-right: 5px;" }
                     ]
                 },
+                {
+                  "label": "指導單位",
+                  "isOrganizer": true,
+                  "items": [
+                    {
+                      "name": "National Central University (NCU)",
+                      "logo": "logo.png",
+                      "alt": "NCU Logo",
+                      "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
+                    },
+                    {
+                      "name": "Taoyuan City Government",
+                      "logo": "桃園市.png",
+                      "alt": "桃園市政府 Logo",
+                      "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+                    },
+                    {
+                      "name": "National Science and Technology Council",
+                      "logo": "nstc_logo.png",
+                      "alt": "NSTC Logo",
+                      "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
+                    },
+                    {
+                      "name": "National Science and Technology Council-Ministry of Agriculture",
+                      "logo": "agriculture_logo.jpg",
+                      "alt": "農業部 Logo",
+                      "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+                    }
+                  ]
+                },
                 { "label": "Conference Chairs", "value": "Prof. Yuei-An Liou<br>Assoc. Prof. Hsiao-Ting Tseng" }
+            
             ]
         }
       },
       {
         "title": "Speakers",
-        "content": "<h3 class=\"speakers-subtitle\">Plenary Session Speakers</h3><ul class=\"styled-list\"><li><a href=\"https://cee.mit.edu/people_individual/dara-entekhabi/\" target=\"_blank\"><b>Dara Entekhabi</b></a><br><p><b>Chair Professor / Fellow</b><br>Massachusetts Institute of Technology (<b>MIT</b>), Bacardi and Stockholm Water Foundations Chair Professor<br>Fellow of the National Academy of Engineering (NAE)<br><b>Chief Scientist of NASA Soil Moisture Active Passive (SMAP) Mission</b><br>Globally influential in hydrology and climate studies</p><div class=\"accent-box\"><h4>Presentation 1.1: Linking Water, Energy, and Carbon Cycles in the Earth System</h4><p><em>Linkages Between the Water, Energy, and Carbon Cycles in the Earth System</em></p></div><div class=\"accent-box\"><h4>Presentation 1.2: The Drought Cascade and Drought Amplification Due to Heat Waves</h4><p><em>The Drought Cascade and Drought Amplification Due to Heat Waves</em></p></div></li><li><a href=\"https://engineering.virginia.edu/faculty/venkataraman-lakshmi\" target=\"_blank\"><b>Venkataraman (Venkat) Lakshmi</b></a><br><p><b>Chair Professor / President</b><br>University of Virginia, John L. Newcomb Chair Professor<br>President of the Hydrology Section, American Geophysical Union (AGU)<br>Expertise in <b>Hydrological Remote Sensing</b> and <b>Climate Change Impact Assessment</b><br><em>(Presentation topic to be provided soon)</em></p></li><li><a href=\"https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/\" target=\"_blank\"><b>Takashi Oguchi</b></a><br><p><b>Professor / President</b><br>University of Tokyo, Japan<br>Current Vice President of the International Association of Geomorphologists (IAG), Vice President of Japan Geoscience Union (JpGU), President of the Geographical Society of Japan<br>Former President of the Japanese Geomorphological Society and the Japanese GIS Society<br>Internationally recognized expertise in geomorphology and spatial information<br><em>(Presentation topic to be provided soon)</em></p></li><li><a href=\"https://www.researchgate.net/profile/Tien-Minh-2\" target=\"_blank\"><b>Trần Minh Tiến</b></a><br><p><b>Professor / Vice President</b><br>Vietnam Academy of Agricultural Sciences (VAAS), Vice President<br>This forum is part of the \"DroughtHub Drought Resilience Research Project\"<br>Professor Tiến will lead a delegation to participate in bilateral meetings and academic exchanges, focusing on drought adaptation and agricultural innovation research<br><em>(Presentation topic to be provided soon)</em></p></li><li><a href=\"https://portfolio.jcu.edu.au/researchers/ben.jarihani/\" target=\"_blank\"><b>Ben Jarihani</b></a><br><p><b>Associate Professor / Senior Lecturer in Environmental Earth Science</b><br>Program Lead, Transformational Agricultural Systems, TNQ DroughtHub<br>James Cook University</p></li><li><a href=\"https://www.jcu.edu.au/centre-for-disaster-solutions/our-people/our-people/lisa-law\" target=\"_blank\"><b>Lisa Law</b></a><br><p><b>Associate Professor</b><br>Centre for Disaster Solutions, College of Science and Engineering<br>Founder of the Tropical Urbanization and Design Laboratory (TUDLab), James Cook University (https://www.jcu.edu.au/TUDLab)</p></li></ul><h3 class=\"speakers-subtitle\">Invited speakers</h3><ul class=\"styled-list\"><li><a href=\"https://www.cesbio.cnrs.fr/author/yann-kerr/\" target=\"_blank\">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)</li><li><a href=\"https://www.stir.ac.uk/people/1967536\" target=\"_blank\">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University</li><li><a href=\"https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2598%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=\" target=\"_blank\">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow</li><li><a href=\"https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en\" target=\"_blank\">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology</li><li><a href=\"https://aasb.gov.au/board-members/prof-carolyn-cordery/\" target=\"_blank\">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington</li><li><a href=\"https://schulich.yorku.ca/faculty/charles-cho/\" target=\"_blank\">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University</li><li><a href=\"https://www.tesaf.unipd.it/en/paolo-tarolli\" target=\"_blank\">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua</li><li><a href=\"https://english.hi.is/staff/benedikt?utm_source=chatgpt.com\" target=\"_blank\">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland</li><li><a href=\"https://eratosthenes.org.cy/team/barbara-ryan/\" target=\"_blank\">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)</li><li><a href=\"https://cde.nus.edu.sg/cee/staff/he-xiaogang/\" target=\"_blank\">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore</li></ul>"
+        "content": "<h3 class=\"speakers-subtitle\">Plenary Session Speakers</h3><ul class=\"styled-list\"><li><a href=\"https://cee.mit.edu/people_individual/dara-entekhabi/\" target=\"_blank\"><b>Dara Entekhabi</b></a><br><p><b>Chair Professor / Fellow</b><br>Massachusetts Institute of Technology (<b>MIT</b>), Bacardi and Stockholm Water Foundations Chair Professor<br>Fellow of the National Academy of Engineering (NAE)<br><b>Chief Scientist of NASA Soil Moisture Active Passive (SMAP) Mission</b><br>Globally influential in hydrology and climate studies</p><div class=\"accent-box\"><h4>Presentation 1.1: Linking Water, Energy, and Carbon Cycles in the Earth System</h4><p><em>Linkages Between the Water, Energy, and Carbon Cycles in the Earth System</em></p></div><div class=\"accent-box\"><h4>Presentation 1.2: The Drought Cascade and Drought Amplification Due to Heat Waves</h4><p><em>The Drought Cascade and Drought Amplification Due to Heat Waves</em></p></div></li><li><a href=\"https://engineering.virginia.edu/faculty/venkataraman-lakshmi\" target=\"_blank\"><b>Venkataraman (Venkat) Lakshmi</b></a><br><p><b>Chair Professor / President</b><br>University of Virginia, John L. Newcomb Chair Professor<br>President of the Hydrology Section, American Geophysical Union (AGU)<br>Expertise in <b>Hydrological Remote Sensing</b> and <b>Climate Change Impact Assessment</b><br><em>(Presentation topic to be provided soon)</em></p></li><li><a href=\"https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/\" target=\"_blank\"><b>Takashi Oguchi</b></a><br><p><b>Professor / President</b><br>University of Tokyo, Japan<br>Current Vice President of the International Association of Geomorphologists (IAG), Vice President of Japan Geoscience Union (JpGU), President of the Geographical Society of Japan<br>Former President of the Japanese Geomorphological Society and the Japanese GIS Society<br>Internationally recognized expertise in geomorphology and spatial information<br><div class=\"accent-box\"><h4>Presentation：Emerging necessity of drought-related geomorphological research in Japan and Taiwan</h4></em></p></li><li><a href=\"https://www.researchgate.net/profile/Tien-Minh-2\" target=\"_blank\"><b>Trần Minh Tiến</b></a><br><p><b>Professor / Vice President</b><br>Vietnam Academy of Agricultural Sciences (VAAS), Vice President<br>This forum is part of the \"DroughtHub Drought Resilience Research Project\"<br>Professor Tiến will lead a delegation to participate in bilateral meetings and academic exchanges, focusing on drought adaptation and agricultural innovation research<br><em>(Presentation topic to be provided soon)</em></p></li><h3 class=\"speakers-subtitle\">Invited speakers</h3><ul class=\"styled-list\"><li><a href=\"https://www.cesbio.cnrs.fr/author/yann-kerr/\" target=\"_blank\">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)</li><li><a href=\"https://www.stir.ac.uk/people/1967536\" target=\"_blank\">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University</li><li><a href=\"https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2598%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=\" target=\"_blank\">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow</li><li><a href=\"https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en\" target=\"_blank\">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology</li><li><a href=\"https://aasb.gov.au/board-members/prof-carolyn-cordery/\" target=\"_blank\">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington</li><li><a href=\"https://schulich.yorku.ca/faculty/charles-cho/\" target=\"_blank\">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University</li><li><a href=\"https://www.tesaf.unipd.it/en/paolo-tarolli\" target=\"_blank\">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua</li><li><a href=\"https://english.hi.is/staff/benedikt?utm_source=chatgpt.com\" target=\"_blank\">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland</li><li><a href=\"https://eratosthenes.org.cy/team/barbara-ryan/\" target=\"_blank\">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)</li><li><a href=\"https://cde.nus.edu.sg/cee/staff/he-xiaogang/\" target=\"_blank\">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore</li><li><a href=\"https://research.jcu.edu.au/portfolio/ben.jarihani/\" target=\"_blank\">Ben Jarihani</a>, Associate Professor / Senior Lecturer in Environmental Earth Science, Program Lead, Transformational Agricultural Systems, TNQ DroughtHub, James Cook University</li><li><a href=\"https://www.jcu.edu.au/TUDLab\" target=\"_blank\">Lisa Law</a>, Associate Professor, Centre for Disaster Solutions, College of Science and Engineering, Founder of the Tropical Urbanization and Design Laboratory (TUDLab), James Cook University</li></ul>"
       },
       {
         "title": "Agenda",
@@ -210,7 +242,7 @@
         "location": {
             "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.940004663239!2d121.19271850928976!3d24.968155777766693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1758076938764!5m2!1szh-TW!2stw"
         },
-"host": {
+        "host": {
             "venue": "National Central University",
             "mainVenue": "1F, Lo Chia-Luen Hall, General Teaching and Research Building",
             "subVenue": "2F Conference Halls, General Teaching and Research Building (3 venues total)",
@@ -218,11 +250,37 @@
                 { "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)", "logo": "DroughtHub.jpg", "alt": "DroughtHub Logo", "style": "height: 35px; vertical-align: middle; margin-right: 5px;" }
             ],
             "coHosts": [
-                { "name": "Taoyuan Environmental Protection Bureau", "logo": "桃園市環保局.png", "alt": "Taoyuan EPB Logo",  "style": "height: 35px; vertical-align: middle; margin-right: 5px;"},
+                { "name": "Department of environmental protection, Taoyuan City Government", "logo": "桃園市環保局.png", "alt": "Taoyuan EPB Logo",  "style": "height: 35px; vertical-align: middle; margin-right: 5px;"},
                 { "name": "Taiwan Group on Earth Observations (TGEO)", "logo": "tgeo_logo.png", "alt": "TGEO Logo", "style": "height: 25px; vertical-align: middle; margin-right: 5px;"},
                 { "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network", "logo": "IET_Logo.png", "alt": "IET Logo", "style": "height: 25px; vertical-align: middle; margin-right: 5px;"}
+            ],
+            "advisors": [
+              {
+                "name": "National Central University (NCU)",
+                "logo": "logo.png",
+                "alt": "NCU Logo",
+                "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
+              },
+              {
+                "name": " Taoyuan City Government ",
+                "logo": "桃園市.png",
+                "alt": "桃園市政府 Logo",
+                "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+              },
+              {
+                "name": "National Science and Technology Council",
+                "logo": "nstc_logo.png",
+                "alt": "NSTC Logo",
+                "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
+              },
+              {
+                "name": "National Science and Technology Council-Ministry of Agriculture ",
+                "logo": "agriculture_logo.jpg",
+                "alt": "農業部 Logo",
+                "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+              }
             ]
-        }
-    }
+          } 
+     }
   }
 }

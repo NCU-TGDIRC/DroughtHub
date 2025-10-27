@@ -28,10 +28,10 @@
                     <b>{{ detail.label }}</b><br>
                     <div v-if="detail.value" v-html="detail.value"></div>
                     <div v-if="detail.isOrganizer">
-                      <div v-for="(org, orgIndex) in detail.items" :key="orgIndex" class="mb-2">
-                        <img :src="getImageUrl(org.logo)" :alt="org.alt" :style="org.style">
+                      <div v-for="(org, orgIndex) in detail.items" :key="orgIndex" class="d-flex align-items-center mb-3">
+                        <img :src="getImageUrl(org.logo)" :alt="org.alt" :style="org.style" class="me-3" >
                         <a v-if="org.url" :href="org.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ org.name }}</a>
-                        <span v-else class="ms-2">{{ org.name }}</span>
+                        <span v-else >{{ org.name }}</span>
                       </div>
                     </div>
                   </li>
@@ -116,6 +116,19 @@
                       <img :src="getImageUrl(coHost.logo)" :alt="coHost.alt" :style="coHost.style">
                       <a v-if="coHost.url" :href="coHost.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ coHost.name }}</a>
                       <span v-else class="ms-2">{{ coHost.name }}</span>
+                    </li>
+                  </ul>
+
+                  <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.advised_by') }}</h5>
+                  <ul class="list-unstyled" v-if="info.host.advisors">
+                    <li 
+                      v-for="advisor in info.host.advisors" 
+                      :key="advisor.name" 
+                      class="d-flex align-items-center mb-2"
+                    >
+                      <img :src="getImageUrl(advisor.logo)" :alt="advisor.alt" :style="advisor.style" class="me-2">
+                      <a v-if="advisor.url" :href="advisor.url" target="_blank" rel="noopener noreferrer">{{ advisor.name }}</a>
+                      <span v-else>{{ advisor.name }}</span>
                     </li>
                   </ul>
                 </b-col>

@@ -119,6 +119,7 @@
       "sessions_title": "分組討論 & 海報展示",
       "host_by": "主辦單位:",
       "co_hosted_by": "協辦單位",
+      "advised_by": "指導單位:",
       "surroundings_map": "周邊路線圖",
       "campus_map": "校園建物圖"
     },
@@ -159,10 +160,6 @@
               "value": "國立中央大學教學研究綜合大樓"
             },
             {
-              "label": "指導單位",
-              "value": "國立中央大學 (NCU)<br>桃園市政府<br>國家科學及技術委員會 (NSTC)"
-            },
-            {
               "label": "主辦單位",
               "isOrganizer": true,
               "items": [
@@ -182,22 +179,49 @@
                   "name": "桃園市政府環境保護局",
                   "logo": "桃園市環保局.png",
                   "alt": "桃園市環保局 Logo",
-                  "url": "https://tydep.tycg.gov.tw/",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "社團法人台灣地球觀測學會 (TGEO)",
                   "logo": "tgeo_logo.png",
                   "alt": "TGEO Logo",
-                  "url": "https://tgeo.org.tw/",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)",
                   "logo": "IET_Logo.png",
                   "alt": "IET Logo",
-                  "url": "https://www.iettaiwan.org.tw/",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
+                }
+              ]
+            },
+            {
+              "label": "指導單位",
+              "isOrganizer": true,
+              "items": [
+                {
+                  "name": "國立中央大學 (NCU)",
+                  "logo": "logo.png",
+                  "alt": "NCU Logo",
+                  "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
+                },
+                {
+                  "name": "桃園市政府",
+                  "logo": "桃園市.png",
+                  "alt": "桃園市政府 Logo",
+                  "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+                },
+                {
+                  "name": "國家科學及技術委員會",
+                  "logo": "nstc_logo.png",
+                  "alt": "NSTC Logo",
+                  "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
+                },
+                {
+                  "name": "國家科學及技術委員會-農業部",
+                  "logo": "agriculture_logo.jpg",
+                  "alt": "農業部 Logo",
+                  "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                 }
               ]
             },
@@ -210,7 +234,7 @@
       },
       {
         "title": "講者名單 (Speakers)",
-        "content": "<h3 class=\"speakers-subtitle\">Plenary Session Speakers</h3><ul class=\"styled-list\"><li><a href=\"https://cee.mit.edu/people_individual/dara-entekhabi/\" target=\"_blank\"><b>Dara Entekhabi</b></a><br><p><b>講座教授／院士</b><br>美國麻省理工學院（<b>MIT</b>） Bacardi 與 Stockholm Water Foundations 講座教授<br>美國國家工程院院士（NAE）<br><b>NASA 土壤濕度衛星任務（SMAP）首席科學家</b><br>在水文氣候領域具全球影響力</p><div class=\"accent-box\"><h4>演講題目 1.1：地球系統中水、能源與碳循環的連結</h4><p><em>Linkages Between the Water, Energy, and Carbon Cycles in the Earth System</em></p></div><div class=\"accent-box\"><h4>演講題目 1.2：乾旱連鎖效應與熱浪導致的乾旱加劇</h4><p><em>The Drought Cascade and Drought Amplification Due to Heat Waves</em></p></div></li><li><a href=\"https://engineering.virginia.edu/faculty/venkataraman-lakshmi\" target=\"_blank\"><b>Venkataraman (Venkat) Lakshmi</b></a><br><p><b>講座教授／會長</b><br>美國維吉尼亞大學 <b>John L. Newcomb 講座教授</b><br>美國地球物理聯盟（AGU）水文學會會長<br>專長涵蓋 <b>水文遙測</b> 與 <b>氣候變遷衝擊評估</b><br><em>（演講題目將於近期提供）</em></p></li><li><a href=\"https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/\" target=\"_blank\"><b>Takashi Oguchi</b></a><br><p><b>教授／會長</b><br>日本東京大學教授<br>現任 <b>國際地貌學會（IAG）副會長</b>、<b>日本地球科學聯合會（JpGU）副會長</b>、<b>日本地理學會會長</b><br>曾任日本地貌學會與日本地理資訊系統學會會長<br>在地貌學與空間資訊領域具深厚造詣與國際影響力 <br><em>（演講題目將於近期提供）</em></p></li><li><a href=\"https://www.researchgate.net/profile/Tien-Minh-2\" target=\"_blank\"><b>Trần Minh Tiến </b></a><br><p><b>教授／副院長</b><br>越南農業科學院（VAAS）副院長<br>本論壇為「DroughtHub乾旱韌性研究計畫」之一環<br>Tiến 教授將率領代表團參與雙邊會議與學術交流，聚焦於乾旱調適與農業創新之合作研究 <br><em>（演講題目將於近期提供）</em></p></li><li><a href=\"https://portfolio.jcu.edu.au/researchers/ben.jarihani/\" target=\"_blank\"><b>Ben Jarihani</b></a><br><p><b>副教授/環境地球科學資深講師</b><br>TNQ DroughtHub農業轉型系統計畫負責人<br>詹姆士庫克大學</p></li><li><a href=\"https://www.jcu.edu.au/centre-for-disaster-solutions/our-people/our-people/lisa-law\" target=\"_blank\"><b>Lisa Law</b></a><br><p><b>副教授</b><br>科學與工程學院的災害解決中心<br>詹姆斯庫克大學熱帶城市化與設計實驗室（https://www.jcu.edu.au/TUDLab）的創始人<br></p></li></ul><h3 class=\"speakers-subtitle\">Invited speakers</h3><ul class=\"styled-list\"><li><a href=\"https://www.cesbio.cnrs.fr/author/yann-kerr/\" target=\"_blank\">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)</li><li><a href=\"https://www.stir.ac.uk/people/1967536\" target=\"_blank\">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University</li><li><a href=\"https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2598%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=\" target=\"_blank\">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow</li><li><a href=\"https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en\" target=\"_blank\">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology</li><li><a href=\"https://aasb.gov.au/board-members/prof-carolyn-cordery/\" target=\"_blank\">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington</li><li><a href=\"https://schulich.yorku.ca/faculty/charles-cho/\" target=\"_blank\">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University</li><li><a href=\"https://www.tesaf.unipd.it/en/paolo-tarolli\" target=\"_blank\">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua</li><li><a href=\"https://english.hi.is/staff/benedikt?utm_source=chatgpt.com\" target=\"_blank\">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland</li><li><a href=\"https://eratosthenes.org.cy/team/barbara-ryan/\" target=\"_blank\">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)</li><li><a href=\"https://cde.nus.edu.sg/cee/staff/he-xiaogang/\" target=\"_blank\">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore</li></ul>"
+        "content": "<h3 class=\"speakers-subtitle\">Plenary Session Speakers</h3><ul class=\"styled-list\"><li><a href=\"https://cee.mit.edu/people_individual/dara-entekhabi/\" target=\"_blank\"><b>Dara Entekhabi</b></a><br><p><b>講座教授／院士</b><br>美國麻省理工學院（<b>MIT</b>） Bacardi 與 Stockholm Water Foundations 講座教授<br>美國國家工程院院士（NAE）<br><b>NASA 土壤濕度衛星任務（SMAP）首席科學家</b><br>在水文氣候領域具全球影響力</p><div class=\"accent-box\"><h4>演講題目 1.1：地球系統中水、能源與碳循環的連結</h4><p><em>Linkages Between the Water, Energy, and Carbon Cycles in the Earth System</em></p></div><div class=\"accent-box\"><h4>演講題目 1.2：乾旱連鎖效應與熱浪導致的乾旱加劇</h4><p><em>The Drought Cascade and Drought Amplification Due to Heat Waves</em></p></div></li><li><a href=\"https://engineering.virginia.edu/faculty/venkataraman-lakshmi\" target=\"_blank\"><b>Venkataraman (Venkat) Lakshmi</b></a><br><p><b>講座教授／會長</b><br>美國維吉尼亞大學 <b>John L. Newcomb 講座教授</b><br>美國地球物理聯盟（AGU）水文學會會長<br>專長涵蓋 <b>水文遙測</b> 與 <b>氣候變遷衝擊評估</b><br><em>（演講題目將於近期提供）</em></p></li><li><a href=\"https://www.k.u-tokyo.ac.jp/en/gsfs/faculty/takashi_oguchi/\" target=\"_blank\"><b>Takashi Oguchi</b></a><br><p><b>教授／會長</b><br>日本東京大學教授<br>現任 <b>國際地貌學會（IAG）副會長</b>、<b>日本地球科學聯合會（JpGU）副會長</b>、<b>日本地理學會會長</b><br>曾任日本地貌學會與日本地理資訊系統學會會長<br>在地貌學與空間資訊領域具深厚造詣與國際影響力 <br><div class=\"accent-box\"><h4>演講題目：日本與台灣乾旱相關地形研究的必要性</h4></em></p></li><li><a href=\"https://www.researchgate.net/profile/Tien-Minh-2\" target=\"_blank\"><b>Trần Minh Tiến </b></a><br><p><b>教授／副院長</b><br>越南農業科學院（VAAS）副院長<br>本論壇為「DroughtHub乾旱韌性研究計畫」之一環<br>Tiến 教授將率領代表團參與雙邊會議與學術交流，聚焦於乾旱調適與農業創新之合作研究 <br><em>（演講題目將於近期提供）</em></p></li><h3 class=\"speakers-subtitle\">Invited speakers</h3><ul class=\"styled-list\"><li><a href=\"https://www.cesbio.cnrs.fr/author/yann-kerr/\" target=\"_blank\">Yann H. Kerr</a>, Researcher, Centre d'Etudes Spatiales de la Biosphère (CESBIO)</li><li><a href=\"https://www.stir.ac.uk/people/1967536\" target=\"_blank\">Michael Roy</a>, Professor of Economic Sociology and Social Policy, Yunus Centre for Social Business and Health, Glasgow Caledonian University</li><li><a href=\"https://repo.ur.krakow.pl/info/author/UR25c3c523d4774275bc32f0af7c96ad24?r=author&tab=&title=Person%2Bprofile%2B%25E2%2580%2593%2BPiotr%2BW%25C4%2598%25C5%25BCyk%2B%25E2%2580%2593%2BUniversity%2Bof%2BAgriculture%2Bin%2BKrakow&lang=en&qp=\" target=\"_blank\">Piotr Wężyk</a>, Professor, Faculty of Forestry, University of Agriculture in Krakow</li><li><a href=\"https://vneat.org/?page_id=286&utm_source=chatgpt.com&lang=en\" target=\"_blank\">Nguyen Kim Anh</a>, Senior Researcher, Institute of Earth Sciences, Vietnam Academy of Science and Technology</li><li><a href=\"https://aasb.gov.au/board-members/prof-carolyn-cordery/\" target=\"_blank\">Carolyn Cordery</a>, Professor, School of Accounting and Commercial Law, Victoria University of Wellington</li><li><a href=\"https://schulich.yorku.ca/faculty/charles-cho/\" target=\"_blank\">Charles H. Cho</a>, Professor of Sustainability Accounting, Erivan K. Haub Chair in Business & Sustainability, Schulich School of Business, York University</li><li><a href=\"https://www.tesaf.unipd.it/en/paolo-tarolli\" target=\"_blank\">Paolo Tarolli</a>, Professor, Department of Land, Environment, Agriculture and Forestry, University of Padua</li><li><a href=\"https://english.hi.is/staff/benedikt?utm_source=chatgpt.com\" target=\"_blank\">Jón Atli Benediktsson</a>, Professor, Faculty of Electrical and Computer Engineering, University of Iceland</li><li><a href=\"https://eratosthenes.org.cy/team/barbara-ryan/\" target=\"_blank\">Barbara Ryan</a>, Executive Director, World Geospatial Industry Council (WGIC)</li><li><a href=\"https://cde.nus.edu.sg/cee/staff/he-xiaogang/\" target=\"_blank\">Xiaogang He</a>, Assistant Professor, Department of Civil and Environmental Engineering, National University of Singapore</li><li><a href=\"https://research.jcu.edu.au/portfolio/ben.jarihani/\" target=\"_blank\">Ben Jarihani</a>, Associate Professor / Senior Lecturer in Environmental Earth Science, Program Lead, Transformational Agricultural Systems, TNQ DroughtHub, James Cook University</li><li><a href=\"https://www.jcu.edu.au/TUDLab\" target=\"_blank\">Lisa Law</a>, Associate Professor, Centre for Disaster Solutions, College of Science and Engineering, Founder of the Tropical Urbanization and Design Laboratory (TUDLab), James Cook University</li></ul>"
       },
       {
         "title": "議程 (Agenda)",
@@ -236,6 +260,32 @@
           { "name": "桃園市政府環境保護局", "logo": "桃園市環保局.png", "alt": "桃園市環保局 Logo",  "style": "height: 35px; vertical-align: middle; margin-right: 5px;"},
           { "name": "社團法人台灣地球觀測學會 (TGEO)", "logo": "tgeo_logo.png", "alt": "TGEO Logo",  "style": "height: 25px; vertical-align: middle; margin-right: 5px;"},
           { "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)", "logo": "IET_Logo.png", "alt": "IET Logo", "style": "height: 25px; vertical-align: middle; margin-right: 5px;"}
+        ],
+        "advisors": [
+          {
+            "name": "國立中央大學 (NCU)",
+            "logo": "logo.png",
+            "alt": "NCU Logo",
+            "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
+          },
+          {
+            "name": "桃園市政府",
+            "logo": "桃園市.png",
+            "alt": "桃園市政府 Logo",
+            "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+          },
+          {
+            "name": "國家科學及技術委員會",
+            "logo": "nstc_logo.png",
+            "alt": "NSTC Logo",
+            "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
+          },
+          {
+            "name": "國家科學及技術委員會-農業部",
+            "logo": "agriculture_logo.jpg",
+            "alt": "農業部 Logo",
+            "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+          }
         ]
       }
     }
