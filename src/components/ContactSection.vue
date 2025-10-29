@@ -43,6 +43,15 @@ export default {
   margin-bottom: 1rem;
 }
 
+.contact-item a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.contact-item a:hover {
+  color: #0056b3;
+}
+
 .contact-info h3 {
     font-size: 1.5rem;
 }
