@@ -15,32 +15,36 @@
   },
   "hero": {
     "title": "NCU TGI",
-    "subtitle": "Taiwan Global Investigation",
+    "subtitle": "Taiwan and Global Drought Investigation and Research Center",
     "description": ""
   },
   "about": {
     "title": "About Us",
-    "paragraph1": "Taiwan Global Investigation (TGI / DroughtHub) at National Central University is dedicated to integrating interdisciplinary research in climate science, hydrology, and geographic information technology. Our goal is to deepen the understanding of the causes and impacts of droughts in Taiwan and globally, promote sustainable water resource management, and assist society and industries in enhancing their resilience to climate change.",
+    "paragraph1": "Taiwan and Global Drought Investigation and Research Center (TGI / DroughtHub) at National Central University is dedicated to integrating interdisciplinary research in climate science, hydrology, and geographic information technology. Our goal is to deepen the understanding of the causes and impacts of droughts in Taiwan and globally, promote sustainable water resource management, and assist society and industries in enhancing their resilience to climate change.",
     "paragraph2": "Our center brings together numerous experts and scholars and is equipped with advanced observation and analysis systems. We not only emphasize basic scientific research but also actively promote international cooperation and policy application, transforming research outcomes into concrete action plans to contribute value to society and global sustainable development."
   },
   "news": {
     "title": "Latest News",
     "readMore": "Read More &rarr;",
     "items": [
-      { "id": 1, "date": "2025-09-27", "title": "CESR 2025 Open for Registration and Submissions", "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 24-26, 2025, at National Central University, focusing on drought, heat stress, water resources...", "url": "/icqab" },
-      { "id": 2, "date": "2025-09-28", "title": "Call for Papers: International Special Issue Edited by Prof. Yuei-An Liou", "excerpt": "Prof. Yuei-An Liou from our research center is currently editing a special issue for the international journals Earth’s Future and GeoHealth on 'Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies.' The call for papers is open until June 30, 2026. Researchers in related fields are cordially invited to submit...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
-      { "id": 3, "date": "2025-09-30", "title": "RSETI Index Released by the Center","excerpt": "Professor Yuei-An Liou’s research team has proposed the Relative Surface Evapotranspiration Index (RSETI), overcoming the limitations of existing remote sensing drought monitoring methods. The index successfully depicts the evolution of droughts in Australia from 2001 to 2022 and demonstrates its potential applications in agricultural management and climate adaptation. The results have been published in *Remote Sensing of Environment*.  ",  "url": "https://spec.ntu.edu.tw/research/research-detail271"  },     
-      { "id": 4,"date": "2025-10-22","title": "[Research Achievement] RSETI: A New Drought Monitoring Index — Revealing 20 Years of Drought Spatiotemporal Trends in Australia","excerpt": "To more accurately track drought changes, Professor Liu Shuo-An, Chair of the Space and Remote Sensing Research Center at National Central University, led a team to develop a novel drought monitoring index — the Relative Surface Evapotranspiration Index (RSETI). The results were published in *Remote Sensing of Environment* and effectively address the common interference from outliers, improving the efficiency of drought monitoring...","url": "https://spec.ntu.edu.tw/research/research-detail271"},
-      { "id": 5, "date": "2025-10-02", "title": "Fifth News Headline", "excerpt": "This is the summary for the fifth news item.", "url": "#" },
+      { "id": 1, "date": "2025-10-29", "title": "[Call for Papers] The Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies", "excerpt": "This special issue addresses public health risks from extreme heat, heatwaves, and urban heat islands, focusing on vulnerable populations, health impacts, green infrastructure, and climate adaptation. Submission deadline: September 30, 2026, to *Earth’s Future* or *GeoHealth*.", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
+      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 Open for Registration and Submissions", "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 24-26, 2025, at National Central University, focusing on drought, heat stress, water resources...", "url": "/icqab" },
+      { "id": 3, "date": "2025-09-28", "title": "Call for Papers: International Special Issue Edited by Prof. Yuei-An Liou", "excerpt": "Prof. Yuei-An Liou from our research center is currently editing a special issue for the international journals Earth’s Future and GeoHealth on 'Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies.' The call for papers is open until June 30, 2026. Researchers in related fields are cordially invited to submit...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
+      { "id": 4, "date": "2025-09-30", "title": "RSETI Index Released by the Center","excerpt": "Professor Yuei-An Liou’s research team has proposed the Relative Surface Evapotranspiration Index (RSETI), overcoming the limitations of existing remote sensing drought monitoring methods. The index successfully depicts the evolution of droughts in Australia from 2001 to 2022 and demonstrates its potential applications in agricultural management and climate adaptation. The results have been published in *Remote Sensing of Environment*.  ",  "url": "https://spec.ntu.edu.tw/research/research-detail271"  },     
+      { "id": 5,"date": "2025-10-22","title": "[Research Achievement] RSETI: A New Drought Monitoring Index — Revealing 20 Years of Drought Spatiotemporal Trends in Australia","excerpt": "To more accurately track drought changes, Professor Liu Shuo-An, Chair of the Space and Remote Sensing Research Center at National Central University, led a team to develop a novel drought monitoring index — the Relative Surface Evapotranspiration Index (RSETI). The results were published in *Remote Sensing of Environment* and effectively address the common interference from outliers, improving the efficiency of drought monitoring...","url": "https://spec.ntu.edu.tw/research/research-detail271"},
       { "id": 6, "date": "2025-10-03", "title": "Sixth News Headline", "excerpt": "This is the summary for the sixth news item.", "url": "#" }
     ]
   },
   "contact": {
     "title": "Contact Us",
     "centerName": "NCU Center for Taiwan and Global Drought Research",
-    "addressLabel": "Address:No. 300, Zhongda Rd., Zhongli Dist., Taoyuan City 320317, Taiwan (R.O.C.)",
+    "addressLabel": "Address:",
+    "addressLinkText": "Center for Space and Remote Sensing Research, National Central University",
+    "addressValue": "320317, No. 300, Zhongda Rd., Zhongli District, Taoyuan City, Taiwan",
     "phoneLabel": "Phone:",
+    "phoneValue": "(03) 422-7151 ext. 57697 / 57689",
     "faxLabel": "Fax:",
+    "faxValue": "(03) 425-5535",
     "emailLabel": "Email:"
   },
   "pageBanner": {
@@ -213,7 +217,7 @@
                       "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
-                      "name": "National Science and Technology Council-Ministry of Agriculture",
+                      "name": "Ministry of Agriculture",
                       "logo": "agriculture_logo.jpg",
                       "alt": "農業部 Logo",
                       "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -240,7 +244,7 @@
             "inquiryUrl": "https://forms.gle/VtF3gfEKZMBKY6pr8"
         },
         "location": {
-            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.940004663239!2d121.19271850928976!3d24.968155777766693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1758076938764!5m2!1szh-TW!2stw"
+            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.958075318055!2d121.18223309678957!3d24.967540999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c26571829b%3A0x4405dd3d60240444!2z5Lit5aSu5aSn5a245aSq56m65Y-K6YGZ5ris56CU56m25Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1761738883357!5m2!1szh-TW!2stw"
         },
         "host": {
             "venue": "National Central University",
@@ -274,7 +278,7 @@
                 "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
               },
               {
-                "name": "National Science and Technology Council-Ministry of Agriculture ",
+                "name": "Ministry of Agriculture ",
                 "logo": "agriculture_logo.jpg",
                 "alt": "農業部 Logo",
                 "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
