@@ -7,7 +7,7 @@
           <div class="contact-info">
             <h3 class="h4 fw-bold mb-4" style="color: #003366;">{{ $t('contact.centerName') }}</h3>
             <p class="contact-item">
-              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong> <a href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ $t('contact.addressValue') }}
+              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong> <a :class="$style.link" href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ $t('contact.addressValue') }}
             </p>
             <p class="contact-item">
               <strong class="me-2">{{ $t('contact.phoneLabel') }}</strong>{{ $t('contact.phoneValue') }}
@@ -36,20 +36,20 @@ export default {
 }
 </script>
 
-<style scoped>
-.contact-item {
-  font-size: 1.1rem;
-  line-height: 1.9;
-  margin-bottom: 1rem;
-}
-
-.contact-item a {
+<style module scoped>
+.link {
   color: #007bff;
   text-decoration: underline;
 }
 
-.contact-item a:hover {
+.link:hover {
   color: #0056b3;
+}
+
+.contact-item {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 1rem;
 }
 
 .contact-info h3 {
