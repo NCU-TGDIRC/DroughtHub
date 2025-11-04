@@ -28,7 +28,7 @@
     "readMore": "閱讀更多 &rarr;",
     "items": [
       { "id": 1, "date": "2025-10-29", "title": "【徵稿啟事】極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略", "excerpt": "氣候變遷與快速都市化加劇了公共健康風險，特別是極端高溫、熱浪及都市熱島效應（UHI）。本國際專刊聚焦於脆弱族群、健康風險、都市綠基盤與氣候調適策略等議題，鼓勵跨領域研究以促進全球韌性與公平。投稿截止日期為 2026 年 9 月 30 日，投稿至 Earth's Future 或 GeoHealth 並選擇該專刊名稱即可", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
-      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 開放報名與投稿                           ", "excerpt": "首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-26 日於國立中央大學舉行，聚焦於乾旱、熱害、水資源...", "url": "/icqab" },
+      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 開放報名與投稿                           ", "excerpt": "首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-25 日(Mon-Tue)於國立中央大學舉行，聚焦於乾旱、熱害、水資源...", "url": "/icqab" },
       { "id": 3, "date": "2025-10-22", "title": "【研究成果】RSETI ：乾旱監測新指標——揭示澳洲 20 年來的旱災時空趨勢〉", "excerpt": "為了更精準掌握乾旱變化，國立中央大學太空及遙測研究中心劉說安講座教授帶領團隊，研發出全新乾旱監測指標——「相對地表蒸發散指數（RSETI）」，成果發表於《Remote Sensing of Environment》，有效解決過去常見的異常值干擾問題，提升乾旱監測的效率...", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
       { "id": 4, "date": "2025-09-28", "title": "本中心劉說安教授主編國際專刊徵稿", "excerpt": "本研究中心劉說安講座教授現正主編國際期刊 Earth’s Future 與 GeoHealth 專刊：「極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略」。專刊徵稿至 2026 年 6 月 30 日截止，誠摯邀請相關領域研究者踴躍投稿...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
       { "id": 5, "date": "2025-09-30", "title": "本中心發表 RSETI 新指標", "excerpt": "由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment..", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
@@ -157,7 +157,7 @@
           "details": [
             {
               "label": "會議時間",
-              "value": "中華民國 2025 年 11 月 23 日(日)至 11 月 25 日(二)"
+              "value": "中華民國 2025 年 11 月 24 日(一)至 11 月 25 日(二)"
             },
             {
               "label": "會議地點",
