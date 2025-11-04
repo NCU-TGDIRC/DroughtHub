@@ -16,22 +16,22 @@
   "hero": {
     "title": "NCU TGI",
     "subtitle": "國立中央大學台灣暨全球乾旱調查與研究中心",
-    "description": "Taiwan Global Investigation"
+    "description": "Taiwan and Global Drought Investigation and Research Center"
   },
   "about": {
     "title": "關於我們",
-    "paragraph1": "國立中央大學台灣暨全球乾旱調查與研究中心 ( Taiwan Global Investigation,TGI / DroughtHub)致力於整合跨領域的氣候科學、水文學與地理資訊技術研究，我們的目標是深入了解台灣與全球乾旱的成因與影響，推動水資源永續管理，並協助社會與產業提升面對氣候變遷的韌性。",
+    "paragraph1": "國立中央大學台灣暨全球乾旱調查與研究中心 ( Taiwan and Global Drought Investigation and Research Center,TGI / DroughtHub)致力於整合跨領域的氣候科學、水文學與地理資訊技術研究，我們的目標是深入了解台灣與全球乾旱的成因與影響，推動水資源永續管理，並協助社會與產業提升面對氣候變遷的韌性。",
     "paragraph2": "本中心匯聚多位專家學者，並配備先進的觀測與分析系統。我們不僅重視基礎科學研究，更積極推動跨國合作與政策應用，將研究成果轉化為具體行動方案，為社會與全球永續發展貢獻價值。"
   },
   "news": {
     "title": "最新消息",
     "readMore": "閱讀更多 &rarr;",
     "items": [
-      { "id": 1, "date": "2025-09-27", "title": "CESR 2025 開放報名與投稿", "excerpt": "首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-26 日於國立中央大學舉行，聚焦於乾旱、熱害、水資源...", "url": "/icqab" },
-      { "id": 2, "date": "2025-09-28", "title": "本中心劉說安教授主編國際專刊徵稿", "excerpt": "本研究中心劉說安講座教授現正主編國際期刊 Earth’s Future 與 GeoHealth 專刊：「極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略」。專刊徵稿至 2026 年 6 月 30 日截止，誠摯邀請相關領域研究者踴躍投稿...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
-      { "id": 3, "date": "2025-09-30", "title": "本中心發表 RSETI 新指標", "excerpt": "由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment..", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
-      { "id": 4, "date": "2025-10-22", "title": "【研究成果】RSETI ：乾旱監測新指標——揭示澳洲 20 年來的旱災時空趨勢〉", "excerpt": "為了更精準掌握乾旱變化，國立中央大學太空及遙測研究中心劉說安講座教授帶領團隊，研發出全新乾旱監測指標——「相對地表蒸發散指數（RSETI）」，成果發表於《Remote Sensing of Environment》，有效解決過去常見的異常值干擾問題，提升乾旱監測的效率...", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
-      { "id": 5, "date": "2025-10-02", "title": "第五則新聞標題", "excerpt": "這是第五則新聞的摘要", "url": "#" },
+      { "id": 1, "date": "2025-10-29", "title": "【徵稿啟事】極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略", "excerpt": "氣候變遷與快速都市化加劇了公共健康風險，特別是極端高溫、熱浪及都市熱島效應（UHI）。本國際專刊聚焦於脆弱族群、健康風險、都市綠基盤與氣候調適策略等議題，鼓勵跨領域研究以促進全球韌性與公平。投稿截止日期為 2026 年 9 月 30 日，投稿至 Earth's Future 或 GeoHealth 並選擇該專刊名稱即可", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
+      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 開放報名與投稿                           ", "excerpt": "首屆「氣候極端與社會韌性國際論壇 (CESR 2025)」官網已於今日開放報名與摘要投稿。論壇將於 2025 年 11 月 24-26 日於國立中央大學舉行，聚焦於乾旱、熱害、水資源...", "url": "/icqab" },
+      { "id": 3, "date": "2025-10-22", "title": "【研究成果】RSETI ：乾旱監測新指標——揭示澳洲 20 年來的旱災時空趨勢〉", "excerpt": "為了更精準掌握乾旱變化，國立中央大學太空及遙測研究中心劉說安講座教授帶領團隊，研發出全新乾旱監測指標——「相對地表蒸發散指數（RSETI）」，成果發表於《Remote Sensing of Environment》，有效解決過去常見的異常值干擾問題，提升乾旱監測的效率...", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
+      { "id": 4, "date": "2025-09-28", "title": "本中心劉說安教授主編國際專刊徵稿", "excerpt": "本研究中心劉說安講座教授現正主編國際期刊 Earth’s Future 與 GeoHealth 專刊：「極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略」。專刊徵稿至 2026 年 6 月 30 日截止，誠摯邀請相關領域研究者踴躍投稿...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
+      { "id": 5, "date": "2025-09-30", "title": "本中心發表 RSETI 新指標", "excerpt": "由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment..", "url": "https://spec.ntu.edu.tw/research/research-detail271" },
       { "id": 6, "date": "2025-10-03", "title": "第六則新聞標題", "excerpt": "這是第六則新聞的摘要", "url": "#" }
     ]
   },
@@ -39,8 +39,12 @@
     "title": "聯絡我們",
     "centerName": "國立中央大學台灣暨全球乾旱調查與研究中心",
     "addressLabel": "地址：",
+    "addressLinkText": "國立中央大學太空及遙測研究中心",
+    "addressValue": "320317 桃園市中壢區五權里2鄰中大路300號",
     "phoneLabel": "電話：",
+    "phoneValue": "(03) 4227151 分機：57697/57689",
     "faxLabel": "傳真：",
+    "faxValue": "(03) 4255535",
     "emailLabel": "電子郵件："
   },
   "pageBanner": {
@@ -218,7 +222,7 @@
                   "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
-                  "name": "國家科學及技術委員會-農業部",
+                  "name": "農業部",
                   "logo": "agriculture_logo.jpg",
                   "alt": "農業部 Logo",
                   "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -247,7 +251,7 @@
         "inquiryUrl": "https://forms.gle/VtF3gfEKZMBKY6pr8"
       },
       "location": {
-        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.940004663239!2d121.19271850928976!3d24.968155777766693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1ec904dcb%3A0xcdc129d4455ce456!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1758076938764!5m2!1szh-TW!2stw"
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.958075318055!2d121.18223309678957!3d24.967540999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c26571829b%3A0x4405dd3d60240444!2z5Lit5aSu5aSn5a245aSq56m65Y-K6YGZ5ris56CU56m25Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1761738883357!5m2!1szh-TW!2stw"
       },
       "host": {
         "venue": "國立中央大學",
@@ -281,7 +285,7 @@
             "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
           },
           {
-            "name": "國家科學及技術委員會-農業部",
+            "name": "農業部",
             "logo": "agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
