@@ -125,7 +125,7 @@
     },
     "sections": [
       {
-        "title": "重要日程 (Inportant Dates)",
+        "title": "重要日程 (Important Dates)",
         "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2025</li><li><b>Notification of abstract acceptance:</b> October 29, 2025</li><li><b>Registration Deadline:</b> November 10, 2025</li><li><b>Conference date:</b> November 23, 2025</li></ul></div>"
       },
       {
@@ -157,7 +157,7 @@
             },
             {
               "label": "會議地點",
-              "value": "國立中央大學教學研究綜合大樓"
+              "value": "國立中央大學太空及遙測研究中心"
             },
             {
               "label": "主辦單位",
@@ -227,7 +227,7 @@
             },
             {
               "label": "大會主席",
-              "value": "劉說安 教授 <br>曾筱珽 副教授"
+              "value": "劉說安 教授"
             }
           ]
         }
