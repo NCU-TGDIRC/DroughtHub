@@ -70,7 +70,7 @@
                 </b-col>
                 <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
                   <div class="text-center">
-                    <img :src="getImageUrl('qr-registration.jpg')" :alt="$t('conference.registration.qr_alt')" class="qr-code-large img-fluid rounded">
+                    <img :src="getImageUrl('qr-registration.png')" :alt="$t('conference.registration.qr_alt')" class="qr-code-large img-fluid rounded">
                     <p class="text-muted small mt-3">{{ $t('conference.registration.qr_caption') }}</p>
                   </div>
                 </b-col>
