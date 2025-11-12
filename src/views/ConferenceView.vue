@@ -338,4 +338,48 @@ export default {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+/* 巢狀講者表格的樣式 */
+.speaker-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* 表格標題 (th) 和儲存格 (td) 的通用樣式 */
+.speaker-table th, 
+.speaker-table td {
+  padding: 10px 8px; /* 增加上下內邊距，讓文字更舒適 */
+  text-align: left;    /* 確保所有文字都靠左對齊 */
+  vertical-align: top;
+}
+
+/* 標題列的專屬樣式 */
+.speaker-table th {
+  border-bottom: 2px solid #ddd; /* 標題底部的分隔線加粗 */
+  font-size: 0.95em;
+  color: #333;
+}
+
+/* 內容儲存格的樣式 */
+.speaker-table td {
+  border-top: 1px solid #eee; /* 講者之間的分隔線 */
+}
+
+.speaker-table tr:first-child td {
+  border-top: none; /* 第一位講者上方不需要分隔線 */
+}
+
+/* 第一欄 (講者) 的寬度設定 */
+.speaker-table td:first-child,
+.speaker-table th:first-child {
+  width: 40%; 
+}
+
+/* 講者職稱的樣式 */
+.speaker-table small {
+  display: block;
+  font-weight: normal;
+  color: #666;
+  margin-top: 3px;
+}
 </style>
