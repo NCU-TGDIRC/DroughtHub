@@ -28,7 +28,7 @@
     "readMore": "Read More &rarr;",
     "items": [
       { "id": 1, "date": "2025-10-29", "title": "[Call for Papers] The Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies", "excerpt": "This special issue addresses public health risks from extreme heat, heatwaves, and urban heat islands, focusing on vulnerable populations, health impacts, green infrastructure, and climate adaptation. Submission deadline: September 30, 2026, to *Earth’s Future* or *GeoHealth*.", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
-      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 Open for Registration and Submissions", "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 24-25(Mon,Tue), 2025, at National Central University, focusing on drought, heat stress, water resources...", "url": "/icqab" },
+      { "id": 2, "date": "2025-09-27", "title": "CESR 2025 Open for Registration and Submissions", "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 23-25(Mon,Tue), 2025, at National Central University, focusing on drought, heat stress, water resources...", "url": "/icqab" },
       { "id": 3, "date": "2025-09-28", "title": "Call for Papers: International Special Issue Edited by Prof. Yuei-An Liou", "excerpt": "Prof. Yuei-An Liou from our research center is currently editing a special issue for the international journals Earth’s Future and GeoHealth on 'Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies.' The call for papers is open until June 30, 2026. Researchers in related fields are cordially invited to submit...", "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141" },
       { "id": 4, "date": "2025-09-30", "title": "RSETI Index Released by the Center","excerpt": "Professor Yuei-An Liou’s research team has proposed the Relative Surface Evapotranspiration Index (RSETI), overcoming the limitations of existing remote sensing drought monitoring methods. The index successfully depicts the evolution of droughts in Australia from 2001 to 2022 and demonstrates its potential applications in agricultural management and climate adaptation. The results have been published in *Remote Sensing of Environment*.  ",  "url": "https://spec.ntu.edu.tw/research/research-detail271"  },     
       { "id": 5,"date": "2025-10-22","title": "[Research Achievement] RSETI: A New Drought Monitoring Index — Revealing 20 Years of Drought Spatiotemporal Trends in Australia","excerpt": "To more accurately track drought changes, Professor Liu Shuo-An, Chair of the Space and Remote Sensing Research Center at National Central University, led a team to develop a novel drought monitoring index — the Relative Surface Evapotranspiration Index (RSETI). The results were published in *Remote Sensing of Environment* and effectively address the common interference from outliers, improving the efficiency of drought monitoring...","url": "https://spec.ntu.edu.tw/research/research-detail271"},
@@ -104,7 +104,7 @@
   },
   "conference": {
     "header": {
-      "date": "November 24-25, 2025 | National Central University, Taoyuan, Taiwan",
+      "date": "November 23-25, 2025 | National Central University, Taoyuan, Taiwan",
       "title": "The First International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2025)"
     },
@@ -151,7 +151,7 @@
     "sections": [
       {
         "title": "Important Dates",
-        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2025</li><li><b>Notification of abstract acceptance:</b> November 18, 2025</li><li><b>Registration Deadline:</b> November 20, 2025</li><li><b>Conference date:</b> November 24,25 ,2025</li></ul></div>"
+        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2025</li><li><b>Notification of abstract acceptance:</b> November 18, 2025</li><li><b>Registration Deadline:</b> November 20, 2025</li><li><b>Conference date:</b> November 23-25 ,2025, with registration beginning on November 22.</li></ul></div>"
       },
       {
         "title": "Introduction",
@@ -175,7 +175,7 @@
         "content": {
             "intro": "2025 International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World <br>1st International Forum on Climate Extremes and Societal Resilience: Drought, Heat, and Human Livability in a Warming World",
             "details": [
-                { "label": "Conference Dates", "value": "November 24 (Monday) – November 25 (Tuesday), 2025" },
+                { "label": "Conference Dates", "value": "November 23 (Sunday) – November 25 (Tuesday), 2025" },
                 { "label": "Venue", "value": "Center for Space and Remote Sensing Research, National Central University" },
                 { "label": "Advisors", "value": "National Central University (NCU)<br>Taoyuan City Government<br>National Science and Technology Council (NSTC)" },
                 {
