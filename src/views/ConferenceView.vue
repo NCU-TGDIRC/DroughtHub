@@ -29,8 +29,10 @@
                     <div v-if="detail.value" v-html="detail.value"></div>
                     <div v-if="detail.isOrganizer">
                       <div v-for="(org, orgIndex) in detail.items" :key="orgIndex" class="d-flex align-items-center mb-3">
-                        <img :src="getImageUrl(org.logo)" :alt="org.alt" :style="org.style" class="me-3" >
-                        <a v-if="org.url" :href="org.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ org.name }}</a>
+                        <div class="logo-container me-3">
+                          <img :src="getImageUrl(org.logo)" :alt="org.alt" :style="org.style">
+                        </div>
+                        <a v-if="org.url" :href="org.url" target="_blank" rel="noopener noreferrer">{{ org.name }}</a>
                         <span v-else >{{ org.name }}</span>
                       </div>
                     </div>
@@ -95,19 +97,23 @@
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.host_by') }}</h5>
                   <ul class="list-unstyled">
-                    <li v-for="host in info.host.hosts" :key="host.name" class="mb-2">
-                      <img :src="getImageUrl(host.logo)" :alt="host.alt" :style="host.style">
-                      <a v-if="host.url" :href="host.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ host.name }}</a>
-                      <span v-else class="ms-2">{{ host.name }}</span>
+                    <li v-for="host in info.host.hosts" :key="host.name" class="d-flex align-items-center mb-2">
+                      <div class="logo-container me-2">
+                        <img :src="getImageUrl(host.logo)" :alt="host.alt" :style="host.style">
+                      </div>
+                      <a v-if="host.url" :href="host.url" target="_blank" rel="noopener noreferrer">{{ host.name }}</a>
+                      <span v-else>{{ host.name }}</span>
                     </li>
                   </ul>
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.co_hosted_by') }}</h5>
                   <ul class="list-unstyled" v-if="info.host.coHosts">
-                    <li v-for="coHost in info.host.coHosts" :key="coHost.name" class="mb-2">
-                      <img :src="getImageUrl(coHost.logo)" :alt="coHost.alt" :style="coHost.style">
-                      <a v-if="coHost.url" :href="coHost.url" target="_blank" rel="noopener noreferrer" class="ms-2">{{ coHost.name }}</a>
-                      <span v-else class="ms-2">{{ coHost.name }}</span>
+                    <li v-for="coHost in info.host.coHosts" :key="coHost.name" class="d-flex align-items-center mb-2">
+                      <div class="logo-container me-2">
+                        <img :src="getImageUrl(coHost.logo)" :alt="coHost.alt" :style="coHost.style">
+                      </div>
+                      <a v-if="coHost.url" :href="coHost.url" target="_blank" rel="noopener noreferrer">{{ coHost.name }}</a>
+                      <span v-else>{{ coHost.name }}</span>
                     </li>
                   </ul>
 
@@ -118,7 +124,9 @@
                       :key="advisor.name" 
                       class="d-flex align-items-center mb-2"
                     >
-                      <img :src="getImageUrl(advisor.logo)" :alt="advisor.alt" :style="advisor.style" class="me-2">
+                      <div class="logo-container me-2">
+                        <img :src="getImageUrl(advisor.logo)" :alt="advisor.alt" :style="advisor.style">
+                      </div>
                       <a v-if="advisor.url" :href="advisor.url" target="_blank" rel="noopener noreferrer">{{ advisor.name }}</a>
                       <span v-else>{{ advisor.name }}</span>
                     </li>
@@ -373,5 +381,13 @@ export default {
   font-weight: normal;
   color: #666;
   margin-top: 3px;
+}
+
+.logo-container {
+  width: 45px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

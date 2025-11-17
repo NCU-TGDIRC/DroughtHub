@@ -286,6 +286,12 @@
             "logo": "agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
+          },
+          {
+            "name": "教育部",
+            "logo": "教育部.png",
+            "alt": "教育部 Logo",
+            "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           }
         ]
       }
