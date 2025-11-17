@@ -119,8 +119,7 @@
     },
     "venue": {
       "title": "Venue & Location",
-      "main_hall_title": "Main Hall",
-      "sessions_title": "Breakout Sessions & Poster Exhibition",
+      "main_hall_title": " Center for Space and Remote Sensing Research, National Central University",
       "host_by": "Hosted by:",
       "co_hosted_by": "Co-hosted by:",
       "advised_by": "Organized under the auspices of:",
@@ -248,8 +247,6 @@
         },
         "host": {
             "venue": "National Central University",
-            "mainVenue": "1F, Lo Chia-Luen Hall, General Teaching and Research Building",
-            "subVenue": "2F Conference Halls, General Teaching and Research Building (3 venues total)",
             "hosts": [
                 { "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)", "logo": "DroughtHub.jpg", "alt": "DroughtHub Logo", "style": "height: 35px; vertical-align: middle; margin-right: 5px;" }
             ],

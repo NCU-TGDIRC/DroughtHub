@@ -93,14 +93,6 @@
                     </div>
                   </div>
 
-                  <div class="d-flex mb-4">
-                    <div class="venue-icon-wrapper"><i class="fas fa-users fa-fw"></i></div>
-                    <div>
-                      <h5 class="h5 mb-1 fw-bold">{{ $t('conference.venue.sessions_title') }}</h5>
-                      <p class="text-muted mb-0 h6">{{ info.host.subVenue }}</p>
-                    </div>
-                  </div>
-
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.host_by') }}</h5>
                   <ul class="list-unstyled">
                     <li v-for="host in info.host.hosts" :key="host.name" class="mb-2">

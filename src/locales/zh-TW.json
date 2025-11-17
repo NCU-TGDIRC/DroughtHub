@@ -119,8 +119,7 @@
     },
     "venue": {
       "title": "會議地點 & 場地資訊",
-      "main_hall_title": "主要場地 (Main Hall)",
-      "sessions_title": "分組討論 & 海報展示",
+      "main_hall_title": "會議地點：國立中央大學太空及遙測研究中心",
       "host_by": "主辦單位:",
       "co_hosted_by": "協辦單位",
       "advised_by": "指導單位:",
@@ -255,8 +254,6 @@
       },
       "host": {
         "venue": "國立中央大學",
-        "mainVenue": "教學研究綜合大樓 羅家倫講堂 1F",
-        "subVenue": "教學研究綜合大樓 2F 會議廳周遭 (共3個場地)",
         "hosts": [
           { "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)", "logo": "DroughtHub.jpg", "alt": "DroughtHub Logo", "style": "height: 35px; vertical-align: middle; margin-right: 5px;" }
         ],
