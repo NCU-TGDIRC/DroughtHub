@@ -80,6 +80,26 @@
             </b-card>
           </div>
           
+          <!-- New Online Meeting Link Section -->
+          <div class="registration-section my-5 py-5">
+            <b-card no-body class="shadow-lg border-0 overflow-hidden">
+              <b-row no-gutters>
+                <b-col md="12" class="p-5 d-flex flex-column justify-content-center">
+                  <h3 class="mb-4 fs-2 fw-bold" style="color: #003366;">{{ $t('conference.online_participation.title') }}</h3>
+                  <p class="text-muted mb-4 fs-5">
+                    {{ $t('conference.online_participation.description') }}
+                  </p>
+                  <div class="mb-4 d-flex align-items-center flex-wrap">
+                    <b-button href="https://meet.google.com/cnk-huti-jzq" target="_blank" size="lg" class="me-3 mb-2 btn-online-meeting">
+                      <i class="fas fa-video me-2"></i> {{ $t('conference.online_participation.button_link') }}
+                    </b-button>
+                  </div>
+                </b-col>
+              </b-row>
+            </b-card>
+          </div>
+          
+          
           <b-row class="py-5">
             <b-col>
               <h4 class="accordion-title-custom mb-4 fs-2">{{ $t('conference.venue.title') }}</h4>
@@ -175,10 +195,71 @@ export default {
       return this.$tm('conference.info');
     }
   },
+  mounted() {
+    this.loadCalendarScript();
+  },
+  beforeUnmount() {
+    this.removeCalendarScript();
+  },
   methods: {
     getImageUrl(imageName) {
       if (!imageName) return '';
       try { return require(`@/assets/${imageName}`); } catch (e) { console.error(e); return ''; }
+    },
+    loadCalendarScript() {
+      const calendarScriptId = 'google-calendar-script';
+      const calendarStyleId = 'google-calendar-style';
+
+      if (document.getElementById(calendarScriptId)) {
+        this.initializeCalendarButton();
+        return;
+      }
+
+      const style = document.createElement('link');
+      style.id = calendarStyleId;
+      style.href = 'https://calendar.google.com/calendar/scheduling-button-script.css';
+      style.rel = 'stylesheet';
+      document.head.appendChild(style);
+
+      const script = document.createElement('script');
+      script.id = calendarScriptId;
+      script.src = 'https://calendar.google.com/calendar/scheduling-button-script.js';
+      script.async = true;
+      script.onload = () => {
+        this.initializeCalendarButton();
+      };
+      document.head.appendChild(script);
+    },
+    initializeCalendarButton() {
+      console.log('initializeCalendarButton called.');
+      console.log('window.calendar:', window.calendar);
+      console.log('window.calendar.schedulingButton:', window.calendar ? window.calendar.schedulingButton : 'N/A');
+      console.log('this.$refs.calendarButton:', this.$refs.calendarButton);
+
+      if (window.calendar && window.calendar.schedulingButton && this.$refs.calendarButton) {
+        console.log('Attempting to load Google Calendar button...');
+        window.calendar.schedulingButton.load({
+          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3J7AjNiv6lQZAEbQdYpk6S9tt_V85U5-NGhv_PsPOGOIay3Ncl-0AV6CI-MnteGDnskLu_HYFV?gv=true', // Changed URL to avoid previous error in case of bad URL
+          color: '#039BE5',
+          label: '進行預約',
+          target: this.$refs.calendarButton,
+        });
+        console.log('Google Calendar button load attempt complete.');
+      } else {
+        console.warn('Google Calendar button not loaded. Missing dependencies or target element.');
+      }
+    },
+    removeCalendarScript() {
+      const calendarScriptId = 'google-calendar-script';
+      const calendarStyleId = 'google-calendar-style';
+      const script = document.getElementById(calendarScriptId);
+      const style = document.getElementById(calendarStyleId);
+      if (script) {
+        script.remove();
+      }
+      if (style) {
+        style.remove();
+      }
     }
   }
 }
@@ -334,6 +415,21 @@ export default {
 .btn-contact:hover {
   background-color: #c8925a;
   border-color: #c8925a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn-online-meeting {
+  background-color: #039BE5;
+  border-color: #039BE5;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-online-meeting:hover {
+  background-color: #0277bd;
+  border-color: #0277bd;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);

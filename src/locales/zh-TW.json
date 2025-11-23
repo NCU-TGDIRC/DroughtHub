@@ -117,6 +117,11 @@
       "qr_alt": "Registration QR Code",
       "qr_caption": "掃描 QR Code 報名"
     },
+    "online_participation": {
+      "title": "線上參加連結",
+      "description": "歡迎透過線上方式參與 CESR 2025。請於會議時間點擊下方連結進入線上會議室。",
+      "button_link": "進入線上會議"
+    },
     "venue": {
       "title": "會議地點 & 場地資訊",
       "main_hall_title": "會議地點：國立中央大學太空及遙測研究中心",
@@ -248,6 +253,9 @@
       "registration": {
         "url": "https://forms.gle/LfjM1nqKa47ufQvG6",
         "inquiryUrl": "https://forms.gle/VtF3gfEKZMBKY6pr8"
+      },
+      "onlineParticipation": {
+        "url": "https://calendar.app.google/Adcb3GcPZCywBSk46"
       },
       "location": {
         "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.958075318055!2d121.18223309678957!3d24.967540999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c26571829b%3A0x4405dd3d60240444!2z5Lit5aSu5aSn5a245aSq56m65Y-K6YGZ5ris56CU56m25Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1761738883357!5m2!1szh-TW!2stw"
