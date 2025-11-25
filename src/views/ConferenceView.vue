@@ -90,7 +90,7 @@
                     {{ $t('conference.online_participation.description') }}
                   </p>
                   <div class="mb-4 d-flex align-items-center flex-wrap">
-                    <b-button href="https://meet.google.com/ptn-eyaj-nzu" target="_blank" size="lg" class="me-3 mb-2 btn-online-meeting">
+                    <b-button href="https://meet.google.com/cnk-huti-jzq" target="_blank" size="lg" class="me-3 mb-2 btn-online-meeting">
                       <i class="fas fa-video me-2"></i> {{ $t('conference.online_participation.button_link') }}
                     </b-button>
                   </div>
