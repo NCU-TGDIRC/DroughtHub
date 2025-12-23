@@ -69,14 +69,14 @@
     "expertiseTitle": "專業領域",
     "readMore": "READ MORE",
     "members": [
-      { "image": "Yuei-An Liou.jpg", "name": "劉說安 Yuei-An Liou", "title": "太遙講座教授", "department": "太空及遙測研究中心", "expertise": ["<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象"], "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4" },
-      { "image": "Chien-wen Shen.png", "name": "沈建文 Chien-wen Shen", "title": "教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任", "department": "企業管理學系", "expertise": ["資訊創新技術應用、供應鏈管理、決策科學"], "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054" },
-      { "image": "Cheng-Ling Kou.png", "name": "郭政靈 Cheng-Ling Kou", "title": "教授", "department": "太空科學與科技研究中心", "expertise": ["<b>遙測</b>：高光譜以及多光譜儀資料融合、地物分類以及高溫分析<br><b>科學</b>：大氣電學和電漿物理<br><b>工程</b>：立方衛星以及太空光學儀器酬載"], "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou" },
-      { "image": "hsu_wen_chin.jpg", "name": "許文錦 Wen-Chin Hsu", "title": "教授", "department": "資訊管理學系", "expertise": ["醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務"], "detailUrl": "https://im.mgt.ncu.edu.tw/teacher" },
+      { "image": "Gemini_劉說安2.png", "name": "劉說安 Yuei-An Liou", "title": "太遙講座教授", "department": "太空及遙測研究中心", "expertise": ["<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象"], "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4" },
+      { "image": "Gemini_Chien_wen_Shen.png", "name": "沈建文 Chien-wen Shen", "title": "教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任", "department": "企業管理學系", "expertise": ["資訊創新技術應用、供應鏈管理、決策科學"], "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054" },
+      { "image": "Gemini_Cheng-Ling Kou2.png", "name": "郭政靈 Cheng-Ling Kou", "title": "教授", "department": "太空科學與科技研究中心", "expertise": ["<b>遙測</b>：高光譜以及多光譜儀資料融合、地物分類以及高溫分析<br><b>科學</b>：大氣電學和電漿物理<br><b>工程</b>：立方衛星以及太空光學儀器酬載"], "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou" },
+      { "image": "Gemini_hsu_wen_chin2.png", "name": "許文錦 Wen-Chin Hsu", "title": "教授", "department": "資訊管理學系", "expertise": ["醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務"], "detailUrl": "https://im.mgt.ncu.edu.tw/teacher" },
       { "image": "Hsiao-Ting Tseng.jpg", "name": "曾筱珽 Hsiao-Ting Tseng", "title": "副教授", "department": "資訊管理學系", "expertise": ["社群媒體與社群網路、電子商務、健康資訊系統、人機互動、服務科學、人工智慧應用與資料科學"], "detailUrl": "https://im.mgt.ncu.tw/teacher" },
-      { "image": "Yueh-Hsia Luo.jpg", "name": "羅月霞 Yueh-Hsia Luo", "title": "副教授", "department": "生命科學系", "expertise": ["感染與免疫、奈米粒子免疫毒理分析、腸道微生物與免疫系統"], "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html" },
-      { "image": "Chun-Hsien Hsu.jpg", "name": "徐峻賢 Chun-Hsien Hsu", "title": "副教授", "department": "認知神經科學研究所", "expertise": ["神經語言學、計算語言學、語音學、構詞學、語言習得、EEG/MEG訊號分析"], "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9" },
-      { "image": "Shou-Hao Chiang.jpg", "name": "姜壽浩 Shou-Hao Chiang", "title": "副教授", "department": "太空及遙測研究中心", "expertise": ["空間模式、空間資訊分析、水文及崩塌模式、自然地理"], "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15" }
+      { "image": "Gemini_羅月霞 Yueh-Hsia Luo.png", "name": "羅月霞 Yueh-Hsia Luo", "title": "副教授", "department": "生命科學系", "expertise": ["感染與免疫、奈米粒子免疫毒理分析、腸道微生物與免疫系統"], "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html" },
+      { "image": "Gemini_徐峻賢Chun-Hsien Hsu.png", "name": "徐峻賢 Chun-Hsien Hsu", "title": "副教授", "department": "認知神經科學研究所", "expertise": ["神經語言學、計算語言學、語音學、構詞學、語言習得、EEG/MEG訊號分析"], "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9" },
+      { "image": "Gemini_Shou-Hao Chiang.png", "name": "姜壽浩 Shou-Hao Chiang", "title": "副教授", "department": "太空及遙測研究中心", "expertise": ["空間模式、空間資訊分析、水文及崩塌模式、自然地理"], "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15" }
     ]
   },
   "reports": {

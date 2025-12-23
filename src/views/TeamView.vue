@@ -8,8 +8,7 @@
             <b-card no-body class="text-center h-100 shadow-sm card-hover-effect">
               <b-card-body class="d-flex flex-column p-4 h-100">
                 <div class="mb-4">
-                  <b-img :src="getImageUrl(member.image)" rounded="circle" :alt="member.name" class="member-img"></b-img>
-                </div>
+                    <b-img :src="getImageUrl(member.image)" rounded :alt="member.name" class="member-img"></b-img>                </div>
                 <div class="flex-grow-1">
                   <h4 class="card-title-custom">{{ member.name }}</h4>
                   <p class="text-muted mb-3">{{ member.title }} | {{ member.department }}</p>
@@ -58,11 +57,14 @@ export default {
 
 <style scoped>
 .member-img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 200px;           /* 寬度稍微加寬 */
+  height: 280px;          /* 高度增加，符合直式照片比例 */
+  object-fit: cover;      /* 確保照片填滿區域且不變形 */
+  border: 1px solid #ddd; /* 圓形時邊框通常較粗，長方形建議細一點或移除 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 調整陰影讓層次更柔和 */
+}
+.card-hover-effect:hover .member-img {
+  transform: scale(1.02);
 }
 .card-title-custom {
   font-size: 1.5rem;
