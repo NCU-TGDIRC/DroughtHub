@@ -20,7 +20,41 @@
               <h3 class="accordion-title-custom">{{ item.title }}</h3>
             </template>
             <div class="accordion-content-inner fs-5 fw-bolder">
-              <div v-if="!item.isStructured" v-html="item.content"></div>
+              <div v-if="item.isEditorialBoard">
+                <!-- Advisors Section -->
+                <h4 class="mb-4" style="color: #003366; border-left: 5px solid #d4a373; padding-left: 15px;">Advisors</h4>
+                <b-row class="mb-5">
+                  <b-col md="3" v-for="(advisor, idx) in item.content.advisors" :key="'adv'+idx" class="mb-4">
+                    <div class="d-flex align-items-center h-100">
+                      <div class="me-3 member-img-container">
+                        <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
+                      </div>
+                      <div>
+                        <h5 class="fw-bold mb-1" style="color: #003366;">{{ advisor.name }}</h5>
+                        <small class="text-muted fw-normal">{{ advisor.title }}</small>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
+
+                <!-- Team Members Section -->
+                <h4 class="mb-4" style="color: #003366; border-left: 5px solid #d4a373; padding-left: 15px;">Team Members</h4>
+                <b-row>
+                  <b-col md="6" lg="6" v-for="(member, idx) in item.content.teamMembers" :key="'mem'+idx" class="mb-4">
+                    <div class="d-flex align-items-center p-3 border rounded shadow-sm bg-white h-100 member-card">
+                      <div class="me-3 member-img-container-sm flex-shrink-0">
+                        <img :src="getImageUrl(member.image)" :alt="member.name" class="img-fluid rounded member-img-sm">
+                      </div>
+                      <div>
+                        <h6 class="fw-bold mb-1" style="color: #003366;">{{ member.name }}</h6>
+                        <div class="small text-muted mb-1 fw-normal">{{ member.title }}</div>
+                        <div class="small text-secondary fw-normal">{{ member.department }}</div>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
+              </div>
+              <div v-else-if="!item.isStructured" v-html="item.content"></div>
               <div v-else>
                 <p v-html="item.content.intro"></p>
                 <ul class="styled-list">
@@ -485,5 +519,42 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Editorial Board Styles */
+.member-img-container {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.member-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.member-img-container-sm {
+  width: 80px;
+  height: 80px;
+}
+
+.member-img-sm {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.member-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+  border-color: #d4a373;
 }
 </style>
