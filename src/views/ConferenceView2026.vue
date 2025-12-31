@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="icqab-page">
     <!-- Page Header -->
     <div class="page-header position-relative text-center text-white">
