@@ -386,17 +386,17 @@
       {
         "year": "2025",
         "title": "The First International Forum on Climate Extremes and Societal Resilience (CESR 2025)",
-        "date": "November 23-25, 2025",
+        "date": "November 22-24, 2025",
         "location": "Taoyuan, Taiwan",
         "description": "Drought, Heat Stress, and Human Livability in a Warming World",
         "link": "/icqab",
-        "image": "icqab-bg.jpg"
+        "image": "carousel/cesr_pic1.jpg"
       }
     ]
   },
   "conference": {
     "header": {
-      "date": "November 23-25, 2025 | National Central University, Taoyuan, Taiwan",
+      "date": "November 22-24, 2025 | National Central University, Taoyuan, Taiwan",
       "title": "The First International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2025)"
     },

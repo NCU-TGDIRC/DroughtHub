@@ -87,7 +87,7 @@ export default {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: 40% 50%;;
   transition: transform 0.5s ease;
 }
 
