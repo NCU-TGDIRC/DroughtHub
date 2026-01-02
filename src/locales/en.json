@@ -29,12 +29,35 @@
     "readMore": "Read More &rarr;",
     "items": [
       {
+        "id": 6,
+        "date": "2025-11-24",
+        "title": "NCU and Australia's TNQ Drought Hub Hold Joint Workshop to Build Global Climate Resilience",
+        "excerpt": "During the inaugural CESR forum, NCU hosted a joint workshop with the visiting TNQ Drought Hub delegation from Australia. By integrating NCU's satellite remote sensing technology with Australia's on-ground expertise, the two parties exchanged critical insights on drought monitoring and agricultural adaptation, laying a solid foundation for future transnational research collaboration.",
+        "url": "https://www.tnqdroughthub.com.au/drought-expertise-shared-on-the-global-stage-to-strengthen-climate-resilience/"
+        },
+      
+        {
+        "id": 7,
+        "date": "2025-12-05",
+        "title": "Center Delegation Attends EME2025 in Vietnam, Deepening Transnational Green Sustainability Cooperation",
+        "excerpt": "A delegation from the Center attended the 'EME2025 International Conference' hosted by VAST in Hanoi. Focusing on green development in Earth sciences, members exchanged insights on low-carbon strategies and digital transformation, actively expanding research networks in Southeast Asia to jointly address climate challenges.",
+        "url": "https://isdi.vast.vn/bantin/BanTinKHCN2025_12.pdf"
+        },
+      {
+        "id": 5,
+        "date": "2025-10-22",
+        "title": "[Research Achievement] RSETI: A New Drought Monitoring Index — Revealing 20 Years of Drought Spatiotemporal Trends in Australia",
+        "excerpt": "To more accurately track drought changes, Professor Liu Shuo-An, Chair of the Space and Remote Sensing Research Center at National Central University, led a team to develop a novel drought monitoring index — the Relative Surface Evapotranspiration Index (RSETI). The results were published in *Remote Sensing of Environment* and effectively address the common interference from outliers, improving the efficiency of drought monitoring...",
+        "url": "https://spec.ntu.edu.tw/research/research-detail271"
+      },
+      {
         "id": 1,
         "date": "2025-10-29",
         "title": "[Call for Papers] The Impacts of Extreme Heat, Heatwaves, and Urban Heat Islands on Public Health: Vulnerability, Resilience, and Adaptation Strategies",
         "excerpt": "This special issue addresses public health risks from extreme heat, heatwaves, and urban heat islands, focusing on vulnerable populations, health impacts, green infrastructure, and climate adaptation. Submission deadline: September 30, 2026, to *Earth’s Future* or *GeoHealth*.",
         "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
       },
+      
       {
         "id": 2,
         "date": "2025-09-27",
@@ -55,20 +78,6 @@
         "title": "RSETI Index Released by the Center",
         "excerpt": "Professor Yuei-An Liou’s research team has proposed the Relative Surface Evapotranspiration Index (RSETI), overcoming the limitations of existing remote sensing drought monitoring methods. The index successfully depicts the evolution of droughts in Australia from 2001 to 2022 and demonstrates its potential applications in agricultural management and climate adaptation. The results have been published in *Remote Sensing of Environment*.  ",
         "url": "https://spec.ntu.edu.tw/research/research-detail271"
-      },
-      {
-        "id": 5,
-        "date": "2025-10-22",
-        "title": "[Research Achievement] RSETI: A New Drought Monitoring Index — Revealing 20 Years of Drought Spatiotemporal Trends in Australia",
-        "excerpt": "To more accurately track drought changes, Professor Liu Shuo-An, Chair of the Space and Remote Sensing Research Center at National Central University, led a team to develop a novel drought monitoring index — the Relative Surface Evapotranspiration Index (RSETI). The results were published in *Remote Sensing of Environment* and effectively address the common interference from outliers, improving the efficiency of drought monitoring...",
-        "url": "https://spec.ntu.edu.tw/research/research-detail271"
-      },
-      {
-        "id": 6,
-        "date": "2025-10-03",
-        "title": "Sixth News Headline",
-        "excerpt": "This is the summary for the sixth news item.",
-        "url": "#"
       }
     ]
   },

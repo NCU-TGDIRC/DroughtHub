@@ -29,6 +29,27 @@
     "readMore": "閱讀更多 &rarr;",
     "items": [
       {
+        "id": 6,
+        "date": "2025-11-24",
+        "title": "本校與澳洲 TNQ Drought Hub 舉辦聯合工作坊，共建跨國抗旱韌性",
+        "excerpt": "本校於主辦首屆「氣候極端與社會韌性國際論壇」期間，與澳洲熱帶北昆士蘭乾旱中心（TNQ Drought Hub）舉行雙邊聯合工作坊。雙方整合本校頂尖的衛星遙測技術與澳方豐富的實地抗旱經驗，針對乾旱監測及農業調適分享關鍵技術，為深化未來的跨國科研合作奠定堅實基礎。",
+        "url": "https://www.tnqdroughthub.com.au/drought-expertise-shared-on-the-global-stage-to-strengthen-climate-resilience/"
+        },
+      {
+        "id": 7,
+        "date": "2025-12-05",
+        "title": "本中心赴越參與 EME2025 國際研討會，深化綠色永續跨國合作",
+        "excerpt": "本中心代表團赴越南河內參與由越南科學院（VAST）主辦的「EME2025 國際研討會」。此次會議聚焦於地球科學與環境之綠色發展，本中心成員與國際專家針對低碳社會、再生能源及數位轉型等議題進行深度交流，並積極拓展與東南亞地區的科研合作網絡，共同應對氣候變遷挑戰。",
+        "url": "https://isdi.vast.vn/bantin/BanTinKHCN2025_12.pdf"
+        },
+        {
+        "id": 3,
+        "date": "2025-10-22",
+        "title": "【研究成果】RSETI ：乾旱監測新指標——揭示澳洲 20 年來的旱災時空趨勢〉",
+        "excerpt": "為了更精準掌握乾旱變化，國立中央大學太空及遙測研究中心劉說安講座教授帶領團隊，研發出全新乾旱監測指標——「相對地表蒸發散指數（RSETI）」，成果發表於《Remote Sensing of Environment》，有效解決過去常見的異常值干擾問題，提升乾旱監測的效率...",
+        "url": "https://spec.ntu.edu.tw/research/research-detail271"
+      },
+      {
         "id": 1,
         "date": "2025-10-29",
         "title": "【徵稿啟事】極端高溫、熱浪與都市熱島對公共健康的衝擊：脆弱性、韌性與調適策略",
@@ -43,13 +64,6 @@
         "url": "/icqab"
       },
       {
-        "id": 3,
-        "date": "2025-10-22",
-        "title": "【研究成果】RSETI ：乾旱監測新指標——揭示澳洲 20 年來的旱災時空趨勢〉",
-        "excerpt": "為了更精準掌握乾旱變化，國立中央大學太空及遙測研究中心劉說安講座教授帶領團隊，研發出全新乾旱監測指標——「相對地表蒸發散指數（RSETI）」，成果發表於《Remote Sensing of Environment》，有效解決過去常見的異常值干擾問題，提升乾旱監測的效率...",
-        "url": "https://spec.ntu.edu.tw/research/research-detail271"
-      },
-      {
         "id": 4,
         "date": "2025-09-28",
         "title": "本中心劉說安教授主編國際專刊徵稿",
@@ -62,13 +76,6 @@
         "title": "本中心發表 RSETI 新指標",
         "excerpt": "由劉說安教授團隊提出「相對地表蒸發散指數」（RSETI），突破現有遙測乾旱監測的限制。成功描繪 2001–2022 年澳洲乾旱演變，並驗證其在農業管理與氣候調適上的應用潛力。成果刊登於Remote Sensing of Environment..",
         "url": "https://spec.ntu.edu.tw/research/research-detail271"
-      },
-      {
-        "id": 6,
-        "date": "2025-10-03",
-        "title": "第六則新聞標題",
-        "excerpt": "這是第六則新聞的摘要",
-        "url": "#"
       }
     ]
   },
