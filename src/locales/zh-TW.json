@@ -186,16 +186,6 @@
     "readMore": "READ MORE",
     "members": [
       {
-        "image": "Gemini_劉說安2.png",
-        "name": "劉說安 Yuei-An Liou",
-        "title": "太遙講座教授",
-        "department": "太空及遙測研究中心",
-        "expertise": [
-          "<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象"
-        ],
-        "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
-      },
-      {
         "image": "Gemini_Chien_wen_Shen.png",
         "name": "沈建文 Chien-wen Shen",
         "title": "教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任",
@@ -206,8 +196,18 @@
         "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
       },
       {
+        "image": "Gemini_劉說安2.png",
+        "name": "劉說安 Yuei-An Liou",
+        "title": "太遙講座教授",
+        "department": "太空及遙測研究中心",
+        "expertise": [
+          "<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象"
+        ],
+        "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
+      },
+      {
         "image": "Gemini_Cheng-Ling Kou2.png",
-        "name": "郭政靈 Cheng-Ling Kou",
+        "name": "郭政靈 Cheng-Ling Kuo",
         "title": "教授",
         "department": "太空科學與科技研究中心",
         "expertise": [
@@ -766,7 +766,7 @@
         "content": {
           "advisors": [
             {
-              "name": "Takaghoshi",
+              "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
             },

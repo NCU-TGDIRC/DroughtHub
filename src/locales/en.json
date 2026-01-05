@@ -188,16 +188,6 @@
     "readMore": "READ MORE",
     "members": [
       {
-        "image": "Gemini_劉說安2.png",
-        "name": "Yuei-An Liou",
-        "title": "Space and Remote Sensing Chair Professor",
-        "department": "Center for Space and Remote Sensing Research",
-        "expertise": [
-          "<b>Remote Sensing</b>: microwave, thermal infrared, and optical remote sensing; satellite- and airborne-based remote sensing<br><b>Science</b>: boundary layer (micrometeorology), atmospheric science<br><b>Engineering</b>: electrical engineering (electromagnetic waves), GPS meteorology"
-        ],
-        "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
-      },
-      {
         "image": "Gemini_Chien_wen_Shen.png",
         "name": "Chien-wen Shen",
         "title": "Professor & Director of the Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
@@ -208,8 +198,18 @@
         "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
       },
       {
+        "image": "Gemini_劉說安2.png",
+        "name": "Yuei-An Liou",
+        "title": "Space and Remote Sensing Chair Professor",
+        "department": "Center for Space and Remote Sensing Research",
+        "expertise": [
+          "<b>Remote Sensing</b>: microwave, thermal infrared, and optical remote sensing; satellite- and airborne-based remote sensing<br><b>Science</b>: boundary layer (micrometeorology), atmospheric science<br><b>Engineering</b>: electrical engineering (electromagnetic waves), GPS meteorology"
+        ],
+        "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
+      },
+      {
         "image": "Gemini_Cheng-Ling Kou2.png",
-        "name": "Cheng-Ling Kou",
+        "name": "Cheng-Ling Kuo",
         "title": "Professor",
         "department": "Center for Space Science and Technology",
         "expertise": [
@@ -845,7 +845,7 @@
         "content": {
           "advisors": [
             {
-              "name": "Takaghoshi",
+              "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
             },
