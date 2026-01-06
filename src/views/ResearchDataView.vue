@@ -4,7 +4,7 @@
     <main class="py-5 bg-light">
       <b-container>
         <div v-for="group in publications" :key="group.year" class="mb-5">
-          <h2 class="year-title">{{ group.year }}</h2>
+
           <div class="publications-list">
             <b-card v-for="(paper, index) in group.papers" :key="index" no-body class="publication-item mb-5 shadow-lg border-0 rounded-4 overflow-hidden">
               <b-card-body class="p-0">

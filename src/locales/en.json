@@ -190,8 +190,8 @@
     "members": [
       {
         "image": "Gemini_Chien_wen_Shen.png",
-        "name": "Chien-wen Shen",
-        "title": "Professor & Director of the Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
+        "name": "Chien-Wen Shen",
+        "title": "Professor & Associate Dean, College of Management Director, Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
         "department": "Department of Business Administration",
         "expertise": [
           "Information innovation technology applications, supply chain management, decision sciences"
@@ -221,7 +221,7 @@
       {
         "image": "Gemini_hsu_wen_chin2.png",
         "name": "Wen-Chin Hsu",
-        "title": "Professor",
+        "title": "Professor & Executive Director, EMI Office, College of Management; Director, IMBA",
         "department": "Department of Information Management",
         "expertise": [
           "Healthcare information management, e-commerce, human-computer interaction, consumer behavior, intelligent services"
@@ -231,7 +231,7 @@
       {
         "image": "Hsiao-Ting Tseng.jpg",
         "name": "Hsiao-Ting Tseng",
-        "title": "Associate Professor",
+        "title": "Associate Professor; Director, Center for Service-Learning and Development",
         "department": "Department of Information Management",
         "expertise": [
           "Social media and social networks, e-commerce, health information systems, human-computer interaction, service science, AI applications and data science"
@@ -357,6 +357,8 @@
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 55, 101917",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101917",
+            "image": "ResearchData/Drought_Liou_2024pic2.jpg",
+            "summary": "This study confirms the close relationship between Taiwan's droughts and typhoon dynamics. Analysis reveals that the duration and track length of Western North Pacific typhoons influence long-term drought more significantly than typhoon frequency. Trends indicate that intensifying drought in central and southern Taiwan—versus decreasing dryness in the north—is linked to the concentration of typhoon tracks in northern regions. Furthermore, peak drought intensity typically occurs in late winter and early spring when typhoons are absent.",
             "tags": [
               "SCI",
               "IF: 4.7",
@@ -370,6 +372,8 @@
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 54, August 2024, 101849",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101849",
+            "image":"ResearchData/Drought_Liou_2024pic3.jpg",
+            "summary":"This study analyzes spring drought in Taiwan, revealing that hydrological droughts respond more rapidly to rainfall deficits than agricultural droughts—a distinct deviation from global patterns. Since 2000, hydrometeorological droughts have intensified while agricultural droughts have declined. Drought hotspots are concentrated in central and southern Taiwan, exhibiting 4–6-year resonance cycles with temperature. These findings underscore the need for enhanced water resource management to safeguard the industrial economy.",
             "tags": [
               "SCI",
               "IF: 4.7",
@@ -856,6 +860,21 @@
               "name": "HUMG",
               "title": "Advisor",
               "image": "Gemini_HUMG.png"
+            },
+            {
+              "name": "Dara Entekhabi",
+              "title": "Advisor",
+              "image": "Gemini_Dara Entekhabi.png"
+            },
+            {
+              "name": "Tran Minh Tien",
+              "title": "Advisor",
+              "image": "Gemini_Tran Minh Tien.png"
+            },
+            {
+              "name": "Venkataraman Lakshmi",
+              "title": "Advisor",
+              "image": "Gemini_Venkataraman Lakshmi.png"
             }
           ],
           "teamMembers": [
