@@ -16,6 +16,7 @@
           <b-nav-item to="/research">{{ $t('header.nav.research') }}</b-nav-item>
           <b-nav-item to="/team">{{ $t('header.nav.team') }}</b-nav-item>
           <b-nav-item to="/reports">{{ $t('header.nav.reports') }}</b-nav-item>
+          <b-nav-item to="/research-data">{{ $t('header.nav.researchData') }}</b-nav-item>
           <b-nav-item to="/conferences">{{ $t('header.nav.conferences') }}</b-nav-item>
           <b-nav-item to="/cesr2026">{{ $t('header.nav.icqab') }}</b-nav-item>
           <b-nav-item @click="switchLanguage" class="lang-switcher">{{ $t('header.nav.language') }}</b-nav-item>
