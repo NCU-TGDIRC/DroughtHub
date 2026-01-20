@@ -182,8 +182,6 @@
   },
   "team": {
     "bannerTitle": "團隊成員",
-    "directorTitle": "中心主持人",
-    "researchTeamTitle": "研究團隊",
     "expertiseTitle": "專業領域",
     "readMore": "READ MORE",
     "members": [
@@ -218,7 +216,7 @@
         "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
       },
       {
-        "image": "gemini_hsu_wen_chin.jpg",
+        "image": "Gemini_hsu_wen_chin2.png",
         "name": "許文錦 Wen-Chin Hsu",
         "title": "教授",
         "department": "資訊管理學系",
