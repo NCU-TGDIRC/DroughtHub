@@ -184,6 +184,8 @@
   },
   "team": {
     "bannerTitle": "Team Members",
+    "directorTitle": "Center Director",
+    "researchTeamTitle": "Research Team",
     "expertiseTitle": "Expertise",
     "readMore": "READ MORE",
     "members": [
@@ -218,7 +220,7 @@
         "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
       },
       {
-        "image": "Gemini_hsu_wen_chin2.png",
+        "image": "gemini_hsu_wen_chin.jpg",
         "name": "Wen-Chin Hsu",
         "title": "Professor",
         "department": "Department of Information Management",
