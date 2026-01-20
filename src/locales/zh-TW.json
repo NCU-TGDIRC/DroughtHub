@@ -6,6 +6,7 @@
       "research": "研究領域",
       "team": "團隊成員",
       "reports": "成果報導",
+      "researchData": "研究資料",
       "conferences": "歷年研討會",
       "icqab": "2026CESR",
       "language": "ENGLISH"
@@ -186,6 +187,16 @@
     "readMore": "READ MORE",
     "members": [
       {
+        "image": "Gemini_Chien_wen_Shen.png",
+        "name": "沈建文 Chien-Wen Shen",
+        "title": "教授兼管理學院副院長、亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任",
+        "department": "企業管理學系",
+        "expertise": [
+          "資訊創新技術應用、供應鏈管理、決策科學"
+        ],
+        "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
+      },
+      {
         "image": "Gemini_劉說安2.png",
         "name": "劉說安 Yuei-An Liou",
         "title": "太遙講座教授",
@@ -196,18 +207,8 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
       },
       {
-        "image": "Gemini_Chien_wen_Shen.png",
-        "name": "沈建文 Chien-wen Shen",
-        "title": "教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任",
-        "department": "企業管理學系",
-        "expertise": [
-          "資訊創新技術應用、供應鏈管理、決策科學"
-        ],
-        "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
-      },
-      {
         "image": "Gemini_Cheng-Ling Kou2.png",
-        "name": "郭政靈 Cheng-Ling Kou",
+        "name": "郭政靈 Cheng-Ling Kuo",
         "title": "教授",
         "department": "太空科學與科技研究中心",
         "expertise": [
@@ -216,9 +217,9 @@
         "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
       },
       {
-        "image": "Gemini_hsu_wen_chin2.png",
+        "image": "Gemini_hsu_4.jpg",
         "name": "許文錦 Wen-Chin Hsu",
-        "title": "教授",
+        "title": "教授兼管理學院EMI執行長、IMBA主任",
         "department": "資訊管理學系",
         "expertise": [
           "醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務"
@@ -228,7 +229,7 @@
       {
         "image": "Hsiao-Ting Tseng.jpg",
         "name": "曾筱珽 Hsiao-Ting Tseng",
-        "title": "副教授",
+        "title": "副教授兼服務學習發展中心主任",
         "department": "資訊管理學系",
         "expertise": [
           "社群媒體與社群網路、電子商務、健康資訊系統、人機互動、服務科學、人工智慧應用與資料科學"
@@ -266,6 +267,9 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
       }
     ]
+  },
+  "researchData": {
+    "bannerTitle": "研究資料"
   },
   "reports": {
     "bannerTitle": "成果報導",
@@ -336,6 +340,8 @@
             "journal": "Science of the Total Environment",
             "details": "175835",
             "doi": "https://doi.org/10.1016/j.scitotenv.2024.175835",
+            "image": "ResearchData/Drought_Liou_2024pic.jpg",
+            "summary": "本研究整合 ANP 與 ANN 模型，針對危害、暴露及脆弱度等 20 項指標，繪製台灣乾旱風險地圖。模型準確率達 0.940，並經實地數據驗證具高可靠性。結果證實此方法能快速且精確預測多元情境下的乾旱風險。",
             "tags": [
               "SCI",
               "IF: 8.200",
@@ -344,24 +350,13 @@
             ]
           },
           {
-            "title": "Comparative analysis of machine learning models for tropical cyclone intensity estimation.",
-            "authors": "Liou, Y.-A.*, Le, T.-V.",
-            "journal": "Remote Sensing",
-            "details": "16, 3138",
-            "doi": "https://doi.org/10.3390/rs16173138",
-            "tags": [
-              "SCI",
-              "IF: 4.200",
-              "RF: 34/253",
-              "Remote Sensing"
-            ]
-          },
-          {
             "title": "Revealing the intricate relationship: Droughts and typhoons in Taiwan using the Standardized Precipitation Index (SPI).",
             "authors": "Le, T.-V. and Y.-A. Liou*, and K.-A. Nguyen",
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 55, 101917",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101917",
+            "image": "ResearchData/Drought_Liou_2024pic2.jpg",
+            "summary":"本研究證實台灣乾旱與颱風動態密切相關。分析發現，西北太平洋颱風的「持續時間」與「路徑長度」比數量更能影響長期乾旱。趨勢顯示，受颱風路徑集中北部影響，中南部乾旱加劇，北部則減緩；且乾旱高峰多發生於無颱風的冬末春初。",
             "tags": [
               "SCI",
               "IF: 4.7",
@@ -370,16 +365,18 @@
             ]
           },
           {
-            "title": "Assessing the impacts of temperature extremes on agriculture yield and projecting future extremes using machine learning and deep learning approaches with CMIP6 data.",
-            "authors": "Khan, F., Y.-A. Liou*, G. Spöck, X. Wang, S. Ali",
-            "journal": "International Journal of Applied Earth Observation and Geoinformation",
-            "details": "132, 104071",
-            "doi": "https://doi.org/10.1016/j.jag.2024.104071",
+            "title": "Four-decade spring droughts in Taiwan.",
+            "authors": "Vo, T.-H., Liou, Y.-A.*",
+            "journal": "Journal of Hydrology: Regional Studies",
+            "details": "Volume 54, August 2024, 101849",
+            "doi": "https://doi.org/10.1016/j.ejrh.2024.101849",
+            "image":"ResearchData/Drought_Liou_2024pic3.jpg",
+            "summary":"本研究分析台灣春季乾旱，發現水文乾旱對降雨缺口的反應比農業乾旱迅速，異於全球常態。2000年後水文氣象乾旱加劇，農業乾旱反減。熱點位於中南部，且與溫度呈4-6年共振週期，顯示需強化水資源管理以保障產業經濟。" ,
             "tags": [
               "SCI",
-              "IF: 7.600",
-              "RF: 6/62",
-              "Remote Sensing"
+              "IF: 4.7",
+              "RF: 17/127",
+              "Water Resources"
             ]
           }
         ]
@@ -766,7 +763,7 @@
         "content": {
           "advisors": [
             {
-              "name": "Takaghoshi",
+              "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
             },
@@ -784,6 +781,21 @@
               "name": "HUMG",
               "title": "Advisor",
               "image": "Gemini_HUMG.png"
+            },
+            {
+              "name": "Dara Entekhabi",
+              "title": "Advisor",
+              "image": "Gemini_Dara Entekhabi.png"
+            },
+            {
+              "name": "Tran Minh Tien",
+              "title": "Advisor",
+              "image": "Gemini_Tran Minh Tien.png"
+            },
+            {
+              "name": "Venkataraman Lakshmi",
+              "title": "Advisor",
+              "image": "Gemini_Venkataraman Lakshmi.png"
             }
           ],
           "teamMembers": [

@@ -6,6 +6,7 @@
       "research": "Research",
       "team": "Team",
       "reports": "Reports",
+      "researchData": "Research Data",
       "conferences": "Conferences",
       "icqab": "2026CESR",
       "language": "中文"
@@ -188,6 +189,16 @@
     "readMore": "READ MORE",
     "members": [
       {
+        "image": "Gemini_Chien_wen_Shen.png",
+        "name": "Chien-Wen Shen",
+        "title": "Professor & Associate Dean, College of Management Director, Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
+        "department": "Department of Business Administration",
+        "expertise": [
+          "Information innovation technology applications, supply chain management, decision sciences"
+        ],
+        "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
+      },
+      {
         "image": "Gemini_劉說安2.png",
         "name": "Yuei-An Liou",
         "title": "Space and Remote Sensing Chair Professor",
@@ -198,18 +209,8 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
       },
       {
-        "image": "Gemini_Chien_wen_Shen.png",
-        "name": "Chien-wen Shen",
-        "title": "Professor & Director of the Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
-        "department": "Department of Business Administration",
-        "expertise": [
-          "Information innovation technology applications, supply chain management, decision sciences"
-        ],
-        "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
-      },
-      {
         "image": "Gemini_Cheng-Ling Kou2.png",
-        "name": "Cheng-Ling Kou",
+        "name": "Cheng-Ling Kuo",
         "title": "Professor",
         "department": "Center for Space Science and Technology",
         "expertise": [
@@ -220,7 +221,7 @@
       {
         "image": "Gemini_hsu_wen_chin2.png",
         "name": "Wen-Chin Hsu",
-        "title": "Professor",
+        "title": "Professor & Executive Director, EMI Office, College of Management; Director, IMBA",
         "department": "Department of Information Management",
         "expertise": [
           "Healthcare information management, e-commerce, human-computer interaction, consumer behavior, intelligent services"
@@ -230,7 +231,7 @@
       {
         "image": "Hsiao-Ting Tseng.jpg",
         "name": "Hsiao-Ting Tseng",
-        "title": "Associate Professor",
+        "title": "Associate Professor; Director, Center for Service-Learning and Development",
         "department": "Department of Information Management",
         "expertise": [
           "Social media and social networks, e-commerce, health information systems, human-computer interaction, service science, AI applications and data science"
@@ -268,6 +269,9 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
       }
     ]
+  },
+  "researchData": {
+    "bannerTitle": "Research Data"
   },
   "reports": {
     "bannerTitle": "Reports",
@@ -338,6 +342,8 @@
             "journal": "Science of the Total Environment",
             "details": "175835",
             "doi": "https://doi.org/10.1016/j.scitotenv.2024.175835",
+            "image": "ResearchData/Drought_Liou_2024pic.jpg",
+            "summary": "This study integrates ANP and ANN models to map drought risk in Taiwan using 20 indicators across hazard, exposure, and vulnerability dimensions. The model achieved an accuracy of 0.940 and was validated with ground truth data, demonstrating high reliability. The results confirm that this approach can rapidly and accurately predict drought risk under diverse scenarios.",
             "tags": [
               "SCI",
               "IF: 8.200",
@@ -346,24 +352,13 @@
             ]
           },
           {
-            "title": "Comparative analysis of machine learning models for tropical cyclone intensity estimation.",
-            "authors": "Liou, Y.-A.*, Le, T.-V.",
-            "journal": "Remote Sensing",
-            "details": "16, 3138",
-            "doi": "https://doi.org/10.3390/rs16173138",
-            "tags": [
-              "SCI",
-              "IF: 4.200",
-              "RF: 34/253",
-              "Remote Sensing"
-            ]
-          },
-          {
             "title": "Revealing the intricate relationship: Droughts and typhoons in Taiwan using the Standardized Precipitation Index (SPI).",
             "authors": "Le, T.-V. and Y.-A. Liou*, and K.-A. Nguyen",
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 55, 101917",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101917",
+            "image": "ResearchData/Drought_Liou_2024pic2.jpg",
+            "summary": "This study confirms the close relationship between Taiwan's droughts and typhoon dynamics. Analysis reveals that the duration and track length of Western North Pacific typhoons influence long-term drought more significantly than typhoon frequency. Trends indicate that intensifying drought in central and southern Taiwan—versus decreasing dryness in the north—is linked to the concentration of typhoon tracks in northern regions. Furthermore, peak drought intensity typically occurs in late winter and early spring when typhoons are absent.",
             "tags": [
               "SCI",
               "IF: 4.7",
@@ -372,16 +367,18 @@
             ]
           },
           {
-            "title": "Assessing the impacts of temperature extremes on agriculture yield and projecting future extremes using machine learning and deep learning approaches with CMIP6 data.",
-            "authors": "Khan, F., Y.-A. Liou*, G. Spöck, X. Wang, S. Ali",
-            "journal": "International Journal of Applied Earth Observation and Geoinformation",
-            "details": "132, 104071",
-            "doi": "https://doi.org/10.1016/j.jag.2024.104071",
+            "title": "Four-decade spring droughts in Taiwan.",
+            "authors": "Vo, T.-H., Liou, Y.-A.*",
+            "journal": "Journal of Hydrology: Regional Studies",
+            "details": "Volume 54, August 2024, 101849",
+            "doi": "https://doi.org/10.1016/j.ejrh.2024.101849",
+            "image":"ResearchData/Drought_Liou_2024pic3.jpg",
+            "summary":"This study analyzes spring drought in Taiwan, revealing that hydrological droughts respond more rapidly to rainfall deficits than agricultural droughts—a distinct deviation from global patterns. Since 2000, hydrometeorological droughts have intensified while agricultural droughts have declined. Drought hotspots are concentrated in central and southern Taiwan, exhibiting 4–6-year resonance cycles with temperature. These findings underscore the need for enhanced water resource management to safeguard the industrial economy.",
             "tags": [
               "SCI",
-              "IF: 7.600",
-              "RF: 6/62",
-              "Remote Sensing"
+              "IF: 4.7",
+              "RF: 17/127",
+              "Water Resources"
             ]
           }
         ]
@@ -845,7 +842,7 @@
         "content": {
           "advisors": [
             {
-              "name": "Takaghoshi",
+              "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
             },
@@ -863,6 +860,21 @@
               "name": "HUMG",
               "title": "Advisor",
               "image": "Gemini_HUMG.png"
+            },
+            {
+              "name": "Dara Entekhabi",
+              "title": "Advisor",
+              "image": "Gemini_Dara Entekhabi.png"
+            },
+            {
+              "name": "Tran Minh Tien",
+              "title": "Advisor",
+              "image": "Gemini_Tran Minh Tien.png"
+            },
+            {
+              "name": "Venkataraman Lakshmi",
+              "title": "Advisor",
+              "image": "Gemini_Venkataraman Lakshmi.png"
             }
           ],
           "teamMembers": [
