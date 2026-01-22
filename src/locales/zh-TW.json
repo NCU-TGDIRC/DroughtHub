@@ -237,7 +237,7 @@
         "detailUrl": "https://im.mgt.ncu.tw/teacher"
       },
       {
-        "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+        "image": "Gemini_羅月霞 Yueh-Hsia Luo.jpg",
         "name": "羅月霞 Yueh-Hsia Luo",
         "title": "副教授",
         "department": "生命科學系",
@@ -622,7 +622,7 @@
   },
   "conference2026": {
     "header": {
-      "date": "2026年11月22-24日 | 國立中央大學，桃園，台灣",
+      "date": "2026年11月1-7日 | 國立中央大學，桃園，台灣",
       "title": "第二屆氣候極端與社會韌性國際論壇：<br>乾旱、熱害與暖化世界中的人類宜居性",
       "subtitle": "(CESR 2026)"
     },
@@ -652,7 +652,7 @@
     "sections": [
       {
         "title": "重要日程 (Important Dates)",
-        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2026</li><li><b>Notification of abstract acceptance:</b> November 18, 2026</li><li><b>Registration Deadline:</b> November 20, 2026</li><li><b>Conference date:</b> 2026年11月22-24日 , with registration beginning on November 21.</li></ul></div>"
+        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2026</li><li><b>Notification of abstract acceptance:</b> November 18, 2026</li><li><b>Registration Deadline:</b> November 20, 2026</li><li><b>Conference date:</b> 2026年11月1-7日 , with registration beginning on October 31.</li></ul></div>"
       },
       {
         "title": "緣起 (Introduction)",
@@ -678,7 +678,7 @@
           "details": [
             {
               "label": "會議時間",
-              "value": "中華民國 2026 年 11 月 22 日(日)至 11 月 24 日(二)"
+              "value": "中華民國 2026 年 11 月 1 日(日)至 11 月 7 日(六)"
             },
             {
               "label": "會議地點",

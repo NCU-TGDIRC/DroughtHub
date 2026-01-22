@@ -239,7 +239,7 @@
         "detailUrl": "https://im.mgt.ncu.tw/teacher"
       },
       {
-        "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+        "image": "Gemini_羅月霞 Yueh-Hsia Luo.jpg",
         "name": "Yueh-Hsia Luo",
         "title": "Associate Professor",
         "department": "Department of Life Sciences",
@@ -625,7 +625,7 @@
   },
   "conference2026": {
     "header": {
-      "date": "November 22-24, 2026 | National Central University, Taoyuan, Taiwan",
+      "date": "November 1-7, 2026 | National Central University, Taoyuan, Taiwan",
       "title": "The Second International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2026)"
     },
@@ -727,7 +727,7 @@
     "sections": [
       {
         "title": "Important Dates",
-        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2026</li><li><b>Notification of abstract acceptance:</b> November 18, 2026</li><li><b>Registration Deadline:</b> November 20, 2026</li><li><b>Conference date:</b> November 22-24 ,2026, with registration beginning on November 21.</li></ul></div>"
+        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 22, 2026</li><li><b>Notification of abstract acceptance:</b> November 18, 2026</li><li><b>Registration Deadline:</b> November 20, 2026</li><li><b>Conference date:</b> November 1-7, 2026, with registration beginning on October 31.</li></ul></div>"
       },
       {
         "title": "Introduction",
@@ -753,7 +753,7 @@
           "details": [
             {
               "label": "Conference Dates",
-              "value": "November 23 (Sunday) – November 25 (Tuesday), 2026"
+              "value": "November 1 (Sunday) – November 7 (Saturday), 2026"
             },
             {
               "label": "Venue",
