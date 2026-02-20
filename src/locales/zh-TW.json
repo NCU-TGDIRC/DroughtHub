@@ -16,7 +16,7 @@
     "copyright": "© 2025 國立中央大學台灣暨全球乾旱調查與研究中心. All rights reserved."
   },
   "hero": {
-    "title": "NCU TGI",
+    "title": "NCU TGI DROUGHT HUB",
     "subtitle": "國立中央大學台灣暨全球乾旱調查與研究中心",
     "description": "Taiwan and Global Drought Investigation and Research Center"
   },
@@ -100,6 +100,7 @@
     "mainTitle": "核心研究方向",
     "description": "本中心整合跨領域科學，聚焦於氣候變遷下的極端災害，從技術監測、衝擊評估到社會韌性建構，致力於發展永續的解決方案，以應對全球乾旱、熱害與水資源挑戰。",
     "keywordsTitle": "研究關鍵字",
+    "viewPublications": "成果報導",
     "areas": [
       {
         "icon": "fas fa-satellite-dish fa-3x text-primary",

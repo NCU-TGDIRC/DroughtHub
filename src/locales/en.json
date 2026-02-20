@@ -16,7 +16,7 @@
     "copyright": "© 2025 NCU Center for Taiwan and Global Drought Research. All rights reserved."
   },
   "hero": {
-    "title": "NCU TGI",
+    "title": "NCU TGI DROUGHT HUB",
     "subtitle": "Taiwan and Global Drought Investigation and Research Center",
     "description": ""
   },
@@ -102,6 +102,7 @@
     "mainTitle": "Core Research Directions",
     "description": "Our center integrates interdisciplinary sciences, focusing on extreme disasters under climate change. From technical monitoring and impact assessment to building societal resilience, we are committed to developing sustainable solutions to address global challenges of drought, heat stress, and water resources.",
     "keywordsTitle": "Keywords",
+    "viewPublications": "Publications",
     "areas": [
       {
         "icon": "fas fa-satellite-dish fa-3x text-primary",
@@ -271,10 +272,10 @@
     ]
   },
   "researchData": {
-    "bannerTitle": "Research Data"
+    "bannerTitle": "Key Finding"
   },
   "reports": {
-    "bannerTitle": "Publications",
+    "bannerTitle": "Reports",
     "publications": [
       {
         "year": 2025,
