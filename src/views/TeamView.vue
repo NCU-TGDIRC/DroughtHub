@@ -50,6 +50,26 @@
             </b-card>
           </b-col>
         </b-row>
+
+        <!-- International Advisors -->
+        <div class="text-center">
+          <h2 class="my-5 section-title">{{ $t('team.internationalAdvisorsTitle') }}</h2>
+        </div>
+        <b-row class="g-4 align-items-stretch justify-content-center">
+          <b-col v-for="advisor in internationalAdvisors" :key="advisor.name" md="6" lg="4">
+            <b-card no-body class="text-center h-100 shadow-sm card-hover-effect">
+              <b-card-body class="d-flex flex-column p-4 h-100">
+                <div class="mb-4">
+                  <b-img :src="getImageUrl(advisor.image)" rounded :alt="advisor.name" class="member-img"></b-img>
+                </div>
+                <div class="flex-grow-1">
+                  <h4 class="card-title-custom">{{ advisor.name }}</h4>
+                  <p class="text-muted mb-3">{{ advisor.title }}</p>
+                </div>
+              </b-card-body>
+            </b-card>
+          </b-col>
+        </b-row>
       </b-container>
     </main>
   </div>
@@ -76,6 +96,11 @@ export default {
       return this.members.filter(
         (member) => !member.name.includes('Yuei-An Liou') && !member.name.includes('劉說安')
       );
+    },
+    internationalAdvisors() {
+      const sections = this.$tm('conference2026.sections') || [];
+      const board = sections.find(s => s.isEditorialBoard);
+      return board ? board.content.advisors : [];
     },
   },
   methods: {
@@ -133,5 +158,13 @@ export default {
   border-color: #002244;
   color: #fff;
   opacity: 1;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #003366;
+  border-bottom: 3px solid #0056b3;
+  padding-bottom: 0.75rem;
+  display: inline-block;
 }
 </style>

@@ -5,8 +5,7 @@
       "home": "Home",
       "research": "Research",
       "team": "Team",
-      "reports": "Reports",
-      "researchData": "Research Data",
+      "researchData": "Key Finding",
       "conferences": "Conferences",
       "icqab": "2026CESR",
       "language": "中文"
@@ -16,7 +15,7 @@
     "copyright": "© 2025 NCU Center for Taiwan and Global Drought Research. All rights reserved."
   },
   "hero": {
-    "title": "NCU TGI DROUGHT HUB",
+    "title": "NCU TGI Drought hub",
     "subtitle": "Taiwan and Global Drought Investigation and Research Center",
     "description": ""
   },
@@ -103,6 +102,7 @@
     "description": "Our center integrates interdisciplinary sciences, focusing on extreme disasters under climate change. From technical monitoring and impact assessment to building societal resilience, we are committed to developing sustainable solutions to address global challenges of drought, heat stress, and water resources.",
     "keywordsTitle": "Keywords",
     "viewPublications": "Publications",
+    "viewPublicationsSub": "Click to explore our findings",
     "areas": [
       {
         "icon": "fas fa-satellite-dish fa-3x text-primary",
@@ -187,6 +187,7 @@
   "team": {
     "bannerTitle": "Team Members",
     "expertiseTitle": "Expertise",
+    "internationalAdvisorsTitle": "International Advisors",
     "readMore": "READ MORE",
     "members": [
       {
@@ -275,7 +276,7 @@
     "bannerTitle": "Key Finding"
   },
   "reports": {
-    "bannerTitle": "Reports",
+    "bannerTitle": "Publications",
     "publications": [
       {
         "year": 2025,
@@ -843,6 +844,16 @@
         "content": {
           "advisors": [
             {
+              "name": "Dara Entekhabi",
+              "title": "Advisor",
+              "image": "Gemini_Dara Entekhabi.png"
+            },
+            {
+              "name": "Venkataraman Lakshmi",
+              "title": "Advisor",
+              "image": "Gemini_Venkataraman Lakshmi.png"
+            },
+            {
               "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
@@ -863,27 +874,17 @@
               "image": "Gemini_HUMG.png"
             },
             {
-              "name": "Dara Entekhabi",
-              "title": "Advisor",
-              "image": "Gemini_Dara Entekhabi.png"
-            },
-            {
               "name": "Tran Minh Tien",
               "title": "Advisor",
               "image": "Gemini_Tran Minh Tien.png"
-            },
-            {
-              "name": "Venkataraman Lakshmi",
-              "title": "Advisor",
-              "image": "Gemini_Venkataraman Lakshmi.png"
             }
           ],
           "teamMembers": [
             {
               "image": "Gemini_劉說安2.png",
               "name": "Yuei-An Liou",
-              "title": "Space and Remote Sensing Chair Professor",
-              "department": "Center for Space and Remote Sensing Research",
+              "title": "Chair Professor",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "<b>Remote Sensing</b>: microwave, thermal infrared, and optical remote sensing; satellite- and airborne-based remote sensing<br><b>Science</b>: boundary layer (micrometeorology), atmospheric science<br><b>Engineering</b>: electrical engineering (electromagnetic waves), GPS meteorology"
               ],
@@ -892,8 +893,8 @@
             {
               "image": "Gemini_Chien_wen_Shen.png",
               "name": "Chien-wen Shen",
-              "title": "Professor & Director of the Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
-              "department": "Department of Business Administration",
+              "title": "Professor",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Information innovation technology applications, supply chain management, decision sciences"
               ],
@@ -903,7 +904,7 @@
               "image": "Gemini_Cheng-Ling Kou2.png",
               "name": "Cheng-Ling Kou",
               "title": "Professor",
-              "department": "Center for Space Science and Technology",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "<b>Remote Sensing</b>: hyperspectral and multispectral data fusion, land cover classification, high-temperature analysis<br><b>Science</b>: atmospheric electricity and plasma physics<br><b>Engineering</b>: CubeSats and space optical payloads"
               ],
@@ -913,7 +914,7 @@
               "image": "Gemini_hsu_wen_chin2.png",
               "name": "Wen-Chin Hsu",
               "title": "Professor",
-              "department": "Department of Information Management",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Healthcare information management, e-commerce, human-computer interaction, consumer behavior, intelligent services"
               ],
@@ -923,7 +924,7 @@
               "image": "Hsiao-Ting Tseng.jpg",
               "name": "Hsiao-Ting Tseng",
               "title": "Associate Professor",
-              "department": "Department of Information Management",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Social media and social networks, e-commerce, health information systems, human-computer interaction, service science, AI applications and data science"
               ],
@@ -933,7 +934,7 @@
               "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
               "name": "Yueh-Hsia Luo",
               "title": "Associate Professor",
-              "department": "Department of Life Sciences",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Infection and immunity, nanoparticle immunotoxicity analysis, gut microbiota and immune system"
               ],
@@ -943,7 +944,7 @@
               "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
               "name": "Chun-Hsien Hsu",
               "title": "Associate Professor",
-              "department": "Institute of Cognitive Neuroscience",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Neurolinguistics, computational linguistics, phonetics, morphology, language acquisition, EEG/MEG signal analysis"
               ],
@@ -953,7 +954,7 @@
               "image": "Gemini_Shou-Hao Chiang.png",
               "name": "Shou-Hao Chiang",
               "title": "Associate Professor",
-              "department": "Center for Space and Remote Sensing Research",
+              "department": "NCU TGI Drought hub",
               "expertise": [
                 "Spatial patterns, spatial information analysis, hydrology and landslide modeling, physical geography"
               ],

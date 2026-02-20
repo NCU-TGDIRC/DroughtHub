@@ -27,11 +27,6 @@ const routes = [
     component: () => import('../views/TeamView.vue')
   },
   {
-    path: '/reports',
-    name: 'reports',
-    component: () => import('../views/ReportsView.vue')
-  },
-  {
     path: '/research-data',
     name: 'researchData',
     component: () => import('../views/ResearchDataView.vue')

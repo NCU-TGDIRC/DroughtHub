@@ -5,7 +5,6 @@
       "home": "首頁",
       "research": "研究領域",
       "team": "團隊成員",
-      "reports": "成果報導",
       "researchData": "研究資料",
       "conferences": "歷年研討會",
       "icqab": "2026CESR",
@@ -16,7 +15,7 @@
     "copyright": "© 2025 國立中央大學台灣暨全球乾旱調查與研究中心. All rights reserved."
   },
   "hero": {
-    "title": "NCU TGI DROUGHT HUB",
+    "title": "NCU TGI Drought hub",
     "subtitle": "國立中央大學台灣暨全球乾旱調查與研究中心",
     "description": "Taiwan and Global Drought Investigation and Research Center"
   },
@@ -101,6 +100,7 @@
     "description": "本中心整合跨領域科學，聚焦於氣候變遷下的極端災害，從技術監測、衝擊評估到社會韌性建構，致力於發展永續的解決方案，以應對全球乾旱、熱害與水資源挑戰。",
     "keywordsTitle": "研究關鍵字",
     "viewPublications": "成果報導",
+    "viewPublicationsSub": "點擊探索我們的研究成果",
     "areas": [
       {
         "icon": "fas fa-satellite-dish fa-3x text-primary",
@@ -185,6 +185,7 @@
   "team": {
     "bannerTitle": "團隊成員",
     "expertiseTitle": "專業領域",
+    "internationalAdvisorsTitle": "國際顧問",
     "readMore": "READ MORE",
     "members": [
       {
@@ -764,6 +765,16 @@
         "content": {
           "advisors": [
             {
+              "name": "Dara Entekhabi",
+              "title": "Advisor",
+              "image": "Gemini_Dara Entekhabi.png"
+            },
+            {
+              "name": "Venkataraman Lakshmi",
+              "title": "Advisor",
+              "image": "Gemini_Venkataraman Lakshmi.png"
+            },
+            {
               "name": "Takashi Oguchi",
               "title": "Advisor",
               "image": "Gemini_Takaghoshi.png"
@@ -784,27 +795,18 @@
               "image": "Gemini_HUMG.png"
             },
             {
-              "name": "Dara Entekhabi",
-              "title": "Advisor",
-              "image": "Gemini_Dara Entekhabi.png"
-            },
-            {
               "name": "Tran Minh Tien",
               "title": "Advisor",
               "image": "Gemini_Tran Minh Tien.png"
-            },
-            {
-              "name": "Venkataraman Lakshmi",
-              "title": "Advisor",
-              "image": "Gemini_Venkataraman Lakshmi.png"
             }
+            
           ],
           "teamMembers": [
             {
               "image": "Gemini_劉說安2.png",
               "name": "劉說安 Yuei-An Liou",
-              "title": "太遙講座教授",
-              "department": "太空及遙測研究中心",
+              "title": "講座教授",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "<b>遙測</b>: 微波、熱紅外線及光學遙測; 衛載及空載遙測<br><b>科學</b>: 邊界層(微氣象)、大氣科學<br><b>工程</b>: 電機工程(電磁波)、GPS氣象"
               ],
@@ -813,8 +815,8 @@
             {
               "image": "Gemini_Chien_wen_Shen.png",
               "name": "沈建文 Chien-wen Shen",
-              "title": "教授暨亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任",
-              "department": "企業管理學系",
+              "title": "教授",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "資訊創新技術應用、供應鏈管理、決策科學"
               ],
@@ -824,7 +826,7 @@
               "image": "Gemini_Cheng-Ling Kou2.png",
               "name": "郭政靈 Cheng-Ling Kou",
               "title": "教授",
-              "department": "太空科學與科技研究中心",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "<b>遙測</b>：高光譜以及多光譜儀資料融合、地物分類以及高溫分析<br><b>科學</b>：大氣電學和電漿物理<br><b>工程</b>：立方衛星以及太空光學儀器酬載"
               ],
@@ -834,7 +836,7 @@
               "image": "Gemini_hsu_wen_chin2.png",
               "name": "許文錦 Wen-Chin Hsu",
               "title": "教授",
-              "department": "資訊管理學系",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "醫療資訊管理、電子商務、人機互動、消費者行為、智慧型服務"
               ],
@@ -844,7 +846,7 @@
               "image": "Hsiao-Ting Tseng.jpg",
               "name": "曾筱珽 Hsiao-Ting Tseng",
               "title": "副教授",
-              "department": "資訊管理學系",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "社群媒體與社群網路、電子商務、健康資訊系統、人機互動、服務科學、人工智慧應用與資料科學"
               ],
@@ -854,7 +856,7 @@
               "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
               "name": "羅月霞 Yueh-Hsia Luo",
               "title": "副教授",
-              "department": "生命科學系",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "感染與免疫、奈米粒子免疫毒理分析、腸道微生物與免疫系統"
               ],
@@ -864,7 +866,7 @@
               "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
               "name": "徐峻賢 Chun-Hsien Hsu",
               "title": "副教授",
-              "department": "認知神經科學研究所",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "神經語言學、計算語言學、語音學、構詞學、語言習得、EEG/MEG訊號分析"
               ],
@@ -874,7 +876,7 @@
               "image": "Gemini_Shou-Hao Chiang.png",
               "name": "姜壽浩 Shou-Hao Chiang",
               "title": "副教授",
-              "department": "太空及遙測研究中心",
+              "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
               "expertise": [
                 "空間模式、空間資訊分析、水文及崩塌模式、自然地理"
               ],

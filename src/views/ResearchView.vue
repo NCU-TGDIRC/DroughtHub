@@ -9,9 +9,25 @@
             <p class="lead text-muted">
               {{ $t('research.description') }}
             </p>
-            <b-button variant="primary" size="lg" @click="showReports" class="mt-4 publications-btn">
-              <i class="fas fa-file-alt me-2"></i> {{ $t('research.viewPublications') }}
-            </b-button>
+
+            <div class="publication-cta-wrapper mt-5">
+              <div class="cta-background-deco"></div>
+              <div class="publication-content">
+                <p class="cta-hint">{{ $t('research.exploreWork') || 'Explore our scholarly work' }}</p>
+                <a @click="showReports" class="premium-launch-btn">
+                  <div class="btn-icon-box">
+                    <i class="fas fa-book-reader"></i>
+                  </div>
+                  <div class="btn-text-content">
+                    <span class="main-label">{{ $t('research.viewPublications') }}</span>
+                    <span class="sub-label">{{ $t('research.viewPublicationsSub') }}</span>
+                  </div>
+                  <div class="btn-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
           </b-col>
         </b-row>
 
@@ -99,95 +115,184 @@ export default {
 </script>
 
 <style scoped>
-.research-card {
-  border: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* 頁面原有樣式保留，下方為新增/修改的按鈕區設計 */
+
+.publication-cta-wrapper {
+  position: relative;
+  padding: 5rem 2rem;
+  background-image: 
+    /* 遮罩層：確保文字清晰，從左至右由深變淺 */
+    linear-gradient(135deg, rgba(0, 26, 51, 0.95) 0%, rgba(0, 51, 102, 0.8) 100%),
+    /* 替換為你的圖片路徑 */
+    url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1000');
+  
+  background-size: cover;
+  background-position: center;
+  /* 增加視差滾動感 */
+  background-attachment: scroll; 
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.research-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+
+/* 增加一個「光塵」特效，模擬顯微鏡下的微粒感 */
+.cta-background-deco::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.1;
+  pointer-events: none;
 }
-.icon-wrapper {
-  margin: 0 auto;
+
+/* case2
+.publication-cta-wrapper {
+  position: relative;
+  padding: 4rem 2rem;
+  background-color: #001a33; 
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(0, 86, 179, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(0, 123, 255, 0.3) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
-.card-title-custom {
-  font-size: 1.5rem;
-  font-weight: 700;
+
+.cta-background-deco::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg at 50% 50%, transparent, rgba(0, 123, 255, 0.1), transparent);
+  animation: rotateLight 15s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotateLight {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/ 
+
+
+/* 輔助文字 */
+.cta-hint {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* 高級質感按鈕 */
+.premium-launch-btn {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px 30px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+}
+
+.premium-launch-btn:hover {
+  background: rgba(255, 255, 255, 0.95);
   color: #003366;
-  margin-bottom: 1rem;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
-.keywords-section {
-  border-top: 1px solid #eee;
-  padding-top: 1rem;
+
+/* 按鈕左側圖示盒 */
+.btn-icon-box {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-right: 18px;
+  box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+  transition: transform 0.5s ease;
 }
-.keywords-tags {
-  margin-top: 0.5rem;
+
+.premium-launch-btn:hover .btn-icon-box {
+  transform: rotate(360deg);
 }
-.badge.bg-primary {
-  background-color: #0056b3 !important; /* A slightly more vibrant blue for tags */
+
+/* 按鈕文字區域 */
+.btn-text-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 25px;
+}
+
+.main-label {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sub-label {
   font-size: 0.8rem;
-  padding: 0.4em 0.8em;
+  opacity: 0.8;
+  font-weight: 400;
 }
 
-.publications-btn {
-  background-color: #0056b3;
-  border-color: #0056b3;
-  font-weight: 600;
-  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+/* 右側小箭頭 */
+.btn-arrow {
+  font-size: 0.9rem;
+  opacity: 0.5;
+  transition: transform 0.3s ease;
 }
 
-.publications-btn:hover {
-  background-color: #003366;
-  border-color: #003366;
-  transform: translateY(-2px);
+.premium-launch-btn:hover .btn-arrow {
+  transform: translateX(5px);
+  opacity: 1;
 }
 
-.reports-modal-body {
-  max-height: 70vh;
-  overflow-y: auto;
-  padding: 1rem;
-}
-
-.year-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #003366;
-  border-bottom: 3px solid #0056b3;
-  padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.publication-item {
-  border: 1px solid #e9ecef;
+/* 懸停時的發光效果 */
+.premium-launch-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(0, 210, 255, 0);
   transition: box-shadow 0.3s ease;
 }
 
-.publication-item:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+.premium-launch-btn:hover::after {
+  box-shadow: 0 0 30px rgba(0, 210, 255, 0.4);
 }
 
-.publication-title a {
-  color: #003366;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.publication-title a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-.publication-authors {
-  font-size: 0.9rem;
-}
-
-.publication-journal {
-  font-size: 1rem;
-}
-
-.publication-tags .badge {
-  font-size: 0.75rem;
-  padding: 0.3em 0.6em;
+/* 響應式微調 */
+@media (max-width: 768px) {
+  .premium-launch-btn {
+    padding: 10px 20px;
+  }
+  .main-label {
+    font-size: 1.1rem;
+  }
+  .btn-icon-box {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
 }
 </style>
