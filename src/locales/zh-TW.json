@@ -766,17 +766,17 @@
           "advisors": [
             {
               "name": "Dara Entekhabi",
-              "title": "Advisor",
+              "title": "教授／院士 \n M.I.T.教授暨美國國家工程院院士",
               "image": "Gemini_Dara Entekhabi.png"
             },
             {
               "name": "Venkataraman Lakshmi",
-              "title": "Advisor",
+              "title": "講座教授／會長 \n 美國維吉尼亞大學 John L. Newcomb 講座教授 \n 美國地球物理聯盟（AGU）水文學會會長",
               "image": "Gemini_Venkataraman Lakshmi.png"
             },
             {
               "name": "Takashi Oguchi",
-              "title": "Advisor",
+              "title": "教授／會長 \n 現任 國際地貌學會（IAG）副會長、日本地球科學聯合會（JpGU）副會長、日本地理學會會長 \n 曾任日本地貌學會與日本地理資訊系統學會會長",
               "image": "Gemini_Takaghoshi.png"
             },
             {
@@ -796,7 +796,7 @@
             },
             {
               "name": "Tran Minh Tien",
-              "title": "Advisor",
+              "title": "教授／副院長 \n 越南農業科學院（VAAS）副院長",
               "image": "Gemini_Tran Minh Tien.png"
             }
             
