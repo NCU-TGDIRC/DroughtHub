@@ -1,6 +1,7 @@
 # NCU-TGDIRC Website (國立中央大學台灣與全球乾旱調查研究中心)
 
 This project is the official website for the "NCU Center for Taiwan and Global Drought Research (CTGDR)", built with Vue.js and Vue CLI.
+Website link：[https://ncu-tgdirc.github.io/DroughtHub/](https://ncu-tgdirc.github.io/DroughtHub/)
 
 ## Project Structure
 
