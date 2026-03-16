@@ -34,15 +34,14 @@
         "title": "NCU and Australia's TNQ Drought Hub Hold Joint Workshop to Build Global Climate Resilience",
         "excerpt": "During the inaugural CESR forum, NCU hosted a joint workshop with the visiting TNQ Drought Hub delegation from Australia. By integrating NCU's satellite remote sensing technology with Australia's on-ground expertise, the two parties exchanged critical insights on drought monitoring and agricultural adaptation, laying a solid foundation for future transnational research collaboration.",
         "url": "https://www.tnqdroughthub.com.au/drought-expertise-shared-on-the-global-stage-to-strengthen-climate-resilience/"
-        },
-      
-        {
+      },
+      {
         "id": 7,
         "date": "2025-12-05",
         "title": "Center Delegation Attends EME2025 in Vietnam, Deepening Transnational Green Sustainability Cooperation",
         "excerpt": "A delegation from the Center attended the 'EME2025 International Conference' hosted by VAST in Hanoi. Focusing on green development in Earth sciences, members exchanged insights on low-carbon strategies and digital transformation, actively expanding research networks in Southeast Asia to jointly address climate challenges.",
         "url": "https://isdi.vast.vn/bantin/BanTinKHCN2025_12.pdf"
-        },
+      },
       {
         "id": 5,
         "date": "2025-10-22",
@@ -57,7 +56,6 @@
         "excerpt": "This special issue addresses public health risks from extreme heat, heatwaves, and urban heat islands, focusing on vulnerable populations, health impacts, green infrastructure, and climate adaptation. Submission deadline: September 30, 2026, to *Earth’s Future* or *GeoHealth*.",
         "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
       },
-      
       {
         "id": 2,
         "date": "2025-09-27",
@@ -374,8 +372,8 @@
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 54, August 2024, 101849",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101849",
-            "image":"ResearchData/Drought_Liou_2024pic3.jpg",
-            "summary":"This study analyzes spring drought in Taiwan, revealing that hydrological droughts respond more rapidly to rainfall deficits than agricultural droughts—a distinct deviation from global patterns. Since 2000, hydrometeorological droughts have intensified while agricultural droughts have declined. Drought hotspots are concentrated in central and southern Taiwan, exhibiting 4–6-year resonance cycles with temperature. These findings underscore the need for enhanced water resource management to safeguard the industrial economy.",
+            "image": "ResearchData/Drought_Liou_2024pic3.jpg",
+            "summary": "This study analyzes spring drought in Taiwan, revealing that hydrological droughts respond more rapidly to rainfall deficits than agricultural droughts—a distinct deviation from global patterns. Since 2000, hydrometeorological droughts have intensified while agricultural droughts have declined. Drought hotspots are concentrated in central and southern Taiwan, exhibiting 4–6-year resonance cycles with temperature. These findings underscore the need for enhanced water resource management to safeguard the industrial economy.",
             "tags": [
               "SCI",
               "IF: 4.7",
@@ -627,7 +625,7 @@
   },
   "conference2026": {
     "header": {
-      "date": "November 1-7, 2026 | National Central University, Taoyuan, Taiwan",
+      "date": "November 2-4, 2026 | National Central University, Taoyuan, Taiwan",
       "title": "The Second International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2026)"
     },
@@ -729,7 +727,7 @@
     "sections": [
       {
         "title": "Important Dates",
-        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 1, 2026</li><li><b>Notification of abstract acceptance:</b> October 25, 2026</li><li><b>Registration Deadline:</b> October 25, 2026</li><li><b>Conference date:</b> November 1-7, 2026, with registration beginning on October 31.</li></ul></div>"
+        "content": "<div><ul class=\"styled-list\"><li><b>Abstract submission deadline:</b> October 1, 2026</li><li><b>Notification of abstract acceptance:</b> October 25, 2026</li><li><b>Registration Deadline:</b> October 25, 2026</li><li><b>Conference date:</b> November 3-4, 2026, with on-site registration beginning on November 2.</li></ul></div>"
       },
       {
         "title": "Introduction",
@@ -755,7 +753,7 @@
           "details": [
             {
               "label": "Conference Dates",
-              "value": "November 1 (Sunday) – November 7 (Saturday), 2026"
+              "value": "November 2 (Monday) – November 4 (Wednesday), 2026"
             },
             {
               "label": "Venue",
