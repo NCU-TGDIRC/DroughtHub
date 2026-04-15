@@ -15,7 +15,7 @@
     "copyright": "© 2025 NCU Center for Taiwan and Global Drought Research. All rights reserved."
   },
   "hero": {
-    "title": "NCU TGI Drought hub",
+    "title": "NCU TGI Drought Hub",
     "subtitle": "Taiwan and Global Drought Investigation and Research Center",
     "description": ""
   },
@@ -60,7 +60,7 @@
         "id": 2,
         "date": "2025-09-27",
         "title": "CESR 2025 Open for Registration and Submissions",
-        "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 23-25(Mon,Tue), 2025, at National Central University, focusing on drought, heat stress, water resources...",
+        "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 24-25 (Mon-Tue), 2025, at National Central University, focusing on drought, heat stress, water resources...",
         "url": "/icqab"
       },
       {
@@ -191,7 +191,7 @@
       {
         "image": "Gemini_Chien_wen_Shen.png",
         "name": "Chien-Wen Shen",
-        "title": "Professor & Associate Dean, College of Management Director, Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
+        "title": "Professor & Associate Dean, College of Management; Director, Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
         "department": "Department of Business Administration",
         "expertise": [
           "Information innovation technology applications, supply chain management, decision sciences"
@@ -236,7 +236,7 @@
         "expertise": [
           "Social media and social networks, e-commerce, health information systems, human-computer interaction, service science, AI applications and data science"
         ],
-        "detailUrl": "https://im.mgt.ncu.tw/teacher"
+        "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
       },
       {
         "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
@@ -353,7 +353,7 @@
           },
           {
             "title": "Revealing the intricate relationship: Droughts and typhoons in Taiwan using the Standardized Precipitation Index (SPI).",
-            "authors": "Le, T.-V. and Y.-A. Liou*, and K.-A. Nguyen",
+            "authors": "Le, T.-V., Y.-A. Liou*, and K.-A. Nguyen",
             "journal": "Journal of Hydrology: Regional Studies",
             "details": "Volume 55, 101917",
             "doi": "https://doi.org/10.1016/j.ejrh.2024.101917",
@@ -392,7 +392,7 @@
       {
         "year": "2025",
         "title": "The First International Forum on Climate Extremes and Societal Resilience (CESR 2025)",
-        "date": "November 22-24, 2025",
+        "date": "November 24-25, 2025",
         "location": "Taoyuan, Taiwan",
         "description": "Drought, Heat Stress, and Human Livability in a Warming World",
         "link": "/icqab",
@@ -402,7 +402,7 @@
   },
   "conference": {
     "header": {
-      "date": "November 22-24, 2025 | National Central University, Taoyuan, Taiwan",
+      "date": "November 24-25, 2025 | National Central University, Taoyuan, Taiwan",
       "title": "The First International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2025)"
     },
@@ -449,7 +449,7 @@
         ],
         "coHosts": [
           {
-            "name": "Department of environmental protection, Taoyuan City Government",
+            "name": "Department of Environmental Protection, Taoyuan City Government",
             "logo": "桃園市環保局.png",
             "alt": "Taoyuan EPB Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
@@ -475,7 +475,7 @@
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
-            "name": " Taoyuan City Government ",
+            "name": "Taoyuan City Government",
             "logo": "桃園市.png",
             "alt": "桃園市政府 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -487,7 +487,7 @@
             "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
           },
           {
-            "name": "Ministry of Agriculture ",
+            "name": "Ministry of Agriculture",
             "logo": "agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -530,7 +530,7 @@
           "details": [
             {
               "label": "Conference Dates",
-              "value": "November 22 (Sunday) – November 24 (Tuesday), 2025"
+              "value": "November 24 (Monday) – November 25 (Tuesday), 2025"
             },
             {
               "label": "Venue",
@@ -557,7 +557,7 @@
               "isOrganizer": true,
               "items": [
                 {
-                  "name": "Department of environmental protection, Taoyuan City Government",
+                  "name": "Department of Environmental Protection, Taoyuan City Government",
                   "logo": "桃園市環保局.png",
                   "alt": "Taoyuan EPB Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
@@ -625,7 +625,7 @@
   },
   "conference2026": {
     "header": {
-      "date": "November 2-4, 2026 | National Central University, Taoyuan, Taiwan",
+      "date": "November 3-4, 2026 | National Central University, Taoyuan, Taiwan",
       "title": "The Second International Forum on Climate Extremes and Societal Resilience:<br>Drought, Heat Stress, and Human Livability in a Warming World",
       "subtitle": "(CESR 2026)"
     },
@@ -698,7 +698,7 @@
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
-            "name": " Taoyuan City Government ",
+            "name": "Taoyuan City Government",
             "logo": "桃園市.png",
             "alt": "桃園市政府 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -710,7 +710,7 @@
             "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
           },
           {
-            "name": "Ministry of Agriculture ",
+            "name": "Ministry of Agriculture",
             "logo": "agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
@@ -731,7 +731,7 @@
       },
       {
         "title": "Introduction",
-        "content": "<p>The Taiwan and Global Drought Information and Research Center (TGDIRC / DroughtHub), established in 2025 and led by the Center for Space and Remote Sensing Research at National Central University, is dedicated to integrating research and development for global drought monitoring, early warning systems, and adaptation strategies. The core mission of the center is to address the increasingly severe challenges of global climate change, particularly the profound impacts of extreme climate events like droughts and heat stress on human society.</p><p>The Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) clearly states that global warming will lead to more frequent and severe drought events. It is projected that by 2050, over 5 billion people worldwide will face water shortages. As a high-risk region for climate change, Taiwan has deeply experienced this trend in recent years: the centennial drought in 2021 caused a nationwide water supply crisis with economic losses exceeding NT$100 billion; the record-breaking extreme heat events in 2023 not only impacted the energy system but also directly threatened public health and quality of life.</p><p>In the face of these unprecedented challenges, the efforts of a single country or institution are no longer sufficient. The international scientific community widely recognizes that only through cross-border, interdisciplinary collaborative research and knowledge sharing can effective solutions be developed. TGDIRC was established against this backdrop, aiming to build an integrated international research platform.</p><p>Since its inception, TGDIRC has actively established cooperative relationships with top international institutions such as the National Drought Mitigation Center (NDMC) in the United States, the Commonwealth Scientific and Industrial Research Organisation (CSIRO) in Australia, and the European Climate Adaptation Platform. It also participates in relevant initiatives from the United Nations Office for Disaster Risk Reduction (UNDRR) and the World Meteorological Organization (WMO). At the same time, the center has established research partnerships with countries in the Asia-Pacific region facing similar challenges, including Japan, South Korea, Australia, India, and Vietnam.</p><p>To establish a permanent international academic exchange and policy dialogue platform that gathers the wisdom of top global experts in climate extremes, societal resilience, and human livability, TGDIRC has specially planned the first “International Forum on Climate Extremes and Societal Resilience.” This forum aims to become a major annual event in the field of climate science in the Asia-Pacific region and globally, establishing a long-term mechanism for promoting international cooperation, fostering knowledge innovation, and strengthening the scientific basis for policymaking.</p><p>Through this forum, we hope not only to showcase Taiwan's strength and international contributions in the field of climate science research but also to provide innovative solutions for the global community to face the challenges of climate change, working together to maintain a livable environment for humanity in a warming world."
+        "content": "<p>The Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub), established in 2025 and led by the Center for Space and Remote Sensing Research at National Central University, is dedicated to integrating research and development for global drought monitoring, early warning systems, and adaptation strategies. The core mission of the center is to address the increasingly severe challenges of global climate change, particularly the profound impacts of extreme climate events like droughts and heat stress on human society.</p><p>The Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) clearly states that global warming will lead to more frequent and severe drought events. It is projected that by 2050, over 5 billion people worldwide will face water shortages. As a high-risk region for climate change, Taiwan has deeply experienced this trend in recent years: the centennial drought in 2021 caused a nationwide water supply crisis with economic losses exceeding NT$100 billion; the record-breaking extreme heat events in 2023 not only impacted the energy system but also directly threatened public health and quality of life.</p><p>In the face of these unprecedented challenges, the efforts of a single country or institution are no longer sufficient. The international scientific community widely recognizes that only through cross-border, interdisciplinary collaborative research and knowledge sharing can effective solutions be developed. TGDIRC was established against this backdrop, aiming to build an integrated international research platform.</p><p>Since its inception, TGDIRC has actively established cooperative relationships with top international institutions such as the National Drought Mitigation Center (NDMC) in the United States, the Commonwealth Scientific and Industrial Research Organisation (CSIRO) in Australia, and the European Climate Adaptation Platform. It also participates in relevant initiatives from the United Nations Office for Disaster Risk Reduction (UNDRR) and the World Meteorological Organization (WMO). At the same time, the center has established research partnerships with countries in the Asia-Pacific region facing similar challenges, including Japan, South Korea, Australia, India, and Vietnam.</p><p>To establish a permanent international academic exchange and policy dialogue platform that gathers the wisdom of top global experts in climate extremes, societal resilience, and human livability, TGDIRC has specially planned the first “International Forum on Climate Extremes and Societal Resilience.” This forum aims to become a major annual event in the field of climate science in the Asia-Pacific region and globally, establishing a long-term mechanism for promoting international cooperation, fostering knowledge innovation, and strengthening the scientific basis for policymaking.</p><p>Through this forum, we hope not only to showcase Taiwan's strength and international contributions in the field of climate science research but also to provide innovative solutions for the global community to face the challenges of climate change, working together to maintain a livable environment for humanity in a warming world."
       },
       {
         "title": "Objectives",
@@ -753,7 +753,7 @@
           "details": [
             {
               "label": "Conference Dates",
-              "value": "November 2 (Monday) – November 4 (Wednesday), 2026"
+              "value": "November 3 (Tuesday) – November 4 (Wednesday), 2026"
             },
             {
               "label": "Venue",
@@ -890,7 +890,7 @@
             },
             {
               "image": "Gemini_Chien_wen_Shen.png",
-              "name": "Chien-wen Shen",
+              "name": "Chien-Wen Shen",
               "title": "Professor",
               "department": "NCU TGI Drought hub",
               "expertise": [
