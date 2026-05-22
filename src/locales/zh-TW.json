@@ -267,6 +267,66 @@
                     "空間模式、空間資訊分析、水文及崩塌模式、自然地理"
                 ],
                 "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
+            },
+            {
+                "image": "葉錦徽教授pic1.png",
+                "name": "葉錦徽 Jin-Huei Yeh",
+                "title": "教授兼管理學院院長",
+                "department": "財務金融學系",
+                "expertise": [
+                    "計量經濟理論與應用、實證資產定價、投資與風險管理、決策支援系統"
+                ],
+                "detailUrl": "https://fm.mgt.ncu.edu.tw/en/faculty-member/56/profile"
+            },
+            {
+                "image": "任玄副教授pic2.png",
+                "name": "任玄 Hsuan Ren",
+                "title": "副教授",
+                "department": "太空及遙測研究中心",
+                "expertise": [
+                    "遙測影像處理、高光譜影像分析、目標偵測與分類、多感測器資料融合、深度學習於衛星應用"
+                ],
+                "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=8"
+            },
+            {
+                "image": "葉靖輝教授pic1.png",
+                "name": "葉靖輝 Ching-Hui Yeh",
+                "title": "教授兼系主任",
+                "department": "生命科學系",
+                "expertise": [
+                    "植物逆境生理、蛋白質體學、熱休克蛋白與耐熱機制、植物組織培養"
+                ],
+                "detailUrl": "https://scholars.ncu.edu.tw/en/persons/ching-hui-yeh"
+            },
+            {
+                "image": "黃佳瑜副教授pic1.png",
+                "name": "黃佳瑜 Chia-Yu Huang",
+                "title": "副教授",
+                "department": "生命科學系",
+                "expertise": [
+                    "神經科學、電壓門控鈣離子通道、視網膜神經科學、晝夜節律調控、恐懼學習與神經機制"
+                ],
+                "detailUrl": "https://scholars.ncu.edu.tw/en/persons/chia-yu-huang"
+            },
+            {
+                "image": "中研院龍世俊研究員副主任pic3.png",
+                "name": "龍世俊 Shih-Chun Candice Lung",
+                "title": "研究員兼副主任",
+                "department": "中央研究院 環境變遷研究中心",
+                "expertise": [
+                    "環境健康與流行病學、都市空氣污染與PM2.5暴露評估、氣候變遷與健康調適、熱相關健康風險"
+                ],
+                "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=16"
+            },
+            {
+                "image": "中研院潘士群助研究員pic1.png",
+                "name": "潘士群 Shih-Chun Pan",
+                "title": "助研究員",
+                "department": "中央研究院 環境變遷研究中心",
+                "expertise": [
+                    "環境流行病學、空氣污染與健康效應、氣候因子與人體健康、職業暴露評估、代謝與心臟代謝健康"
+                ],
+                "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=148"
             }
         ]
     },

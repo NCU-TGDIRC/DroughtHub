@@ -267,6 +267,66 @@
           "Spatial patterns, spatial information analysis, hydrology and landslide modeling, physical geography"
         ],
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
+      },
+      {
+        "image": "葉錦徽教授pic1.png",
+        "name": "Jin-Huei Yeh",
+        "title": "Professor & Dean, College of Management",
+        "department": "Department of Finance",
+        "expertise": [
+          "Econometric theory and applications, empirical asset pricing, investment and risk management, decision support systems"
+        ],
+        "detailUrl": "https://fm.mgt.ncu.edu.tw/en/faculty-member/56/profile"
+      },
+      {
+        "image": "任玄副教授pic2.png",
+        "name": "Hsuan Ren",
+        "title": "Associate Professor",
+        "department": "Center for Space and Remote Sensing Research",
+        "expertise": [
+          "Remote sensing image processing, hyperspectral imaging and analysis, target detection and classification, multi-sensor data fusion, deep learning for satellite applications"
+        ],
+        "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=8"
+      },
+      {
+        "image": "葉靖輝教授pic1.png",
+        "name": "Ching-Hui Yeh",
+        "title": "Professor & Department Chair",
+        "department": "Department of Life Sciences",
+        "expertise": [
+          "Plant stress physiology, proteomics, heat shock proteins and thermotolerance mechanisms, plant tissue culture"
+        ],
+        "detailUrl": "https://scholars.ncu.edu.tw/en/persons/ching-hui-yeh"
+      },
+      {
+        "image": "黃佳瑜副教授pic1.png",
+        "name": "Chia-Yu Huang",
+        "title": "Associate Professor",
+        "department": "Department of Life Sciences",
+        "expertise": [
+          "Neuroscience, voltage-gated calcium channels, retinal neuroscience, circadian rhythm regulation, fear learning and neural mechanisms"
+        ],
+        "detailUrl": "https://scholars.ncu.edu.tw/en/persons/chia-yu-huang"
+      },
+      {
+        "image": "中研院龍世俊研究員副主任pic3.png",
+        "name": "Shih-Chun Candice Lung",
+        "title": "Researcher & Deputy Director",
+        "department": "Research Center for Environmental Changes, Academia Sinica",
+        "expertise": [
+          "Environmental health and epidemiology, urban air pollution and PM2.5 exposure assessment, climate change and health adaptation, heat-related health risks"
+        ],
+        "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=16"
+      },
+      {
+        "image": "中研院潘士群助研究員pic1.png",
+        "name": "Shih-Chun Pan",
+        "title": "Assistant Research Fellow",
+        "department": "Research Center for Environmental Changes, Academia Sinica",
+        "expertise": [
+          "Environmental epidemiology, air pollution and health effects, climate factors and human health, occupational exposure assessment, metabolic and cardiometabolic health"
+        ],
+        "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=148"
       }
     ]
   },

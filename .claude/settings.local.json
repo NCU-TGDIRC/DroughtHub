@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:fm.mgt.ncu.edu.tw)",
+      "WebFetch(domain:www.csrsr.ncu.edu.tw)",
+      "WebFetch(domain:nculs.in.ncu.edu.tw)",
+      "WebFetch(domain:cis.ncu.edu.tw)",
+      "WebFetch(domain:www.earth.sinica.edu.tw)",
+      "WebFetch(domain:rcec.sinica.edu.tw)",
+      "WebFetch(domain:www.rcec.sinica.edu.tw)",
+      "WebFetch(domain:www.atm.ncu.edu.tw)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:web.nstc.gov.tw)",
+      "WebFetch(domain:scholars.ncu.edu.tw)",
+      "WebFetch(domain:www.oga.ncu.edu.tw)"
+    ]
+  }
+}
