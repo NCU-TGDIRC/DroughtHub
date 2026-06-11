@@ -557,4 +557,140 @@ export default {
   box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
   border-color: #d4a373;
 }
+
+:deep(.abstract-submit-btn) {
+  display: inline-block;
+  background-color: #003366;
+  color: #fff !important;
+  padding: 13px 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  letter-spacing: 0.04em;
+  border: 2px solid #003366;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+:deep(.abstract-submit-btn:hover) {
+  background-color: #fff;
+  color: #003366 !important;
+}
+
+/* ── Abstract Submission Section ── */
+:deep(.abstract-submission-section) { font-weight: 400; }
+:deep(.section-intro-text) { font-size: 1.05rem; color: #495057; line-height: 1.75; margin-bottom: 1.5rem; }
+
+:deep(.info-blocks-row) { display: flex; gap: 1.25rem; margin-bottom: 2rem; flex-wrap: wrap; }
+:deep(.info-date-card) {
+  flex: 1; min-width: 220px;
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1.1rem 1.4rem; border-radius: 10px;
+  background: #f8f9fa; border-left: 4px solid #003366;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+:deep(.info-date-card.accent) { border-left-color: #d4a373; background: #fdf9f5; }
+:deep(.info-date-icon) { font-size: 1.5rem; color: #003366; flex-shrink: 0; }
+:deep(.info-date-card.accent .info-date-icon) { color: #d4a373; }
+:deep(.info-date-label) { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: #6c757d; margin-bottom: 4px; font-weight: 600; }
+:deep(.info-date-value) { font-size: 1.05rem; font-weight: 700; color: #003366; }
+:deep(.date-red) { color: #dc3545 !important; }
+
+:deep(.subsection-heading) {
+  font-size: 1.1rem; font-weight: 700; color: #003366;
+  border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;
+  margin: 2rem 0 1.1rem;
+}
+
+:deep(.format-req-list) {
+  list-style: none; padding: 0; margin-bottom: 1.5rem;
+  border: 1px solid #e0e7f0; border-radius: 10px; overflow: hidden;
+}
+:deep(.format-req-list li) {
+  display: flex; align-items: baseline; gap: 0.6rem;
+  padding: 0.78rem 1.4rem; font-size: 0.97rem; color: #343a40;
+  border-bottom: 1px solid #edf0f5; line-height: 1.5;
+}
+:deep(.format-req-list li:last-child) { border-bottom: none; }
+:deep(.format-req-list li:nth-child(even)) { background: #f8f9fc; }
+:deep(.format-req-list li::before) {
+  content: ""; display: inline-block; flex-shrink: 0;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #003366; margin-top: 5px;
+}
+:deep(.format-req-list li b) { color: #003366; font-weight: 700; white-space: nowrap; }
+
+:deep(.req-info-box) {
+  background: #e8f4fd; border-left: 4px solid #007ACC;
+  border-radius: 0 8px 8px 0; padding: 0.85rem 1.2rem;
+  font-size: 0.88rem; color: #155a7d; margin-bottom: 2rem; font-weight: 500;
+}
+:deep(.template-dl-link) {
+  color: #003366; font-weight: 700; text-decoration: underline;
+  text-underline-offset: 3px; transition: color 0.2s;
+}
+:deep(.template-dl-link:hover) { color: #c18951; }
+
+:deep(.submit-cta-box) {
+  text-align: center; padding: 2rem 1.5rem;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e9ecef 100%);
+  border-radius: 12px; border: 1px solid #d0d9e8;
+}
+:deep(.submit-cta-btn) {
+  display: inline-block; background: #003366; color: #fff !important;
+  padding: 14px 42px; border-radius: 6px; font-size: 1rem; font-weight: 600;
+  text-decoration: none !important; letter-spacing: 0.04em;
+  border: 2px solid #003366; transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0,51,102,0.28);
+}
+:deep(.submit-cta-btn:hover) {
+  background: #fff; color: #003366 !important;
+  box-shadow: 0 6px 20px rgba(0,51,102,0.15); transform: translateY(-2px);
+}
+:deep(.submit-footnote) { font-size: 0.82rem; color: #999; margin-top: 1rem; margin-bottom: 0; }
+
+/* ── Registration Fee Section ── */
+:deep(.registration-fee-section) { font-weight: 400; }
+
+:deep(.fee-table-wrapper) { overflow-x: auto; margin: 1.5rem 0 2.25rem; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
+:deep(.fee-table) { width: 100%; border-collapse: collapse; }
+:deep(.fee-table thead tr) { background: #003366; color: #fff; }
+:deep(.fee-th-cat) {
+  padding: 1rem 1.5rem; text-align: left;
+  font-size: 0.9rem; font-weight: 700; letter-spacing: 0.04em; width: 40%;
+}
+:deep(.fee-th-price) {
+  padding: 1rem 1.25rem; text-align: center;
+  font-size: 0.9rem; font-weight: 700; letter-spacing: 0.04em;
+}
+:deep(.fee-th-sub) { font-size: 0.75rem; font-weight: 400; opacity: 0.85; }
+:deep(.fee-table tbody tr) { border-bottom: 1px solid #e9ecef; transition: background 0.18s; }
+:deep(.fee-table tbody tr:last-child) { border-bottom: none; }
+:deep(.fee-table tbody tr:hover) { background: #eef3ff !important; }
+:deep(.fee-tr-alt) { background: #f8f9fa; }
+:deep(.fee-td-cat) { padding: 1.1rem 1.5rem; font-size: 1rem; color: #343a40; font-weight: 500; }
+:deep(.fee-td-early) { padding: 1.1rem 1.25rem; text-align: center; font-size: 1.2rem; font-weight: 800; color: #1a6b2f; }
+:deep(.fee-td-regular) { padding: 1.1rem 1.25rem; text-align: center; font-size: 1.05rem; font-weight: 700; color: #adb5bd; }
+
+:deep(.payment-methods-row) { display: flex; gap: 1.1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+:deep(.payment-method-card) {
+  flex: 1; min-width: 270px;
+  background: #f8f9fa; border-radius: 10px; border: 1px solid #e9ecef;
+  padding: 1.4rem;
+}
+:deep(.payment-method-header) {
+  font-size: 0.95rem; font-weight: 700; color: #003366;
+  padding-bottom: 0.7rem; border-bottom: 2px solid #dee2e6; margin-bottom: 1rem;
+}
+:deep(.payment-detail-list) { list-style: none; padding: 0; margin: 0; font-size: 0.88rem; color: #495057; }
+:deep(.payment-detail-list li) { padding: 0.38rem 0; border-bottom: 1px solid #e9ecef; }
+:deep(.payment-detail-list li:last-child) { border-bottom: none; }
+:deep(.detail-label) { font-weight: 600; color: #343a40; }
+:deep(.payment-note-inline) { font-size: 0.82rem; color: #6c757d; margin-top: 0.75rem; margin-bottom: 0; }
+
+:deep(.fee-includes-box) {
+  background: #eaf7ec; border-left: 4px solid #28a745;
+  border-radius: 0 8px 8px 0; padding: 0.95rem 1.25rem;
+  font-size: 0.9rem; color: #1e5128; font-weight: 500;
+}
+:deep(.fee-includes-box i) { color: #28a745; }
 </style>

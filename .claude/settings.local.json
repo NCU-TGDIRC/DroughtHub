@@ -13,7 +13,9 @@
       "WebFetch(domain:www.researchgate.net)",
       "WebFetch(domain:web.nstc.gov.tw)",
       "WebFetch(domain:scholars.ncu.edu.tw)",
-      "WebFetch(domain:www.oga.ncu.edu.tw)"
+      "WebFetch(domain:www.oga.ncu.edu.tw)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('src/locales/zh-TW.json','r',encoding='utf-8-sig'\\)\\); secs=d['conference2026']['sections']; [print\\(repr\\(s['title'][:30]\\),'->', s['content'][:80]\\) for s in secs if '摘要' in s['title'] or '費用' in s['title']]\")",
+      "Bash(python update_abstract_list.py)"
     ]
   }
 }
