@@ -207,7 +207,7 @@ export default {
   font-weight: 600;
   padding: 0.22rem 0.7rem;
   border-radius: 20px;
-ㄡ4em;
+  letter-spacing: 0.4em;
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
 }
