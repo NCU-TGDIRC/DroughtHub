@@ -184,11 +184,12 @@ export default {
 
 <style scoped>
 .member-img {
-  width: 200px;           /* 寬度稍微加寬 */
-  height: 280px;          /* 高度增加，符合直式照片比例 */
-  object-fit: cover;      /* 確保照片填滿區域且不變形 */
-  border: 1px solid #ddd; /* 圓形時邊框通常較粗，長方形建議細一點或移除 */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 調整陰影讓層次更柔和 */
+  width: 200px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .card-hover-effect:hover .member-img {
   transform: scale(1.02);
@@ -206,7 +207,7 @@ export default {
   font-weight: 600;
   padding: 0.22rem 0.7rem;
   border-radius: 20px;
-  letter-spacing: 0.04em;
+ㄡ4em;
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
 }
