@@ -96,6 +96,18 @@ export default {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .card-title-custom {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title-custom {
+    font-size: 0.95rem;
+  }
+}
+
 .card-hover-effect {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -131,7 +143,24 @@ export default {
   left: -90px;
 }
 :deep(.carousel__next) {
-right: -90px;
+  right: -90px;
+}
+
+@media (max-width: 992px) {
+  :deep(.carousel__prev) { left: -50px; }
+  :deep(.carousel__next) { right: -50px; }
+}
+
+@media (max-width: 768px) {
+  :deep(.carousel__prev),
+  :deep(.carousel__next) {
+    width: 36px;
+    height: 36px;
+    left: unset;
+    right: unset;
+    position: static;
+    display: none;
+  }
 }
 
 :deep(.carousel__prev):hover,

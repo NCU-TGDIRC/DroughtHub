@@ -124,4 +124,37 @@ export default {
   padding-right: 0;
   padding-left: 0;
 }
+
+@media (max-width: 768px) {
+  .conference-img-col {
+    min-height: 200px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .year-badge {
+    font-size: 0.875rem;
+    padding: 0.35em 0.75em;
+  }
+}
+
+@media (max-width: 576px) {
+  .conference-img-col {
+    min-height: 160px;
+  }
+
+  .card-title {
+    font-size: 1.05rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
 </style>

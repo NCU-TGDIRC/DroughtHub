@@ -223,6 +223,39 @@ export default {
   }
 }
 
+@media (max-width: 768px) {
+  .about-section-custom-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  h2.display-4 {
+    font-size: 1.6rem;
+    letter-spacing: 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-section-custom-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  h2.display-4 {
+    font-size: 1.35rem;
+  }
+}
+
 .rounded-4 {
   border-radius: 1.5rem !important;
 }

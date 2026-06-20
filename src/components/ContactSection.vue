@@ -6,9 +6,10 @@
         <b-col md="6" class="mb-4 mb-md-0">
           <div class="contact-info">
             <h3 class="h4 fw-bold mb-4" style="color: #003366;">{{ $t('contact.centerName') }}</h3>
-            <p class="contact-item">
-              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong> <a :class="$style.link" href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ $t('contact.addressValue') }}
-            </p>
+            <div class="contact-item contact-address">
+              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong><a :class="$style.link" href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a>
+              <span class="address-value d-block">{{ $t('contact.addressValue') }}</span>
+            </div>
             <p class="contact-item">
               <strong class="me-2">{{ $t('contact.phoneLabel') }}</strong>{{ $t('contact.phoneValue') }}
             </p>
@@ -52,11 +53,32 @@ export default {
   margin-bottom: 1rem;
 }
 
+.address-value {
+  padding-left: 3.8rem;
+}
+
 .contact-info h3 {
     font-size: 1.5rem;
 }
 
 .ratio {
-    --bs-aspect-ratio: 75%; /* Adjust aspect ratio for a less tall map */
+    --bs-aspect-ratio: 75%;
+}
+
+@media (max-width: 768px) {
+  .contact-item {
+    font-size: 1rem;
+  }
+
+  .address-value {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-item {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
 }
 </style>

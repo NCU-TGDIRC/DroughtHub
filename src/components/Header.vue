@@ -1,23 +1,23 @@
 <template>
   <b-navbar toggleable="lg" :class="['site-header', { 'scrolled': isScrolled }]">
-    <b-container fluid class="d-flex flex-nowrap align-items-center">
+    <b-container fluid>
       <!-- Logo 品牌 -->
       <b-navbar-brand to="/">
         <img src="@/assets/logo.png" :alt="$t('header.logoAlt')" class="logo-img">
       </b-navbar-brand>
 
       <!-- 手機版的漢堡選單按鈕 -->
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle @click="isNavOpen = !isNavOpen"></b-navbar-toggle>
 
       <!-- 導航項目，會被漢堡選單包裹 -->
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" v-model="isNavOpen" is-nav>
         <b-navbar-nav class="ms-auto mb-2 mb-lg-0 align-items-center">
-          <b-nav-item to="/home" :active="$route.path === '/home'">{{ $t('header.nav.home') }}</b-nav-item>
-          <b-nav-item to="/research">{{ $t('header.nav.research') }}</b-nav-item>
-          <b-nav-item to="/team">{{ $t('header.nav.team') }}</b-nav-item>
-          <b-nav-item to="/research-data">{{ $t('header.nav.researchData') }}</b-nav-item>
-          <b-nav-item to="/conferences">{{ $t('header.nav.conferences') }}</b-nav-item>
-          <b-nav-item to="/cesr2026">{{ $t('header.nav.icqab') }}</b-nav-item>
+          <b-nav-item to="/home" :active="$route.path === '/home'" @click="closeNav">{{ $t('header.nav.home') }}</b-nav-item>
+          <b-nav-item to="/research" @click="closeNav">{{ $t('header.nav.research') }}</b-nav-item>
+          <b-nav-item to="/team" @click="closeNav">{{ $t('header.nav.team') }}</b-nav-item>
+          <b-nav-item to="/research-data" @click="closeNav">{{ $t('header.nav.researchData') }}</b-nav-item>
+          <b-nav-item to="/conferences" @click="closeNav">{{ $t('header.nav.conferences') }}</b-nav-item>
+          <b-nav-item to="/cesr2026" @click="closeNav">{{ $t('header.nav.icqab') }}</b-nav-item>
           <b-nav-item @click="switchLanguage" class="lang-switcher">{{ $t('header.nav.language') }}</b-nav-item>
           <b-nav-item class="search-icon-item ms-lg-3">
             <div class="search-icon">
@@ -35,8 +35,14 @@ export default {
   name: 'Header',
   data() {
     return {
-      isScrolled: false
+      isScrolled: false,
+      isNavOpen: false
     };
+  },
+  watch: {
+    $route() {
+      this.isNavOpen = false;
+    }
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll);
@@ -46,13 +52,20 @@ export default {
     window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
+    closeNav() {
+      this.isNavOpen = false;
+    },
     switchLanguage() {
+      this.isNavOpen = false;
       const newLocale = this.$i18n.locale === 'zh-TW' ? 'en' : 'zh-TW';
       localStorage.setItem('locale', newLocale);
       window.location.reload();
     },
     handleScroll() {
       this.isScrolled = window.scrollY > 10;
+      if (window.scrollY > 80) {
+        this.isNavOpen = false;
+      }
     }
   }
 }
@@ -121,10 +134,22 @@ export default {
 /* When the menu is collapsed, give it a dark background */
 @media (max-width: 991.98px) {
   :deep(.navbar-collapse) {
-    background-color: rgba(26, 42, 58, 0.95); /* Semi-transparent dark blue */
+    background-color: rgba(26, 42, 58, 0.97);
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     margin-top: 0.5rem;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  :deep(.nav-link) {
+    font-size: 1rem !important;
+    padding: 0.65rem 0.5rem !important;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  :deep(.nav-item:last-child .nav-link) {
+    border-bottom: none;
   }
 }
 </style>

@@ -49,7 +49,7 @@
           <div class="registration-section my-5 py-5">
             <b-card no-body class="shadow-lg border-0 overflow-hidden">
               <b-row no-gutters>
-                <b-col md="7" class="p-5 d-flex flex-column justify-content-center">
+                <b-col md="7" class="p-3 p-md-5 d-flex flex-column justify-content-center">
                   <h3 class="mb-4 fs-2 fw-bold" style="color: #003366;">{{ $t('conference.registration.title') }}</h3>
                   <p class="text-muted mb-4 fs-5">
                     {{ $t('conference.registration.description') }}
@@ -70,7 +70,7 @@
                     </a>
                   </div>
                 </b-col>
-                <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
+                <b-col md="5" class="d-flex align-items-center justify-content-center p-3 p-md-5" style="background-color: #f8f9fa;">
                   <div class="text-center">
                     <img :src="getImageUrl('qr-registration.png')" :alt="$t('conference.registration.qr_alt')" class="qr-code-large img-fluid rounded">
                     <p class="text-muted small mt-3">{{ $t('conference.registration.qr_caption') }}</p>
@@ -84,7 +84,7 @@
           <div class="registration-section my-5 py-5">
             <b-card no-body class="shadow-lg border-0 overflow-hidden">
               <b-row no-gutters>
-                <b-col md="12" class="p-5 d-flex flex-column justify-content-center">
+                <b-col md="12" class="p-3 p-md-5 d-flex flex-column justify-content-center">
                   <h3 class="mb-4 fs-2 fw-bold" style="color: #003366;">{{ $t('conference.online_participation.title') }}</h3>
                   <p class="text-muted mb-4 fs-5">
                     {{ $t('conference.online_participation.description') }}
@@ -485,5 +485,57 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* --- Responsive fixes --- */
+.accordion-content-inner {
+  overflow-x: auto;
+}
+
+:deep(.payment-method-card) {
+  flex: 1;
+  min-width: 270px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+  padding: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .accordion-title-custom {
+    font-size: 1.2rem;
+  }
+
+  .accordion-content-inner {
+    font-size: 1rem;
+    padding: 16px;
+  }
+
+  :deep(.speakers-subtitle) {
+    font-size: 1.3rem;
+  }
+
+  .qr-code-large {
+    max-width: 150px;
+  }
+
+  .speaker-table td:first-child,
+  .speaker-table th:first-child {
+    width: auto;
+  }
+
+  :deep(.payment-method-card) {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .accordion-title-custom {
+    font-size: 1rem;
+  }
+
+  :deep(.accordion-content-inner .agenda-table) {
+    font-size: 0.75rem;
+  }
 }
 </style>

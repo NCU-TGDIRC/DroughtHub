@@ -265,4 +265,18 @@ export default {
   padding-bottom: 0.75rem;
   display: inline-block;
 }
+
+@media (max-width: 768px) {
+  .member-img {
+    width: 160px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 576px) {
+  .member-img {
+    width: 130px;
+    height: 170px;
+  }
+}
 </style>

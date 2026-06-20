@@ -62,5 +62,32 @@ export default {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
+@media (max-width: 768px) {
+  .hero {
+    height: 55vh;
+  }
 
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 50vh;
+    max-height: 420px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
+}
 </style>

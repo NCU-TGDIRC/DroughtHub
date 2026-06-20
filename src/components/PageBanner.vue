@@ -48,4 +48,15 @@ export default {
 .banner-content h1 {
   text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
+
+@media (max-width: 576px) {
+  .page-banner {
+    min-height: 180px;
+    height: 35vh;
+  }
+
+  .banner-content h1 {
+    font-size: 1.8rem;
+  }
+}
 </style>

@@ -151,4 +151,25 @@ export default {
 .shadow-ultimate {
   box-shadow: 0 15px 35px rgba(0,0,0,0.1), 0 5px 15px rgba(0,0,0,0.05);
 }
+
+@media (max-width: 768px) {
+  .year-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .publication-title a {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .year-title {
+    font-size: 1.5rem;
+  }
+
+  .publication-title a {
+    font-size: 1rem;
+  }
+}
 </style>

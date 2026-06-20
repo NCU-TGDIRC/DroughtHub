@@ -283,6 +283,10 @@ export default {
 
 /* 響應式微調 */
 @media (max-width: 768px) {
+  .publication-cta-wrapper {
+    padding: 3rem 1.5rem;
+  }
+
   .premium-launch-btn {
     padding: 10px 20px;
   }
@@ -293,6 +297,22 @@ export default {
     width: 40px;
     height: 40px;
     font-size: 1.1rem;
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .publication-cta-wrapper {
+    padding: 2rem 1rem;
+    border-radius: 16px;
+  }
+
+  .main-label {
+    font-size: 1rem;
+  }
+
+  .btn-text-content {
+    margin-right: 12px;
   }
 }
 </style>
