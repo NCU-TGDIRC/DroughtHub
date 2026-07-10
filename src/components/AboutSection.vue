@@ -59,7 +59,6 @@
             <h2 class="display-4 fw-bold mb-4" style="color:#003366; letter-spacing: -1px;">
               {{ $t('about.title') }}
             </h2>
-            <div class="title-underline mb-4"></div> <!-- 增加一條專業感的裝飾線 -->
             <p class="about-text">
               {{ $t('about.paragraph1') }}
             </p>
@@ -200,16 +199,9 @@ export default {
 }
 
 /* 6. 右側文字與裝飾 */
-.title-underline {
-  width: 60px;
-  height: 5px;
-  background-color: #003366;
-  border-radius: 2px;
-}
-
 .about-text {
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: var(--fs-body);
   color: #555;
   text-align: justify;
   margin-bottom: 1.5rem;
@@ -230,12 +222,10 @@ export default {
   }
 
   .about-text {
-    font-size: 1rem;
     line-height: 1.8;
   }
 
   h2.display-4 {
-    font-size: 1.6rem;
     letter-spacing: 0 !important;
   }
 }
@@ -247,12 +237,7 @@ export default {
   }
 
   .about-text {
-    font-size: 0.9rem;
     line-height: 1.7;
-  }
-
-  h2.display-4 {
-    font-size: 1.35rem;
   }
 }
 

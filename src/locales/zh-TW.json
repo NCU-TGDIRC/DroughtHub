@@ -29,6 +29,27 @@
         "readMore": "閱讀更多 &rarr;",
         "items": [
             {
+                "id": 8,
+                "date": "2026-07-07",
+                "title": "【徵稿啟事】ICEO&SI 2026 與 CESR 2026 專刊：Earth's Future——極端高溫、熱浪與都市熱島對公共健康的衝擊",
+                "excerpt": "本專刊聚焦極端高溫、熱浪與都市熱島效應對公共健康之脆弱性、韌性與調適策略，誠摯邀請 ICEO&SI 2026 與 CESR 2026 之合格報告提交加強版論文，亦歡迎更廣泛研究社群踴躍投稿。投稿截止日：2026年9月30日。",
+                "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
+            },
+            {
+                "id": 9,
+                "date": "2026-07-07",
+                "title": "【徵稿啟事】ICEO&SI 2026 與 CESR 2026 專刊：GeoHealth——極端高溫、熱浪與都市熱島對公共健康的衝擊",
+                "excerpt": "與 Earth's Future 協同徵稿之姊妹專刊，聚焦脆弱族群、健康風險、都市綠基盤與氣候調適策略等議題，鼓勵跨領域研究以促進全球韌性與公平。投稿截止日：2026年9月30日。",
+                "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
+            },
+            {
+                "id": 10,
+                "date": "2026-07-07",
+                "title": "【徵稿啟事】ICEO&SI 2026 與 CESR 2026 專刊：Remote Sensing——極端高溫事件、都市熱島與公共健康衝擊之遙測研究",
+                "excerpt": "本專刊整合遙測技術、水文與大氣動態模擬，探討極端高溫事件、都市熱島與公共健康衝擊之交集。誠摯邀請 ICEO&SI 2026 與 CESR 2026 之合格報告提交加強版論文，並歡迎整合模擬分析與調適策略之相關研究投稿。",
+                "url": "https://www.mdpi.com/journal/remotesensing/special_issues/4H344BD91H"
+            },
+            {
                 "id": 6,
                 "date": "2025-11-24",
                 "title": "本校與澳洲 TNQ Drought Hub 舉辦聯合工作坊，共建跨國抗旱韌性",

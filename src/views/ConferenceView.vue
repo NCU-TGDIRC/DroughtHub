@@ -80,7 +80,8 @@
             </b-card>
           </div>
           
-          <!-- New Online Meeting Link Section -->
+          <!-- Online Meeting Link Section (commented out: no online meeting currently) -->
+          <!--
           <div class="registration-section my-5 py-5">
             <b-card no-body class="shadow-lg border-0 overflow-hidden">
               <b-row no-gutters>
@@ -98,7 +99,8 @@
               </b-row>
             </b-card>
           </div>
-          
+          -->
+
           
           <b-row class="py-5">
             <b-col>
@@ -116,7 +118,7 @@
                   </div>
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.host_by') }}</h5>
-                  <ul class="list-unstyled">
+                  <ul class="list-unstyled host-list">
                     <li v-for="host in info.host.hosts" :key="host.name" class="d-flex align-items-center mb-2">
                       <div class="logo-container me-2">
                         <img :src="getImageUrl(host.logo)" :alt="host.alt" :style="host.style">
@@ -127,7 +129,7 @@
                   </ul>
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.co_hosted_by') }}</h5>
-                  <ul class="list-unstyled" v-if="info.host.coHosts">
+                  <ul class="list-unstyled host-list" v-if="info.host.coHosts">
                     <li v-for="coHost in info.host.coHosts" :key="coHost.name" class="d-flex align-items-center mb-2">
                       <div class="logo-container me-2">
                         <img :src="getImageUrl(coHost.logo)" :alt="coHost.alt" :style="coHost.style">
@@ -138,10 +140,10 @@
                   </ul>
 
                   <h5 class="h5 mt-4 mb-2">{{ $t('conference.venue.advised_by') }}</h5>
-                  <ul class="list-unstyled" v-if="info.host.advisors">
-                    <li 
-                      v-for="advisor in info.host.advisors" 
-                      :key="advisor.name" 
+                  <ul class="list-unstyled host-list" v-if="info.host.advisors">
+                    <li
+                      v-for="advisor in info.host.advisors"
+                      :key="advisor.name"
                       class="d-flex align-items-center mb-2"
                     >
                       <div class="logo-container me-2">
@@ -154,14 +156,14 @@
                 </b-col>
                 <b-col lg="6">
                   <b-row>
-                    <b-col sm="6" class="mb-4">
-                      <b-card no-body class="shadow-sm">
+                    <b-col cols="6" class="mb-4">
+                      <b-card no-body class="shadow-sm map-card">
                         <b-card-header>{{ $t('conference.venue.surroundings_map') }}</b-card-header>
                         <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference.venue.surroundings_map')" class="img-fluid">
                       </b-card>
                     </b-col>
-                    <b-col sm="6" class="mb-4">
-                      <b-card no-body class="shadow-sm">
+                    <b-col cols="6" class="mb-4">
+                      <b-card no-body class="shadow-sm map-card">
                         <b-card-header>{{ $t('conference.venue.campus_map') }}</b-card-header>
                         <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference.venue.campus_map')" class="img-fluid">
                       </b-card>
@@ -309,14 +311,14 @@ export default {
 }
 .accordion-title-custom {
   margin: 0;
-  font-size: 1.7rem;
+  font-size: var(--fs-h3);
   color: #003366;
   font-weight: 700;
 }
 
 .accordion-content-inner {
   padding: 25px;
-  font-size: 1.25rem;
+  font-size: var(--fs-body);
   font-weight: 300;
   line-height: 1.8;
   background-color: #fff;
@@ -481,10 +483,20 @@ export default {
 
 .logo-container {
   width: 45px;
+  height: 45px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.logo-container img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
 }
 
 /* --- Responsive fixes --- */
@@ -502,12 +514,7 @@ export default {
 }
 
 @media (max-width: 768px) {
-  .accordion-title-custom {
-    font-size: 1.2rem;
-  }
-
   .accordion-content-inner {
-    font-size: 1rem;
     padding: 16px;
   }
 
@@ -527,15 +534,58 @@ export default {
   :deep(.payment-method-card) {
     min-width: 100%;
   }
+
+  /* Registration & Contact / Online Participation / Venue sections */
+  .registration-section .fs-2 {
+    font-size: 1.4rem !important;
+  }
+
+  .venue-icon-wrapper {
+    font-size: 1.2rem !important;
+  }
+
+  .host-list a,
+  .host-list span {
+    font-size: var(--fs-body);
+  }
+
+  .logo-container {
+    width: 34px;
+    height: 34px;
+  }
+
+  .map-card .card-header {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
 }
 
 @media (max-width: 576px) {
-  .accordion-title-custom {
-    font-size: 1rem;
-  }
-
   :deep(.accordion-content-inner .agenda-table) {
     font-size: 0.75rem;
+  }
+
+  .registration-section .fs-2 {
+    font-size: 1.2rem !important;
+  }
+
+  .qr-code-large {
+    max-width: 120px;
+  }
+
+  .host-list a,
+  .host-list span {
+    font-size: var(--fs-body);
+  }
+
+  .logo-container {
+    width: 26px;
+    height: 26px;
+  }
+
+  .map-card .card-header {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.5rem;
   }
 }
 </style>

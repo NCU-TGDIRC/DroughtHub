@@ -92,20 +92,8 @@ export default {
 
 .card-title-custom {
   color: #003366;
-  font-size: 1.25rem;
+  font-size: var(--fs-h5);
   font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .card-title-custom {
-    font-size: 1.05rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .card-title-custom {
-    font-size: 0.95rem;
-  }
 }
 
 .card-hover-effect {

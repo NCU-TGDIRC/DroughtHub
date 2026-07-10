@@ -29,6 +29,27 @@
     "readMore": "Read More &rarr;",
     "items": [
       {
+        "id": 8,
+        "date": "2026-07-07",
+        "title": "[Call for Papers] ICEO&SI 2026 & CESR 2026 Special Issue: Earth's Future — Extreme Heat, Heat Waves, and Urban Heat Islands – Impacts on Public Health",
+        "excerpt": "This special issue focuses on the vulnerability, resilience, and adaptation strategies related to public health impacts of extreme heat, heat waves, and urban heat islands. Qualified presentations at ICEO&SI 2026 and CESR 2026 are encouraged to submit enhanced versions of their work, and submissions from the broader research community are also warmly welcomed. Submission deadline: September 30, 2026.",
+        "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
+      },
+      {
+        "id": 9,
+        "date": "2026-07-07",
+        "title": "[Call for Papers] ICEO&SI 2026 & CESR 2026 Special Issue: GeoHealth — Extreme Heat, Heat Waves, and Urban Heat Islands – Impacts on Public Health",
+        "excerpt": "A coordinated companion special issue to the Earth's Future call, focusing on vulnerable populations, health risks, urban green infrastructure, and climate adaptation strategies, encouraging interdisciplinary research to advance global resilience and equity. Submission deadline: September 30, 2026.",
+        "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/24711403/homepage/call-for-papers/si-2025-001141"
+      },
+      {
+        "id": 10,
+        "date": "2026-07-07",
+        "title": "[Call for Papers] ICEO&SI 2026 & CESR 2026 Special Issue: Remote Sensing — Remote Sensing of Extreme Heat Events, Urban Heat Islands, and Public Health Impacts",
+        "excerpt": "This special issue integrates remote sensing, hydrological and atmospheric dynamics to address extreme heat events, urban heat islands, and their public health impacts. Qualified presentations at ICEO&SI 2026 and CESR 2026 are encouraged to submit enhanced versions of their work, and submissions integrating simulation analysis and adaptation strategies are warmly welcomed.",
+        "url": "https://www.mdpi.com/journal/remotesensing/special_issues/4H344BD91H"
+      },
+      {
         "id": 6,
         "date": "2025-11-24",
         "title": "NCU and Australia's TNQ Drought Hub Hold Joint Workshop to Build Global Climate Resilience",

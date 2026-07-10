@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" :class="['site-header', { 'scrolled': isScrolled }]">
+  <b-navbar toggleable="lg" :container="false" :class="['site-header', { 'scrolled': isScrolled }]">
     <b-container fluid>
       <!-- Logo 品牌 -->
       <b-navbar-brand to="/">

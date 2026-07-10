@@ -39,6 +39,60 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* =====================================================================
+   全站統一文字級距 (Site-wide typography scale)
+   標題 (heading) 一律大於內文 (body)，桌機／平板／手機各自固定一組數值。
+   使用 CSS 變數集中管理，任何頁面的標題／內文 class 都應該參照這裡的值，
+   而不是各自發明新的字級，才能讓全站文字大小維持一致。
+   ===================================================================== */
+:root {
+  /* 桌機 (預設) */
+  --fs-h1: 2.75rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.85rem;
+  --fs-h4: 1.5rem;
+  --fs-h5: 1.25rem;
+  --fs-h6: 1.1rem;
+  --fs-body: 1rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* 平板 */
+    --fs-h1: 2.1rem;
+    --fs-h2: 1.75rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.3rem;
+    --fs-h5: 1.15rem;
+    --fs-h6: 1.05rem;
+    --fs-body: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    /* 手機 */
+    --fs-h1: 1.75rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.3rem;
+    --fs-h4: 1.15rem;
+    --fs-h5: 1.05rem;
+    --fs-h6: 1rem;
+    --fs-body: 0.9rem;
+  }
+}
+
+h1, .h1 { font-size: var(--fs-h1) !important; }
+h2, .h2 { font-size: var(--fs-h2) !important; }
+h3, .h3 { font-size: var(--fs-h3) !important; }
+h4, .h4 { font-size: var(--fs-h4) !important; }
+h5, .h5 { font-size: var(--fs-h5) !important; }
+h6, .h6 { font-size: var(--fs-h6) !important; }
+
+body, p, .fs-4, .fs-5, .lead {
+  font-size: var(--fs-body) !important;
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -72,22 +126,11 @@ a {
   .display-5 { font-size: 1.35rem !important; }
   .display-6 { font-size: 1.15rem !important; }
 
-  .lead { font-size: 1rem !important; }
   .fs-2 { font-size: 1.35rem !important; }
-  .fs-4 { font-size: 1rem !important; }
-  .fs-5 { font-size: 0.93rem !important; }
-
-  h1, .h1 { font-size: 1.8rem; }
-  h2, .h2 { font-size: 1.5rem; }
-  h3, .h3 { font-size: 1.25rem; }
-  h4, .h4 { font-size: 1.1rem; }
-  h5, .h5 { font-size: 1rem; }
 }
 
 /* ===== 小手機響應式排版 (≤576px) ===== */
 @media (max-width: 576px) {
-  body { font-size: 0.9rem; }
-
   .display-1 { font-size: 2rem !important; }
   .display-2 { font-size: 1.75rem !important; }
   .display-3 { font-size: 1.5rem !important; }
@@ -95,9 +138,7 @@ a {
   .display-5 { font-size: 1.15rem !important; }
   .display-6 { font-size: 1.05rem !important; }
 
-  .lead { font-size: 0.93rem !important; }
   .fs-2 { font-size: 1.2rem !important; }
-  .fs-4 { font-size: 0.95rem !important; }
 
   /* 減少區塊上下間距 */
   .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }

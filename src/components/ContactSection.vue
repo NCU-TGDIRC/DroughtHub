@@ -7,7 +7,7 @@
           <div class="contact-info">
             <h3 class="h4 fw-bold mb-4" style="color: #003366;">{{ $t('contact.centerName') }}</h3>
             <div class="contact-item contact-address">
-              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong><a :class="$style.link" href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a>
+              <strong class="me-2">{{ $t('contact.addressLabel') }}</strong><a class="link" href="https://www.csrsr.ncu.edu.tw/" target="_blank">{{ $t('contact.addressLinkText') }}</a>
               <span class="address-value d-block">{{ $t('contact.addressValue') }}</span>
             </div>
             <p class="contact-item">
@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style module scoped>
+<style scoped>
 .link {
   color: #007bff;
   text-decoration: underline;
@@ -48,7 +48,7 @@ export default {
 }
 
 .contact-item {
-  font-size: 1.1rem;
+  font-size: var(--fs-body);
   line-height: 1.9;
   margin-bottom: 1rem;
 }
@@ -58,7 +58,7 @@ export default {
 }
 
 .contact-info h3 {
-    font-size: 1.5rem;
+  font-size: var(--fs-h4);
 }
 
 .ratio {
@@ -67,7 +67,7 @@ export default {
 
 @media (max-width: 768px) {
   .contact-item {
-    font-size: 1rem;
+    line-height: 1.8;
   }
 
   .address-value {
@@ -77,7 +77,6 @@ export default {
 
 @media (max-width: 576px) {
   .contact-item {
-    font-size: 0.95rem;
     line-height: 1.7;
   }
 }
