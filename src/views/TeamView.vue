@@ -202,12 +202,14 @@ export default {
 .group-badge {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 0.35rem;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.22rem 0.7rem;
   border-radius: 20px;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.03em;
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
 }
