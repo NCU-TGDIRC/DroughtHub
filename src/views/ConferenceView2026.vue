@@ -106,7 +106,7 @@
                 </b-col>
                 <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
                   <div class="text-center">
-                    <img :src="getImageUrl('qr-registration.png')" :alt="$t('conference2026.registration.qr_alt')" class="qr-code-large img-fluid rounded">
+                    <img :src="getImageUrl('qr-registration-2026.png')" :alt="$t('conference2026.registration.qr_alt')" class="qr-code-large img-fluid rounded">
                     <p class="text-muted small mt-3">{{ $t('conference2026.registration.qr_caption') }}</p>
                   </div>
                 </b-col>
@@ -140,9 +140,9 @@
             <b-col>
               <h4 class="accordion-title-custom mb-4 fs-2">{{ $t('conference2026.venue.title') }}</h4>
               <b-row>
-                <b-col lg="6" class="mb-5 mb-lg-0">
+                <b-col>
                   <div class="h5 fw-bold text-primary mb-3">{{ info.host.venue }}</div>
-                  
+
                   <div class="d-flex mb-3">
                     <div class="venue-icon-wrapper"><i class="fas fa-chalkboard-teacher fa-fw"></i></div>
                     <div>
@@ -188,21 +188,19 @@
                     </li>
                   </ul>
                 </b-col>
-                <b-col lg="6">
-                  <b-row>
-                    <b-col cols="6" class="mb-4">
-                      <b-card no-body class="shadow-sm map-card">
-                        <b-card-header>{{ $t('conference2026.venue.surroundings_map') }}</b-card-header>
-                        <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference2026.venue.surroundings_map')" class="img-fluid">
-                      </b-card>
-                    </b-col>
-                    <b-col cols="6" class="mb-4">
-                      <b-card no-body class="shadow-sm map-card">
-                        <b-card-header>{{ $t('conference2026.venue.campus_map') }}</b-card-header>
-                        <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference2026.venue.campus_map')" class="img-fluid">
-                      </b-card>
-                    </b-col>
-                  </b-row>
+              </b-row>
+              <b-row class="mt-4">
+                <b-col cols="6" class="mb-4">
+                  <b-card no-body class="shadow-sm map-card">
+                    <b-card-header>{{ $t('conference2026.venue.surroundings_map') }}</b-card-header>
+                    <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference2026.venue.surroundings_map')" class="img-fluid">
+                  </b-card>
+                </b-col>
+                <b-col cols="6" class="mb-4">
+                  <b-card no-body class="shadow-sm map-card">
+                    <b-card-header>{{ $t('conference2026.venue.campus_map') }}</b-card-header>
+                    <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference2026.venue.campus_map')" class="img-fluid">
+                  </b-card>
                 </b-col>
               </b-row>
               <b-row class="mt-5">

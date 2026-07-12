@@ -106,9 +106,9 @@
             <b-col>
               <h4 class="accordion-title-custom mb-4 fs-2">{{ $t('conference.venue.title') }}</h4>
               <b-row>
-                <b-col lg="6" class="mb-5 mb-lg-0">
+                <b-col>
                   <div class="h5 fw-bold text-primary mb-3">{{ info.host.venue }}</div>
-                  
+
                   <div class="d-flex mb-3">
                     <div class="venue-icon-wrapper"><i class="fas fa-chalkboard-teacher fa-fw"></i></div>
                     <div>
@@ -154,21 +154,19 @@
                     </li>
                   </ul>
                 </b-col>
-                <b-col lg="6">
-                  <b-row>
-                    <b-col cols="6" class="mb-4">
-                      <b-card no-body class="shadow-sm map-card">
-                        <b-card-header>{{ $t('conference.venue.surroundings_map') }}</b-card-header>
-                        <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference.venue.surroundings_map')" class="img-fluid">
-                      </b-card>
-                    </b-col>
-                    <b-col cols="6" class="mb-4">
-                      <b-card no-body class="shadow-sm map-card">
-                        <b-card-header>{{ $t('conference.venue.campus_map') }}</b-card-header>
-                        <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference.venue.campus_map')" class="img-fluid">
-                      </b-card>
-                    </b-col>
-                  </b-row>
+              </b-row>
+              <b-row class="mt-4">
+                <b-col cols="6" class="mb-4">
+                  <b-card no-body class="shadow-sm map-card">
+                    <b-card-header>{{ $t('conference.venue.surroundings_map') }}</b-card-header>
+                    <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference.venue.surroundings_map')" class="img-fluid">
+                  </b-card>
+                </b-col>
+                <b-col cols="6" class="mb-4">
+                  <b-card no-body class="shadow-sm map-card">
+                    <b-card-header>{{ $t('conference.venue.campus_map') }}</b-card-header>
+                    <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference.venue.campus_map')" class="img-fluid">
+                  </b-card>
                 </b-col>
               </b-row>
               <b-row class="mt-5">
