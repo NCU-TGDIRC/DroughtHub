@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .page-banner {
-  background-image: url('../assets/banner.jpeg');
+  background-image: url('../assets/media/banner.jpeg');
   height: 50vh;
   min-height: 300px;
   max-height: 400px;

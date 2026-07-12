@@ -217,7 +217,7 @@
     "readMore": "READ MORE",
     "members": [
       {
-        "image": "Gemini_Chien_wen_Shen.png",
+        "image": "people/Gemini_Chien_wen_Shen.png",
         "name": "Chien-Wen Shen",
         "title": "Professor & Associate Dean, College of Management; Director, Center for Asian Impact Measurement and Management, Social Enterprise Center, and Public Communication Center",
         "department": "Department of Business Administration",
@@ -227,7 +227,7 @@
         "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
       },
       {
-        "image": "Gemini_劉說安2.png",
+        "image": "people/Gemini_劉說安2.png",
         "name": "Yuei-An Liou",
         "title": "Space and Remote Sensing Chair Professor",
         "department": "Center for Space and Remote Sensing Research",
@@ -237,7 +237,7 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
       },
       {
-        "image": "Gemini_Cheng-Ling Kou2.png",
+        "image": "people/Gemini_Cheng-Ling Kou2.png",
         "name": "Cheng-Ling Kuo",
         "title": "Professor",
         "department": "Center for Space Science and Technology",
@@ -247,7 +247,7 @@
         "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
       },
       {
-        "image": "Gemini_hsu_wen_chin2.png",
+        "image": "people/Gemini_hsu_wen_chin2.png",
         "name": "Wen-Chin Hsu",
         "title": "Professor & Executive Director, EMI Office, College of Management; Director, IMBA",
         "department": "Department of Information Management",
@@ -257,7 +257,7 @@
         "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
       },
       {
-        "image": "Hsiao-Ting Tseng.jpg",
+        "image": "people/Hsiao-Ting Tseng.jpg",
         "name": "Hsiao-Ting Tseng",
         "title": "Associate Professor; Director, Center for Service-Learning and Development",
         "department": "Department of Information Management",
@@ -267,7 +267,7 @@
         "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
       },
       {
-        "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+        "image": "people/Gemini_羅月霞 Yueh-Hsia Luo.png",
         "name": "Yueh-Hsia Luo",
         "title": "Associate Professor",
         "department": "Department of Life Sciences",
@@ -277,7 +277,7 @@
         "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html"
       },
       {
-        "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
+        "image": "people/Gemini_徐峻賢Chun-Hsien Hsu.png",
         "name": "Chun-Hsien Hsu",
         "title": "Associate Professor",
         "department": "Institute of Cognitive Neuroscience",
@@ -287,7 +287,7 @@
         "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9"
       },
       {
-        "image": "Gemini_Shou-Hao Chiang.png",
+        "image": "people/Gemini_Shou-Hao Chiang.png",
         "name": "Shou-Hao Chiang",
         "title": "Associate Professor",
         "department": "Center for Space and Remote Sensing Research",
@@ -297,7 +297,7 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
       },
       {
-        "image": "葉錦徽教授pic1.png",
+        "image": "people/葉錦徽教授pic1.png",
         "name": "Jin-Huei Yeh",
         "title": "Professor & Dean, College of Management",
         "department": "Department of Finance",
@@ -307,7 +307,7 @@
         "detailUrl": "https://fm.mgt.ncu.edu.tw/en/faculty-member/56/profile"
       },
       {
-        "image": "任玄副教授pic2.png",
+        "image": "people/任玄副教授pic2.png",
         "name": "Hsuan Ren",
         "title": "Associate Professor and Program Director",
         "department": "Center for Space and Remote Sensing Research",
@@ -317,7 +317,7 @@
         "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=8"
       },
       {
-        "image": "葉靖輝教授pic1.png",
+        "image": "people/葉靖輝教授pic1.png",
         "name": "Ching-Hui Yeh",
         "title": "Professor & Department Chair",
         "department": "Department of Life Sciences",
@@ -327,7 +327,7 @@
         "detailUrl": "https://scholars.ncu.edu.tw/en/persons/ching-hui-yeh"
       },
       {
-        "image": "黃佳瑜副教授pic4.png",
+        "image": "people/黃佳瑜副教授pic4.png",
         "name": "Chia-Yu Huang",
         "title": "Associate Professor",
         "department": "Department of Life Sciences",
@@ -337,7 +337,7 @@
         "detailUrl": "https://scholars.ncu.edu.tw/en/persons/chia-yu-huang"
       },
       {
-        "image": "中研院龍世俊研究員副主任pic4.png",
+        "image": "people/中研院龍世俊研究員副主任pic4.png",
         "name": "Shih-Chun Candice Lung",
         "title": "Researcher & Deputy Director",
         "department": "Research Center for Environmental Changes, Academia Sinica",
@@ -347,7 +347,7 @@
         "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=16"
       },
       {
-        "image": "中研院潘士群助研究員pic1.png",
+        "image": "people/中研院潘士群助研究員pic1.png",
         "name": "Shih-Chun Pan",
         "title": "Assistant Research Fellow",
         "department": "Research Center for Environmental Changes, Academia Sinica",
@@ -357,7 +357,7 @@
         "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=148"
       },
       {
-        "image": "鐘志忠教授gemini 3.png",
+        "image": "people/鐘志忠教授gemini 3.png",
         "name": "Chih-Chung Chung",
         "title": "Professor & Deputy Director",
         "department": "Department of Civil Engineering & Disaster Prevention Research Center",
@@ -540,7 +540,7 @@
         "hosts": [
           {
             "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)",
-            "logo": "DroughtHub.jpg",
+            "logo": "logos/DroughtHub.jpg",
             "alt": "DroughtHub Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           }
@@ -548,19 +548,19 @@
         "coHosts": [
           {
             "name": "Department of Environmental Protection, Taoyuan City Government",
-            "logo": "桃園市環保局.png",
+            "logo": "logos/桃園市環保局.png",
             "alt": "Taoyuan EPB Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Taiwan Group on Earth Observations (TGEO)",
-            "logo": "tgeo_logo.png",
+            "logo": "logos/tgeo_logo.png",
             "alt": "TGEO Logo",
             "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network",
-            "logo": "IET_Logo.png",
+            "logo": "logos/IET_Logo.png",
             "alt": "IET Logo",
             "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
           }
@@ -568,31 +568,31 @@
         "advisors": [
           {
             "name": "National Central University (NCU)",
-            "logo": "logo.png",
+            "logo": "logos/logo.png",
             "alt": "NCU Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Taoyuan City Government",
-            "logo": "桃園市.png",
+            "logo": "logos/桃園市.png",
             "alt": "桃園市政府 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "National Science and Technology Council",
-            "logo": "nstc_logo.png",
+            "logo": "logos/nstc_logo.png",
             "alt": "NSTC Logo",
             "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Ministry of Agriculture",
-            "logo": "agriculture_logo.jpg",
+            "logo": "logos/agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Ministry of Education",
-            "logo": "教育部.png",
+            "logo": "logos/教育部.png",
             "alt": "教育部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           }
@@ -644,7 +644,7 @@
               "items": [
                 {
                   "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)",
-                  "logo": "DroughtHub.jpg",
+                  "logo": "logos/DroughtHub.jpg",
                   "alt": "DroughtHub Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -656,19 +656,19 @@
               "items": [
                 {
                   "name": "Department of Environmental Protection, Taoyuan City Government",
-                  "logo": "桃園市環保局.png",
+                  "logo": "logos/桃園市環保局.png",
                   "alt": "Taoyuan EPB Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Taiwan Group on Earth Observations (TGEO)",
-                  "logo": "tgeo_logo.png",
+                  "logo": "logos/tgeo_logo.png",
                   "alt": "TGEO Logo",
                   "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network",
-                  "logo": "IET_Logo.png",
+                  "logo": "logos/IET_Logo.png",
                   "alt": "IET Logo",
                   "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -680,25 +680,25 @@
               "items": [
                 {
                   "name": "National Central University (NCU)",
-                  "logo": "logo.png",
+                  "logo": "logos/logo.png",
                   "alt": "NCU Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Taoyuan City Government",
-                  "logo": "桃園市.png",
+                  "logo": "logos/桃園市.png",
                   "alt": "桃園市政府 Logo",
                   "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "National Science and Technology Council",
-                  "logo": "nstc_logo.png",
+                  "logo": "logos/nstc_logo.png",
                   "alt": "NSTC Logo",
                   "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Ministry of Agriculture",
-                  "logo": "agriculture_logo.jpg",
+                  "logo": "logos/agriculture_logo.jpg",
                   "alt": "農業部 Logo",
                   "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -763,7 +763,7 @@
         "hosts": [
           {
             "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)",
-            "logo": "DroughtHub.jpg",
+            "logo": "logos/DroughtHub.jpg",
             "alt": "DroughtHub Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           }
@@ -771,19 +771,19 @@
         "coHosts": [
           {
             "name": "Department of environmental protection, Taoyuan City Government",
-            "logo": "桃園市環保局.png",
+            "logo": "logos/桃園市環保局.png",
             "alt": "Taoyuan EPB Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Taiwan Group on Earth Observations (TGEO)",
-            "logo": "tgeo_logo.png",
+            "logo": "logos/tgeo_logo.png",
             "alt": "TGEO Logo",
             "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network",
-            "logo": "IET_Logo.png",
+            "logo": "logos/IET_Logo.png",
             "alt": "IET Logo",
             "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
           }
@@ -791,31 +791,31 @@
         "advisors": [
           {
             "name": "National Central University (NCU)",
-            "logo": "logo.png",
+            "logo": "logos/logo.png",
             "alt": "NCU Logo",
             "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Taoyuan City Government",
-            "logo": "桃園市.png",
+            "logo": "logos/桃園市.png",
             "alt": "桃園市政府 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "National Science and Technology Council",
-            "logo": "nstc_logo.png",
+            "logo": "logos/nstc_logo.png",
             "alt": "NSTC Logo",
             "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Ministry of Agriculture",
-            "logo": "agriculture_logo.jpg",
+            "logo": "logos/agriculture_logo.jpg",
             "alt": "農業部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           },
           {
             "name": "Ministry of Education",
-            "logo": "教育部.png",
+            "logo": "logos/教育部.png",
             "alt": "教育部 Logo",
             "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
           }
@@ -875,7 +875,7 @@
               "items": [
                 {
                   "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)",
-                  "logo": "DroughtHub.jpg",
+                  "logo": "logos/DroughtHub.jpg",
                   "alt": "DroughtHub Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -887,19 +887,19 @@
               "items": [
                 {
                   "name": "Department of environmental protection, Taoyuan City Government",
-                  "logo": "桃園市環保局.png",
+                  "logo": "logos/桃園市環保局.png",
                   "alt": "Taoyuan EPB Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Taiwan Group on Earth Observations (TGEO)",
-                  "logo": "tgeo_logo.png",
+                  "logo": "logos/tgeo_logo.png",
                   "alt": "TGEO Logo",
                   "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "The Institution of Engineering and Technology (IET) – Taipei Local Network",
-                  "logo": "IET_Logo.png",
+                  "logo": "logos/IET_Logo.png",
                   "alt": "IET Logo",
                   "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -911,25 +911,25 @@
               "items": [
                 {
                   "name": "National Central University (NCU)",
-                  "logo": "logo.png",
+                  "logo": "logos/logo.png",
                   "alt": "NCU Logo",
                   "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Taoyuan City Government",
-                  "logo": "桃園市.png",
+                  "logo": "logos/桃園市.png",
                   "alt": "桃園市政府 Logo",
                   "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "National Science and Technology Council",
-                  "logo": "nstc_logo.png",
+                  "logo": "logos/nstc_logo.png",
                   "alt": "NSTC Logo",
                   "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                 },
                 {
                   "name": "Ministry of Agriculture",
-                  "logo": "agriculture_logo.jpg",
+                  "logo": "logos/agriculture_logo.jpg",
                   "alt": "農業部 Logo",
                   "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                 }
@@ -950,42 +950,42 @@
             {
               "name": "Dara Entekhabi",
               "title": "Professor / Fellow  \n  Professor, M.I.T. & Fellow of the National Academy of Engineering (NAE)",
-              "image": "Gemini_Dara Entekhabi.png"
+              "image": "people/Gemini_Dara Entekhabi.png"
             },
             {
               "name": "Venkataraman Lakshmi",
               "title": "Chair Professor / President  \n  John L. Newcomb Chair Professor, University of Virginia President, Hydrology Section, American Geophysical Union (AGU)",
-              "image": "Gemini_Venkataraman Lakshmi.png"
+              "image": "people/Gemini_Venkataraman Lakshmi.png"
             },
             {
               "name": "Takashi Oguchi",
               "title": "Professor / President \n Currently serves as Vice President of the International Association of Geomorphologists (IAG), President of the Japan Geoscience Union (JpGU), and President of the Association of Japanese Geographers  \n Former President of the Japan Society of Geomorphology and the Japan Society for Geographical Information Systems",
-              "image": "Gemini_Takaghoshi.png"
+              "image": "people/Gemini_Takaghoshi.png"
             },
             {
               "name": "EME President",
               "title": "Advisor",
-              "image": "Gemini_EMEPresident.png"
+              "image": "people/Gemini_EMEPresident.png"
             },
             {
               "name": "Former President",
               "title": "Advisor",
-              "image": "Gemini_Former President.png"
+              "image": "people/Gemini_Former President.png"
             },
             {
               "name": "HUMG",
               "title": "Advisor",
-              "image": "Gemini_HUMG.png"
+              "image": "people/Gemini_HUMG.png"
             },
             {
               "name": "Tran Minh Tien",
               "title": "Vice President / Professor  \n Vice President of the Vietnam Academy of Agricultural Sciences (VAAS)",
-              "image": "Gemini_Tran Minh Tien.png"
+              "image": "people/Gemini_Tran Minh Tien.png"
             }
           ],
           "teamMembers": [
             {
-              "image": "Gemini_劉說安2.png",
+              "image": "people/Gemini_劉說安2.png",
               "name": "Yuei-An Liou",
               "title": "Chair Professor",
               "department": "NCU TGI Drought hub",
@@ -995,7 +995,7 @@
               "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
             },
             {
-              "image": "Gemini_Chien_wen_Shen.png",
+              "image": "people/Gemini_Chien_wen_Shen.png",
               "name": "Chien-Wen Shen",
               "title": "Professor",
               "department": "NCU TGI Drought hub",
@@ -1005,7 +1005,7 @@
               "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
             },
             {
-              "image": "Gemini_Cheng-Ling Kou2.png",
+              "image": "people/Gemini_Cheng-Ling Kou2.png",
               "name": "Cheng-Ling Kou",
               "title": "Professor",
               "department": "NCU TGI Drought hub",
@@ -1015,7 +1015,7 @@
               "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
             },
             {
-              "image": "Gemini_hsu_wen_chin2.png",
+              "image": "people/Gemini_hsu_wen_chin2.png",
               "name": "Wen-Chin Hsu",
               "title": "Professor",
               "department": "NCU TGI Drought hub",
@@ -1025,7 +1025,7 @@
               "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
             },
             {
-              "image": "Hsiao-Ting Tseng.jpg",
+              "image": "people/Hsiao-Ting Tseng.jpg",
               "name": "Hsiao-Ting Tseng",
               "title": "Associate Professor",
               "department": "NCU TGI Drought hub",
@@ -1035,7 +1035,7 @@
               "detailUrl": "https://im.mgt.ncu.tw/teacher"
             },
             {
-              "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+              "image": "people/Gemini_羅月霞 Yueh-Hsia Luo.png",
               "name": "Yueh-Hsia Luo",
               "title": "Associate Professor",
               "department": "NCU TGI Drought hub",
@@ -1045,7 +1045,7 @@
               "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html"
             },
             {
-              "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
+              "image": "people/Gemini_徐峻賢Chun-Hsien Hsu.png",
               "name": "Chun-Hsien Hsu",
               "title": "Associate Professor",
               "department": "NCU TGI Drought hub",
@@ -1055,7 +1055,7 @@
               "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9"
             },
             {
-              "image": "Gemini_Shou-Hao Chiang.png",
+              "image": "people/Gemini_Shou-Hao Chiang.png",
               "name": "Shou-Hao Chiang",
               "title": "Associate Professor",
               "department": "NCU TGI Drought hub",

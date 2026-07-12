@@ -70,7 +70,7 @@
                 </b-col>
                 <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
                   <div class="text-center">
-                    <img :src="getImageUrl('qr-registration.png')" :alt="$t('conference.registration.qr_alt')" class="qr-code-large img-fluid rounded">
+                    <img :src="getImageUrl('qr/qr-registration.png')" :alt="$t('conference.registration.qr_alt')" class="qr-code-large img-fluid rounded">
                     <p class="text-muted small mt-3">{{ $t('conference.registration.qr_caption') }}</p>
                   </div>
                 </b-col>
@@ -137,13 +137,13 @@
                     <b-col sm="6" class="mb-4">
                       <b-card no-body class="shadow-sm">
                         <b-card-header>{{ $t('conference.venue.surroundings_map') }}</b-card-header>
-                        <img :src="getImageUrl('surroundings-map.jpg')" :alt="$t('conference.venue.surroundings_map')" class="img-fluid">
+                        <img :src="getImageUrl('maps/surroundings-map.jpg')" :alt="$t('conference.venue.surroundings_map')" class="img-fluid">
                       </b-card>
                     </b-col>
                     <b-col sm="6" class="mb-4">
                       <b-card no-body class="shadow-sm">
                         <b-card-header>{{ $t('conference.venue.campus_map') }}</b-card-header>
-                        <img :src="getImageUrl('campus-map.jpg')" :alt="$t('conference.venue.campus_map')" class="img-fluid">
+                        <img :src="getImageUrl('maps/campus-map.jpg')" :alt="$t('conference.venue.campus_map')" class="img-fluid">
                       </b-card>
                     </b-col>
                   </b-row>
@@ -190,7 +190,7 @@ export default {
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 /* --- Page Styles (Unchanged) --- */
-.page-header { background-image: url('../assets/icqab-bg.jpg'); background-size: cover; background-position: center; padding-top: 50px; }
+.page-header { background-image: url('../assets/media/icqab-bg.jpg'); background-size: cover; background-position: center; padding-top: 50px; }
 .bg-overlay { background-color: rgba(10, 25, 47, 0.7); }
 .qr-code { max-width: 180px; }
 .venue-icon-wrapper { font-size: 1.5rem; color: var(--bs-primary); padding-top: 5px; margin-right: 1rem; }

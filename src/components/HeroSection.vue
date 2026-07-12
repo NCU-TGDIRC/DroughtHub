@@ -1,7 +1,7 @@
 <template>
   <div class="hero d-flex justify-content-center align-items-center text-center text-white">
     <video autoplay muted loop playsinline class="hero-video">
-      <source src="@/assets/background video 3.mp4" type="video/mp4">
+      <source src="@/assets/media/background video 3.mp4" type="video/mp4">
     </video>
     <b-container class="hero-content">
       <h1 class="display-2 fw-bold">{{ $t('hero.title') }}</h1>

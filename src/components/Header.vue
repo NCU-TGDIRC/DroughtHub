@@ -3,7 +3,7 @@
     <b-container fluid>
       <!-- Logo 品牌 -->
       <b-navbar-brand to="/">
-        <img src="@/assets/logo.png" :alt="$t('header.logoAlt')" class="logo-img">
+        <img src="@/assets/logos/logo.png" :alt="$t('header.logoAlt')" class="logo-img">
       </b-navbar-brand>
 
       <!-- 手機版的漢堡選單按鈕 -->

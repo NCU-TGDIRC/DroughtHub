@@ -217,7 +217,7 @@
         "readMore": "READ MORE",
         "members": [
             {
-                "image": "Gemini_Chien_wen_Shen.png",
+                "image": "people/Gemini_Chien_wen_Shen.png",
                 "name": "沈建文 Chien-Wen Shen",
                 "title": "教授兼管理學院副院長、亞洲影響力衡量與管理研究總中心、社企中心、公益傳播中心主任",
                 "department": "企業管理學系",
@@ -227,7 +227,7 @@
                 "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
             },
             {
-                "image": "Gemini_劉說安2.png",
+                "image": "people/Gemini_劉說安2.png",
                 "name": "劉說安 Yuei-An Liou",
                 "title": "太遙講座教授",
                 "department": "太空及遙測研究中心",
@@ -237,7 +237,7 @@
                 "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
             },
             {
-                "image": "Gemini_Cheng-Ling Kou2.png",
+                "image": "people/Gemini_Cheng-Ling Kou2.png",
                 "name": "郭政靈 Cheng-Ling Kuo",
                 "title": "教授",
                 "department": "太空科學與科技研究中心",
@@ -247,7 +247,7 @@
                 "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
             },
             {
-                "image": "Gemini_hsu_wen_chin2.png",
+                "image": "people/Gemini_hsu_wen_chin2.png",
                 "name": "許文錦 Wen-Chin Hsu",
                 "title": "教授兼管理學院EMI執行長、IMBA主任",
                 "department": "資訊管理學系",
@@ -257,7 +257,7 @@
                 "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
             },
             {
-                "image": "Hsiao-Ting Tseng.jpg",
+                "image": "people/Hsiao-Ting Tseng.jpg",
                 "name": "曾筱珽 Hsiao-Ting Tseng",
                 "title": "副教授兼服務學習發展中心主任",
                 "department": "資訊管理學系",
@@ -267,7 +267,7 @@
                 "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
             },
             {
-                "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+                "image": "people/Gemini_羅月霞 Yueh-Hsia Luo.png",
                 "name": "羅月霞 Yueh-Hsia Luo",
                 "title": "副教授",
                 "department": "生命科學系",
@@ -277,7 +277,7 @@
                 "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html"
             },
             {
-                "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
+                "image": "people/Gemini_徐峻賢Chun-Hsien Hsu.png",
                 "name": "徐峻賢 Chun-Hsien Hsu",
                 "title": "副教授",
                 "department": "認知神經科學研究所",
@@ -287,7 +287,7 @@
                 "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9"
             },
             {
-                "image": "Gemini_Shou-Hao Chiang.png",
+                "image": "people/Gemini_Shou-Hao Chiang.png",
                 "name": "姜壽浩 Shou-Hao Chiang",
                 "title": "副教授",
                 "department": "太空及遙測研究中心",
@@ -297,7 +297,7 @@
                 "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=15"
             },
             {
-                "image": "葉錦徽教授pic1.png",
+                "image": "people/葉錦徽教授pic1.png",
                 "name": "葉錦徽 Jin-Huei Yeh",
                 "title": "教授兼管理學院院長",
                 "department": "財務金融學系",
@@ -307,7 +307,7 @@
                 "detailUrl": "https://fm.mgt.ncu.edu.tw/en/faculty-member/56/profile"
             },
             {
-                "image": "任玄副教授pic2.png",
+                "image": "people/任玄副教授pic2.png",
                 "name": "任玄 Hsuan Ren",
                 "title": "副教授兼學程主任",
                 "department": "太空及遙測研究中心",
@@ -317,7 +317,7 @@
                 "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=8"
             },
             {
-                "image": "葉靖輝教授pic1.png",
+                "image": "people/葉靖輝教授pic1.png",
                 "name": "葉靖輝 Ching-Hui Yeh",
                 "title": "教授兼系主任",
                 "department": "生命科學系",
@@ -327,7 +327,7 @@
                 "detailUrl": "https://scholars.ncu.edu.tw/en/persons/ching-hui-yeh"
             },
             {
-                "image": "黃佳瑜副教授pic4.png",
+                "image": "people/黃佳瑜副教授pic4.png",
                 "name": "黃佳瑜 Chia-Yu Huang",
                 "title": "副教授",
                 "department": "生命科學系",
@@ -337,7 +337,7 @@
                 "detailUrl": "https://scholars.ncu.edu.tw/en/persons/chia-yu-huang"
             },
             {
-                "image": "中研院龍世俊研究員副主任pic4.png",
+                "image": "people/中研院龍世俊研究員副主任pic4.png",
                 "name": "龍世俊 Shih-Chun Candice Lung",
                 "title": "研究員兼副主任",
                 "department": "中央研究院 環境變遷研究中心",
@@ -347,7 +347,7 @@
                 "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=16"
             },
             {
-                "image": "中研院潘士群助研究員pic1.png",
+                "image": "people/中研院潘士群助研究員pic1.png",
                 "name": "潘士群 Shih-Chun Pan",
                 "title": "助研究員",
                 "department": "中央研究院 環境變遷研究中心",
@@ -357,7 +357,7 @@
                 "detailUrl": "https://rcec.sinica.edu.tw/?action=member&id=148"
             },
             {
-                "image": "鐘志忠教授gemini 3.png",
+                "image": "people/鐘志忠教授gemini 3.png",
                 "name": "鐘志忠 Chih-Chung Chung",
                 "title": "教授兼副主任",
                 "department": "土木工程學系暨災害防治研究中心",
@@ -568,7 +568,7 @@
                             "items": [
                                 {
                                     "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)",
-                                    "logo": "DroughtHub.jpg",
+                                    "logo": "logos/DroughtHub.jpg",
                                     "alt": "DroughtHub Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -580,19 +580,19 @@
                             "items": [
                                 {
                                     "name": "桃園市政府環境保護局",
-                                    "logo": "桃園市環保局.png",
+                                    "logo": "logos/桃園市環保局.png",
                                     "alt": "桃園市環保局 Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "社團法人台灣地球觀測學會 (TGEO)",
-                                    "logo": "tgeo_logo.png",
+                                    "logo": "logos/tgeo_logo.png",
                                     "alt": "TGEO Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)",
-                                    "logo": "IET_Logo.png",
+                                    "logo": "logos/IET_Logo.png",
                                     "alt": "IET Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -604,25 +604,25 @@
                             "items": [
                                 {
                                     "name": "國立中央大學 (NCU)",
-                                    "logo": "logo.png",
+                                    "logo": "logos/logo.png",
                                     "alt": "NCU Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "桃園市政府",
-                                    "logo": "桃園市.png",
+                                    "logo": "logos/桃園市.png",
                                     "alt": "桃園市政府 Logo",
                                     "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "國家科學及技術委員會",
-                                    "logo": "nstc_logo.png",
+                                    "logo": "logos/nstc_logo.png",
                                     "alt": "NSTC Logo",
                                     "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "農業部",
-                                    "logo": "agriculture_logo.jpg",
+                                    "logo": "logos/agriculture_logo.jpg",
                                     "alt": "農業部 Logo",
                                     "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -660,7 +660,7 @@
                 "hosts": [
                     {
                         "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)",
-                        "logo": "DroughtHub.jpg",
+                        "logo": "logos/DroughtHub.jpg",
                         "alt": "DroughtHub Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     }
@@ -668,19 +668,19 @@
                 "coHosts": [
                     {
                         "name": "桃園市政府環境保護局",
-                        "logo": "桃園市環保局.png",
+                        "logo": "logos/桃園市環保局.png",
                         "alt": "桃園市環保局 Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "社團法人台灣地球觀測學會 (TGEO)",
-                        "logo": "tgeo_logo.png",
+                        "logo": "logos/tgeo_logo.png",
                         "alt": "TGEO Logo",
                         "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)",
-                        "logo": "IET_Logo.png",
+                        "logo": "logos/IET_Logo.png",
                         "alt": "IET Logo",
                         "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                     }
@@ -688,31 +688,31 @@
                 "advisors": [
                     {
                         "name": "國立中央大學 (NCU)",
-                        "logo": "logo.png",
+                        "logo": "logos/logo.png",
                         "alt": "NCU Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "桃園市政府",
-                        "logo": "桃園市.png",
+                        "logo": "logos/桃園市.png",
                         "alt": "桃園市政府 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "國家科學及技術委員會",
-                        "logo": "nstc_logo.png",
+                        "logo": "logos/nstc_logo.png",
                         "alt": "NSTC Logo",
                         "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "農業部",
-                        "logo": "agriculture_logo.jpg",
+                        "logo": "logos/agriculture_logo.jpg",
                         "alt": "農業部 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "教育部",
-                        "logo": "教育部.png",
+                        "logo": "logos/教育部.png",
                         "alt": "教育部 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     }
@@ -798,7 +798,7 @@
                             "items": [
                                 {
                                     "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)",
-                                    "logo": "DroughtHub.jpg",
+                                    "logo": "logos/DroughtHub.jpg",
                                     "alt": "DroughtHub Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -810,19 +810,19 @@
                             "items": [
                                 {
                                     "name": "桃園市政府環境保護局",
-                                    "logo": "桃園市環保局.png",
+                                    "logo": "logos/桃園市環保局.png",
                                     "alt": "桃園市環保局 Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "社團法人台灣地球觀測學會 (TGEO)",
-                                    "logo": "tgeo_logo.png",
+                                    "logo": "logos/tgeo_logo.png",
                                     "alt": "TGEO Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)",
-                                    "logo": "IET_Logo.png",
+                                    "logo": "logos/IET_Logo.png",
                                     "alt": "IET Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -834,25 +834,25 @@
                             "items": [
                                 {
                                     "name": "國立中央大學 (NCU)",
-                                    "logo": "logo.png",
+                                    "logo": "logos/logo.png",
                                     "alt": "NCU Logo",
                                     "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "桃園市政府",
-                                    "logo": "桃園市.png",
+                                    "logo": "logos/桃園市.png",
                                     "alt": "桃園市政府 Logo",
                                     "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "國家科學及技術委員會",
-                                    "logo": "nstc_logo.png",
+                                    "logo": "logos/nstc_logo.png",
                                     "alt": "NSTC Logo",
                                     "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                                 },
                                 {
                                     "name": "農業部",
-                                    "logo": "agriculture_logo.jpg",
+                                    "logo": "logos/agriculture_logo.jpg",
                                     "alt": "農業部 Logo",
                                     "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                                 }
@@ -873,42 +873,42 @@
                         {
                             "name": "Dara Entekhabi",
                             "title": "教授／院士 \n M.I.T.教授暨美國國家工程院院士",
-                            "image": "Gemini_Dara Entekhabi.png"
+                            "image": "people/Gemini_Dara Entekhabi.png"
                         },
                         {
                             "name": "Venkataraman Lakshmi",
                             "title": "講座教授／會長 \n 美國維吉尼亞大學 John L. Newcomb 講座教授 \n 美國地球物理聯盟（AGU）水文學會會長",
-                            "image": "Gemini_Venkataraman Lakshmi.png"
+                            "image": "people/Gemini_Venkataraman Lakshmi.png"
                         },
                         {
                             "name": "Takashi Oguchi",
                             "title": "教授／會長 \n 現任 國際地貌學會（IAG）副會長、日本地球科學聯合會（JpGU）會長、日本地理學會會長 \n 曾任日本地貌學會與日本地理資訊系統學會會長",
-                            "image": "Gemini_Takaghoshi.png"
+                            "image": "people/Gemini_Takaghoshi.png"
                         },
                         {
                             "name": "EME President",
                             "title": "Advisor",
-                            "image": "Gemini_EMEPresident.png"
+                            "image": "people/Gemini_EMEPresident.png"
                         },
                         {
                             "name": "Former President",
                             "title": "Advisor",
-                            "image": "Gemini_Former President.png"
+                            "image": "people/Gemini_Former President.png"
                         },
                         {
                             "name": "HUMG",
                             "title": "Advisor",
-                            "image": "Gemini_HUMG.png"
+                            "image": "people/Gemini_HUMG.png"
                         },
                         {
                             "name": "Tran Minh Tien",
                             "title": "教授／副院長 \n 越南農業科學院（VAAS）副院長",
-                            "image": "Gemini_Tran Minh Tien.png"
+                            "image": "people/Gemini_Tran Minh Tien.png"
                         }
                     ],
                     "teamMembers": [
                         {
-                            "image": "Gemini_劉說安2.png",
+                            "image": "people/Gemini_劉說安2.png",
                             "name": "劉說安 Yuei-An Liou",
                             "title": "講座教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -918,7 +918,7 @@
                             "detailUrl": "https://www.csrsr.ncu.edu.tw/about/professor_info.php?id=4"
                         },
                         {
-                            "image": "Gemini_Chien_wen_Shen.png",
+                            "image": "people/Gemini_Chien_wen_Shen.png",
                             "name": "沈建文 Chien-wen Shen",
                             "title": "教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -928,7 +928,7 @@
                             "detailUrl": "https://ba.mgt.ncu.edu.tw/faculty_txt.php?id=1054"
                         },
                         {
-                            "image": "Gemini_Cheng-Ling Kou2.png",
+                            "image": "people/Gemini_Cheng-Ling Kou2.png",
                             "name": "郭政靈 Cheng-Ling Kou",
                             "title": "教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -938,7 +938,7 @@
                             "detailUrl": "https://scholars.ncu.edu.tw/zh/persons/cheng-ling-kou"
                         },
                         {
-                            "image": "Gemini_hsu_wen_chin2.png",
+                            "image": "people/Gemini_hsu_wen_chin2.png",
                             "name": "許文錦 Wen-Chin Hsu",
                             "title": "教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -948,7 +948,7 @@
                             "detailUrl": "https://im.mgt.ncu.edu.tw/teacher"
                         },
                         {
-                            "image": "Hsiao-Ting Tseng.jpg",
+                            "image": "people/Hsiao-Ting Tseng.jpg",
                             "name": "曾筱珽 Hsiao-Ting Tseng",
                             "title": "副教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -958,7 +958,7 @@
                             "detailUrl": "https://im.mgt.ncu.tw/teacher"
                         },
                         {
-                            "image": "Gemini_羅月霞 Yueh-Hsia Luo.png",
+                            "image": "people/Gemini_羅月霞 Yueh-Hsia Luo.png",
                             "name": "羅月霞 Yueh-Hsia Luo",
                             "title": "副教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -968,7 +968,7 @@
                             "detailUrl": "https://nculs.in.ncu.edu.tw/index.php/Staff/more/id/20/cid/2.html"
                         },
                         {
-                            "image": "Gemini_徐峻賢Chun-Hsien Hsu.png",
+                            "image": "people/Gemini_徐峻賢Chun-Hsien Hsu.png",
                             "name": "徐峻賢 Chun-Hsien Hsu",
                             "title": "副教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -978,7 +978,7 @@
                             "detailUrl": "https://icn.ncu.edu.tw/2-1-detail.php?id=9"
                         },
                         {
-                            "image": "Gemini_Shou-Hao Chiang.png",
+                            "image": "people/Gemini_Shou-Hao Chiang.png",
                             "name": "姜壽浩 Shou-Hao Chiang",
                             "title": "副教授",
                             "department": "國立中央大學台灣暨全球乾旱調查與研究中心",
@@ -1015,7 +1015,7 @@
                 "hosts": [
                     {
                         "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)",
-                        "logo": "DroughtHub.jpg",
+                        "logo": "logos/DroughtHub.jpg",
                         "alt": "DroughtHub Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     }
@@ -1023,19 +1023,19 @@
                 "coHosts": [
                     {
                         "name": "桃園市政府環境保護局",
-                        "logo": "桃園市環保局.png",
+                        "logo": "logos/桃園市環保局.png",
                         "alt": "桃園市環保局 Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "社團法人台灣地球觀測學會 (TGEO)",
-                        "logo": "tgeo_logo.png",
+                        "logo": "logos/tgeo_logo.png",
                         "alt": "TGEO Logo",
                         "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "國際工程與科技學會中華民國分會 (IET Taipei Local Network)",
-                        "logo": "IET_Logo.png",
+                        "logo": "logos/IET_Logo.png",
                         "alt": "IET Logo",
                         "style": "height: 25px; vertical-align: middle; margin-right: 5px;"
                     }
@@ -1043,31 +1043,31 @@
                 "advisors": [
                     {
                         "name": "國立中央大學 (NCU)",
-                        "logo": "logo.png",
+                        "logo": "logos/logo.png",
                         "alt": "NCU Logo",
                         "style": "height: 35px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "桃園市政府",
-                        "logo": "桃園市.png",
+                        "logo": "logos/桃園市.png",
                         "alt": "桃園市政府 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "國家科學及技術委員會",
-                        "logo": "nstc_logo.png",
+                        "logo": "logos/nstc_logo.png",
                         "alt": "NSTC Logo",
                         "style": "height: 20px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "農業部",
-                        "logo": "agriculture_logo.jpg",
+                        "logo": "logos/agriculture_logo.jpg",
                         "alt": "農業部 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     },
                     {
                         "name": "教育部",
-                        "logo": "教育部.png",
+                        "logo": "logos/教育部.png",
                         "alt": "教育部 Logo",
                         "style": "height: 40px; vertical-align: middle; margin-right: 5px;"
                     }
