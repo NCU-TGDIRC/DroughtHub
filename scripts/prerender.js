@@ -87,7 +87,11 @@ async function prerenderRoute(browser, route) {
 
 async function main() {
   const server = await startServer();
-  const browser = await puppeteer.launch();
+  // --no-sandbox is required in CI containers (e.g. GitHub Actions) where
+  // Chrome's sandbox can't get the Linux user namespace permissions it wants.
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
 
   try {
     for (const route of ROUTES) {
