@@ -1,40 +1,29 @@
 # NCU-TGDIRC Website (國立中央大學台灣與全球乾旱調查研究中心)
 
-This project is the official website for the "NCU Center for Taiwan and Global Drought Research (CTGDR)", built with Vue.js and Vue CLI.
-Website link：[https://ncu-tgdirc.github.io/DroughtHub/](https://ncu-tgdirc.github.io/DroughtHub/)
+This project is the official website for the National Central University Center for Taiwan and Global Drought Investigation Research center(TGI), including information about the center's research and the CESR conference series.
+
+Website: [https://ncu-tgdirc.github.io/DroughtHub/](https://ncu-tgdirc.github.io/DroughtHub/)
+
+## Tech Stack
+
+- [Vue 3](https://vuejs.org/) + [Vue CLI](https://cli.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/) (clean URLs via history mode)
+- [Vue I18n](https://vue-i18n.intlify.dev/) (Chinese / English)
+- [Bootstrap Vue 3](https://cdmoro.github.io/bootstrap-vue-3/)
+- Deployment: GitHub Pages + GitHub Actions (automated build & deploy)
 
 ## Project Structure
 
-The project follows a standard Vue CLI structure:
-
-```
-.
-├── public/              # Static assets and the main HTML template
-├── src/                 # Main application source code
-│   ├── assets/          # Images, fonts, etc.
-│   ├── components/      # Reusable Vue components
-│   ├── router/          # Vue Router configuration
-│   ├── views/           # Page-level components
-│   ├── App.vue          # Root application component
-│   └── main.js          # Application entry point
-├── package.json         # Project metadata and dependencies
-├── vue.config.js        # Vue CLI configuration for deployment
-├── deploy.sh            # Deployment script for GitHub Pages
-└── README.md            # This file
-```
-
--   **`public/`**: Contains the base `index.html` and other static assets that are copied directly to the build output.
--   **`src/`**: The main application source code.
--   **`package.json`**: Lists dependencies and defines scripts for running (`npm run serve`) and building (`npm run build`) the project.
--   **`vue.config.js`**: Configures the `publicPath` which is necessary for deploying the application to a subpath on a domain (e.g., `https://<user>.github.io/DroughtHub/`).
--   **`deploy.sh`**: A shell script that automates the process of building the project and deploying it to the `gh-pages` branch of the `NCU-TGDIRC/DroughtHub` GitHub repository.
+- `public/` — static files copied as-is into the build (`index.html`, `robots.txt`, `sitemap.xml`, etc.)
+- `src/` — application source: `views/` (pages), `components/` (shared UI), `router/`, `locales/` (zh-TW / en text content), `assets/` (images, organized by purpose)
+- `scripts/prerender.js` — runs automatically after `npm run build` to pre-render each route for search engine indexing
 
 ## Getting Started
 
 ### Prerequisites
 
--   [Node.js](https://nodejs.org/) (which includes npm)
--   [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Git](https://git-scm.com/)
 
 ### Installation
 
@@ -64,15 +53,12 @@ npm run build
 ```
 The build artifacts will be stored in the `dist/` directory.
 
-## Deployment to GitHub Pages
+## Deployment
 
-The project includes a `deploy.sh` script to simplify deployment. This script will:
-1.  Build the project for production.
-2.  Create a new git repository inside the `dist` folder.
-3.  Push the contents of the `dist` folder to the `gh-pages` branch of the `https://github.com/NCU-TGDIRC/DroughtHub.git` repository.
+Deployment is fully automated: pushing to the `main` branch triggers a GitHub Actions workflow that builds the project and publishes it to the `gh-pages` branch. No manual steps are required.
 
-To deploy, simply run the script from the project root:
+## Copyright
 
-```sh
-sh deploy.sh
-```
+© 2026 國立中央大學台灣暨全球乾旱調查與研究中心 (TGDIRC), National Central University. All rights reserved.
+
+The source code, content, images, and other materials in this repository are the property of TGDIRC / National Central University. Reproduction, distribution, or reuse without prior permission is not permitted.
