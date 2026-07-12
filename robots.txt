@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ncu-tgdirc.github.io/DroughtHub/sitemap.xml
