@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <title>國立中央大學台灣與全球乾旱調查研究中心</title>
+    <!--
+      GitHub Pages 是純靜態託管，沒有伺服器端路由。
+      當使用者直接造訪或重新整理像 /team、/research 這種 history-mode 路徑時，
+      GitHub Pages 找不到對應檔案會回傳這個 404.html。
+      這裡把原始路徑編碼後導回 index.html，再由 index.html 的還原腳本
+      交還給 vue-router 處理實際畫面，使用者完全感覺不到。
+      參考做法：https://github.com/rafgraph/spa-github-pages
+    -->
+    <script>
+      var pathSegmentsToKeep = 1; // 對應 repo 名稱 /DroughtHub/
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
