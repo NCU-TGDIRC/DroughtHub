@@ -228,7 +228,7 @@ export default {
 }
 .accordion-title-custom {
   margin: 0;
-  font-size: 1.7rem;
+  font-size: var(--fs-h4);
   color: #003366;
   font-weight: 700;
 }
