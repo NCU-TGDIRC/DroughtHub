@@ -760,7 +760,7 @@
             },
             {
                 "title": "註冊費用 (Registration Fee)",
-                "content": "<div class=\"registration-fee-section\"><p class=\"section-intro-text\">所有費用以美元計價（USD）。早鳥優惠適用於 <strong class=\"date-red\">2026 年 8 月 31 日</strong>前完成繳費者。</p><div class=\"fee-table-wrapper\"><table class=\"fee-table\"><thead><tr><th class=\"fee-th-cat\">類別</th><th class=\"fee-th-price\">早鳥優惠<br><span class=\"fee-th-sub\">（2026 年 8 月 31 日前）</span></th><th class=\"fee-th-price\">一般費率<br><span class=\"fee-th-sub\">（2026 年 8 月 31 日後）</span></th></tr></thead><tbody><tr><td class=\"fee-td-cat\"><i class=\"fas fa-globe me-2\" style=\"color:#003366;\"></i>國際與會者</td><td class=\"fee-td-early\">USD 200</td><td class=\"fee-td-regular\">USD 300</td></tr><tr class=\"fee-tr-alt\"><td class=\"fee-td-cat\"><i class=\"fas fa-map-marker-alt me-2\" style=\"color:#d4a373;\"></i>台灣本地與會者</td><td class=\"fee-td-early\">USD 130</td><td class=\"fee-td-regular\">USD 230</td></tr><tr><td class=\"fee-td-cat\"><i class=\"fas fa-user-graduate me-2\" style=\"color:#6f42c1;\"></i>全日制學生</td><td class=\"fee-td-early\">USD 100</td><td class=\"fee-td-regular\">USD 150</td></tr></tbody></table></div><h5 class=\"subsection-heading\"><i class=\"fas fa-credit-card me-2\"></i>繳費方式</h5><div class=\"payment-methods-row\"><div class=\"payment-method-card\"><div class=\"payment-method-header\"><i class=\"fas fa-university me-2\"></i>台灣與會者 — 銀行 ATM 轉帳</div><ul class=\"payment-detail-list\"><li><span class=\"detail-label\">帳戶名稱：</span>[待公告]</li><li><span class=\"detail-label\">帳號：</span>[待公告]</li><li><span class=\"detail-label\">銀行：</span>[待公告]</li><li>ATM 轉帳請提供末五碼；電匯請於備註欄填寫姓名</li><li>填寫報名表單時附上轉帳後五碼</li></ul><p class=\"payment-note-inline\"><i class=\"fas fa-info-circle me-1 text-muted\"></i>本次會議不提供信用卡付款服務。</p></div><div class=\"payment-method-card\"><div class=\"payment-method-header\"><i class=\"fas fa-money-bill-wave me-2\"></i>國際與會者 — 現場繳費</div><ul class=\"payment-detail-list\"><li>現場報到時以新台幣（NTD）或美元（USD）現金繳費</li><li><span class=\"detail-label\">參考匯率：</span>1 USD ≈ 32 NTD（依現場公告為準）</li></ul></div></div><div class=\"fee-includes-box\"><i class=\"fas fa-check-circle me-2\"></i><strong>報名費用涵蓋：</strong>所有場次參與資格、茶點、會議資料及會議晚宴。</div></div>"
+                "content": "<div class=\"registration-fee-section\"><p class=\"section-intro-text\">所有費用以美元計價（USD）。早鳥優惠適用於 <strong class=\"date-red\">2026 年 8 月 31 日</strong>前完成繳費者。</p><div class=\"fee-table-wrapper\"><table class=\"fee-table\"><thead><tr><th class=\"fee-th-cat\">類別</th><th class=\"fee-th-price\">早鳥優惠<br><span class=\"fee-th-sub\">（2026 年 8 月 31 日前）</span></th><th class=\"fee-th-price\">一般費率<br><span class=\"fee-th-sub\">（2026 年 8 月 31 日後）</span></th></tr></thead><tbody><tr><td class=\"fee-td-cat\"><i class=\"fas fa-globe me-2\" style=\"color:#003366;\"></i>國際與會者</td><td class=\"fee-td-early\">USD 200</td><td class=\"fee-td-regular\">USD 300</td></tr><tr class=\"fee-tr-alt\"><td class=\"fee-td-cat\"><i class=\"fas fa-map-marker-alt me-2\" style=\"color:#d4a373;\"></i>台灣本地與會者</td><td class=\"fee-td-early\">USD 130</td><td class=\"fee-td-regular\">USD 230</td></tr><tr><td class=\"fee-td-cat\"><i class=\"fas fa-user-graduate me-2\" style=\"color:#6f42c1;\"></i>全日制學生</td><td class=\"fee-td-early\">USD 100</td><td class=\"fee-td-regular\">USD 150</td></tr></tbody></table></div><h5 class=\"subsection-heading\"><i class=\"fas fa-credit-card me-2\"></i>繳費方式</h5><div class=\"payment-methods-row\"><div class=\"payment-method-card\"><div class=\"payment-method-header\"><i class=\"fas fa-university me-2\"></i>台灣與會者 — 銀行 ATM 轉帳</div><ul class=\"payment-detail-list\"><li><span class=\"detail-label\">帳戶名稱：</span>社團法人台灣地球觀測學會</li><li><span class=\"detail-label\">帳號：</span>0473-940-012823</li><li><span class=\"detail-label\">銀行：</span>玉山銀行（808）壢新分行</li><li>ATM 轉帳請提供末五碼；電匯請於備註欄填寫姓名</li><li>填寫報名表單時附上轉帳後五碼</li></ul><p class=\"payment-note-inline\"><i class=\"fas fa-info-circle me-1 text-muted\"></i>本次會議不提供信用卡付款服務。</p></div><div class=\"payment-method-card\"><div class=\"payment-method-header\"><i class=\"fas fa-money-bill-wave me-2\"></i>國際與會者 — 現場繳費</div><ul class=\"payment-detail-list\"><li>現場報到時以新台幣（NTD）或美元（USD）現金繳費</li><li><span class=\"detail-label\">參考匯率：</span>1 USD ≈ 32 NTD（依現場公告為準）</li></ul></div></div><div class=\"fee-includes-box\"><i class=\"fas fa-check-circle me-2\"></i><strong>報名費用涵蓋：</strong>所有場次參與資格、茶點、會議資料及會議晚宴。</div></div>"
             },
             {
                 "title": "緣起 (Introduction)",
@@ -886,14 +886,14 @@
                             "image": "people/Gemini_Takaghoshi.png"
                         },
                         {
-                            "name": "EME President",
-                            "title": "Advisor",
-                            "image": "people/Gemini_EMEPresident.png"
-                        },
-                        {
                             "name": "Former President",
                             "title": "Advisor",
                             "image": "people/Gemini_Former President.png"
+                        },
+                        {
+                            "name": "EME President",
+                            "title": "Advisor",
+                            "image": "people/Gemini_EMEPresident.png"
                         },
                         {
                             "name": "HUMG",

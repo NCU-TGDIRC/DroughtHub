@@ -23,10 +23,23 @@
               <div v-if="item.isEditorialBoard">
                 <!-- Advisors Section -->
                 <h4 class="mb-4" style="color: #003366; border-left: 5px solid #d4a373; padding-left: 15px;">Advisors</h4>
-                <b-row class="mb-5">
-                  <b-col md="3" v-for="(advisor, idx) in item.content.advisors" :key="'adv'+idx" class="mb-4">
+                <b-row class="mb-3">
+                  <b-col md="4" v-for="(advisor, idx) in item.content.advisors.slice(0, 3)" :key="'adv-a'+idx" class="mb-4">
                     <div class="d-flex align-items-center h-100">
                       <div class="me-3 member-img-container">
+                        <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
+                      </div>
+                      <div>
+                        <h5 class="fw-bold mb-1" style="color: #003366;">{{ advisor.name }}</h5>
+                        <small class="text-muted fw-normal">{{ advisor.title }}</small>
+                      </div>
+                    </div>
+                  </b-col>
+                </b-row>
+                <b-row class="mb-5">
+                  <b-col md="3" sm="6" v-for="(advisor, idx) in item.content.advisors.slice(3)" :key="'adv-b'+idx" class="mb-4">
+                    <div class="d-flex flex-column align-items-center text-center h-100">
+                      <div class="member-img-container mb-2 flex-shrink-0">
                         <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
                       </div>
                       <div>
@@ -343,21 +356,21 @@ export default {
 }
 .accordion-title-custom {
   margin: 0;
-  font-size: var(--fs-h4);
+  font-size: var(--fs-h5);
   color: #003366;
   font-weight: 700;
 }
 
 .accordion-content-inner {
   padding: 25px;
-  font-size: var(--fs-body);
+  font-size: var(--fs-h6);
   font-weight: 300;
   line-height: 1.8;
   background-color: #fff;
 }
 
 /* --- :deep selector to style v-html content --- */
-:deep(.accordion-content-inner p) { margin-bottom: 1rem; }
+:deep(.accordion-content-inner p) { margin-bottom: 1rem; font-size: var(--fs-h6) !important; }
 :deep(.accordion-content-inner ol) { padding-left: 2rem; }
 :deep(.accordion-content-inner li) { margin-bottom: 1rem; }
 :deep(.accordion-content-inner strong) { color: #212529; }
