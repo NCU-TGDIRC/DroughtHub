@@ -231,7 +231,7 @@ export default {
 }
 
 .logo-img {
-  height: 65px; /* Slightly smaller for better navbar integration */
+  height: 48px;
 }
 
 /* Customizing navbar link colors for the transparent theme */

@@ -54,6 +54,17 @@ body {
   --fs-h5: 1.25rem;
   --fs-h6: 1.1rem;
   --fs-body: 1rem;
+
+  /* 品牌色系 */
+  --color-primary: #003366;
+  --color-primary-dark: #002244;
+  --color-accent: #d4a373;
+  --color-accent-dark: #c18951;
+  --color-accent-hover: #c8925a;
+  --color-link: #007ACC;
+  --color-bg-alt: #f8f9fa;
+  --color-border: #e0e0e0;
+  --color-hero-overlay: rgba(10, 25, 47, 0.7);
 }
 
 @media (max-width: 768px) {
@@ -88,6 +99,10 @@ h3, .h3 { font-size: var(--fs-h3) !important; }
 h4, .h4 { font-size: var(--fs-h4) !important; }
 h5, .h5 { font-size: var(--fs-h5) !important; }
 h6, .h6 { font-size: var(--fs-h6) !important; }
+
+h1, h2, h3 { letter-spacing: -0.02em; font-family: 'Raleway', 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+.page-header h1 { letter-spacing: 0.05em; text-transform: uppercase; }
+.accordion-title-custom { font-family: 'Raleway', 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
 
 body, p, .fs-4, .fs-5, .lead {
   font-size: var(--fs-body) !important;

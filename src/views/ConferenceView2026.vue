@@ -10,11 +10,28 @@
       </b-container>
     </div>
 
+    <!-- Sticky Anchor Nav -->
+    <div class="anchor-nav-bar">
+      <b-container>
+        <div class="anchor-nav-inner">
+          <a href="#" @click.prevent="scrollToSection('section-accordion')" :class="['anchor-tab', { active: activeSection === 'accordion' }]">
+            {{ $i18n.locale === 'zh-TW' ? '會議資訊' : 'Info' }}
+          </a>
+          <a href="#" @click.prevent="scrollToSection('section-registration')" :class="['anchor-tab', { active: activeSection === 'registration' }]">
+            {{ $i18n.locale === 'zh-TW' ? '報名' : 'Register' }}
+          </a>
+          <a href="#" @click.prevent="scrollToSection('section-venue')" :class="['anchor-tab', { active: activeSection === 'venue' }]">
+            {{ $i18n.locale === 'zh-TW' ? '地點' : 'Venue' }}
+          </a>
+        </div>
+      </b-container>
+    </div>
+
     <!-- Main Content -->
     <main class="py-5 bg-white">
       <b-container>
         <!-- Accordion -->
-        <b-accordion class="mb-5 custom-accordion">
+        <b-accordion id="section-accordion" class="mb-5 custom-accordion">
           <b-accordion-item v-for="(item, index) in sections" :key="index">
             <template #title>
               <h3 class="accordion-title-custom">{{ item.title }}</h3>
@@ -22,36 +39,47 @@
             <div class="accordion-content-inner fs-5 fw-bolder">
               <div v-if="item.isEditorialBoard">
                 <!-- Advisors Section -->
-                <h4 class="mb-4" style="color: #003366; border-left: 5px solid #d4a373; padding-left: 15px;">Advisors</h4>
-                <b-row class="mb-3">
-                  <b-col md="4" v-for="(advisor, idx) in item.content.advisors.slice(0, 3)" :key="'adv-a'+idx" class="mb-4">
-                    <div class="d-flex align-items-center h-100">
-                      <div class="me-3 member-img-container">
-                        <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
-                      </div>
-                      <div>
-                        <h5 class="fw-bold mb-1" style="color: #003366;">{{ advisor.name }}</h5>
-                        <small class="text-muted fw-normal">{{ advisor.title }}</small>
-                      </div>
-                    </div>
-                  </b-col>
-                </b-row>
+                <h4 class="mb-4" style="color: var(--color-primary); border-left: 5px solid var(--color-accent); padding-left: 15px;">Advisors</h4>
                 <b-row class="mb-5">
-                  <b-col md="3" sm="6" v-for="(advisor, idx) in item.content.advisors.slice(3)" :key="'adv-b'+idx" class="mb-4">
-                    <div class="d-flex flex-column align-items-center text-center h-100">
-                      <div class="member-img-container mb-2 flex-shrink-0">
-                        <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
+                  <b-col
+                    v-for="(advisor, idx) in item.content.advisors"
+                    :key="'adv'+idx"
+                    :lg="idx < 3 ? '4' : '3'"
+                    md="6"
+                    class="mb-4"
+                  >
+                    <div class="advisor-hover-card">
+                      <!-- 前三位：桌機水平排，觸控裝置垂直排 -->
+                      <div v-if="idx < 3" class="d-flex align-items-center advisor-card-h">
+                        <div class="me-3 member-img-container flex-shrink-0">
+                          <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
+                        </div>
+                        <div class="advisor-info">
+                          <h5 class="fw-bold mb-1" style="color: var(--color-primary);">{{ advisor.name }}</h5>
+                          <small class="text-muted fw-normal advisor-role advisor-role-text">{{ advisor.title }}</small>
+                        </div>
                       </div>
-                      <div>
-                        <h5 class="fw-bold mb-1" style="color: #003366;">{{ advisor.name }}</h5>
-                        <small class="text-muted fw-normal">{{ advisor.title }}</small>
+                      <!-- 其餘：固定垂直排 -->
+                      <div v-else class="d-flex flex-column align-items-center text-center">
+                        <div class="member-img-container mb-2 flex-shrink-0">
+                          <img :src="getImageUrl(advisor.image)" :alt="advisor.name" class="img-fluid rounded-circle member-img shadow-sm">
+                        </div>
+                        <div class="advisor-info text-center">
+                          <h5 class="fw-bold mb-1" style="color: var(--color-primary);">{{ advisor.name }}</h5>
+                          <small class="text-muted fw-normal advisor-role advisor-role-text">{{ advisor.title }}</small>
+                        </div>
+                      </div>
+                      <!-- Hover overlay（只在有 hover 能力的裝置顯示） -->
+                      <div class="advisor-overlay">
+                        <p class="overlay-name">{{ advisor.name }}</p>
+                        <small class="overlay-role">{{ advisor.title }}</small>
                       </div>
                     </div>
                   </b-col>
                 </b-row>
 
                 <!-- Team Members Section -->
-                <h4 class="mb-4" style="color: #003366; border-left: 5px solid #d4a373; padding-left: 15px;">Team Members</h4>
+                <h4 class="mb-4" style="color: var(--color-primary); border-left: 5px solid var(--color-accent); padding-left: 15px;">Team Members</h4>
                 <b-row>
                   <b-col md="6" lg="6" v-for="(member, idx) in item.content.teamMembers" :key="'mem'+idx" class="mb-4">
                     <div class="d-flex align-items-center p-3 border rounded shadow-sm bg-white h-100 member-card">
@@ -59,7 +87,7 @@
                         <img :src="getImageUrl(member.image)" :alt="member.name" class="img-fluid rounded member-img-sm">
                       </div>
                       <div>
-                        <h6 class="fw-bold mb-1" style="color: #003366;">{{ member.name }}</h6>
+                        <h6 class="fw-bold mb-1" style="color: var(--color-primary);">{{ member.name }}</h6>
                         <div class="small text-muted mb-1 fw-normal">{{ member.title }}</div>
                         <div class="small text-secondary fw-normal">{{ member.department }}</div>
                       </div>
@@ -93,16 +121,16 @@
         <!-- Info Sections -->
         <div class="info-sections mt-5">
           <!-- New Registration Section -->
-          <div class="registration-section my-5 py-5">
-            <b-card no-body class="shadow-lg border-0 overflow-hidden">
+          <div id="section-registration" class="registration-section my-5 py-5 fade-in-section">
+            <b-card no-body class="shadow-lg border-0 overflow-hidden registration-card-gradient">
               <b-row no-gutters>
                 <b-col md="7" class="p-5 d-flex flex-column justify-content-center">
-                  <h3 class="mb-4 fs-2 fw-bold" style="color: #003366;">{{ $t('conference2026.registration.title') }}</h3>
+                  <h3 class="mb-4 fs-2 fw-bold" style="color: var(--color-primary);">{{ $t('conference2026.registration.title') }}</h3>
                   <p class="text-muted mb-4 fs-5">
                     {{ $t('conference2026.registration.description') }}
                   </p>
                   <div class="mb-4 d-flex align-items-center flex-wrap">
-                    <b-button :href="info.registration.url" target="_blank" variant="primary" size="lg" class="me-3 mb-2">
+                    <b-button :href="info.registration.url" target="_blank" size="lg" class="me-3 mb-2 btn-register-primary">
                       <i class="fas fa-edit me-2"></i> {{ $t('conference2026.registration.button_register') }}
                     </b-button>
                     <b-button :href="info.registration.inquiryUrl" target="_blank" size="lg" class="mb-2 btn-contact">
@@ -113,11 +141,12 @@
                   <div>
                     <h5 class="h5 text-uppercase text-muted mb-3">{{ $t('conference2026.registration.contact_title') }}</h5>
                     <a href="mailto:tgdirc.ncu@gmail.com" class="link-dark text-decoration-none contact-link">
-                      <i class="fas fa-envelope me-2 text-primary"></i> <span class="fs-5">tgdirc.ncu@gmail.com</span>
+                      <i class="fas fa-envelope me-2" style="color: var(--color-accent);"></i>
+                      <span class="fs-5">tgdirc.ncu@gmail.com</span>
                     </a>
                   </div>
                 </b-col>
-                <b-col md="5" class="d-flex align-items-center justify-content-center p-5" style="background-color: #f8f9fa;">
+                <b-col md="5" class="d-flex align-items-center justify-content-center p-5 registration-qr-panel">
                   <div class="text-center">
                     <img :src="getImageUrl('qr/qr-registration-2026.png')" :alt="$t('conference2026.registration.qr_alt')" class="qr-code-large img-fluid rounded">
                     <p class="text-muted small mt-3">{{ $t('conference2026.registration.qr_caption') }}</p>
@@ -133,7 +162,7 @@
             <b-card no-body class="shadow-lg border-0 overflow-hidden">
               <b-row no-gutters>
                 <b-col md="12" class="p-5 d-flex flex-column justify-content-center">
-                  <h3 class="mb-4 fs-2 fw-bold" style="color: #003366;">{{ $t('conference2026.online_participation.title') }}</h3>
+                  <h3 class="mb-4 fs-2 fw-bold" style="color: var(--color-primary);">{{ $t('conference2026.online_participation.title') }}</h3>
                   <p class="text-muted mb-4 fs-5">
                     {{ $t('conference2026.online_participation.description') }}
                   </p>
@@ -149,7 +178,7 @@
           -->
 
           
-          <b-row class="py-5">
+          <b-row id="section-venue" class="py-5 fade-in-section">
             <b-col>
               <h4 class="accordion-title-custom mb-4 fs-2">{{ $t('conference2026.venue.title') }}</h4>
               <b-row>
@@ -228,12 +257,34 @@
         </div>
       </b-container>
     </main>
+
+    <!-- Floating Register Button -->
+    <transition name="fade">
+      <a v-if="showBackToTop" :href="info.registration.url" target="_blank" rel="noopener noreferrer" class="floating-register-btn" :aria-label="$i18n.locale === 'zh-TW' ? '立即報名' : 'Register'">
+        <i class="fas fa-edit me-1"></i>
+        {{ $i18n.locale === 'zh-TW' ? '立即報名' : 'Register' }}
+      </a>
+    </transition>
+
+    <!-- Back to Top Button -->
+    <transition name="fade">
+      <button v-if="showBackToTop" @click="scrollToTop" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </transition>
   </div>
 </template>
 
 <script>
 export default {
   name: 'ConferenceView2026',
+  data() {
+    return {
+      showBackToTop: false,
+      activeSection: 'accordion',
+      observer: null
+    }
+  },
   computed: {
     sections() {
       return this.$tm('conference2026.sections');
@@ -244,11 +295,56 @@ export default {
   },
   mounted() {
     this.loadCalendarScript();
+    window.addEventListener('scroll', this.handleScroll);
+    this.setupFadeIn();
   },
   beforeUnmount() {
     this.removeCalendarScript();
+    window.removeEventListener('scroll', this.handleScroll);
+    if (this.observer) this.observer.disconnect();
   },
   methods: {
+    handleScroll() {
+      this.showBackToTop = window.scrollY > 300;
+      const offset = 120;
+      const sections = [
+        { id: 'section-accordion', key: 'accordion' },
+        { id: 'section-registration', key: 'registration' },
+        { id: 'section-venue', key: 'venue' }
+      ];
+      const scrollY = window.scrollY + offset;
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const el = document.getElementById(sections[i].id);
+        if (el && el.offsetTop <= scrollY) {
+          this.activeSection = sections[i].key;
+          break;
+        }
+      }
+    },
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+    scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        const offset = 80;
+        const y = el.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    },
+    setupFadeIn() {
+      this.observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            this.observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      document.querySelectorAll('.fade-in-section').forEach(el => {
+        this.observer.observe(el);
+      });
+    },
     getImageUrl(imageName) {
       if (!imageName) return '';
       try { return require(`@/assets/${imageName}`); } catch (e) { console.error(e); return ''; }
@@ -319,46 +415,135 @@ export default {
 
 /* --- Page Styles (Unchanged) --- */
 .page-header { background-image: url('../assets/media/icqab-bg.jpg'); background-size: cover; background-position: center; padding-top: 50px; }
-.bg-overlay { background-color: rgba(10, 25, 47, 0.7); }
+.bg-overlay { background-color: var(--color-hero-overlay); }
 .qr-code { max-width: 180px; }
 .venue-icon-wrapper { font-size: 1.5rem; color: var(--bs-primary); padding-top: 5px; margin-right: 1rem; }
 
+/* --- Anchor Nav Bar --- */
+.anchor-nav-bar {
+  position: sticky;
+  top: 56px;
+  z-index: 900;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.anchor-nav-inner {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.anchor-nav-inner::-webkit-scrollbar { display: none; }
+
+.anchor-tab {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.anchor-tab:hover {
+  color: var(--color-primary);
+}
+
+.anchor-tab.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* --- Fade-in Sections --- */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Floating Register Button --- */
+.floating-register-btn {
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  height: 48px;
+  padding: 0 1.25rem;
+  border-radius: 24px;
+  background-color: var(--color-accent);
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.floating-register-btn:hover {
+  background-color: var(--color-accent-dark);
+  transform: translateY(-3px);
+  color: #fff !important;
+}
+
+/* --- Page background gradient --- */
+.icqab-page main {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f5ff 45%, #ffffff 100%) !important;
+}
+
 /* --- Custom Accordion Styles --- */
 .custom-accordion {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-.custom-accordion .accordion-item {
-  border-bottom: 1px solid #e0e0e0;
+.custom-accordion :deep(.accordion-item) {
+  border-bottom: 1px solid var(--color-border);
   background-color: transparent;
 }
-.custom-accordion .accordion-item:last-child {
+.custom-accordion :deep(.accordion-item:last-child) {
   border-bottom: none;
 }
-.custom-accordion .accordion-button {
+.custom-accordion :deep(.accordion-button) {
   padding: 20px 25px;
   background-color: #f8f9fa;
-  transition: background-color 0.3s;
+  border-left: 4px solid transparent;
+  transition: background-color 0.25s ease, border-left-color 0.25s ease, padding-left 0.25s ease;
 }
-.custom-accordion .accordion-button:hover {
-  background-color: #f1f3f5;
+.custom-accordion :deep(.accordion-button:hover) {
+  background-color: #eef3ff;
+  border-left-color: var(--color-primary);
+  padding-left: 21px;
 }
-.custom-accordion .accordion-button:focus {
+.custom-accordion :deep(.accordion-button:focus) {
   box-shadow: none;
   border-color: rgba(0,0,0,.125);
 }
-.custom-accordion .accordion-button:not(.collapsed) {
-  color: #003366;
-  background-color: #f1f3f5;
+.custom-accordion :deep(.accordion-button:not(.collapsed)) {
+  color: var(--color-primary);
+  background-color: #eef3ff;
+  border-left-color: var(--color-primary);
+  padding-left: 21px;
   box-shadow: none;
 }
 .accordion-title-custom {
   margin: 0;
   font-size: var(--fs-h5);
-  color: #003366;
+  color: var(--color-primary);
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .accordion-content-inner {
@@ -374,18 +559,18 @@ export default {
 :deep(.accordion-content-inner ol) { padding-left: 2rem; }
 :deep(.accordion-content-inner li) { margin-bottom: 1rem; }
 :deep(.accordion-content-inner strong) { color: #212529; }
-:deep(.accordion-content-inner ul a) { font-weight: bold; color: #007ACC; text-decoration: underline; transition: color 0.3s; }
+:deep(.accordion-content-inner ul a) { font-weight: bold; color: var(--color-link); text-decoration: underline; transition: color 0.3s; }
 :deep(.accordion-content-inner ul a:hover) { color: #007bff; }
 
 /* New: Speaker subtitle style */
 :deep(.speakers-subtitle) {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #003366;
+  color: var(--color-primary);
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #003366;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 /* Reusable .accent-box style */
@@ -399,7 +584,7 @@ export default {
 :deep(.accent-box h4) {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #003366;
+  color: var(--color-primary);
   margin-top: 0;
   margin-bottom: 0.75rem;
 }
@@ -418,7 +603,7 @@ export default {
   background-color: #f8f9fa;
   border-radius: 0 8px 8px 0;
 }
-:deep(.accordion-content-inner .themes-list h4) { font-size: 1.25rem; font-weight: 600; color: #003366; margin-top: 0; margin-bottom: 0.75rem; }
+:deep(.accordion-content-inner .themes-list h4) { font-size: 1.25rem; font-weight: 600; color: var(--color-primary); margin-top: 0; margin-bottom: 0.75rem; }
 :deep(.accordion-content-inner .themes-list p) { margin-bottom: 0; line-height: 1.7; font-size: 1.2rem; font-weight: 600; }
 
 :deep(.accordion-content-inner .styled-list) { list-style-type: revert; padding-left: 25px; }
@@ -426,9 +611,37 @@ export default {
 :deep(.accordion-content-inner .agenda-table) { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.9rem; }
 :deep(.accordion-content-inner .agenda-table th),
 :deep(.accordion-content-inner .agenda-table td) { border: 1px solid #dee2e6; padding: 8px 12px; text-align: center; vertical-align: middle; }
-:deep(.accordion-content-inner .agenda-table thead th) { background-color: #003366; color: white; font-weight: 600; }
+:deep(.accordion-content-inner .agenda-table thead th) { background-color: var(--color-primary); color: white; font-weight: 600; }
 :deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; font-weight: bold; }
 :deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; font-weight: bold; }
+
+/* --- Back to Top Button --- */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+.fade-enter-active, .fade-leave-active { transition: opacity 0.3s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
 
 /* --- Registration Section Styles --- */
 .qr-code-large {
@@ -436,35 +649,43 @@ export default {
   border: 6px solid white;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
-.contact-link {
-  transition: color 0.3s ease;
+/* --- Registration Card Gradient --- */
+.registration-card-gradient {
+  background: linear-gradient(135deg, #eef3ff 0%, #f5f8ff 60%, #ffffff 100%) !important;
+  border-left: 5px solid var(--color-primary) !important;
 }
-.contact-link:hover {
-  color: var(--bs-primary) !important;
+.registration-qr-panel {
+  background: linear-gradient(135deg, #dde8f8 0%, #eef3ff 100%) !important;
 }
-.registration-section .btn-primary {
-  background-color: #003366;
-  border-color: #003366;
+
+.btn-register-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff !important;
+  font-weight: 700;
   transition: all 0.3s ease;
 }
-.registration-section .btn-primary:hover {
-  background-color: #002244;
-  border-color: #002244;
+.btn-register-primary:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .btn-contact {
-  background-color: #c18951;
-  border-color: #d4a373;
-  color: white;
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary) !important;
   transition: all 0.3s ease;
 }
 .btn-contact:hover {
-  background-color: #c8925a;
-  border-color: #c8925a;
-  color: white;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.contact-link:hover {
+  color: var(--color-accent) !important;
 }
 
 .btn-online-meeting {
@@ -545,6 +766,96 @@ export default {
 }
 
 /* Editorial Board Styles */
+.advisor-hover-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  padding: 1.25rem;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.advisor-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  background: linear-gradient(to top, rgba(0, 28, 56, 0.93) 0%, rgba(0, 28, 56, 0.55) 55%, transparent 100%);
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 14px;
+  pointer-events: none;
+}
+
+.overlay-name {
+  font-weight: 700;
+  font-size: var(--fs-h6);
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.overlay-role {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.85);
+  white-space: pre-line;
+  line-height: 1.5;
+  display: block;
+}
+
+/* 有 hover 能力的裝置（桌機接滑鼠）才啟用 overlay 效果 */
+@media (hover: hover) {
+  .advisor-hover-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 51, 102, 0.15);
+    transform: translateY(-3px);
+  }
+  .advisor-hover-card:hover .advisor-overlay {
+    transform: translateY(0);
+  }
+  .advisor-role-text {
+    display: none;
+  }
+}
+
+.advisor-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.advisor-role-text {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.advisor-role {
+  display: block;
+  white-space: pre-line;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+@media (max-width: 991.98px) {
+  .advisor-card-h {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advisor-card-h .member-img-container {
+    margin-right: 0 !important;
+    margin-bottom: 0.75rem;
+  }
+}
+
 .member-img-container {
   width: 100px;
   height: 100px;
@@ -578,12 +889,12 @@ export default {
 .member-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
-  border-color: #d4a373;
+  border-color: var(--color-accent);
 }
 
 :deep(.abstract-submit-btn) {
   display: inline-block;
-  background-color: #003366;
+  background-color: var(--color-primary);
   color: #fff !important;
   padding: 13px 40px;
   border-radius: 5px;
@@ -591,12 +902,12 @@ export default {
   font-weight: 600;
   text-decoration: none !important;
   letter-spacing: 0.04em;
-  border: 2px solid #003366;
+  border: 2px solid var(--color-primary);
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 :deep(.abstract-submit-btn:hover) {
   background-color: #fff;
-  color: #003366 !important;
+  color: var(--color-primary) !important;
 }
 
 /* ── Abstract Submission Section ── */
@@ -608,18 +919,18 @@ export default {
   flex: 1; min-width: 220px;
   display: flex; align-items: center; gap: 1rem;
   padding: 1.1rem 1.4rem; border-radius: 10px;
-  background: #f8f9fa; border-left: 4px solid #003366;
+  background: #f8f9fa; border-left: 4px solid var(--color-primary);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
-:deep(.info-date-card.accent) { border-left-color: #d4a373; background: #fdf9f5; }
-:deep(.info-date-icon) { font-size: 1.5rem; color: #003366; flex-shrink: 0; }
-:deep(.info-date-card.accent .info-date-icon) { color: #d4a373; }
+:deep(.info-date-card.accent) { border-left-color: var(--color-accent); background: #fdf9f5; }
+:deep(.info-date-icon) { font-size: 1.5rem; color: var(--color-primary); flex-shrink: 0; }
+:deep(.info-date-card.accent .info-date-icon) { color: var(--color-accent); }
 :deep(.info-date-label) { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: #6c757d; margin-bottom: 4px; font-weight: 600; }
-:deep(.info-date-value) { font-size: 1.05rem; font-weight: 700; color: #003366; }
+:deep(.info-date-value) { font-size: 1.05rem; font-weight: 700; color: var(--color-primary); }
 :deep(.date-red) { color: #dc3545 !important; }
 
 :deep(.subsection-heading) {
-  font-size: 1.1rem; font-weight: 700; color: #003366;
+  font-size: 1.1rem; font-weight: 700; color: var(--color-primary);
   border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;
   margin: 2rem 0 1.1rem;
 }
@@ -638,20 +949,20 @@ export default {
 :deep(.format-req-list li::before) {
   content: ""; display: inline-block; flex-shrink: 0;
   width: 7px; height: 7px; border-radius: 50%;
-  background: #003366; margin-top: 5px;
+  background: var(--color-primary); margin-top: 5px;
 }
-:deep(.format-req-list li b) { color: #003366; font-weight: 700; white-space: nowrap; }
+:deep(.format-req-list li b) { color: var(--color-primary); font-weight: 700; white-space: nowrap; }
 
 :deep(.req-info-box) {
-  background: #e8f4fd; border-left: 4px solid #007ACC;
+  background: #e8f4fd; border-left: 4px solid var(--color-link);
   border-radius: 0 8px 8px 0; padding: 0.85rem 1.2rem;
   font-size: 0.88rem; color: #155a7d; margin-bottom: 2rem; font-weight: 500;
 }
 :deep(.template-dl-link) {
-  color: #003366; font-weight: 700; text-decoration: underline;
+  color: var(--color-primary); font-weight: 700; text-decoration: underline;
   text-underline-offset: 3px; transition: color 0.2s;
 }
-:deep(.template-dl-link:hover) { color: #c18951; }
+:deep(.template-dl-link:hover) { color: var(--color-accent-dark); }
 
 :deep(.submit-cta-box) {
   text-align: center; padding: 2rem 1.5rem;
@@ -659,14 +970,14 @@ export default {
   border-radius: 12px; border: 1px solid #d0d9e8;
 }
 :deep(.submit-cta-btn) {
-  display: inline-block; background: #003366; color: #fff !important;
+  display: inline-block; background: var(--color-primary); color: #fff !important;
   padding: 14px 42px; border-radius: 6px; font-size: 1rem; font-weight: 600;
   text-decoration: none !important; letter-spacing: 0.04em;
-  border: 2px solid #003366; transition: all 0.25s ease;
+  border: 2px solid var(--color-primary); transition: all 0.25s ease;
   box-shadow: 0 4px 14px rgba(0,51,102,0.28);
 }
 :deep(.submit-cta-btn:hover) {
-  background: #fff; color: #003366 !important;
+  background: #fff; color: var(--color-primary) !important;
   box-shadow: 0 6px 20px rgba(0,51,102,0.15); transform: translateY(-2px);
 }
 :deep(.submit-footnote) { font-size: 0.82rem; color: #999; margin-top: 1rem; margin-bottom: 0; }
@@ -676,7 +987,7 @@ export default {
 
 :deep(.fee-table-wrapper) { overflow-x: auto; margin: 1.5rem 0 2.25rem; border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
 :deep(.fee-table) { width: 100%; border-collapse: collapse; }
-:deep(.fee-table thead tr) { background: #003366; color: #fff; }
+:deep(.fee-table thead tr) { background: var(--color-primary); color: #fff; }
 :deep(.fee-th-cat) {
   padding: 1rem 1.5rem; text-align: left;
   font-size: 0.9rem; font-weight: 700; letter-spacing: 0.04em; width: 40%;
@@ -701,7 +1012,7 @@ export default {
   padding: 1.4rem;
 }
 :deep(.payment-method-header) {
-  font-size: 0.95rem; font-weight: 700; color: #003366;
+  font-size: 0.95rem; font-weight: 700; color: var(--color-primary);
   padding-bottom: 0.7rem; border-bottom: 2px solid #dee2e6; margin-bottom: 1rem;
 }
 :deep(.payment-detail-list) { list-style: none; padding: 0; margin: 0; font-size: 0.88rem; color: #495057; }
