@@ -44,8 +44,8 @@
                   <b-col
                     v-for="(advisor, idx) in item.content.advisors"
                     :key="'adv'+idx"
-                    :lg="idx < 3 ? '4' : '3'"
-                    md="6"
+                    :lg="idx < 3 ? '12' : '3'"
+                    :md="idx < 3 ? '12' : '6'"
                     class="mb-4"
                   >
                     <div class="advisor-hover-card">
@@ -824,6 +824,13 @@ export default {
 .advisor-info {
   flex: 1;
   min-width: 0;
+}
+
+.advisor-info h5 {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  line-height: 1.3;
 }
 
 .advisor-role-text {
