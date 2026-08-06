@@ -1007,7 +1007,7 @@ export default {
 :deep(.fee-table tbody tr) { border-bottom: 1px solid #e9ecef; transition: background 0.18s; }
 :deep(.fee-table tbody tr:last-child) { border-bottom: none; }
 :deep(.fee-table tbody tr:hover) { background: #eef3ff !important; }
-:deep(.fee-tr-alt) { background: #dee2e6; }
+:deep(.fee-tr-alt) { background: #f0f2f5; }
 :deep(.fee-td-cat) { padding: 1.1rem 1.5rem; font-size: 1rem; color: #343a40; font-weight: 500; }
 :deep(.fee-td-early) { padding: 1.1rem 1.25rem; text-align: center; font-size: 1.2rem; font-weight: 800; color: #1a6b2f; }
 :deep(.fee-td-regular) { padding: 1.1rem 1.25rem; text-align: center; font-size: 1.05rem; font-weight: 700; color: #6c757d; }
