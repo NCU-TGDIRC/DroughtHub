@@ -10,8 +10,7 @@
               <b-card-body class="d-flex flex-column p-4">
                 <p class="small text-muted mb-2">{{ item.date }}</p>
                 <b-card-title class="mb-3 card-title-custom">{{ item.title }}</b-card-title>
-                <b-card-text class="flex-grow-1 mb-4">
-                  {{ item.excerpt }}
+                <b-card-text class="flex-grow-1 mb-4" v-html="item.excerpt">
                 </b-card-text>
                 <div class="mt-auto">
                   <router-link v-if="item.url && !item.url.startsWith('http')" :to="item.url" class="read-more-link" v-html="$t('news.readMore')">
