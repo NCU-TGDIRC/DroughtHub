@@ -36,6 +36,13 @@
         "readMore": "閱讀更多 &rarr;",
         "items": [
             {
+                "id": 11,
+                "date": "2026-08-22",
+                "title": "【研討會邀請】國際科學教育論壇 (ISEF 23) – Evolution of Global Hydrology",
+                "excerpt": "特別邀請傑出學者 <a href=\"https://scholar.google.com.tw/citations?hl=zh-TW&user=YpyhRiAAAAAJ\" target=\"_blank\" rel=\"noopener noreferrer\">Prof. Taikan Oki</a> 蒞臨演講，探討全球水文學的演變趨勢。本活動由臺灣科學特殊人才提升計畫主辦，將於 2026 年 9 月 15 日上午 9:00 以線上形式舉行。註冊截止日期為 2026 年 8 月 29 日。詳細資訊及報名，請造訪 <a href=\"https://ps1tw.astro.ncu.edu.tw/ttss/index.php/isrf-2/?utm_source=copilot.com\" target=\"_blank\" rel=\"noopener noreferrer\">ISEF 23 論壇官網</a>。",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLWlU7k2dMa81CAF4D-wDJdDBtO3ysfMvS5FtryFXuhXTwWQ/viewform"
+            },
+            {
                 "id": 8,
                 "date": "2026-07-07",
                 "title": "【徵稿啟事】ICEO&SI 2026 與 CESR 2026 專刊：Earth's Future——極端高溫、熱浪與都市熱島對公共健康的衝擊",
