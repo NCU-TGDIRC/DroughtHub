@@ -115,6 +115,16 @@ export default {
   color: #c8925a;
 }
 
+:deep(.card-text a) {
+  color: #0066cc;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+:deep(.card-text a:hover) {
+  color: #0052a3;
+}
+
 /* 6. 使用 :deep() 客製化箭頭和分頁圓點 */
 :deep(.carousel__prev),
 :deep(.carousel__next) {
