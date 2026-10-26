@@ -95,6 +95,58 @@
                   </b-col>
                 </b-row>
               </div>
+              <div v-else-if="item.isAgenda" class="agenda-container">
+                <p>{{ item.content.heading }}</p>
+                <template v-for="(day, dayIdx) in item.content.days" :key="'day'+dayIdx">
+                  <h4 class="agenda-day-title">{{ day.title }}</h4>
+                  <!-- items 為空時只顯示當天標題；draftItems 為暫存草稿，不會顯示 -->
+                  <table v-if="day.items && day.items.length" class="agenda-table" style="width: 100%; table-layout: fixed;">
+                    <thead>
+                      <tr>
+                        <th style="width: 20%;">{{ item.content.columns.time }}</th>
+                        <th>{{ item.content.columns.event }}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr v-for="(row, rowIdx) in day.items" :key="'row'+rowIdx" :class="{ 'break-row': row.type === 'break', 'meal-row': row.type === 'meal' }">
+                        <td>{{ row.time }}</td>
+                        <td>
+                          <p v-if="row.label"><span style="color: red;">{{ row.label }}</span></p>
+                          <p v-if="row.title"><b>{{ row.title }}</b></p>
+                          <div v-if="row.event" v-html="row.event"></div>
+                          <p v-for="(line, lineIdx) in row.lines" :key="'line'+lineIdx" v-html="line"></p>
+                          <!-- 多個演講題目：整塊置中、內容靠左，讓 Topic 1/2 起點對齊 -->
+                          <div v-if="row.topics" class="agenda-topics">
+                            <p v-for="(topic, topicIdx) in row.topics" :key="'topic'+topicIdx" v-html="topic"></p>
+                          </div>
+                          <table v-if="row.guests" style="width: 100%; margin-top: 10px;">
+                            <tbody>
+                              <tr>
+                                <td v-for="(guest, guestIdx) in row.guests" :key="'guest'+guestIdx" style="color: red;">{{ guest }}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table v-if="row.speakers" class="speaker-table">
+                            <thead>
+                              <tr>
+                                <th>{{ item.content.speakerColumns.speaker }}</th>
+                                <th>{{ item.content.speakerColumns.topic }}</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr v-for="(speaker, spIdx) in row.speakers" :key="'sp'+spIdx">
+                                <td :colspan="speaker.type === 'discussion' ? 2 : null">{{ speaker.name }}<small v-if="speaker.affiliation">{{ speaker.affiliation }}</small></td>
+                                <td v-if="speaker.type !== 'discussion'">{{ speaker.topic }}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </template>
+                <p v-if="item.content.note">{{ item.content.note }}</p>
+              </div>
               <div v-else-if="!item.isStructured" v-html="item.content"></div>
               <div v-else>
                 <p v-html="item.content.intro"></p>
@@ -614,6 +666,11 @@ export default {
 :deep(.accordion-content-inner .agenda-table thead th) { background-color: var(--color-primary); color: white; font-weight: 600; }
 :deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; font-weight: bold; }
 :deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; font-weight: bold; }
+/* 講者表沿用 .speaker-table 的靠左、靠上對齊，避免被上方 agenda-table 的置中覆蓋 */
+:deep(.accordion-content-inner .agenda-table .speaker-table th),
+:deep(.accordion-content-inner .agenda-table .speaker-table td) { text-align: left; vertical-align: top; }
+/* 固定寬度並置中，讓不同場次的 Topic 左緣對齊在同一條線上 */
+:deep(.accordion-content-inner .agenda-table .agenda-topics) { width: 80%; margin: 0 auto; text-align: left; }
 
 /* --- Back to Top Button --- */
 .back-to-top-btn {
@@ -1116,6 +1173,10 @@ export default {
 
   :deep(.accordion-content-inner .agenda-table) {
     font-size: 0.75rem;
+  }
+
+  :deep(.accordion-content-inner .agenda-table .agenda-topics) {
+    width: 100%;
   }
 }
 </style>
