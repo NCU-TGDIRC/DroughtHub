@@ -1115,8 +1115,8 @@
                     "Chair: Yuei-An Liou (Space and Remote Sensing Chair Professor, NCU and Academician, AES & IAA)"
                   ],
                   "guests": [
-                    "Jen-Inn Chyi (Executive Vice-President, National Central University)",
-                    "Chung-Pai Chang (Vice-President for International Affairs, National Central University)",
+                    "Wen-Yih Chen (Executive Vice-President, National Central University)",
+                    "Tzu-Chia Wu (Vice-President for Research and Development, National Central University)",
                     "Chi-Liang Yen (Director General, Department of Environmental Protection, Taoyuan City Government)"
                   ]
                 },
@@ -1140,7 +1140,7 @@
                   "time": "10:50-11:50",
                   "label": "Keynote Lecture II",
                   "lines": [
-                    "Speaker: Venkataraman (Venkat) Lakshmi (John L Newcomb Professor of Engineering, University of Virginia & President, American Geophysical Union, Hydrology Section)"
+                    "Speaker: Venkataraman (Venkat) Lakshmi (Chair Professor, Johns Hopkins University & President, American Geophysical Union, Hydrology Section)"
                   ],
                   "topics": [
                     "Topic 1: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction",
@@ -1148,19 +1148,16 @@
                   ]
                 },
                 {
-                  "time": "12:00-13:00",
+                  "time": "11:50-13:00",
                   "type": "meal",
                   "event": "Lunch"
                 },
                 {
-                  "time": "13:00-13:10",
-                  "label": "Chair: Yong Wang (Professor, University of Electronic Science and Technology of China)",
-                  "title": "Session I: Drought Monitoring and Early Warning Technologies"
-                },
-                {
-                  "time": "13:10-15:00",
+                  "time": "13:00-15:00",
+                  "title": "Session I: Drought Monitoring and Early Warning Technologies",
                   "lines": [
-                    "Speakers: (15 mins for presentation + 35 mins for discussion)"
+                    "Chair: Yong Wang (Professor, University of Electronic Science and Technology of China)",
+                    "Speakers: (15 mins for presentation + 45 mins for discussion)"
                   ],
                   "speakers": [
                     {
@@ -1195,14 +1192,11 @@
                   "event": "Tea Break / Student Project Exhibition"
                 },
                 {
-                  "time": "15:30-15:40",
-                  "label": "Chair: TBD",
-                  "title": "Session II: Urban Heat Island Effect and Climate Adaptation"
-                },
-                {
-                  "time": "15:40-17:00",
+                  "time": "15:30-17:00",
+                  "title": "Session II: Urban Heat Island Effect and Climate Adaptation",
                   "lines": [
-                    "Speakers: (15 mins for presentation + 5 mins for discussion)"
+                    "Chair: Shou-Hao Chiang (Associate Professor, National Central University) & Cheng-Ling Kuo (Professor, National Central University)",
+                    "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
                     {
@@ -1234,7 +1228,7 @@
                 {
                   "time": "18:00-20:00",
                   "type": "meal",
-                  "event": "Dinner (Invited guests)<br>XXX Restaurant"
+                  "event": "Dinner (Invited guests)<br>Xin Tao Fang Garden Restaurant"
                 }
               ]
             },
@@ -1242,7 +1236,7 @@
               "title": "Day 3 - Nov 4 (Wed.) | Keynote Lectures & Paper Presentations",
               "items": [
                 {
-                  "time": "09:00-10:00",
+                  "time": "09:30-10:00",
                   "label": "Keynote Lecture III",
                   "lines": [
                     "Speaker: Jonathan Li (Professor; Honorary Dean, School of Geospatial Artificial Intelligence, East China Normal University; Fellow, Canadian Academy of Engineering)",
@@ -1255,11 +1249,11 @@
                   "event": "Tea Break / Student Project Exhibition"
                 },
                 {
-                  "time": "10:15-12:00",
+                  "time": "10:15-11:45",
                   "title": "Session III: Drought related disaster",
                   "lines": [
                     "Chair: (Professor, National Central University)",
-                    "Speakers: (15 mins for presentation + 30 mins for discussion)"
+                    "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
                     {
@@ -1283,7 +1277,7 @@
                   ]
                 },
                 {
-                  "time": "12:00-13:00",
+                  "time": "11:45-13:00",
                   "type": "meal",
                   "event": "Lunch"
                 },
@@ -1308,7 +1302,7 @@
                   "title": "Session IV: Economic Impact and Health Issue",
                   "lines": [
                     "Chair: Takashi Oguchi",
-                    "Speakers: (15 mins for presentation + 15 mins for discussion)"
+                    "Speakers: (15 mins for presentation + 30 mins for discussion)"
                   ],
                   "speakers": [
                     {
@@ -1318,10 +1312,6 @@
                     {
                       "name": "2) Minh Tien Tran",
                       "topic": "Development of the Vietnam Soil Information System"
-                    },
-                    {
-                      "name": "3) Wei Lun Hsu",
-                      "topic": "Structural and Functional Remodeling of Vascular Endothelium under Acute and Intermittent Heatwaves"
                     }
                   ]
                 },
@@ -1337,7 +1327,7 @@
                 {
                   "time": "18:00-20:00",
                   "type": "meal",
-                  "event": "Dinner (Invited guests)<br>XXX Restaurant"
+                  "event": "Dinner (Invited guests)<br>Lu Feng Hakka Restaurant"
                 }
               ]
             },

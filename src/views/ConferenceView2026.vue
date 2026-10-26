@@ -122,7 +122,7 @@
                           <table v-if="row.guests" style="width: 100%; margin-top: 10px;">
                             <tbody>
                               <tr>
-                                <td v-for="(guest, guestIdx) in row.guests" :key="'guest'+guestIdx" style="color: red;">{{ guest }}</td>
+                                <td v-for="(guest, guestIdx) in row.guests" :key="'guest'+guestIdx" :style="{ width: (100 / row.guests.length) + '%' }">{{ guest }}</td>
                               </tr>
                             </tbody>
                           </table>

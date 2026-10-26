@@ -1038,8 +1038,8 @@
                                         "主持: 劉說安 講座教授暨IAA院士"
                                     ],
                                     "guests": [
-                                        "國立中央大學綦振瀛副校長",
-                                        "國立中央大學張中白國際長",
+                                        "國立中央大學陳文逸副校長",
+                                        "國立中央大學吳子嘉研發長",
                                         "桃園市政府環境保護局顏己喨局長"
                                     ]
                                 },
@@ -1063,7 +1063,7 @@
                                     "time": "10:50-11:50",
                                     "label": "專題演講二",
                                     "lines": [
-                                        "講者：Venkataraman (Venkat) Lakshmi 美國維吉尼亞大學講座教授暨AGU水文分會主席"
+                                        "講者：Venkataraman (Venkat) Lakshmi 約翰·霍普金斯大學講座教授暨AGU水文分會主席"
                                     ],
                                     "topics": [
                                         "Topic 1: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction",
@@ -1071,19 +1071,16 @@
                                     ]
                                 },
                                 {
-                                    "time": "12:00-13:00",
+                                    "time": "11:50-13:00",
                                     "type": "meal",
                                     "event": "午餐"
                                 },
                                 {
-                                    "time": "13:00-13:10",
-                                    "label": "主持人：Yong Wang 教授（電子科技大學）",
-                                    "title": "場次一：乾旱監測與預警技術 (Drought Monitoring and Early Warning Technologies)"
-                                },
-                                {
-                                    "time": "13:10-15:00",
+                                    "time": "13:00-15:00",
+                                    "title": "場次一：乾旱監測與預警技術 (Drought Monitoring and Early Warning Technologies)",
                                     "lines": [
-                                        "講者： (各短講15分鐘 + 35分鐘與談)"
+                                        "主持人：Yong Wang 教授（電子科技大學）",
+                                        "講者： (各短講15分鐘 + 45分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1118,14 +1115,11 @@
                                     "event": "茶敘 / 學生實作展示"
                                 },
                                 {
-                                    "time": "15:30-15:40",
-                                    "label": "主持人：TBD",
-                                    "title": "場次二：都市熱島效應與氣候調適 (Urban Heat Island Effect and Climate Adaptation)"
-                                },
-                                {
-                                    "time": "15:40-17:00",
+                                    "time": "15:30-17:00",
+                                    "title": "場次二：都市熱島效應與氣候調適 (Urban Heat Island Effect and Climate Adaptation)",
                                     "lines": [
-                                        "講者： (各短講15分鐘 + 5分鐘與談)"
+                                        "主持人：姜壽浩 副教授（國立中央大學）、郭政靈 教授（國立中央大學）",
+                                        "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1157,7 +1151,7 @@
                                 {
                                     "time": "18:00-20:00",
                                     "type": "meal",
-                                    "event": "會議晚宴 (邀請制)<br>XXX Restaurant"
+                                    "event": "會議晚宴 (邀請制)<br>新陶芳庭園餐廳"
                                 }
                             ]
                         },
@@ -1165,7 +1159,7 @@
                             "title": "第三天 - 11 月 4 日 (三) | 專題演講與論文發表",
                             "items": [
                                 {
-                                    "time": "09:00-10:00",
+                                    "time": "09:30-10:00",
                                     "label": "專題演講三",
                                     "lines": [
                                         "講者：Jonathan Li 教授，上海華東師範大學地理人工智慧學院名譽院長／加拿大工程院院士",
@@ -1178,11 +1172,11 @@
                                     "event": "茶敘 / 學生實作展示"
                                 },
                                 {
-                                    "time": "10:15-12:00",
+                                    "time": "10:15-11:45",
                                     "title": "場次三：乾旱相關災害 (Drought related disaster)",
                                     "lines": [
                                         "主持人：（國立中央大學 教授）",
-                                        "講者： (各短講15分鐘 + 30分鐘與談)"
+                                        "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1206,7 +1200,7 @@
                                     ]
                                 },
                                 {
-                                    "time": "12:00-13:00",
+                                    "time": "11:45-13:00",
                                     "type": "meal",
                                     "event": "午餐"
                                 },
@@ -1231,7 +1225,7 @@
                                     "title": "場次四：經濟衝擊與健康議題 (Economic Impact and Health Issue)",
                                     "lines": [
                                         "主持人：Takashi Oguchi",
-                                        "講者： (各短講15分鐘 + 15分鐘與談)"
+                                        "講者： (各短講15分鐘 + 30分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1241,10 +1235,6 @@
                                         {
                                             "name": "(2.) Minh Tien Tran",
                                             "topic": "Development of the Vietnam Soil Information System"
-                                        },
-                                        {
-                                            "name": "(3.) Wei Lun Hsu",
-                                            "topic": "Structural and Functional Remodeling of Vascular Endothelium under Acute and Intermittent Heatwaves"
                                         }
                                     ]
                                 },
@@ -1260,7 +1250,7 @@
                                 {
                                     "time": "18:00-20:00",
                                     "type": "meal",
-                                    "event": "晚宴 (邀請制)<br>XXX Restaurant"
+                                    "event": "晚宴 (邀請制)<br>綠風客家料理"
                                 }
                             ]
                         },
