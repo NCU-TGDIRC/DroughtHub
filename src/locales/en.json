@@ -1255,7 +1255,7 @@
                 },
                 {
                   "time": "10:00-11:30",
-                  "title": "Session III: Drought related disaster",
+                  "title": "Session III: Drought-Related Disasters",
                   "lines": [
                     "Chair: Hsuan Ren (Associate Professor, National Central University)",
                     "Speakers: (15 mins for presentation + 15 mins for discussion)"
@@ -1280,6 +1280,10 @@
                     {
                       "name": "5) Amalia Gita Ayudyanti",
                       "topic": "Wildfire Burned-Area Mapping for the 2025 Palisades Fire Using Change Vision Transformer and Early-fusion CNNs with Bi-Temporal Sentinel-2 Imagery"
+                    },
+                    {
+                      "name": "6) Discussion Session",
+                      "type": "discussion"
                     }
                   ]
                 },
@@ -1308,7 +1312,7 @@
                   "time": "14:10-15:10",
                   "title": "Session IV: Economic Impact and Health Issue",
                   "lines": [
-                    "Chair: Takashi Oguchi",
+                    "Chair: Takashi Oguchi (Professor, The University of Tokyo)",
                     "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
@@ -1322,6 +1326,10 @@
                     },
                     {
                       "name": "3) Hsiang-An Hu"
+                    },
+                    {
+                      "name": "4) Discussion Session",
+                      "type": "discussion"
                     }
                   ]
                 },

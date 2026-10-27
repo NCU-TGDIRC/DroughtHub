@@ -1020,7 +1020,7 @@
                             "items": [
                                 {
                                     "time": "14:00 - 17:00",
-                                    "event": "Registration<br>The exact check-in time will be notified individually."
+                                    "event": "報到<br>確切報到時間將另行個別通知。"
                                 }
                             ]
                         },
@@ -1035,7 +1035,7 @@
                                     "time": "09:00-09:30",
                                     "title": "開幕典禮與合影",
                                     "lines": [
-                                        "主持: 劉說安 講座教授暨IAA院士"
+                                        "主持人：劉說安 講座教授暨IAA院士"
                                     ],
                                     "guests": [
                                         "國立中央大學陳文逸副校長",
@@ -1048,7 +1048,7 @@
                                     "time": "09:30-10:10",
                                     "label": "專題演講一",
                                     "lines": [
-                                        "講者：Dara Entekhabi, M.I.T.教授暨美國國家工程院院士"
+                                        "講者：Dara Entekhabi（M.I.T.教授暨美國國家工程院院士）"
                                     ],
                                     "topics": [
                                         "Topic: Similarity in spatial and temporal land water, energy and carbon coupling"
@@ -1066,7 +1066,7 @@
                                     "time": "10:30-11:10",
                                     "label": "專題演講二",
                                     "lines": [
-                                        "講者：Venkataraman (Venkat) Lakshmi 約翰·霍普金斯大學講座教授暨AGU水文分會主席"
+                                        "講者：Venkataraman (Venkat) Lakshmi（約翰·霍普金斯大學講座教授暨AGU水文分會主席）"
                                     ],
                                     "topics": [
                                         "Topic: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction"
@@ -1156,7 +1156,7 @@
                                 {
                                     "time": "18:00-20:00",
                                     "type": "meal",
-                                    "event": "會議晚宴 (邀請制)<br>新陶芳庭園餐廳"
+                                    "event": "晚宴（邀請制）<br>新陶芳庭園餐廳"
                                 }
                             ]
                         },
@@ -1167,7 +1167,7 @@
                                     "time": "09:00-09:40",
                                     "label": "專題演講三",
                                     "lines": [
-                                        "講者：Jonathan Li 教授，上海華東師範大學地理人工智慧學院名譽院長／加拿大工程院院士",
+                                        "講者：Jonathan Li（上海華東師範大學地理人工智慧學院名譽院長暨加拿大工程院院士）",
                                         "Topic: Protecting Cities with AI-driven Flood Mapping: Canadian Experience"
                                     ]
                                 },
@@ -1178,7 +1178,7 @@
                                 },
                                 {
                                     "time": "10:00-11:30",
-                                    "title": "場次三：乾旱相關災害 (Drought related disaster)",
+                                    "title": "場次三：乾旱相關災害 (Drought-Related Disasters)",
                                     "lines": [
                                         "主持人：任玄 副教授（國立中央大學）",
                                         "講者： (各短講15分鐘 + 15分鐘與談)"
@@ -1203,6 +1203,10 @@
                                         {
                                             "name": "(5.) Amalia Gita Ayudyanti",
                                             "topic": "Wildfire Burned-Area Mapping for the 2025 Palisades Fire Using Change Vision Transformer and Early-fusion CNNs with Bi-Temporal Sentinel-2 Imagery"
+                                        },
+                                        {
+                                            "name": "(6.) 討論",
+                                            "type": "discussion"
                                         }
                                     ]
                                 },
@@ -1215,7 +1219,7 @@
                                     "time": "13:00-13:40",
                                     "label": "專題演講四",
                                     "lines": [
-                                        "講者：Qingyun Duan 教授，河海大學教授／歐洲科學院外籍院士",
+                                        "講者：Qingyun Duan（河海大學教授暨歐洲科學院外籍院士）",
                                         "Topic: Snowpack Extremes As Precursors of Subsequent Hydroclimatic Extremes Under Different Future Emission Pathways"
                                     ]
                                 },
@@ -1223,7 +1227,7 @@
                                     "time": "13:40-14:10",
                                     "label": "特邀演講",
                                     "lines": [
-                                        "講者：Hsiao-Yu Yang 國立臺灣大學 教授",
+                                        "講者：楊孝友（國立臺灣大學教授）",
                                         "Topic: The Silent Epidemic: Heat, Water, and the Kidney in a Warming World"
                                     ]
                                 },
@@ -1231,7 +1235,7 @@
                                     "time": "14:10-15:10",
                                     "title": "場次四：經濟衝擊與健康議題 (Economic Impact and Health Issue)",
                                     "lines": [
-                                        "主持人：Takashi Oguchi",
+                                        "主持人：Takashi Oguchi 教授（日本東京大學）",
                                         "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
@@ -1245,6 +1249,10 @@
                                         },
                                         {
                                             "name": "(3.) Hsiang-An Hu"
+                                        },
+                                        {
+                                            "name": "(4.) 討論",
+                                            "type": "discussion"
                                         }
                                     ]
                                 },
@@ -1260,7 +1268,7 @@
                                 {
                                     "time": "18:00-20:00",
                                     "type": "meal",
-                                    "event": "晚宴 (邀請制)<br>綠風客家料理"
+                                    "event": "晚宴（邀請制）<br>綠風客家料理"
                                 }
                             ]
                         },
