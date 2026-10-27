@@ -1040,7 +1040,7 @@
                                     "guests": [
                                         "國立中央大學陳文逸副校長",
                                         "桃園市政府環境保護局葉孟芬副局長",
-                                        "日本東京大學 Takashi Oguchi 教授",
+                                        "日本東京大學 Takashi Oguchi 教授暨日本地球科學聯合會（JpGU）會長",
                                         "國立中央大學謝發坤副研發長"
                                     ]
                                 },
@@ -1080,16 +1080,16 @@
                                     "event": "成果與國際合作介紹<br>台灣暨全球乾旱調查與研究中心"
                                 },
                                 {
-                                    "time": "11:40-13:00",
+                                    "time": "11:40-13:10",
                                     "type": "meal",
                                     "event": "午餐"
                                 },
                                 {
-                                    "time": "13:00-15:00",
+                                    "time": "13:10-15:00",
                                     "title": "場次一：乾旱監測與預警技術 (Drought Monitoring and Early Warning Technologies)",
                                     "lines": [
                                         "主持人：Yong Wang 教授（電子科技大學）",
-                                        "講者： (各短講15分鐘 + 45分鐘與談)"
+                                        "講者： (各短講15分鐘 + 35分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1097,11 +1097,11 @@
                                             "topic": "Propagation of the 2025 Meteorological Drought across China: Cascading from Terrestrial Water Storage Deficit to Vegetation Stress"
                                         },
                                         {
-                                            "name": "(2.) Minh-Tin Thai",
+                                            "name": "(2.) Thai Minh-Tin",
                                             "topic": "Relative Surface Evapotranspiration Index (RSETI)-based Dryness-Wetness Monitoring Across Australia"
                                         },
                                         {
-                                            "name": "(3.) Mai Son Le",
+                                            "name": "(3.) Le Mai Son",
                                             "topic": "Mapping Hydro-Thermal Drought Dynamics from Space"
                                         },
                                         {
@@ -1121,7 +1121,7 @@
                                 {
                                     "time": "15:00-15:30",
                                     "type": "break",
-                                    "event": "茶敘 / 學生實作展示"
+                                    "event": "茶敘"
                                 },
                                 {
                                     "time": "15:30-17:00",
@@ -1144,7 +1144,7 @@
                                             "topic": "AETHER (ESA) - self-learning AI in Earth observation - case study of UHI in Krakow (Poland) as an example of climate change"
                                         },
                                         {
-                                            "name": "(4.) Kim Anh Nguyen",
+                                            "name": "(4.) Nguyen Kim Anh",
                                             "topic": "Airborne Laser Scanning for Urban Forest Assessment: Supporting Climate-Resilient Cities Through High-Resolution Carbon and Canopy Mapping"
                                         },
                                         {
@@ -1164,7 +1164,7 @@
                             "title": "第三天 - 11 月 4 日 (三) | 專題演講與論文發表",
                             "items": [
                                 {
-                                    "time": "09:30-10:00",
+                                    "time": "09:00-09:40",
                                     "label": "專題演講三",
                                     "lines": [
                                         "講者：Jonathan Li 教授，上海華東師範大學地理人工智慧學院名譽院長／加拿大工程院院士",
@@ -1172,12 +1172,12 @@
                                     ]
                                 },
                                 {
-                                    "time": "10:00-10:15",
+                                    "time": "09:40-10:00",
                                     "type": "break",
-                                    "event": "茶敘 / 學生實作展示"
+                                    "event": "茶敘"
                                 },
                                 {
-                                    "time": "10:15-11:45",
+                                    "time": "10:00-11:30",
                                     "title": "場次三：乾旱相關災害 (Drought related disaster)",
                                     "lines": [
                                         "主持人：任玄 副教授（國立中央大學）",
@@ -1207,12 +1207,12 @@
                                     ]
                                 },
                                 {
-                                    "time": "11:45-13:00",
+                                    "time": "11:30-13:00",
                                     "type": "meal",
                                     "event": "午餐"
                                 },
                                 {
-                                    "time": "13:00-13:30",
+                                    "time": "13:00-13:40",
                                     "label": "專題演講四",
                                     "lines": [
                                         "講者：Qingyun Duan 教授，河海大學教授／歐洲科學院外籍院士",
@@ -1220,7 +1220,7 @@
                                     ]
                                 },
                                 {
-                                    "time": "13:30-14:00",
+                                    "time": "13:40-14:10",
                                     "label": "特邀演講",
                                     "lines": [
                                         "講者：Hsiao-Yu Yang 國立臺灣大學 教授",
@@ -1228,7 +1228,7 @@
                                     ]
                                 },
                                 {
-                                    "time": "14:00-15:00",
+                                    "time": "14:10-15:10",
                                     "title": "場次四：經濟衝擊與健康議題 (Economic Impact and Health Issue)",
                                     "lines": [
                                         "主持人：Takashi Oguchi",
@@ -1240,7 +1240,7 @@
                                             "topic": "Recent developments in the Japan Geoscience Union and the Science Council of Japan in addressing natural disasters under climate extremes"
                                         },
                                         {
-                                            "name": "(2.) Minh Tien Tran",
+                                            "name": "(2.) Tran Minh Tien",
                                             "topic": "Development of the Vietnam Soil Information System"
                                         },
                                         {
@@ -1249,7 +1249,7 @@
                                     ]
                                 },
                                 {
-                                    "time": "15:00-15:30",
+                                    "time": "15:10-15:30",
                                     "type": "break",
                                     "event": "茶敘"
                                 },
