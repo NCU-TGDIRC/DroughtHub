@@ -1128,31 +1128,27 @@
                                     "title": "場次二：都市熱島效應與氣候調適 (Urban Heat Island Effect and Climate Adaptation)",
                                     "lines": [
                                         "主持人：郭政靈 教授（國立中央大學）",
-                                        "講者： (各短講15分鐘 + 15分鐘與談)"
+                                        "講者： (各短講15分鐘 + 30分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
-                                            "name": "(1.) Quang Viet Nguyen",
-                                            "topic": "Towards Climate-Resilient Cities: Integrating Green and Blue Infrastructure for Urban Heat Mitigation and Climate Adaptation"
-                                        },
-                                        {
-                                            "name": "(2.) Atiqur Rahman",
+                                            "name": "(1.) Atiqur Rahman",
                                             "topic": "Assessing Seasonal Dynamics of Land Surface Temperature (LST) and Urban Thermal Comfort (UTC) with Land Use Land Cover in Semi-Arid Indian Cities: for Sustainable Urban Management"
                                         },
                                         {
-                                            "name": "(3.) Ruci Wang",
+                                            "name": "(2.) Ruci Wang",
                                             "topic": "Urban Growth Pathways Shape Heat Resilience Across Asian Megacities"
                                         },
                                         {
-                                            "name": "(4.) Piotr Wężyk",
+                                            "name": "(3.) Piotr Wężyk",
                                             "topic": "AETHER (ESA) - self-learning AI in Earth observation - case study of UHI in Krakow (Poland) as an example of climate change"
                                         },
                                         {
-                                            "name": "(5.) Kim Anh Nguyen",
+                                            "name": "(4.) Kim Anh Nguyen",
                                             "topic": "Airborne Laser Scanning for Urban Forest Assessment: Supporting Climate-Resilient Cities Through High-Resolution Carbon and Canopy Mapping"
                                         },
                                         {
-                                            "name": "(6.) 討論",
+                                            "name": "(5.) 討論",
                                             "type": "discussion"
                                         }
                                     ]
