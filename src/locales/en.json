@@ -1116,39 +1116,47 @@
                   ],
                   "guests": [
                     "Wen-Yih Chen (Executive Vice-President, National Central University)",
-                    "Tzu-Chia Wu (Vice-President for Research and Development, National Central University)",
-                    "Chi-Liang Yen (Director General, Department of Environmental Protection, Taoyuan City Government)"
+                    "Meng-Fen Yeh (Deputy Director General, Department of Environmental Protection, Taoyuan City Government)",
+                    "Takashi Oguchi (Professor, The University of Tokyo)"
                   ]
                 },
                 {
-                  "time": "09:30-10:30",
+                  "time": "09:30-10:10",
                   "label": "Keynote Lecture I",
                   "lines": [
                     "Speaker: Dara Entekhabi (Professor, M.I.T., Bacardi and Stockholm Water Foundations Chair and Member of the National Academy of Engineering)"
                   ],
                   "topics": [
-                    "Topic 1: Similarity in spatial and temporal land water, energy and carbon coupling",
+                    "Topic: Similarity in spatial and temporal land water, energy and carbon coupling"
+                  ],
+                  "draftTopics": [
                     "Topic 2: Cause-effect in soil moisture dry-down and atmospheric evaporative demand"
                   ]
                 },
                 {
-                  "time": "10:30-10:50",
+                  "time": "10:10-10:30",
                   "type": "break",
                   "event": "Tea Break"
                 },
                 {
-                  "time": "10:50-11:50",
+                  "time": "10:30-11:10",
                   "label": "Keynote Lecture II",
                   "lines": [
                     "Speaker: Venkataraman (Venkat) Lakshmi (Chair Professor, Johns Hopkins University & President, American Geophysical Union, Hydrology Section)"
                   ],
                   "topics": [
-                    "Topic 1: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction",
+                    "Topic: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction"
+                  ],
+                  "draftTopics": [
                     "Topic 2: Warming Reveals Rainfall-Undetected Agricultural Drought in Mainland Southeast Asia"
                   ]
                 },
                 {
-                  "time": "11:50-13:00",
+                  "time": "11:10-11:40",
+                  "event": "Achievements and International Collaboration<br>Taiwan and Global Drought Investigation and Research Center (NCU TGI Drought Hub)"
+                },
+                {
+                  "time": "11:40-13:00",
                   "type": "meal",
                   "event": "Lunch"
                 },
@@ -1195,7 +1203,7 @@
                   "time": "15:30-17:00",
                   "title": "Session II: Urban Heat Island Effect and Climate Adaptation",
                   "lines": [
-                    "Chair: Shou-Hao Chiang (Associate Professor, National Central University) & Cheng-Ling Kuo (Professor, National Central University)",
+                    "Chair: Cheng-Ling Kuo (Professor, National Central University)",
                     "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
@@ -1252,7 +1260,7 @@
                   "time": "10:15-11:45",
                   "title": "Session III: Drought related disaster",
                   "lines": [
-                    "Chair: (Professor, National Central University)",
+                    "Chair: Hsuan Ren (Associate Professor, National Central University)",
                     "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
@@ -1269,10 +1277,12 @@
                       "topic": "Evidence of a Hydroclimatic Signal in Land Subsidence across Yunlin, Taiwan from GNSS, PSInSAR, and Multi-Source Earth Observations"
                     },
                     {
-                      "name": "4) Mega Saputra"
+                      "name": "4) Mega Saputra",
+                      "topic": "Does Fire Intensity Help Estimate Burned Area? Testing FRP-Scaled Buffers on Mount Bromo Wildfire"
                     },
                     {
-                      "name": "5) Amalia Gita Ayudyanti"
+                      "name": "5) Amalia Gita Ayudyanti",
+                      "topic": "Wildfire Burned-Area Mapping for the 2025 Palisades Fire Using Change Vision Transformer and Early-fusion CNNs with Bi-Temporal Sentinel-2 Imagery"
                     }
                   ]
                 },
@@ -1302,7 +1312,7 @@
                   "title": "Session IV: Economic Impact and Health Issue",
                   "lines": [
                     "Chair: Takashi Oguchi",
-                    "Speakers: (15 mins for presentation + 30 mins for discussion)"
+                    "Speakers: (15 mins for presentation + 15 mins for discussion)"
                   ],
                   "speakers": [
                     {
@@ -1312,17 +1322,20 @@
                     {
                       "name": "2) Minh Tien Tran",
                       "topic": "Development of the Vietnam Soil Information System"
+                    },
+                    {
+                      "name": "3) Hsiang-An Hu"
                     }
                   ]
                 },
                 {
                   "time": "15:00-15:30",
                   "type": "break",
-                  "event": "Tea Break / Student Project Exhibition"
+                  "event": "Tea Break"
                 },
                 {
                   "time": "15:30-17:00",
-                  "event": "Panel Discussion<br>Closing Ceremony"
+                  "event": "Panel Discussion<br>Closing Ceremony & Group Photo"
                 },
                 {
                   "time": "18:00-20:00",

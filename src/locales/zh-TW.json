@@ -1039,39 +1039,47 @@
                                     ],
                                     "guests": [
                                         "國立中央大學陳文逸副校長",
-                                        "國立中央大學吳子嘉研發長",
-                                        "桃園市政府環境保護局顏己喨局長"
+                                        "桃園市政府環境保護局葉孟芬副局長",
+                                        "日本東京大學 Takashi Oguchi 教授"
                                     ]
                                 },
                                 {
-                                    "time": "09:30-10:30",
+                                    "time": "09:30-10:10",
                                     "label": "專題演講一",
                                     "lines": [
                                         "講者：Dara Entekhabi, M.I.T.教授暨美國國家工程院院士"
                                     ],
                                     "topics": [
-                                        "Topic 1: Similarity in spatial and temporal land water, energy and carbon coupling",
+                                        "Topic: Similarity in spatial and temporal land water, energy and carbon coupling"
+                                    ],
+                                    "draftTopics": [
                                         "Topic 2: Cause-effect in soil moisture dry-down and atmospheric evaporative demand"
                                     ]
                                 },
                                 {
-                                    "time": "10:30-10:50",
+                                    "time": "10:10-10:30",
                                     "type": "break",
                                     "event": "茶敘"
                                 },
                                 {
-                                    "time": "10:50-11:50",
+                                    "time": "10:30-11:10",
                                     "label": "專題演講二",
                                     "lines": [
                                         "講者：Venkataraman (Venkat) Lakshmi 約翰·霍普金斯大學講座教授暨AGU水文分會主席"
                                     ],
                                     "topics": [
-                                        "Topic 1: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction",
+                                        "Topic: Flash vs. Seasonal Drought: Identifying the Critical Timescale of Soil Moisture Stress for Agricultural Yield Prediction"
+                                    ],
+                                    "draftTopics": [
                                         "Topic 2: Warming Reveals Rainfall-Undetected Agricultural Drought in Mainland Southeast Asia"
                                     ]
                                 },
                                 {
-                                    "time": "11:50-13:00",
+                                    "time": "11:10-11:40",
+                                    "event": "成果與國際合作介紹<br>台灣暨全球乾旱調查與研究中心"
+                                },
+                                {
+                                    "time": "11:40-13:00",
                                     "type": "meal",
                                     "event": "午餐"
                                 },
@@ -1118,7 +1126,7 @@
                                     "time": "15:30-17:00",
                                     "title": "場次二：都市熱島效應與氣候調適 (Urban Heat Island Effect and Climate Adaptation)",
                                     "lines": [
-                                        "主持人：姜壽浩 副教授（國立中央大學）、郭政靈 教授（國立中央大學）",
+                                        "主持人：郭政靈 教授（國立中央大學）",
                                         "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
@@ -1175,7 +1183,7 @@
                                     "time": "10:15-11:45",
                                     "title": "場次三：乾旱相關災害 (Drought related disaster)",
                                     "lines": [
-                                        "主持人：（國立中央大學 教授）",
+                                        "主持人：任玄 副教授（國立中央大學）",
                                         "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
@@ -1192,10 +1200,12 @@
                                             "topic": "Evidence of a Hydroclimatic Signal in Land Subsidence across Yunlin, Taiwan from GNSS, PSInSAR, and Multi-Source Earth Observations"
                                         },
                                         {
-                                            "name": "(4.) Mega Saputra"
+                                            "name": "(4.) Mega Saputra",
+                                            "topic": "Does Fire Intensity Help Estimate Burned Area? Testing FRP-Scaled Buffers on Mount Bromo Wildfire"
                                         },
                                         {
-                                            "name": "(5.) Amalia Gita Ayudyanti"
+                                            "name": "(5.) Amalia Gita Ayudyanti",
+                                            "topic": "Wildfire Burned-Area Mapping for the 2025 Palisades Fire Using Change Vision Transformer and Early-fusion CNNs with Bi-Temporal Sentinel-2 Imagery"
                                         }
                                     ]
                                 },
@@ -1225,7 +1235,7 @@
                                     "title": "場次四：經濟衝擊與健康議題 (Economic Impact and Health Issue)",
                                     "lines": [
                                         "主持人：Takashi Oguchi",
-                                        "講者： (各短講15分鐘 + 30分鐘與談)"
+                                        "講者： (各短講15分鐘 + 15分鐘與談)"
                                     ],
                                     "speakers": [
                                         {
@@ -1235,17 +1245,20 @@
                                         {
                                             "name": "(2.) Minh Tien Tran",
                                             "topic": "Development of the Vietnam Soil Information System"
+                                        },
+                                        {
+                                            "name": "(3.) Hsiang-An Hu"
                                         }
                                     ]
                                 },
                                 {
                                     "time": "15:00-15:30",
                                     "type": "break",
-                                    "event": "茶敘 / 學生實作展示"
+                                    "event": "茶敘"
                                 },
                                 {
                                     "time": "15:30-17:00",
-                                    "event": "綜合座談<br>閉幕典禮"
+                                    "event": "綜合座談<br>閉幕典禮與合影"
                                 },
                                 {
                                     "time": "18:00-20:00",
