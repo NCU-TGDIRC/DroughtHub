@@ -1038,10 +1038,10 @@
                                         "主持人：劉說安 講座教授暨IAA院士"
                                     ],
                                     "guests": [
-                                        "國立中央大學陳文逸副校長",
-                                        "桃園市政府環境保護局葉孟芬副局長",
-                                        "日本東京大學 Takashi Oguchi 教授暨日本地球科學聯合會（JpGU）會長",
-                                        "國立中央大學謝發坤副研發長"
+                                        "陳文逸（國立中央大學副校長）",
+                                        "葉孟芬（桃園市政府環境保護局副局長）",
+                                        "Takashi Oguchi（日本東京大學教授暨日本地球科學聯合會（JpGU）會長）",
+                                        "謝發坤（國立中央大學副研發長）"
                                     ]
                                 },
                                 {
@@ -1248,7 +1248,8 @@
                                             "topic": "Development of the Vietnam Soil Information System"
                                         },
                                         {
-                                            "name": "(3.) Hsiang-An Hu"
+                                            "name": "(3.) Hsiang-An Hu",
+                                            "topic": "Design Translation of Community Heat Monitoring and Resident Participation: Building Community Resilience through Contextualized Action Support"
                                         },
                                         {
                                             "name": "(4.) 討論",

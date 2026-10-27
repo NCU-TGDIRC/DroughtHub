@@ -111,8 +111,8 @@
                       <tr v-for="(row, rowIdx) in day.items" :key="'row'+rowIdx" :class="{ 'break-row': row.type === 'break', 'meal-row': row.type === 'meal' }">
                         <td>{{ row.time }}</td>
                         <td>
-                          <p v-if="row.label"><span style="color: red;">{{ row.label }}</span></p>
-                          <p v-if="row.title"><b>{{ row.title }}</b></p>
+                          <p v-if="row.label" class="agenda-label">{{ row.label }}</p>
+                          <p v-if="row.title" class="agenda-title">{{ row.title }}</p>
                           <div v-if="row.event" v-html="row.event"></div>
                           <p v-for="(line, lineIdx) in row.lines" :key="'line'+lineIdx" v-html="line"></p>
                           <!-- 多個演講題目：整塊置中、內容靠左，讓 Topic 1/2 起點對齊 -->
@@ -122,7 +122,10 @@
                           <table v-if="row.guests" style="width: 100%; margin-top: 10px;">
                             <tbody>
                               <tr>
-                                <td v-for="(guest, guestIdx) in row.guests" :key="'guest'+guestIdx" :style="{ width: (100 / row.guests.length) + '%' }">{{ guest }}</td>
+                                <td v-for="(guest, guestIdx) in row.guests" :key="'guest'+guestIdx" class="agenda-guest" :style="{ width: (100 / row.guests.length) + '%' }">
+                                  <span class="agenda-guest-name">{{ splitGuest(guest).name }}</span>
+                                  <span v-if="splitGuest(guest).title" class="agenda-guest-title">{{ splitGuest(guest).title }}</span>
+                                </td>
                               </tr>
                             </tbody>
                           </table>
@@ -397,6 +400,11 @@ export default {
         this.observer.observe(el);
       });
     },
+    // "Name (Title)" / "姓名（頭銜）" → { name, title }; strings without a trailing bracket stay whole
+    splitGuest(guest) {
+      const m = /^(.+?) \((.*)\)$/.exec(guest) || /^(.+?)（(.*)）$/.exec(guest);
+      return m ? { name: m[1], title: m[2] } : { name: guest, title: '' };
+    },
     getImageUrl(imageName) {
       if (!imageName) return '';
       try { return require(`@/assets/${imageName}`); } catch (e) { console.error(e); return ''; }
@@ -660,12 +668,26 @@ export default {
 
 :deep(.accordion-content-inner .styled-list) { list-style-type: revert; padding-left: 25px; }
 
-:deep(.accordion-content-inner .agenda-table) { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.9rem; }
+/* 議程表字級：全表統一基準大小，再用粗細與顏色區分層次（容器的 fw-bolder 不套用到議程內文） */
+:deep(.accordion-content-inner .agenda-table) { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 1.05rem; }
 :deep(.accordion-content-inner .agenda-table th),
-:deep(.accordion-content-inner .agenda-table td) { border: 1px solid #dee2e6; padding: 8px 12px; text-align: center; vertical-align: middle; }
+:deep(.accordion-content-inner .agenda-table td) { border: 1px solid #dee2e6; padding: 8px 12px; text-align: center; vertical-align: middle; font-weight: 500; }
+:deep(.accordion-content-inner .agenda-table p) { font-size: 1em !important; font-weight: 500; margin-bottom: 0.6rem; }
+:deep(.accordion-content-inner .agenda-table > tbody > tr > td:first-child) { font-weight: 600; font-variant-numeric: tabular-nums; }
 :deep(.accordion-content-inner .agenda-table thead th) { background-color: var(--color-primary); color: white; font-weight: 600; }
-:deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; font-weight: bold; }
-:deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; font-weight: bold; }
+:deep(.accordion-content-inner .agenda-table .break-row) { background-color: #e9ecef; }
+:deep(.accordion-content-inner .agenda-table .meal-row) { background-color: #d1ecf1; }
+:deep(.accordion-content-inner .agenda-table .break-row > td),
+:deep(.accordion-content-inner .agenda-table .meal-row > td) { font-weight: 600; }
+:deep(.accordion-content-inner .agenda-table .agenda-title) { font-size: 1.15em !important; font-weight: 700; color: var(--color-primary); }
+:deep(.accordion-content-inner .agenda-table .agenda-label) { font-size: 1.15em !important; font-weight: 700; color: #c62828; }
+/* 開幕來賓：姓名一行、頭銜下一行，全部從頂端對齊，讓四格看起來一樣齊 */
+:deep(.accordion-content-inner .agenda-table td.agenda-guest) { vertical-align: top; }
+:deep(.accordion-content-inner .agenda-table .agenda-guest-name) { display: block; font-weight: 700; }
+:deep(.accordion-content-inner .agenda-table .agenda-guest-title) { display: block; margin-top: 4px; }
+:deep(.accordion-content-inner .agenda-table .speaker-table) { font-size: 0.95em; }
+:deep(.accordion-content-inner .agenda-table .speaker-table th) { font-size: 1em; font-weight: 600; }
+:deep(.accordion-content-inner .agenda-table .speaker-table td:first-child) { font-weight: 600; vertical-align: middle; }
 /* 講者表沿用 .speaker-table 的靠左、靠上對齊，避免被上方 agenda-table 的置中覆蓋 */
 :deep(.accordion-content-inner .agenda-table .speaker-table th),
 :deep(.accordion-content-inner .agenda-table .speaker-table td) { text-align: left; vertical-align: top; }
@@ -1172,7 +1194,7 @@ export default {
   }
 
   :deep(.accordion-content-inner .agenda-table) {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 
   :deep(.accordion-content-inner .agenda-table .agenda-topics) {
