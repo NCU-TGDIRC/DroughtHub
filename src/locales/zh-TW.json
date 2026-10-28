@@ -1232,8 +1232,13 @@
                                     ]
                                 },
                                 {
-                                    "time": "14:10-15:10",
-                                    "title": "場次四：經濟衝擊與健康議題 (Economic Impact and Health Issue)",
+                                    "time": "14:10-14:30",
+                                    "type": "break",
+                                    "event": "茶敘"
+                                },
+                                {
+                                    "time": "14:30-16:15",
+                                    "title": "場次四：極端氣候與經濟衝擊 (Extreme Climate and Economic Impact)",
                                     "lines": [
                                         "主持人：Takashi Oguchi 教授（日本東京大學）",
                                         "講者： (各短講15分鐘 + 15分鐘與談)"
@@ -1248,22 +1253,29 @@
                                             "topic": "Development of the Vietnam Soil Information System"
                                         },
                                         {
-                                            "name": "(3.) Hsiang-An Hu",
+                                            "name": "(3.) Hong Li",
+                                            "topic": "Reflection on Cultivating Undergraduate Competence for Business Students in AI Age"
+                                        },
+                                        {
+                                            "name": "(4.) James Terry",
+                                            "topic": "The contribution of extreme rainfall events in hyperarid regions: illustrating two recent examples from the north east Arabian Peninsula"
+                                        },
+                                        {
+                                            "name": "(5.) Paolo Viskanic",
+                                            "topic": "The role of urban green in climate adaptation"
+                                        },
+                                        {
+                                            "name": "(6.) Hsiang-An Hu",
                                             "topic": "Design Translation of Community Heat Monitoring and Resident Participation: Building Community Resilience through Contextualized Action Support"
                                         },
                                         {
-                                            "name": "(4.) 討論",
+                                            "name": "(7.) 討論",
                                             "type": "discussion"
                                         }
                                     ]
                                 },
                                 {
-                                    "time": "15:10-15:30",
-                                    "type": "break",
-                                    "event": "茶敘"
-                                },
-                                {
-                                    "time": "15:30-17:00",
+                                    "time": "16:15-17:00",
                                     "event": "綜合座談<br>閉幕典禮與合影"
                                 },
                                 {
