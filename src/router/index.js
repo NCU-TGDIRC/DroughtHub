@@ -72,12 +72,14 @@ const routes = [
     }
   },
   {
-    path: '/icqab',
-    name: 'icqab',
+    path: '/cesr2025',
+    name: 'cesr2025',
+    // 舊網址 /icqab 保留為別名，已分享出去的連結仍可開啟
+    alias: '/icqab',
     component: () => import('../views/ConferenceView.vue'),
     meta: {
-      title: `ICQAB 研討會 | ${SITE_NAME}`,
-      description: 'ICQAB 國際研討會議程、報名與相關資訊。'
+      title: `CESR 2025 研討會 | ${SITE_NAME}`,
+      description: '2025 氣候極端與社會韌性國際論壇（CESR 2025）議程、講者與相關資訊。'
     }
   }
   // --------------------

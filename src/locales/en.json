@@ -96,7 +96,7 @@
         "date": "2025-09-27",
         "title": "CESR 2025 Open for Registration and Submissions",
         "excerpt": "The official website for the first 'International Forum on Climate Extremes and Societal Resilience (CESR 2025)' is now open for registration and abstract submissions. The forum will be held from November 24-25 (Mon-Tue), 2025, at National Central University, focusing on drought, heat stress, water resources...",
-        "url": "/icqab"
+        "url": "/cesr2025"
       },
       {
         "id": 3,
@@ -500,7 +500,7 @@
         "date": "November 24-25, 2025",
         "location": "Taoyuan, Taiwan",
         "description": "Drought, Heat Stress, and Human Livability in a Warming World",
-        "link": "/icqab",
+        "link": "/cesr2025",
         "image": "carousel/cesr_pic1.jpg"
       }
     ]

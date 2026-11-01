@@ -20,6 +20,7 @@ const ROUTES = [
   '/research-data',
   '/conferences',
   '/cesr2026',
+  '/cesr2025',
   '/icqab',
 ];
 
