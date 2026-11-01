@@ -95,6 +95,39 @@
                   </b-col>
                 </b-row>
               </div>
+              <div v-else-if="item.isSpeakers" class="speakers-2026">
+                <h3 class="speakers-subtitle">{{ item.content.plenaryHeading }}</h3>
+                <div class="spk-plenary">
+                  <div v-for="(sp, spIdx) in item.content.plenary" :key="'pl'+spIdx" class="spk-card spk-card--plenary">
+                    <div class="spk-avatar" aria-hidden="true">{{ initials(sp.name) }}</div>
+                    <div class="spk-body">
+                      <h4 class="spk-name">
+                        <a v-if="sp.link" :href="sp.link" target="_blank" rel="noopener noreferrer">{{ sp.name }}<i class="fas fa-external-link-alt spk-link-icon"></i></a>
+                        <template v-else>{{ sp.name }}</template>
+                        <span v-if="sp.credentials" class="spk-credentials">{{ sp.credentials }}</span>
+                      </h4>
+                      <p class="spk-title">{{ sp.title }}</p>
+                      <span class="spk-slot">{{ sp.slot }}</span>
+                      <p class="spk-topic">{{ sp.topic }}</p>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="speakers-subtitle">{{ item.content.sessionHeading }}</h3>
+                <section v-for="(group, gIdx) in item.content.sessionGroups" :key="'sg'+gIdx" class="spk-group">
+                  <h4 class="spk-group-title">{{ group.title }}</h4>
+                  <p class="spk-group-time">{{ group.time }}</p>
+                  <div class="spk-grid">
+                    <div v-for="(sp, spIdx) in group.speakers" :key="'ss'+gIdx+'-'+spIdx" class="spk-card">
+                      <h4 class="spk-name">
+                        <a v-if="sp.link" :href="sp.link" target="_blank" rel="noopener noreferrer">{{ sp.name }}<i class="fas fa-external-link-alt spk-link-icon"></i></a>
+                        <template v-else>{{ sp.name }}</template>
+                      </h4>
+                      <p class="spk-title">{{ sp.title }}</p>
+                      <p class="spk-topic">{{ sp.topic }}</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
               <div v-else-if="item.isAgenda" class="agenda-container">
                 <p>{{ item.content.heading }}</p>
                 <template v-for="(day, dayIdx) in item.content.days" :key="'day'+dayIdx">
@@ -400,6 +433,11 @@ export default {
         this.observer.observe(el);
       });
     },
+    // "Venkataraman (Venkat) Lakshmi" → "VL": first and last word, ignoring a parenthesised nickname
+    initials(name) {
+      const words = name.replace(/\(.*?\)/g, ' ').trim().split(/\s+/);
+      return (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase();
+    },
     // "Name (Title)" / "姓名（頭銜）" → { name, title }; strings without a trailing bracket stay whole
     splitGuest(guest) {
       const m = /^(.+?) \((.*)\)$/.exec(guest) || /^(.+?)（(.*)）$/.exec(guest);
@@ -693,6 +731,32 @@ export default {
 :deep(.accordion-content-inner .agenda-table .speaker-table td) { text-align: left; vertical-align: top; }
 /* 固定寬度並置中，讓不同場次的 Topic 左緣對齊在同一條線上 */
 :deep(.accordion-content-inner .agenda-table .agenda-topics) { width: 80%; margin: 0 auto; text-align: left; }
+
+/* --- 2026 Speakers：主講者卡片 + 依場次分組的講者卡片 --- */
+.speakers-2026 { font-weight: 400; }
+.speakers-2026 .spk-plenary { display: grid; gap: 1rem; margin-bottom: 2.5rem; }
+.speakers-2026 .spk-card { background: #fff; border: 1px solid #e3e8ef; border-radius: 10px; padding: 1.1rem 1.25rem; }
+.speakers-2026 .spk-card--plenary { display: flex; gap: 1.1rem; align-items: flex-start; border-left: 4px solid var(--color-primary); background: #f8fafc; }
+.speakers-2026 .spk-avatar {
+  flex: none; width: 56px; height: 56px; border-radius: 50%; background: var(--color-primary); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.1rem; letter-spacing: 0.04em;
+}
+.speakers-2026 .spk-body { min-width: 0; }
+.speakers-2026 .spk-name { font-size: 1.3rem !important; font-weight: 700; color: var(--color-primary); margin: 0 0 0.3rem; line-height: 1.3; }
+.speakers-2026 .spk-name a { color: inherit; text-decoration: none; }
+.speakers-2026 .spk-name a:hover { text-decoration: underline; }
+.speakers-2026 .spk-link-icon { font-size: 0.6em; margin-left: 0.4rem; opacity: 0.55; vertical-align: middle; }
+.speakers-2026 .spk-credentials { display: inline-block; margin-left: 0.5rem; font-size: 0.8rem; font-weight: 500; color: #6c757d; letter-spacing: 0.02em; }
+.speakers-2026 .spk-title { font-size: 0.95rem !important; font-weight: 400; color: #5a6270; line-height: 1.55; margin: 0 0 0.75rem !important; }
+.speakers-2026 .spk-slot {
+  display: inline-block; margin-bottom: 0.5rem; padding: 0.2rem 0.75rem; border-radius: 999px;
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.03em; color: var(--color-primary); background: #e6edf6;
+}
+.speakers-2026 .spk-topic { font-size: 1.02rem !important; font-weight: 500; color: #212529; line-height: 1.55; margin: 0 !important; }
+.speakers-2026 .spk-group { margin-bottom: 2rem; }
+.speakers-2026 .spk-group-title { font-size: 1.15rem !important; font-weight: 700; color: var(--color-primary); margin: 0 0 0.15rem; }
+.speakers-2026 .spk-group-time { font-size: 0.9rem !important; font-weight: 500; color: #6c757d; margin: 0 0 0.9rem !important; }
+.speakers-2026 .spk-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 
 /* --- Back to Top Button --- */
 .back-to-top-btn {
@@ -1115,6 +1179,9 @@ export default {
 :deep(.fee-includes-box i) { color: #28a745; }
 
 @media (max-width: 768px) {
+  .speakers-2026 .spk-grid { grid-template-columns: 1fr; }
+  .speakers-2026 .spk-card--plenary { flex-direction: column; gap: 0.75rem; }
+
   .accordion-content-inner {
     padding: 16px;
   }
