@@ -130,7 +130,22 @@
               </div>
               <div v-else-if="item.isAgenda" class="agenda-container">
                 <p>{{ item.content.heading }}</p>
-                <p v-if="item.content.venue" class="agenda-venue"><i class="fas fa-map-marker-alt fa-fw"></i> {{ item.content.venue }}</p>
+                <!-- 會場與接駁車放在議程最上方，打開議程第一眼就看得到 -->
+                <div v-if="item.content.venue || info.shuttle" class="agenda-logistics">
+                  <p v-if="item.content.venue" class="agenda-venue"><i class="fas fa-map-marker-alt fa-fw"></i> {{ item.content.venue }}</p>
+                  <div v-if="info.shuttle" class="agenda-shuttle">
+                    <p class="agenda-shuttle-title"><i class="fas fa-bus fa-fw"></i> {{ info.shuttle.title }}</p>
+                    <table class="agenda-shuttle-table">
+                      <tbody>
+                        <tr v-for="(ride, rideIdx) in info.shuttle.items" :key="'ride'+rideIdx">
+                          <td class="shuttle-date">{{ ride.date }}</td>
+                          <td class="shuttle-time">{{ ride.time }}</td>
+                          <td>{{ ride.route }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
                 <template v-for="(day, dayIdx) in item.content.days" :key="'day'+dayIdx">
                   <h4 class="agenda-day-title">{{ day.title }}</h4>
                   <!-- items 為空時只顯示當天標題；draftItems 為暫存草稿，不會顯示 -->
@@ -182,18 +197,6 @@
                     </tbody>
                   </table>
                 </template>
-                <div v-if="info.shuttle" class="agenda-shuttle">
-                  <p class="agenda-shuttle-title"><i class="fas fa-bus fa-fw"></i> {{ info.shuttle.title }}</p>
-                  <table class="agenda-shuttle-table">
-                    <tbody>
-                      <tr v-for="(ride, rideIdx) in info.shuttle.items" :key="'ride'+rideIdx">
-                        <td class="shuttle-date">{{ ride.date }}</td>
-                        <td class="shuttle-time">{{ ride.time }}</td>
-                        <td>{{ ride.route }}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
                 <p v-if="item.content.note">{{ item.content.note }}</p>
               </div>
               <div v-else-if="!item.isStructured" v-html="item.content"></div>
@@ -756,10 +759,11 @@ export default {
 :deep(.accordion-content-inner .agenda-table .agenda-topics) { width: 80%; margin: 0 auto; text-align: left; }
 
 /* --- 議程：會場與接駁車 --- */
-:deep(.accordion-content-inner .agenda-venue) { font-weight: 600; color: var(--color-primary); margin-top: -0.5rem; }
-.agenda-shuttle { margin: 0.5rem 0 1.5rem; padding: 1rem 1.25rem; border: 1px solid #dee2e6; border-left: 4px solid var(--color-primary); border-radius: 8px; background: #f8fafc; }
+.agenda-logistics { margin: 0 0 1.5rem; padding: 1rem 1.25rem; border: 1px solid #dee2e6; border-left: 4px solid var(--color-primary); border-radius: 8px; background: #f8fafc; }
+.agenda-logistics .agenda-venue { font-size: 1.1rem !important; font-weight: 700; color: var(--color-primary); margin: 0 0 0.75rem !important; }
+.agenda-shuttle { padding-top: 0.75rem; border-top: 1px solid #e3e8ef; }
 .agenda-shuttle .agenda-shuttle-title { font-size: 1.1rem !important; font-weight: 700; color: var(--color-primary); margin: 0 0 0.5rem !important; }
-.agenda-shuttle-table { border-collapse: collapse; font-weight: 500; }
+.agenda-shuttle-table { border-collapse: collapse; font-weight: 500; font-size: 1.05rem; }
 .agenda-shuttle-table td { padding: 0.25rem 1.5rem 0.25rem 0; vertical-align: top; }
 .agenda-shuttle-table .shuttle-date { white-space: nowrap; }
 .agenda-shuttle-table .shuttle-time { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -1265,6 +1269,12 @@ export default {
 }
 
 @media (max-width: 576px) {
+  /* 接駁車：日期＋時間一行、路線另起一行，避免路線欄被擠成一字一行 */
+  .agenda-shuttle-table, .agenda-shuttle-table tbody, .agenda-shuttle-table tr { display: block; }
+  .agenda-shuttle-table tr { margin-bottom: 0.6rem; }
+  .agenda-shuttle-table td { display: inline; padding: 0 0.75rem 0 0; }
+  .agenda-shuttle-table td:last-child { display: block; padding: 0; }
+
   .registration-section .fs-2 {
     font-size: 1.2rem !important;
   }
