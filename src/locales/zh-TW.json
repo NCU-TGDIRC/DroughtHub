@@ -1119,6 +1119,7 @@
                 "isAgenda": true,
                 "content": {
                     "heading": "CESR 2026 議程表",
+                    "venue": "會場：國立中央大學太空及遙測研究中心 R2-116",
                     "columns": {
                         "time": "Time",
                         "event": "Event"
@@ -1412,6 +1413,21 @@
             }
         ],
         "info": {
+            "shuttle": {
+                "title": "接駁車",
+                "items": [
+                    {
+                        "date": "11 月 3 日（二）",
+                        "time": "08:00",
+                        "route": "古華花園飯店 → 中央大學太空及遙測研究中心"
+                    },
+                    {
+                        "date": "11 月 4 日（三）",
+                        "time": "08:30",
+                        "route": "古華花園飯店 → 中央大學太空及遙測研究中心"
+                    }
+                ]
+            },
             "registration": {
                 "url": "https://forms.gle/L4ykQLgRgTiCAMB98",
                 "inquiryUrl": "https://forms.gle/DsWHSFQ9Aebw5fCu8"
@@ -1424,6 +1440,7 @@
             },
             "host": {
                 "venue": "國立中央大學",
+                "mainVenue": "會議室：R2-116",
                 "hosts": [
                     {
                         "name": "台灣暨全球乾旱調查與研究中心 (TGDIRC / DroughtHub)",

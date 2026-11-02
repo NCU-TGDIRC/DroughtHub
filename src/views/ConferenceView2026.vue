@@ -130,6 +130,7 @@
               </div>
               <div v-else-if="item.isAgenda" class="agenda-container">
                 <p>{{ item.content.heading }}</p>
+                <p v-if="item.content.venue" class="agenda-venue"><i class="fas fa-map-marker-alt fa-fw"></i> {{ item.content.venue }}</p>
                 <template v-for="(day, dayIdx) in item.content.days" :key="'day'+dayIdx">
                   <h4 class="agenda-day-title">{{ day.title }}</h4>
                   <!-- items 為空時只顯示當天標題；draftItems 為暫存草稿，不會顯示 -->
@@ -181,6 +182,18 @@
                     </tbody>
                   </table>
                 </template>
+                <div v-if="info.shuttle" class="agenda-shuttle">
+                  <p class="agenda-shuttle-title"><i class="fas fa-bus fa-fw"></i> {{ info.shuttle.title }}</p>
+                  <table class="agenda-shuttle-table">
+                    <tbody>
+                      <tr v-for="(ride, rideIdx) in info.shuttle.items" :key="'ride'+rideIdx">
+                        <td class="shuttle-date">{{ ride.date }}</td>
+                        <td class="shuttle-time">{{ ride.time }}</td>
+                        <td>{{ ride.route }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <p v-if="item.content.note">{{ item.content.note }}</p>
               </div>
               <div v-else-if="!item.isStructured" v-html="item.content"></div>
@@ -278,6 +291,16 @@
                     <div>
                       <h5 class="h5 mb-1 fw-bold">{{ $t('conference2026.venue.main_hall_title') }}</h5>
                       <p class="text-muted mb-0 h6">{{ info.host.mainVenue }}</p>
+                    </div>
+                  </div>
+
+                  <div v-if="info.shuttle" class="d-flex mb-3">
+                    <div class="venue-icon-wrapper"><i class="fas fa-bus fa-fw"></i></div>
+                    <div>
+                      <h5 class="h5 mb-1 fw-bold">{{ info.shuttle.title }}</h5>
+                      <p v-for="(ride, rideIdx) in info.shuttle.items" :key="'vride'+rideIdx" class="text-muted mb-0 h6">
+                        {{ ride.date }} {{ ride.time }}｜{{ ride.route }}
+                      </p>
                     </div>
                   </div>
 
@@ -731,6 +754,15 @@ export default {
 :deep(.accordion-content-inner .agenda-table .speaker-table td) { text-align: left; vertical-align: top; }
 /* 固定寬度並置中，讓不同場次的 Topic 左緣對齊在同一條線上 */
 :deep(.accordion-content-inner .agenda-table .agenda-topics) { width: 80%; margin: 0 auto; text-align: left; }
+
+/* --- 議程：會場與接駁車 --- */
+:deep(.accordion-content-inner .agenda-venue) { font-weight: 600; color: var(--color-primary); margin-top: -0.5rem; }
+.agenda-shuttle { margin: 0.5rem 0 1.5rem; padding: 1rem 1.25rem; border: 1px solid #dee2e6; border-left: 4px solid var(--color-primary); border-radius: 8px; background: #f8fafc; }
+.agenda-shuttle .agenda-shuttle-title { font-size: 1.1rem !important; font-weight: 700; color: var(--color-primary); margin: 0 0 0.5rem !important; }
+.agenda-shuttle-table { border-collapse: collapse; font-weight: 500; }
+.agenda-shuttle-table td { padding: 0.25rem 1.5rem 0.25rem 0; vertical-align: top; }
+.agenda-shuttle-table .shuttle-date { white-space: nowrap; }
+.agenda-shuttle-table .shuttle-time { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* --- 2026 Speakers：主講者卡片 + 依場次分組的講者卡片 --- */
 .speakers-2026 { font-weight: 400; }

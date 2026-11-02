@@ -758,6 +758,21 @@
       "campus_map": "Campus Map"
     },
     "info": {
+      "shuttle": {
+        "title": "Shuttle Transportation",
+        "items": [
+          {
+            "date": "Nov. 3 (Tue.)",
+            "time": "08:00",
+            "route": "Hotel Kuva Chateau → CSRSR (NCU)"
+          },
+          {
+            "date": "Nov. 4 (Wed.)",
+            "time": "08:30",
+            "route": "Hotel Kuva Chateau → CSRSR (NCU)"
+          }
+        ]
+      },
       "registration": {
         "url": "https://forms.gle/L4ykQLgRgTiCAMB98",
         "inquiryUrl": "https://forms.gle/DsWHSFQ9Aebw5fCu8"
@@ -767,6 +782,7 @@
       },
       "host": {
         "venue": "National Central University",
+        "mainVenue": "Room R2-116",
         "hosts": [
           {
             "name": "Taiwan and Global Drought Investigation and Research Center (TGDIRC / DroughtHub)",
@@ -1196,6 +1212,7 @@
         "isAgenda": true,
         "content": {
           "heading": "CESR 2026 Agenda",
+          "venue": "Venue: Room R2-116, Center for Space and Remote Sensing Research (CSRSR), National Central University",
           "columns": {
             "time": "Time",
             "event": "Event"
